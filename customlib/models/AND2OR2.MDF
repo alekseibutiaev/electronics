@@ -1,0 +1,38 @@
+LISA MODEL DESCRIPTION FORMAT 8.0
+=================================
+Design:   CustomElements
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  03.10.2021
+Modified: 03.10.2021
+
+*PROPERTIES,0    
+
+*MODELDEFS,0    
+
+*PARTLIST,2    
+U1,AND_2,AND_2,PRIMITIVE=DIGITAL
+U2,OR_2,OR_2,PRIMITIVE=DIGITAL
+
+*NETLIST,5    
+#00004,2
+U1,OP,Q
+U2,IP,D0
+
+A,2
+A,IT
+U1,IP,D0
+
+B,2
+B,IT
+U1,IP,D1
+
+C,2
+C,IT
+U2,IP,D1
+
+Y,2
+Y,OT
+U2,OP,Q
+

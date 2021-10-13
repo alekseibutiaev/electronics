@@ -1,0 +1,36 @@
+LISA MODEL DESCRIPTION FORMAT 8.0
+=================================
+Design:   New Project11.pdsprj
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  06.10.2021
+Modified: 06.10.2021
+
+*PROPERTIES,0    
+
+*MODELDEFS,0    
+
+*PARTLIST,2    
+7400,NAND_2,NAND_2,PRIMITIVE=DIGITAL
+7401,NAND_2,NAND_2,PRIMITIVE=DIGITAL
+
+*NETLIST,6    
+#00000,1
+7400,IP,D0
+
+#00001,1
+7400,IP,D1
+
+#00002,1
+7400,OP,Q
+
+#00003,1
+7401,IP,D0
+
+#00004,1
+7401,IP,D1
+
+#00005,1
+7401,OP,Q
+

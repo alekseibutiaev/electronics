@@ -1,0 +1,38 @@
+LISA MODEL DESCRIPTION FORMAT 8.0
+=================================
+Design:   test2.pdsprj
+Doc. no.: <NONE>
+Revision: <NONE>
+Author:   <NONE>
+Created:  03.10.2021
+Modified: 03.10.2021
+
+*PROPERTIES,0    
+
+*MODELDEFS,0    
+
+*PARTLIST,2    
+U1,AND_2,AND_2,PRIMITIVE=DIGITAL
+U2,TRIBUFFER,TRIBUFFER,PRIMITIVE=DIGITAL
+
+*NETLIST,5    
+#00000,2
+U2,IP,D
+U1,OP,Q
+
+Y,2
+Y,OT
+U2,TS,Q
+
+E,2
+E,IT
+U2,IP,OE
+
+A,2
+A,IT
+U1,IP,D0
+
+B,2
+B,IT
+U1,IP,D1
+

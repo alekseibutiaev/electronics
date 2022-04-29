@@ -157,6 +157,11 @@ D 6-ch, Open Collector
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74170
+D 4-By-4-Register Files With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74173
 D 4-bit D-Type Registers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2002,6 +2007,11 @@ D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS170
+D 4-By-4-Register Files With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS173
 D 4-bit D-Type Registers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2693,8 +2703,8 @@ D 6-ch, Schmitt-Trigger Inputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX170x
-D 8-bit Parallel-Load Shift Registers
+$CMP 74XX170
+D 4-By-4-Register Files With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

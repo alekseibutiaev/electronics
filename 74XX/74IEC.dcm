@@ -2623,6 +2623,11 @@ D Parallel-Load 8-bit Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX166
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX17
 D 6-ch, Schmitt-Trigger Inputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf

@@ -271,6 +271,11 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74377
+D Octal D-Type Flip-Flops With Clock Enable
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7439
 D 4-ch, 2-input, NAND gates Open Collector
 K TTL NAND 2-input
@@ -331,6 +336,11 @@ $ENDCMP
 #
 $CMP 74ABT374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ABT377
+D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -487,6 +497,11 @@ $ENDCMP
 #
 $CMP 74AC374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC377
+D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -654,6 +669,11 @@ $ENDCMP
 #
 $CMP 74ACT374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT377
+D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1585,6 +1605,11 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74F377
+D Octal D-Type Flip-Flops With Clock Enable
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74F40
 D 2-ch, 4-input, NAND gate, Buffered Output
 K TTL 4-input MAND
@@ -1824,6 +1849,11 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC377
+D Octal D-Type Flip-Flops With Clock Enable
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC386
 D 4-ch, 2-input, XOR gates
 K TTL XOR 2-input
@@ -2035,6 +2065,11 @@ $ENDCMP
 #
 $CMP 74HCT374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT377
+D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2381,6 +2416,11 @@ $ENDCMP
 #
 $CMP 74LS374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS377
+D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3139,8 +3179,8 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX323x
-D 8-bit Parallel-Load Shift Registers
+$CMP 74XX323
+D 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3166,6 +3206,11 @@ $ENDCMP
 #
 $CMP 74XX374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX377
+D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3233,6 +3278,11 @@ $ENDCMP
 #
 $CMP 74XX93
 D 4-bit Binary Counters
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP untitled
+D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

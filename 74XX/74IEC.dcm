@@ -2772,8 +2772,8 @@ K TTL NAND 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX259x
-D 8-bit Parallel-Load Shift Registers
+$CMP 74XX259
+D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

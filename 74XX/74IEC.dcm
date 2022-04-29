@@ -219,6 +219,16 @@ K TTL 4-input MAND
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74259
+D 8-bit Addressable Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74273
+D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74279
 D 4-ch. S-R Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -286,6 +296,11 @@ $ENDCMP
 #
 $CMP 74ABT125
 D Bus Buffer Gates With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ABT273
+D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -405,6 +420,16 @@ $ENDCMP
 $CMP 74AC21
 D 2-ch, 4-input, AND gate
 K TTL 4-input AND
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC259
+D 8-bit Addressable Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC273
+D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -550,6 +575,16 @@ K TTL 4-input AND
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ACT259
+D 8-bit Addressable Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT273
+D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT30
 D 1-ch, 8-input NAND gates
 K TTL 8-in NAND
@@ -627,6 +662,11 @@ D 6-ch. D-type Flip-flops With Common Clear and Common Reset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AHC273
+D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AHC32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
@@ -690,6 +730,11 @@ $ENDCMP
 #
 $CMP 74AHCT174
 D 6-ch. D-type Flip-flops With Common Clear and Common Reset
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHCT273
+D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -976,6 +1021,16 @@ $ENDCMP
 $CMP 74ALS22
 D 2-ch, 4-input, NAND gate Open Collector
 K TTL 4-input MAND
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS259
+D 8-bit Addressable Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS273
+D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1373,6 +1428,11 @@ K TTL 4-input AND
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74F273
+D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74F30
 D 1-ch, 8-input NAND gates
 K TTL 8-in NAND
@@ -1577,6 +1637,16 @@ K TTL 4-input AND
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC259
+D 8-bit Addressable Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC273
+D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC30
 D 1-ch, 8-input NAND gates
 K TTL 8-in NAND
@@ -1768,6 +1838,16 @@ $ENDCMP
 $CMP 74HCT21
 D 2-ch, 4-input, AND gate
 K TTL 4-input AND
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT259
+D 8-bit Addressable Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT273
+D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2082,6 +2162,16 @@ K TTL NAND 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS259
+D 8-bit Addressable Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS273
+D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS279
 D 4-ch. S-R Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2270,6 +2360,11 @@ K TTL 4-input AND
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LV273
+D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LV32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
@@ -2370,6 +2465,11 @@ $ENDCMP
 #
 $CMP 74LVT125
 D Bus Buffer Gates With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVT273
+D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2782,8 +2882,8 @@ D 3-ch, 3-input NOR gates Open Collector
 K TTL 3-input NOR
 $ENDCMP
 #
-$CMP 74XX273x
-D 8-bit Parallel-Load Shift Registers
+$CMP 74XX273
+D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

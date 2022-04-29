@@ -147,6 +147,11 @@ D 8-bit Parallel-out Serial Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74166
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7417
 D 6-ch, Open Collector
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -901,6 +906,11 @@ D 8-bit Parallel-out Serial Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS166
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS174
 D 6-ch. D-type Flip-flops With Common Clear and Common Reset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1306,6 +1316,11 @@ D Synchronous 4-bit binary counter with synchronous clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74F166
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74F174
 D 6-ch. D-type Flip-flops With Common Clear and Common Reset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1492,6 +1507,11 @@ $ENDCMP
 #
 $CMP 74HC164
 D 8-bit Parallel-out Serial Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC166
+D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1691,6 +1711,11 @@ $ENDCMP
 #
 $CMP 74HCT164
 D 8-bit Parallel-out Serial Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT166
+D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1952,6 +1977,11 @@ D 8-bit Parallel-out Serial Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS166
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS174
 D 6-ch. D-type Flip-flops With Common Clear and Common Reset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2175,6 +2205,11 @@ $ENDCMP
 #
 $CMP 74LV164
 D 8-bit Parallel-out Serial Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV166
+D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2633,6 +2668,16 @@ D 6-ch, Schmitt-Trigger Inputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX170x
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX173x
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX174
 D 6-ch. D-type Flip-flops With Common Clear and Common Reset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2687,13 +2732,28 @@ K TTL NAND 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX259x
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX27
 D 3-ch, 3-input NOR gates Open Collector
 K TTL 3-input NOR
 $ENDCMP
 #
+$CMP 74XX273x
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX279
 D 4-ch. S-R Latches
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX299x
+D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2706,6 +2766,11 @@ $ENDCMP
 $CMP 74XX32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX323x
+D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2724,6 +2789,11 @@ D 6-ch. Inverting Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX373x
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX393
 D 2-ch. 4-bit Binary Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2731,6 +2801,16 @@ $ENDCMP
 #
 $CMP 74XX54
 D 4-Wide AND-OR-invert Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX574x
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX670x
+D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2758,6 +2838,16 @@ $ENDCMP
 $CMP 74XX86
 D 4-ch, 2-input, XOR gates
 K XOR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX873x
+D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX874x
+D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

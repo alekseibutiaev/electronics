@@ -157,6 +157,16 @@ D 6-ch, Open Collector
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74173
+D 4-bit D-Type Registers With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74173HC
+D 4-bit D-Type Registers With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74174
 D 6-ch. D-type Flip-flops With Common Clear and Common Reset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -184,6 +194,11 @@ $ENDCMP
 #
 $CMP 74193
 D 4-bit Synchronous Up/Down Counters (Dual Clock With Clear)
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74198
+D 8-Bit Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1719,6 +1734,11 @@ D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HCT173
+D 4-bit D-Type Registers With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HCT174
 D 6-ch. D-type Flip-flops With Common Clear and Common Reset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1979,6 +1999,11 @@ $ENDCMP
 #
 $CMP 74LS166
 D 8-bit Parallel-Load Shift Registers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS173
+D 4-bit D-Type Registers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2673,8 +2698,8 @@ D 8-bit Parallel-Load Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX173x
-D 8-bit Parallel-Load Shift Registers
+$CMP 74XX173
+D 4-bit D-Type Registers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2705,6 +2730,11 @@ $ENDCMP
 #
 $CMP 74XX193
 D 4-bit Synchronous Up/Down Counters (Dual Clock With Clear)
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX198
+D 8-Bit Shift Registers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

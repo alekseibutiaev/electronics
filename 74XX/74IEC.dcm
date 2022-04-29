@@ -261,6 +261,11 @@ D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74373BCT
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7439
 D 4-ch, 2-input, NAND gates Open Collector
 K TTL NAND 2-input
@@ -311,6 +316,11 @@ $ENDCMP
 #
 $CMP 74ABT273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ABT373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -457,6 +467,11 @@ $ENDCMP
 $CMP 74AC32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -617,6 +632,11 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ACT373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT74
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -698,6 +718,11 @@ D 6-ch. Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AHC373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AHC74
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -766,6 +791,11 @@ $ENDCMP
 #
 $CMP 74AHCT367
 D 6-ch. Buffers And Line Drivers With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHCT373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1071,6 +1101,11 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS40
 D 2-ch, 4-input, NAND gate, Buffered Output
 K TTL 4-input MAND
@@ -1130,6 +1165,11 @@ $ENDCMP
 $CMP 74ALVC32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALVC373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1257,6 +1297,11 @@ $ENDCMP
 $CMP 74AS32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1477,6 +1522,11 @@ $ENDCMP
 $CMP 74F32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1709,6 +1759,11 @@ D 6-ch. Inverting Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC386
 D 4-ch, 2-input, XOR gates
 K TTL XOR 2-input
@@ -1910,6 +1965,11 @@ $ENDCMP
 #
 $CMP 74HCT367
 D 6-ch. Buffers And Line Drivers With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2249,6 +2309,11 @@ D 6-ch. Inverting Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS386
 D 4-ch, 2-input, XOR gates
 K TTL XOR 2-input
@@ -2294,6 +2359,11 @@ $ENDCMP
 #
 $CMP 74LV-AT125
 D Bus Buffer Gates With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV-AT373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2426,6 +2496,11 @@ D 6-ch. Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LV373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LV74
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2497,6 +2572,11 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LVC373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LVC74
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2520,6 +2600,11 @@ $ENDCMP
 #
 $CMP 74LVT273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVT373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2652,6 +2737,11 @@ $ENDCMP
 $CMP 74S32
 D 4-ch, 2-input, OR gates
 K TTL OR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S373
+D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

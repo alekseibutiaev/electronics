@@ -235,6 +235,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74295
+D 4-Bit Right-Shift Left-shift Registers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -297,6 +298,11 @@ K TTL 4-input MAND
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7474
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -345,6 +351,11 @@ $ENDCMP
 #
 $CMP 74ABT377
 D Octal D-Type Flip-Flops With Clock Enable
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ABT573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -506,6 +517,11 @@ $ENDCMP
 #
 $CMP 74AC377
 D Octal D-Type Flip-Flops With Clock Enable
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -681,6 +697,11 @@ D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ACT573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT74
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -769,6 +790,11 @@ $ENDCMP
 #
 $CMP 74AHC374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHC573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -869,10 +895,20 @@ D 6-ch, NOT
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AHCY573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AL00
 D 4-ch, 2-input, NAND gates
 K TTL NAND 2-input
 F https://www.ti.com/lit/ds/symlink/sn7400.pdf
+$ENDCMP
+#
+$CMP 74AL573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS00
@@ -1171,6 +1207,11 @@ K TTL 4-input MAND
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS74
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1454,6 +1495,11 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74BCT573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74F00
 D 4-ch, 2-input, NAND gates
 K TTL NAND 2-input
@@ -1617,6 +1663,11 @@ $ENDCMP
 $CMP 74F40
 D 2-ch, 4-input, NAND gate, Buffered Output
 K TTL 4-input MAND
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1874,6 +1925,11 @@ D 6-ch, NOT
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC7001
 D 4-ch, 2-input, AND gates, Schmitt-Trigger Inputs
 K TTL AND 2-input
@@ -2079,6 +2135,11 @@ $ENDCMP
 #
 $CMP 74HCT393
 D 2-ch. 4-bit Binary Counters
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2387,6 +2448,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS295
+D 4-Bit Right-Shift Left-shift Registers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2482,6 +2544,11 @@ $ENDCMP
 #
 $CMP 74LV-AT373
 D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV-AT573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2624,6 +2691,11 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LV573
+D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LV74
 D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2733,6 +2805,11 @@ $ENDCMP
 #
 $CMP 74LVT374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVT573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3171,6 +3248,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX295
+D 4-Bit Right-Shift Left-shift Registers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3233,6 +3311,11 @@ $ENDCMP
 #
 $CMP 74XX54
 D 4-Wide AND-OR-invert Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX573
+D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

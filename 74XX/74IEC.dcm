@@ -256,6 +256,11 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74323
+D 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74367
 D 6-ch. Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1226,6 +1231,11 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS323
+D 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS373
 D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1445,6 +1455,11 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AS323
+D 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AS373
 D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1532,6 +1547,11 @@ $ENDCMP
 #
 $CMP 74BCT125
 D Bus Buffer Gates With 3-state Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74BCT323
+D 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2539,6 +2559,11 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS323
+D 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS367
 D 6-ch. Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3446,8 +3471,8 @@ K XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX873x
-D 8-bit Parallel-Load Shift Registers
+$CMP 74XX873
+D Dual 4-Bit D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

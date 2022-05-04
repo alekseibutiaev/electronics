@@ -3359,7 +3359,7 @@ K TTL OR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX323x
+$CMP 74XX323
 D 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP

@@ -334,6 +334,16 @@ K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74873
+D Dual 4-Bit D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74874
+D Dual 4-bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7490
 D Decade Counter
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -561,6 +571,16 @@ K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AC873
+D Dual 4-Bit D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC874
+D Dual 4-bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT00
 D 4-ch, 2-input, NAND gates
 K TTL NAND 2-input
@@ -740,6 +760,16 @@ $ENDCMP
 $CMP 74ACT86
 D 4-ch, 2-input, XOR gates
 K TTL XOR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT873
+D Dual 4-Bit D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT874
+D Dual 4-bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1273,6 +1303,16 @@ K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS873
+D Dual 4-Bit D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS874
+D Dual 4-bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALVC00
 D 4-ch, 2-input, NAND gates
 K TTL NAND 2-input
@@ -1488,6 +1528,16 @@ $ENDCMP
 $CMP 74AS86
 D 4-ch, 2-input, XOR gates
 K TTL XOR 2-input
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS873
+D Dual 4-Bit D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS874
+D Dual 4-bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3476,8 +3526,8 @@ D Dual 4-Bit D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX874x
-D 8-bit Parallel-Load Shift Registers
+$CMP 74XX874
+D Dual 4-bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

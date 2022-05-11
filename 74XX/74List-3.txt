@@ -1,0 +1,499 @@
+1t45 Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+1t57 Single-Supply Voltage-Level Translator With Nine Configurable Gate Logic Functions
+1t58 Single-Supply Voltage-Level Translator With Nine Configurable Gate Logic Functions
+1t97 Single-Supply Voltage-Level Translator With Nine Configurable Gate Logic Function
+1t98 Single-Supply Voltage-Level Translator With Nine Configurable Gate Logic Functions
+2t45 Dual-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+4t245 4-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+8t245 8-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+16t245 16-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+20t245 20-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+24t245 24-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+32t245 32-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs With 3-State Deselected Output
+406 Mmc, Sd Card, Memory Stick, Smartmedia, And Xd-Picture Card ±15-Kv Esd-Protected Voltage-Translation Tranceiver
+406l Mmc, Sd Card, Memory Stick, Smartmedia, And Xd-Picture Card ±15-Kv Esd-Protected Voltage-Translation Tranceiver
+3245 Octal Bus Transceiver With Adjustable Output Voltage And 3-State Outputs
+4245 Octal Bus Transceiver And 3.3-V To 5-V Shifter With 3-State Outputs (Sn74lvc4245a) 62
+4320 Low-Power, Dual-Supply, Level-Translating Compactflashtm Interface With 16-Bit Data, 11-Bit Address, And 13-Bit Control Lines
+164245 16-Bit Transceiver And 3.3-V To 5-V Shifter With 3-State Outputs
+324245 32-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation And 3-State Outputs
+1g00 Single 2-Input Positive-NAND Gate
+1g02 Single 2-Input Positive-NOR Gate
+1g04 Single Inverter Gate
+1gu04 Single Inverter
+1gx04 Crystal Oscillator Driver
+1g06 Single Inverter Buffer/Driver With Open-Drain Output
+1g07 Single Buffer/Driver With Open-Drain Output
+1g08 Single 2-Input Positive-AND Gate
+1g10 Single 3-Input Positive-NAND Gate
+1g11 Single 3-Input Positive-AND Gate
+1g14 Single Schmitt-Trigger Inverter Gate
+1g17 Single Schmitt-Trigger Buffer
+1g18 1-Of-2 Noninverting Demultiplexer With 3-State Deselected Output
+1g19 1-Of-2 Decoder/Demultiplexer
+1g27 3-Input Positive-NOR Gate
+1g29 2-Of-3 Decoder/Demultiplexer
+1g32 Single 2-Input Positive-OR Gate
+1g34 Single Buffer Gate
+1g38 Single 2-Input NAND Gate With Open-Drain Output
+1g57 Configurable Multiple-Function Gate
+1g58 Configurable Multiple-Function Gate
+1g66 Single Bilateral Analog Switch
+1g74 Single Positive-Edge-Triggered D-Type Flip-Flop With Clear And Preset
+1g79 Single Positive-Edge-Triggered D-Type Flip-Flop
+1g80 Single Positive-Edge-Triggered D-Type Flip-Flop
+1g86 Single 2-Input Exclusive-OR Gate
+1g97 Configurable Multiple-Function Gate
+1g98 Configurable Multiple-Function Gate
+1g99 Single Retriggerable Monostable Multivibrator With Schmitt-Trigger Inputs
+1g123 Single Retriggerable Monostable Multivibrator With Schmitt-Trigger Inputs
+1g125 Single Bus Buffer Gate With 3-State Output
+1g126 Single Bus Buffer Gate With 3-State Output
+1g132 Single 2-Input NAND Gate With Schmitt-Trigger Inputs
+1g139 2-To-4 Line Decoder
+1g175 Single D-Type Flip-Flop With Asynchronous Clear
+1g240 Single Buffer/Driver With 3-State Output
+1g332 Single 3-Input Positive-OR Gate
+1g373 Single D-Type Latch With 3-State Output
+1g374 Single D-Type Flip-Flop With 3-State Output
+1g386 Single 3-Input Exclusive-Xor Gate
+1g0832 Single 3-Input Positive And-OR Gate
+1g3157 Single-Pole, Double-Throw Analog Switch
+1g3208 Single 3-Input Positive Or-And Gate
+2g00 Dual 2-Input Positive-NAND Gate
+2g02 Dual 2-Input Positive-NOR Gate
+2g04 Dual Inverter Gate
+2gu04 Dual Inverter Gate
+2g06 Dual Inverter Buffer/Driver With Open-Drain Outputs
+2g07 Dual Buffer/Driver With Open-Drain Outputs
+2g08 Dual 2-Input Positive-AND Gate
+2g14 Dual Inverter Gate
+2g17 Dual Schmitt-Trigger Buffer
+2g32 Dual 2-Input Positive-OR Gate
+2g34 Dual Inverter Gate
+2g38 Single 2-Input NAND Gate With Open-Drain Output
+2g53 Single-Pole Double-Throw (Spdt) Analog Switch Or 2:1 Analog Multiplexer/Demultiplexer
+2g66 Dual Bilateral Analog Switch
+2g74 Single Positive-Edge-Triggered D-Type Flip-Flop With Clear And Preset
+2g79 Dual Positive-Edge-Triggered D-Type Flip-Flop
+2g80 Dual Positive-Edge-Triggered D-Type Flip-Flop
+2g86 Dual 2-Input Exclusive-OR Gate
+2g125 Dual Bus Buffer Gate With 3-State Outputs
+2g126 Dual Bus Buffer Gate With 3-State Outputs
+2g132 Single 2-Input NAND Gate With Open-Drain Output
+2g157 Single 2-Line To 1-Line Data Selector/Multiplexer
+2g240 Dual Buffers/Drivers With 3-State Outputs
+2g241 Dual Buffer/Driver With 3-State Outputs
+3g04 Triple Inverter Gate
+3gu04 Triple Inverter Gate
+3g06 Triple Inverter Buffer/Driver With Open-Drain Outputs
+3g07 Triple Buffer/Driver With Open-Drain Outputs
+3g14 Triple Schmitt-Trigger Inverter
+3g17 Triple Schmitt-Trigger Buffer
+3g34 Triple Buffer Gate
+00 Quadruple 2-Input Positive-NAND Gates
+01 Quadruple 2-Input Positive-NAND Gates With Open-Collector Outputs
+02 Quadruple 2-Input Positive-NOR Gates
+03 Quadruple 2-Input Positive-NAND Gates With Open-Collector Outputs
+04 Hex Inverters
+U04 Hex Inverters
+05 Hex Inverters With Open-Drain Outputs
+06 Hex Inverter Buffers/Drivers With Open-Drain Outputs
+07 Hex Buffers/Drivers With Open-Drain Outputs
+08 Quadruple 2-Input Positive-AND Gates
+09 Quadruple 2-Input Positive-AND Gates With Open-Collector Outputs
+10 Triple 3-Input Positive-NAND Gates
+11 Triple 3-Input Positive-AND Gates
+14 Hex Schmitt-Trigger Inverters
+16 Hex Inverter Buffers/Drivers With Open-Collector High-Voltage Outputs
+17 Hex Schmitt-Trigger Buffer
+19 Hex Schmitt-Trigger Inverters
+20 Dual 4-Input Positive-NAND Gates
+21 Dual 4-Input Positive-AND Gates
+25 Dual 4-Input Positive-NOR Gates With Strobe
+26 Quadruple 2-Input High-Voltage Interface Positive-NAND Gates
+27 Triple 3-Input Positive-NOR Gates
+30 8-Input Positive-NAND Gates
+31 Delay Elements
+32 Quadruple 2-Input Positive-OR Gates
+33 Quadruple 2-Input Positive-NOR Buffers With Open-Collector Outputs
+34 Hex Buffer Gate
+35 Hex Noninverters With Open-Collector Outputs
+37 Quadruple 2-Input Positive-NAND Buffers
+38 Quadruple 2-Input Positive-NAND Buffers With Open-Collector Outputs
+42 4-Line-To-10-Line Decoders (1 Of 10) 254
+45 Bcd-To-Decimal Decoders/Drivers
+47 Bcd-To-Seven-Segment Decoders/Drivers
+51 And-OR-Invert Gates
+64 4-2-3-2 Input And-OR Invert Gates
+73 Dual J-K Flip-Flops With Clear
+74 Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
+75 4-Bit Bistable Latches
+85 4-Bit Magnitude Comparators
+86 Quadruple 2-Input Exclusive-OR Gates
+90 Decade Counter
+92 Divide-By-Twelve Decode Counters
+93 4-Bit Binary Counters
+97 Synchronous 6-Bit Binary Rate Multipliers
+107 Dual J-K Flip-Flops With Clear
+109 Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
+112 Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
+121 Monostable Multivibrators With Schmitt-Trigger Inputs
+122 Retriggerable Monostable Multivibrators
+123 Dual Retriggerable Monostable Multivibarators With Schmitt-Trigger Inputs
+124 Dual Voltage-Controlled Oscillators
+125 Quadruple Bus Buffer Gates With 3-State Outputs
+126 Quadruple Bus Buffer Gates With 3-State Outputs
+128 50-Ω Line Driver
+132 Quadruple Positive-NAND Gates With Schmitt Trigger Inputs
+133 13-Input Positive-NAND Gates
+136 Quadruple 2-Input Exclusive-OR Gates With Open Collector Outputs
+137 3-Line To 8-Line Decoders/Demultiplexers With Address Latches
+138 3-Line To 8-Line Decoders/Demultiplexrs
+139 Dual 2-Line To 4-Line Decoders/Demultiplexers
+140 Dual 4-Input Positive-NAND 50-Ω Line Drivers
+145 Bcd-To-Decimal Decoders/Drivers
+147 10-Line To 4-Line Bcd Priority Encoder
+148 8-Line To 3-Line Priority Encoders
+150 16-Line To 1-Line Data Selector/Multiplexer
+151 8-Line To 1-Line Data Selectors/Multiplexers
+153 Dual 4-Line To 1-Line Data Selectors/Multiplexers
+154 4-Line To 16-Line Decoders/Demultiplexers
+155 Dual 2-Line To 4-Line Decoders/Demultiplexers
+156 Dual 2-Line To 4-Line Decoders/Demultiplexers With Open-Collector Outputs
+157 Quadruple 2-Line To 1-Line Data Selectors/Multiplexers
+158 Quadruple 2-Line To 1-Line Data Selectors/Multiplexers
+159 4-Line To 16-Line Decoders/Demultiplexers With Open-Collector Outputs
+161 4-Bit Synchronous Binary Counters
+163 4-Bit Synchronous Binary Counters
+164 8-Bit Parallel-Out Serial Shift Registers
+165 Parallel-Load 8-Bit Shift Registers
+166 8-Bit Parallel-Load Shift Registers
+169 Synchronous 4-Bit Up/Down Binary Counters
+170 4-By-4-Register Files With Open-Collector Outputs
+173 4-Bit D-Type Registers With 3-State Outputs
+174 Hex D-Type Flip-Flops With Clear
+175 Quadruple D-Type Flip-Flops With Clear
+181 Arithmetic Logic Units/Function Generators
+182 Look-Ahead Carry Generator
+190 Synchronous 4-Bit Up/Down Decade And Binary Counters
+191 4-Bit Synchronous Up/Down Binary Counters
+192 Presettable Synchronous 4-Bit Up/Down Counters
+193 4-Bit Synchronous Up/Down Counters (Dual Clock With Clear) 346
+194 4-Bit Bidirectional Universal Shift Registers
+195 4-Bit Parallel-Access Shift Registers
+221 Dual Monostable Multivibrators With Schmitt-Trigger Inputs
+237 3-Line To 8-Line Decoders/Demultiplexers With Address Latches
+238 3-Line To 8-Line Decoders/Demultiplexers
+240 Octal Buffers/Drivers With 3-State Outputs
+241 Octal Buffers/Drivers With 3-State Outputs
+243 Quadruple Bus Transceivers With 3-State Outputs
+244 Octal Buffers/Drivers With 3-State Outputs
+245 Octal Bus Transceivers With 3-State Outputs
+247 Bcd-To-Seven-Segment Decoders/Drivers
+250 1-Of-16 Data Generators/Multiplexers With 3-State Outputs
+251 Data Selectors/Multiplexers With 3-State Outputs
+253 Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
+257 Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
+258 Quadruple 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
+259 8-Bit Addressable Latches
+260 Dual 5-Input Positive-NOR Gates
+265 Quadruple Complementary-Output Elements
+266 Quadruple 2-Input Exclusive-NOR Gates With Open-Drain Outputs
+273 Octal D-Type Flip-Flops With Clear
+276 Quadruple J-K Flip-Flors
+279 Quadruple S-R Latches
+280 9-Bit Parity Generators/Checkers
+283 4-Bit Binary Full Adders With Fast Carry
+286 9-Bit Odd/Even Parity Generators/Checkers With Bus Driver Parity I/O Port
+292 Programmable Frequency Dividers/Digital Timers
+293 4-Bit Binary Counters
+294 Programmable Frequency Dividers/Digital Timers
+297 Digital Phase-Locked-Loop Filters
+298 Quadruple 2-Input Multiplexers With Storage
+299 8-Bit Universal Shift/Storage Registers With 3-State Outputs
+321 Crystal-Controlled Oscillators
+323 8-Bit Universal Shift/Storage Registers With Synchronous Clear And 3-State Outputs
+348 8-Line To 3-Line Priority Encoders With 3-State Outputs
+354 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+356 8-Input Multiplexer/Registers 3-State
+365 Hex Buffers And Line Drivers With 3-State Outputs
+366 Hex Buffers And Line Drivers With 3-State Outputs
+367 Hex Buffers And Line Drivers With 3-State Outputs
+368 Hex Inverting Buffers And Line Drivers With 3-State Outputs
+373 Octal Transparent D-Type Latches With 3-State Outputs
+374 Octal Edge-Triggered D-Type Flip-Flops With 3-State Outputs
+375 4-Bit Bistable Latches
+377 Octal D-Type Flip-Flops With Clock Enable
+378 Hex D-Type Flip-Flops With Clock Enable
+390 Dual 4-Bit Decade Counters
+393 Dual 4-Bit Binary Counters
+395 Cascadable Shift Registers
+399 Quadruple 2-Input Multiplexers With Storage
+423 Retriggerable Monostable Multivibrators
+442 Quadruple Tridirectional Bus Transceivers
+465 Octal Buffers With 3-State Outputs
+518 Octal Binary/Bcd Identity Comparators With Enable
+520 Octal Binary/Bcd Identity Comparators With Enable
+521 8-Bit Identity Comparators With Open-Collector Outputs
+533 Octal Transparent D-Type Latches With 3-State Outputs
+534 Octal Edge-Triggered D-Type Flip-Flops With 3-State Outputs
+540 Octal Buffers/Drivers With 3-State Outputs
+541 Octal Buffers/Drivers With 3-State Outputs
+543 Octal Registered Transceivers With 3-State Outputs
+561 Synchronous 4-Bit Counters With 3-State Outputs
+563 Octal D-Type Transparent Latches With 3-State Outputs
+564 Octal D-Type Edge-Triggered Flip-Flops With 3-State Outputs
+569 Synchronous 4-Bit Up/Down Binary Counters With 3-State Outputs
+573 Octal Transparent D-Type Latches With 3-State Outputs
+574 Octal Edge-Triggered D-Type Flip-Flops With 3-State Outputs
+575 Octal D-Type Edge-Triggered Flip-Flops With 3-State Outputs
+576 Octal D-Type Edge-Triggered Flip-Flops With 3-State Outputs
+577 Octal D-Type Edge-Triggered Flip-Flops With 3-State Outputs
+580 Octal D-Type Transparent Latches With 3-State Outputs
+590 8-Bit Binary Counters With 3-State Output Registers
+592 8-Bit Binary Counters With Input Registers
+593 8-Bit Binary Counters With Input Registers
+594 8-Bit Shift Registers With Output Registers
+595 8-Bit Shift Registers With 3-State Output Registers
+596 8-Bit Shift Registers With Output Latches
+597 Serial-Out Shift Registers With Input Latches
+598 8-Bit Shift Registers With Input Latches
+620 Octal Bus Transceivers With 3-State Outputs
+621 Octal Bus Transceivers
+623 Octal Bus Transceivers With 3-State Outputs
+624 Voltage-Controlled Oscillators
+628 Voltage-Controlled Oscillators
+629 Dual Voltage-Controlled Oscillators
+638 Octal Bus Transceivers
+639 Octal Bus Transceivers
+640 Octal Bus Transceivers With 3-State Outputs
+641 Octal Bus Transceivers With Open-Collector Outputs
+642 Octal Bus Transceivers With Open-Collector Outputs
+645 Octal Bus Transceivers With 3-State Outputs
+646 Octal Bus Transceivers And Registers With 3-State Outputs
+647 Octal Bus Transceivers And Registers
+648 Octal Bus Transceivers And Registers
+651 Octal Bus Transceivers And Registers With 3-State Outputs
+652 Octal Bus Transceivers And Registers With 3-State Outputs
+653 Octal Bus Transceivers And Registers With 3-State Outputs
+654 Octal Bus Transceivers And Registers With 3-State Outputs
+657 Octal Bus Transceivers With Parity Generators/Checkers And 3-State Outputs
+666 8-Bit D-Type Transparent Read-Back Latches With 3-State Outputs
+667 8-Bit D-Type Transparent Read-Back Latches With 3-State Outputs
+669 Synchronous 4-Bit Up/Down Counters
+670 4-By-4 Register Files With 3-State Outputs
+673 16-Bit Shift Registers
+674 16-Bit Shfit Registers
+679 12-Bit Address Comparator
+682 8-Bit Magnitude Comparators
+684 8-Bit Magnitude Comparators
+686 8-Bit Magnitude/Identity Comparators
+688 8-Bit Identity Comparators
+697 Synchronous Up/Down Counters With Output Registers And Multiplexed 3-State Outputs
+699 Synchronous Up/Down Counters With Output Registers And Multiplexed 3-State Outputs
+756 Octal Buffer/Driver With Open-Collector Outputs
+757 Octal Buffer/Driver With Open-Collector Outputs
+760 Octal Buffers/Drivers With Open-Collector Outputs
+804 Hex 2-Input NAND Drivers
+805 Hex 2-Input NOR Drivers
+808 Hex 2-Input And Drivers
+821 10-Bit Bus-Interface Flip Flops With 3-State Outputs
+823 9-Bit Bus-Interface Flip-Flops With 3-State Outputs
+825 8-Bit Bus-Interface Flip-Flops With 3-State Outputs
+827 10-Bit Buffers/Drivers With 3-State Outputs
+828 10-Bit Buffers/Drivers With 3-State Outputs
+832 Hex 2-Input Or Drivers
+833 8-Bit To 9-Bit Parity Bus Transceivers
+841 10-Bit Bus-Interface D-Type Latches With 3-State Outputs
+843 9-Bit Bus-Interface D-Type Latches With 3-State Outputs
+853 8-Bit To 9-Bit Parity Bus Transceivers
+857 Hex 2-To-1 Universal Multiplexers With 3-State Outputs
+861 10-Bit Transceivers With 3-State Outputs
+863 9-Bit Bus Transceivers With 3-State Outputs
+867 Synchronous 8-Bit Up/Down Counters
+869 Synchronous 8-Bit Up/Down Counters
+870 Dual 16-By 4-Bit Register Files
+873 Dual 4-Bit D-Type Latches With 3-State Outputs
+874 Dual 4-Bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
+876 Dual 4-Bit D-Type Edge-Triggerd Flip-Flops With 3-State Outputs
+885 8-Bit Magnitude Comparators
+990 8-Bit D-Type Transparent Read-Back Latch
+992 9-Bit D-Type Transparent Read-Back Latch With
+3-State Outputs
+994 10-Bit D-Type Transparent Read-Back Latch
+996 8-Bit D-Type Edge-Triggered Read-Back Latches
+1000 Quadruple 2-Input Positive-NAND Buffers/Drivers
+1004 Hex Inverting Drivers
+1005 Hex Inverting Buffers With Open-Collector Outputs
+1008 Quadruple 2-Input Positive-AND Buffer/Driver
+1032 Quadruple 2-Input Positive-OR Buffers/Drivers
+1034 Hex Drivers
+1035 Hex Noninverting Buffers With Open-Collector Outputs
+1240 Octal Buffer And Line Driver With 3-State Outputs
+1244 Octal Buffers And Drivers With 3-State Outputs
+1245 Octal Bus Transceivers With 3-State Outputs
+1404 Oscillator Driver For Crystal Oscillator Or Ceramic Resonator
+1640 Octal Bus Transceivers With 3-State Outputs
+1645 Octal Bus Transceivers With 3-State Outputs
+2240 Octal Buffers And Line/Mos Drivers With 3-State Outputs
+2241 Octal Buffers And Line/Mos Drivers With 3-State Outputs
+2244 Octal Buffers And Line/Mos Drivers With 3-State Outputs
+2245 Octal Transceiver And Line/Mos Drivers With 3-State Outputs
+2373 25-W Octal Transparent D-Type Latch With 3-State Outputs
+2414 Memory Decoder With On-Chip Supply Voltage Monitor
+2541 Octal Line Driver/Mos Driver With 3-State Outputs
+2827 10-Bit Buffers/Drivers With 3-State Outputs
+2828 10-Bit Bus/Mos Memory Drivers With 3-State Inverting
+2952 Octal Bus Transceivers And Registers With 3-State Outputs
+2953 Octal Bus Transceiver And Register With 3-State Outputs
+4002 Dual 4-Input Positive-NOR Gates
+4015 Dual 4-Stage Static Shift Register
+4016 Quad Bilateral Switch
+4017 Decade Counters/Divider
+4020 14-Stage Binary Counters
+4024 7-Stage Binary Counters
+4040 12-Stage Binary Counters
+4046 Phase-Locked-Loop With Vco
+4049 Hex Inverting Buffers
+4050 Hex Non-Inverting Buffers
+4051 8-Channel Analog Multiplexers/Demultiplexers
+4052 Dual 4-Channel Analog Multiplexers/Demultiplexers
+4053 Triple 2-Channel Analog Multiplexers/Demultiplexers
+4059 Cmos Programmable Divide-By-N Counter
+4060 Asynchronous 14-Stage Binary Counters And Oscillators
+4066 Quadruple Bilateral Switches
+4067 16-Channel Analog Multiplexer/Demultiplexer
+4075 Triple 3-Input Or Gates
+4094 8-Stage Shift And Store Bus Register, Three-State
+4316 Quad Analog Switch With Level Translation
+4351 Analog Multiplexers/Demultiplexers With Latch
+4352 Analog Multiplexers/Demultiplexers With Latch
+4374 Octal Edge-Triggered D-Type Dual-Rank Flip-Flop With 3-Stae Outputs
+4511 Bcd-To-7 Segment Latch/Decoder/Drivers
+4514 4-Line To 16-Line Decoders/Demultiplexers With Input Latches
+4515 4-Line To 16-Line Decoders/Demultiplexers With Input Latches
+4518 Dual Synchronous Counters
+4520 Dual Synchronous Counters
+4538 Dual Retriggerable Precision Mono Stable Multivibrator
+4543 Bcd-To-7 Segment Latch/Decoder/Drivers
+4851 8-Channel Analog Multiplexer/Demultiplexer With Injection-Current Effect Control
+4852 Dual 4-To-1 Channel Analog Multiplexer/Demultiplexer With Injection-Current Effect Control
+5400 11-Bit Line/Memory Drivers With 3-State Outputs
+5401 11-Bit Line/Memory Drivers With 3-State Outputs
+5402 12-Bit Line/Memory Drivers With 3-State Outputs
+5403 12-Bit Line/Memory Drivers With 3-State Outputs
+7001 Quadruple Positive-AND Gates With Schmitt-Trigger Inputs
+7002 Quadruple Positive-NOR Gates With Schmitt-Trigger Inputs
+7032 Quadruple Positive-OR Gates With Schmitt-Trigger Inputs
+7046 Phase-Locked Loop With Vco And Lock Detector
+7266 Quad 2-Input Exclusive-NOR Gates
+8003 Dual 2-Input Positive-NAND Gates
+16240 16-Bit Bus Buffers/Drivers With 3-State Outputs
+16241 16-Bit Bus Buffers/Drivers With 3-State Outputs
+16244 16-Bit Bus Buffers/Drivers With 3-State Outputs
+16245 16-Bit Bus Transceiver With 3-State Outputs
+16260 12-Bit To 24-Bit Multiplexes D-Type Latch With 3-State Outputs
+16269 12-Bit To 24-Bit Registered Bus Transceiver With 3-State Outputs
+16270 12-Bit To 24-Bit Registered Bus Exchanger With 3-State Outputs
+16271 12-Bit To 24-Bit Multiplexed Bus Exchanger With 3-State Outputs
+16282 18-Bit To 36-Bit Registered Bus Exchanger With 3-State Outputs
+16334 16-Bit Universal Bus Driver With 3-State Outputs
+16344 1-Bit To 4-Bit Address Driver With 3-State Outputs
+16373 16-Bit Transparent Latches With 3-State Outputs
+16374 16-Bit Edge-Triggered D-Type Flip-Flops With 3-State Outputs
+16409 9-Bit, 4-Port Universal Bus Exchanger With 3-State Outputs
+16460 4-To-1 Multiplexed/Demultiplexed Transceivers With 3-State Outputs
+16470 16-Bit Registered Transceivers With 3-State Outputs
+16500 18-Bit Universal Bus Transceiver With 3-State Outputs
+16501 18-Bit Universal Bus Transceiver With 3-State Outputs
+16524 18-Bit Registered Bus Transceiver With 3-State Outputs
+16525 18-Bit Registered Bus Transceiver With 3-State Outputs
+16540 16-Bit Buffers/Drivers With 3-State Outputs
+16541 16-Bit Buffers/Drivers With 3-State Outputs
+16543 16-Bit Registered Transceivers With 3-State Outputs
+16600 18-Bit Universal Bus Transceivers With 3-State Outputs
+16601 18-Bit Universal Bus Transceivers With 3-State Outputs
+16620 16-Bit Bus Transceivers With 3-State Outputs
+16623 16-Bit Bus Transceivers With 3-State Outputs
+16640 16-Bit Bus Transceiver With 3-State Outputs
+16646 16-Bit Bus Transceivers And Registers With 3-State Outputs
+16651 16-Bit Bus Transceivers And Registers With 3-State Outputs
+16652 16-Bit Bus Transceivers And Registers With 3-State Outputs
+16657 16-Bit Transceivers With Parity Generators/Checkers And 3-State Outputs
+16721 20-Bit Flip-Flop With 3-State Outputs
+16722 22-Bit Flip-Flop With 3-State Outputs
+16820 10-Bit Edge-Triggered D-Type Flip-Flops With Dual Outputs
+16821 20-Bit Bus Interface Flip-Flops With 3-State Outputs
+16823 18-Bit Edge-Triggered D-Type Flip-Flops With Dual Outputs
+16825 18-Bit Bus Buffers/Drivers With 3-State Outputs
+16827 20-Bit Bus Buffers/Drivers With 3-State Outputs
+16831 1-To-4 Address Register/Driver With 3-State Outputs
+16832 1-To-4 Address Register/Driver With 3-State Outputs
+16833 Dual 8-Bit To 9-Bit Parity Bus Transceivers
+16834 16-Bit Universal Bus Driver With 3-State Outputs
+16835 3.3-V Abt 18-Bit Universal Bus Driver With 3-State Outputs
+16841 20-Bit Bus Interface D-Type Latches With 3-State Outputs
+16843 18-Bit Bus Interface D-Type Latches With 3-State Outputs
+16853 Dual 8-Bit To 9-Bit Parity Bus Transceivers
+16861 20-Bit Bus Transceivers With 3-State Outputs
+16863 18-Bit Bus Transceivers With 3-State Outputs
+16901 18-Bit Universal Bus Transceiver With Parity Generators/Checkers
+16903 3.3-V 12-Bit Universal Bus Driver With Parity Checker And Dual 3-State Outputs
+16952 16-Bit Registered Transceivers With 3-State Outputs
+16973 8-Bit Bus Transceiver And Transparent D-Type Latch With Four Independent Buffers
+25244 25-W Octal Buffer/Driver With 3-State Outputs
+25245 25-W Octal Bus Transceivers With 3-State Outputs
+25642 25-W Octal Bus Transceiver
+29821 10-Bit Bus-Interface Flip-Flops With 3-State Outputs
+29825 8-Bit Bus-Interface Flip-Flops With 3-State Outputs
+29827 10-Bit Buffers/Drivers With 3-State Outputs
+29828 10-Bit Buffers/Drivers With 3-State Outputs
+29841 10-Bit Bus Interface D-Type Latches With 3-State Outputs
+29843 9-Bit Bus Interface D-Type Latches With 3-State Outputs
+29854 8-Bit To 9-Bit Parity Bus Transceiver
+29863 9-Bit Bus Transceivers With 3-State Outputs
+29864 9-Bit Bus Transceiver With 3-State Outputs
+32240 32-Bit Buffer/Driver
+32244 32-Bit Buffer/Driver With 3-State Outputs
+32245 32-Bit Bus Transceiver With 3-State Outputs
+32316 16-Bit Tri-Port Universal Bus Exchangers
+32318 18-Bit Tri-Port Universal Bus Exchangers
+32373 32-Bit Transparent D-Type Latch With 3-State Outputs
+32374 32-Bit Edge-Triggered D-Type Flip-Flop With 3-State Outputs
+32501 36-Bit Universal Bus Transceivers With 3-Stateoutputs
+32543 36-Bit Registered Bus Transceivers With 3-State Outputs
+32973 16-Bit Bus Transceiver And Transparent D-Type Latch With Eight Independent Buffers
+40103 8-Stage Synchronous Down Counters
+162240 3.3-V Abt 16-Bit Buffers/Drivers With 3-State Outputs
+162241 3.3-V Abt 16-Bit Buffers/Drivers With 3-State Outputs
+162244 16-Bit Buffers/Drivers With 3-State Outputs
+162245 16-Bit Transceiver With 3-State Outputs
+162260 12-Bit To 24-Bit Multiplexed D-Type Latch With 3-State Outputs
+162268 12-Bit To 24-Bit Registered Bus Exchanger With 3-State Outputs
+162280 16-Bit To 32-Bit Registered Bus Exchanger With Byte Masks And 3-State Outputs
+162282 18-Bit To 36-Bit Registered Bus Exchanger With 3-State Outputs
+162334 16-Bit Universal Bus Driver With 3-State Outputs
+162344 1-Bit To 4-Bit Address Driver With 3-State Outputs
+162373 3.3-V Abt 16-Bit Transparent D-Type Latches With 3-State Outputs
+162374 3.3-V Abt 16-Bit Edge-Triggered D-Type Flip-Flops With 3-State Outputs
+162460 4-To-1 Multiplexed/Demultiplexed Registered Transceivers With 3-State Outputs
+162500 18-Bit Universal Bus Transceiver With 3-State Outputs
+162501 18-Bit Universal Bus Transceiver With 3-State Outputs
+162525 18-Bit Universal Bus Transceiver With 3-State Outputs
+162541 3.3-V Abt 16-Bit Buffers/Drivers With 3-State Outputs
+162601 18-Bit Universal Bus Transceiver With 3-State Outputs
+162721 3.3-V 20-Bit Flip-Flop With 3-State Outputs
+162820 3.3-V 10-Bit Flip-Flop With Dual Outputs And 3-State Outputs
+162823 18-Bit Bus-Interface Flip-Flops With 3-State Outputs
+162825 18-Bit Buffers/Drivers With 3-State Outputs
+162827 20-Bit Bus Buffers/Drivers With 3-State Outputs
+162830 1-Bit To 2-Bit Address Driver With 3-State Outputs
+162831 1-Bit To 4-Bit Address Register/Driver With 3-State Outputs
+162832 1-Bit To 4-Bit Address Register/Driver With 3-State Outputs
+162834 18-Bit Universal Bus Driver With 3-State Outputs
+162835 18-Bit Universal Bus Driver With 3-State Outputs
+162836 20-Bit Universal Bus Driver With 3-State Outputs
+162841 20-Bit Bus-Interface D-Type Latch With 3-State Outputs
+322244 32-Bit Buffer/Driver With 3-State Outputs
+322374 3.3-V Abt 32-Bit Edge-Triggered D-Type Flip-Flop With 3-State Outputs

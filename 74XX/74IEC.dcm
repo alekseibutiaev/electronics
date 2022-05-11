@@ -57,17 +57,22 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74107
-D Dual J-K flip-flops with clear
+D Dual J-K Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 7412
 D Triple 3-input Positive-NAND Gates With Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74121
+D Monostable Multivibrators With Schmitt-Trigger Inputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -347,7 +352,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 7474
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 7475
+D 4-bit Bistable latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -357,8 +367,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 7486
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -374,6 +383,11 @@ $ENDCMP
 #
 $CMP 7490
 D Decade Counter
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 7492
+D Divide-By-Twelve Decode Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -448,7 +462,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AC109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -458,7 +472,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AC112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -597,13 +611,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AC74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AC86
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -648,7 +661,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ACT109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -658,7 +671,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ACT112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -797,13 +810,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ACT74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ACT86
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -903,13 +915,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AHC74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AHC86
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -984,13 +995,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AHCT74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AHCT86
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1121,7 +1131,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1131,17 +1141,17 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS113
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Preset
+D Dual J-k Negative-Edge-Triggered Flip-Flops With Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS114
-D 2-ch. J-K Negative-edge-triggered Flip-flops With Preset, Common Clear And Common Clock
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Preset, Common Clear, And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1325,13 +1335,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS86
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1441,7 +1450,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AS109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1541,7 +1550,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AS74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1551,8 +1560,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AS86
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1607,7 +1615,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AUC74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1667,7 +1675,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1677,17 +1685,17 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F113
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Preset
+D Dual J-k Negative-Edge-Triggered Flip-Flops With Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F114
-D 2-ch. J-K Negative-edge-triggered Flip-flops With Preset, Common Clear And Common Clock
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Preset, Common Clear, And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1817,13 +1825,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F86
-D 4-ch, 2-input, XOR gates
-K TTL XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1868,12 +1875,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC107
-D Dual J-K flip-flops with clear
+D Dual J-K Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1883,17 +1890,17 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC113
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Preset
+D Dual J-k Negative-Edge-Triggered Flip-Flops With Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC114
-D 2-ch. J-K Negative-edge-triggered Flip-flops With Preset, Common Clear And Common Clock
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Preset, Common Clear, And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2048,7 +2055,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC386
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -2090,7 +2097,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC75
+D 4-bit Bistable latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2100,7 +2112,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC86
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -2146,12 +2158,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HCT107
-D Dual J-K flip-flops with clear
+D Dual J-K Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HCT109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2161,7 +2173,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HCT112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2301,7 +2313,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HCT74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT75
+D 4-bit Bistable latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2311,7 +2328,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HCT86
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -2401,12 +2418,12 @@ D Hex Inverting Buffers With Open-Collector Outputs
 $ENDCMP
 #
 $CMP 74LS107
-D Dual J-K flip-flops with clear
+D Dual J-K Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2416,17 +2433,17 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS113
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Preset
+D Dual J-k Negative-Edge-Triggered Flip-Flops With Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS114
-D 2-ch. J-K Negative-edge-triggered Flip-flops With Preset, Common Clear And Common Clock
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Preset, Common Clear, And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2661,7 +2678,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS386
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -2697,7 +2714,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS75
+D 4-bit Bistable latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2707,13 +2729,18 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS86
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS90
 D Decade Counter
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS92
+D Divide-By-Twelve Decode Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2884,12 +2911,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LV74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LV86
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -2930,7 +2957,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LVC112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2960,12 +2987,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LVC74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LVC86
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -3051,17 +3078,17 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74S112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74S113
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Preset
+D Dual J-k Negative-Edge-Triggered Flip-Flops With Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74S114
-D 2-ch. J-K Negative-edge-triggered Flip-flops With Preset, Common Clear And Common Clock
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Preset, Common Clear, And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3156,7 +3183,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74S74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3166,7 +3193,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74S86
-D 4-ch, 2-input, XOR gates
+D Quadruple 2-Input Exclusive-OR Gates
 K TTL XOR 2-input
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -3287,12 +3314,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX107
-D Dual J-K flip-flops with clear
+D Dual J-K Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX109
-D Dual J-k Positive-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3302,22 +3329,27 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX112
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Clear And Preset
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX113
-D 2-ch. J-k Negative-edge-triggered Flip-flops With Preset
+D Dual J-k Negative-Edge-Triggered Flip-Flops With Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX114
-D 2-ch. J-K Negative-edge-triggered Flip-flops With Preset, Common Clear And Common Clock
+D Dual J-K Negative-Edge-Triggered Flip-Flops With Preset, Common Clear, And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX12
 D Triple 3-input Positive-NAND Gates With Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX121
+D Monostable Multivibrators With Schmitt-Trigger Inputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3581,6 +3613,11 @@ D Octal D-Type Flip-Flops With Clock Enable
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX386
+D Quadruple 2-Input Exclusive-OR Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX393
 D 2-ch. 4-bit Binary Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3633,7 +3670,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX74
-D 2-ch, d-type positive-edge-triggered flip-flops with clear and preset
+D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3648,8 +3685,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX86
-D 4-ch, 2-input, XOR gates
-K XOR 2-input
+D Quadruple 2-Input Exclusive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3665,6 +3701,11 @@ $ENDCMP
 #
 $CMP 74XX90
 D Decade Counter
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX92
+D Divide-By-Twelve Decode Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

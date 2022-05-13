@@ -97,7 +97,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74128
-D 4-ch, 2-input, NOR gates, Buffered Output
+D Quadruple 2-Input Positive-NOR Gates (50,75)-Ω Line Driver
 K TTL NOR 2-inputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
@@ -113,8 +113,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74136
-D 4-ch, 2-input Exclusive-or Gates With Open Collector Outputs
-K TTL XOR 2-input Open Collector
+D Quadruple 2-Input Exclusive-OR Gates With Open Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74137
+D 3-Line To 8-Line Decoders/Demultiplexers With Address Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1191,8 +1195,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS136
-D 4-ch, 2-input Exclusive-or Gates With Open Collector Outputs
-K TTL XOR 2-input Open Collector
+D Quadruple 2-Input Exclusive-OR Gates With Open Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1490,8 +1493,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AS136
-D 4-ch, 2-input Exclusive-or Gates With Open Collector Outputs
-K TTL XOR 2-input Open Collector
+D Quadruple 2-Input Exclusive-OR Gates With Open Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2533,8 +2535,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS136
-D 4-ch, 2-input Exclusive-or Gates With Open Collector Outputs
-K TTL XOR 2-input Open Collector
+D Quadruple 2-Input Exclusive-OR Gates With Open Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS137
+D 3-Line To 8-Line Decoders/Demultiplexers With Address Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3458,6 +3464,11 @@ D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX128
+D Quadruple 2-Input Positive-NOR Gates (50,75)-Ω Line Driver
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX13
 D Dual 4-input Positive-NAND Schmitt Triggers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3474,8 +3485,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX136
-D 4-ch, 2-input Exclusive-or Gates With Open Collector Outputs
-K TTL XOR 2-input Open Collector
+D Quadruple 2-Input Exclusive-OR Gates With Open Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX137
+D 3-Line To 8-Line Decoders/Demultiplexers With Address Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

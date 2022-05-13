@@ -127,6 +127,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7414
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -515,6 +520,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AC139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AC14
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -567,6 +577,11 @@ $ENDCMP
 #
 $CMP 74AC21
 D Dual 4-Input Positive-AND Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC239
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -719,6 +734,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ACT139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT14
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -771,6 +791,11 @@ $ENDCMP
 #
 $CMP 74ACT21
 D Dual 4-Input Positive-AND Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT239
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -908,6 +933,11 @@ D Quadruple Positive-NAND Gates With Schmitt Trigger Inputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AHC139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AHC14
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1005,6 +1035,11 @@ $ENDCMP
 #
 $CMP 74AHCT138
 D 3-Line To 8-Line Decoders/Demultiplexrs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHCT139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1226,6 +1261,11 @@ $ENDCMP
 #
 $CMP 74ALS138
 D 3-Line To 8-Line Decoders/Demultiplexrs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1537,6 +1577,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AS139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AS160
 D Synchronous 4-bit decade counter with direct clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1796,6 +1841,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74F139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74F160
 D Synchronous 4-bit decade counter with direct clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2031,6 +2081,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC14
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2103,6 +2158,11 @@ $ENDCMP
 #
 $CMP 74HC21
 D Dual 4-Input Positive-AND Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC239
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2311,6 +2371,11 @@ $ENDCMP
 #
 $CMP 74HCT138
 D 3-Line To 8-Line Decoders/Demultiplexrs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2611,6 +2676,11 @@ $ENDCMP
 #
 $CMP 74LS138
 D 3-Line To 8-Line Decoders/Demultiplexrs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2976,6 +3046,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LV139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LV14
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3132,6 +3207,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs5
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LVC139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LVC14
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3280,6 +3360,11 @@ $ENDCMP
 #
 $CMP 74S138
 D 3-Line To 8-Line Decoders/Demultiplexrs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3589,6 +3674,11 @@ D 3-Line To 8-Line Decoders/Demultiplexrs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX139
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX14
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3706,6 +3796,11 @@ $ENDCMP
 #
 $CMP 74XX22
 D Dual 4-Input Positive-NAND Gates Open-Collector
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX239
+D Dual 2-Line To 4-Line Decoders/Demultiplexers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

@@ -87,7 +87,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -402,7 +407,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ABT125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ABT126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -865,7 +875,12 @@ F https://www.ti.com/lit/ds/symlink/sn54ls123.pdf
 $ENDCMP
 #
 $CMP 74AHC125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHC126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -955,7 +970,12 @@ F https://www.ti.com/lit/ds/symlink/sn54ls123.pdf
 $ENDCMP
 #
 $CMP 74AHCT125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHCT126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1385,7 +1405,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALVC125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALVC126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1600,7 +1625,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AUC125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AUC126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1630,7 +1660,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74BCT125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74BCT126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1705,7 +1740,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1915,7 +1955,12 @@ F https://www.ti.com/lit/ds/symlink/sn54ls123.pdf
 $ENDCMP
 #
 $CMP 74HC125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2188,7 +2233,12 @@ F https://www.ti.com/lit/ds/symlink/sn54ls123.pdf
 $ENDCMP
 #
 $CMP 74HCT125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2463,7 +2513,12 @@ F https://www.ti.com/lit/ds/symlink/sn54ls123.pdf
 $ENDCMP
 #
 $CMP 74LS125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2755,7 +2810,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LV-AT125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV-AT126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2820,7 +2880,12 @@ F https://www.ti.com/lit/ds/symlink/sn54ls123.pdf
 $ENDCMP
 #
 $CMP 74LV125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2967,7 +3032,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LVC125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVC126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3008,7 +3078,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LVT125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVT126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3374,7 +3449,12 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX125
-D Bus Buffer Gates With 3-state Outputs
+D Quadruple Bus Buffer Gates With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX126
+D Quadruple Bus Buffer Gates With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

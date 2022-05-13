@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -x
+set -x
 while IFS= read -r line
 do
   R=`echo ${line} | grep ALIAS`
@@ -7,7 +7,7 @@ do
   then
     echo ${line}
   else
-    R1=`echo ${R} | tr -s ' ' '\n' | sort | grep -v "ALIAS" | tr -s '\n' ' ' | sed 's/ $//g'`
+    R1=`echo ${R} | tr -s ' ' '\n' | sort | grep -v "ALIAS" | tr -s '\n' ' '`
     echo "ALIAS ${R1}"
   fi
 done < ${1}

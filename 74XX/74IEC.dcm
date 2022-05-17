@@ -355,6 +355,11 @@ D Hex Noninverters With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -719,6 +724,11 @@ D Hex Buffer Gate
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AC352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AC353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -975,6 +985,11 @@ $ENDCMP
 #
 $CMP 74ACT34
 D Hex Buffer Gate
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1602,6 +1617,11 @@ D Hex Noninverters With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1884,6 +1904,11 @@ $ENDCMP
 #
 $CMP 74AS34
 D Hex Buffer Gate
+$ENDCMP
+#
+$CMP 74AS352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AS353
@@ -2193,6 +2218,11 @@ $ENDCMP
 #
 $CMP 74F32
 D Quadruple 2-Input Positive-OR Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2511,6 +2541,11 @@ D Quadruple 2-Input Positive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2816,6 +2851,11 @@ $ENDCMP
 #
 $CMP 74HCT32
 D Quadruple 2-Input Positive-OR Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3256,6 +3296,11 @@ $ENDCMP
 #
 $CMP 74LS33
 D Quadruple 2-Input Positive-NOR Buffers With Open-Collector Outputs
+$ENDCMP
+#
+$CMP 74LS352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS353
@@ -3883,6 +3928,11 @@ D Quadruple 2-Input Positive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74S352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74S353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4401,6 +4451,10 @@ $ENDCMP
 $CMP 74XX35
 D Hex Noninverters With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX352
+D Dual 4-Line To 1-Line Data Selectors/MultiplexersWith Inverting Output
 $ENDCMP
 #
 $CMP 74XX353

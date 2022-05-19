@@ -365,6 +365,26 @@ D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With I
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74354
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74355
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74356
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74357
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74367
 D 6-ch. Buffers And Line Drivers With 3-state Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -690,6 +710,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AC258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AC259
 D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -702,6 +727,11 @@ $ENDCMP
 #
 $CMP 74AC273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -959,6 +989,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ACT258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT259
 D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -971,6 +1006,11 @@ $ENDCMP
 #
 $CMP 74ACT273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1584,6 +1624,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS259
 D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1596,6 +1641,11 @@ $ENDCMP
 #
 $CMP 74ALS273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1897,8 +1947,18 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AS258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AS27
 D Triple 3-Input Positive-NOR Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2221,6 +2281,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74F258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74F27
 D Triple 3-Input Positive-NOR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2228,6 +2293,11 @@ $ENDCMP
 #
 $CMP 74F273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2541,6 +2611,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC259
 D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2553,6 +2628,11 @@ $ENDCMP
 #
 $CMP 74HC273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2578,6 +2658,21 @@ $ENDCMP
 #
 $CMP 74HC353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC354
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC355
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC356
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2859,6 +2954,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HCT258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HCT259
 D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2871,6 +2971,11 @@ $ENDCMP
 #
 $CMP 74HCT273
 D 8-ch. D-Type Flip-Flops With Clear
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2896,6 +3001,21 @@ $ENDCMP
 #
 $CMP 74HCT353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT354
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT355
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT356
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3280,6 +3400,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS259
 D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3307,6 +3432,11 @@ $ENDCMP
 #
 $CMP 74LS295
 D 4-Bit Right-Shift Left-shift Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3345,6 +3475,26 @@ $ENDCMP
 #
 $CMP 74LS353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS354
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS355
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS356
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS357
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3737,6 +3887,16 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LVC258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVC298
+D Quadruple 2-Input Multiplexers With Storage
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LVC32
 D Quadruple 2-Input Positive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3960,6 +4120,16 @@ $ENDCMP
 #
 $CMP 74S257
 D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -4434,6 +4604,11 @@ D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XX258
+D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74XX259
 D 8-bit Addressable Latches
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4461,6 +4636,11 @@ $ENDCMP
 #
 $CMP 74XX295
 D 4-Bit Right-Shift Left-shift Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX298
+D Quadruple 2-Input Multiplexers With Storage
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -4510,6 +4690,26 @@ $ENDCMP
 #
 $CMP 74XX353
 D Dual 4-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs. With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX354
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX355
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX356
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX357
+D 8-Line To 1-Line Data Selectors/Multiplexers/Transparent/Registers With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

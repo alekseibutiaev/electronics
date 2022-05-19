@@ -9,6 +9,12 @@ https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 *DIP*20*W7.62mm*
 *SO*20*
 
+*DIP*24*W7.62mm*
+*SO*24*
+
+*DIP*24*W15.24mm*
+*SO*24*
+
 
 $CMP 74XX166
 D 8-bit Parallel-Load Shift Registers
@@ -16,3 +22,4 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 
+#End Library

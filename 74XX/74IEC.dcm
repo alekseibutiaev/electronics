@@ -5289,11 +5289,11 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX465
-D Octal Buffers With 3-State Outputs
+D Octal Buffers With 3-State Outputs With Inversing Output With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX466x
+$CMP 74XX466
 D Octal Buffers With 3-State Outputs With Inversing Output With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP

@@ -287,6 +287,16 @@ D Octal Buffers/Drivers With 3-State Outputs Inverting Control
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74242
+D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74243
+D Quadruple Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74244
 D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1699,6 +1709,16 @@ D Octal Buffers/Drivers With 3-State Outputs Inverting Control
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS242
+D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS243
+D Quadruple Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS244
 D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2039,6 +2059,16 @@ $ENDCMP
 #
 $CMP 74AS241
 D Octal Buffers/Drivers With 3-State Outputs Inverting Control
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS242
+D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS243
+D Quadruple Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2416,6 +2446,16 @@ D Octal Buffers/Drivers With 3-State Outputs Inverting Control
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74F242
+D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F243
+D Quadruple Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74F244
 D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2758,6 +2798,16 @@ $ENDCMP
 #
 $CMP 74HC241
 D Octal Buffers/Drivers With 3-State Outputs Inverting Control
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC242
+D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC243
+D Quadruple Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3116,6 +3166,16 @@ $ENDCMP
 #
 $CMP 74HCT241
 D Octal Buffers/Drivers With 3-State Outputs Inverting Control
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT242
+D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT243
+D Quadruple Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3577,6 +3637,16 @@ $ENDCMP
 #
 $CMP 74LS241
 D Octal Buffers/Drivers With 3-State Outputs Inverting Control
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS242
+D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS243
+D Quadruple Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -4854,12 +4924,12 @@ D Octal Buffers/Drivers With 3-State Outputs Inverting Control
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX242x
+$CMP 74XX242
 D Quadruple Bus Transceivers With 3-State Outputs With Inverting Output
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX243x
+$CMP 74XX243
 D Quadruple Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP

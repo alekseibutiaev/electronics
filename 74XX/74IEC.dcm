@@ -302,6 +302,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7425
 D Dual 4-Input Positive-NOR Gates With Strobe
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -550,6 +555,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ABT245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ABT273
 D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -747,6 +757,11 @@ $ENDCMP
 #
 $CMP 74AC244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1044,6 +1059,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ACT245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT251
 D Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1248,6 +1268,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AHC245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AHC273
 D 8-ch. D-Type Flip-Flops With Clear
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1365,6 +1390,11 @@ $ENDCMP
 #
 $CMP 74AHCT244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHCT245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1724,6 +1754,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS251
 D Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1902,6 +1937,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALVC245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALVC32
 D Quadruple 2-Input Positive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2077,6 +2117,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AS245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AS251
 D Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2231,6 +2276,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AUC245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AUC32
 D Quadruple 2-Input Positive-OR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2243,6 +2293,11 @@ $ENDCMP
 #
 $CMP 74AUCU04
 D Hex Inverters
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AVC245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2263,6 +2318,11 @@ $ENDCMP
 #
 $CMP 74BCT244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74BCT245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2458,6 +2518,11 @@ $ENDCMP
 #
 $CMP 74F244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2813,6 +2878,11 @@ $ENDCMP
 #
 $CMP 74HC244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3181,6 +3251,11 @@ $ENDCMP
 #
 $CMP 74HCT244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3655,6 +3730,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS251
 D Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3885,6 +3965,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LV-AT245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LV-AT373
 D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4036,6 +4121,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LV245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LV27
 D Triple 3-Input Positive-NOR Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4182,6 +4272,11 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LVC245
+D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LVC257
 D Quadruple 2-Line To 1-Line Data Selectors/Multiplexers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4250,6 +4345,11 @@ $ENDCMP
 #
 $CMP 74LVT244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVT245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -4435,6 +4535,11 @@ $ENDCMP
 #
 $CMP 74S244
 D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S245
+D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -4939,7 +5044,7 @@ D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX245x
+$CMP 74XX245
 D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP

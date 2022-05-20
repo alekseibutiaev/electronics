@@ -460,6 +460,16 @@ D Dual 4-input Positive-NAND Buffers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74465
+D Octal Buffers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74466
+D Octal Buffers With 3-State Outputs With Inversing Output With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 7451
 D AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -592,11 +602,6 @@ $ENDCMP
 #
 $CMP 74ABT574
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
-F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
-$ENDCMP
-#
-$CMP 74ABT640
-D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -876,11 +881,6 @@ $ENDCMP
 #
 $CMP 74AC574
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
-F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
-$ENDCMP
-#
-$CMP 74AC640
-D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1180,11 +1180,6 @@ $ENDCMP
 #
 $CMP 74ACT574
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
-F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
-$ENDCMP
-#
-$CMP 74ACT640
-D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1882,6 +1877,16 @@ D Dual 4-input Positive-NAND Buffers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ALS465
+D Octal Buffers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS466
+D Octal Buffers With 3-State Outputs With Inversing Output With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ALS573
 D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2368,11 +2373,6 @@ $ENDCMP
 #
 $CMP 74BCT573
 D Octal Transparent D-Type Latches With 3-State Outputs
-F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
-$ENDCMP
-#
-$CMP 74BCT640
-D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3944,6 +3944,11 @@ D Dual 4-input Positive-NAND Buffers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS465
+D Octal Buffers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS51
 D AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -5283,7 +5288,7 @@ D Hex Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX465x
+$CMP 74XX465
 D Octal Buffers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP

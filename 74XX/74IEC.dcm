@@ -491,12 +491,27 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74641
 D Octal Bus Transceivers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74642
+D Octal Bus Transceivers With Open-Collector Outputs  With Inverting Outout
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74643
+D Octal Bus Transceivers With 3-State Outputs A->B True B->A Inverting
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74644
+D Octal Bus Transceivers With 3-State With Open-Collector Outputs Outputs A->B True B->A Inverting
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1903,12 +1918,27 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74ALS641
 D Octal Bus Transceivers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS642
+D Octal Bus Transceivers With Open-Collector Outputs  With Inverting Outout
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS643
+D Octal Bus Transceivers With 3-State Outputs A->B True B->A Inverting
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS644
+D Octal Bus Transceivers With 3-State With Open-Collector Outputs Outputs A->B True B->A Inverting
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2242,7 +2272,22 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74AS640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS642
+D Octal Bus Transceivers With Open-Collector Outputs  With Inverting Outout
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS643
+D Octal Bus Transceivers With 3-State Outputs A->B True B->A Inverting
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS644
+D Octal Bus Transceivers With 3-State With Open-Collector Outputs Outputs A->B True B->A Inverting
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2383,6 +2428,11 @@ $ENDCMP
 #
 $CMP 74BCT573
 D Octal Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74BCT642
+D Octal Bus Transceivers With Open-Collector Outputs  With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2672,7 +2722,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74F640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3073,7 +3123,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HC640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3430,7 +3480,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74HCT640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3975,12 +4025,17 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74LS641
 D Octal Bus Transceivers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS642
+D Octal Bus Transceivers With Open-Collector Outputs  With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -5344,7 +5399,7 @@ F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
 $CMP 74XX640
-D Octal Bus Transceivers With 3-State Outputs
+D Octal Bus Transceivers With 3-State Outputs With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -5353,22 +5408,22 @@ D Octal Bus Transceivers With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX642x
-D Octal Bus Transceivers With Open-Collector Outputs Inverting
+$CMP 74XX642
+D Octal Bus Transceivers With Open-Collector Outputs  With Inverting Outout
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX643x
+$CMP 74XX643
 D Octal Bus Transceivers With 3-State Outputs A->B True B->A Inverting
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX644x
+$CMP 74XX644
 D Octal Bus Transceivers With 3-State With Open-Collector Outputs Outputs A->B True B->A Inverting
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX645x
+$CMP 74XX645
 D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP

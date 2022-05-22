@@ -495,6 +495,11 @@ D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74641
+D Octal Bus Transceivers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74670
 D 4-By-4 Register Files With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1899,6 +1904,11 @@ $ENDCMP
 #
 $CMP 74ALS640
 D Octal Bus Transceivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS641
+D Octal Bus Transceivers With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3969,6 +3979,11 @@ D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS641
+D Octal Bus Transceivers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS670
 D 4-By-4 Register Files With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4673,6 +4688,11 @@ D AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74S641
+D Octal Bus Transceivers With Open-Collector Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74S74
 D Dual D-Type Positive-Edge-Triggered Flip-Flops With Clear And Preset
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -5328,7 +5348,7 @@ D Octal Bus Transceivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
-$CMP 74XX641x
+$CMP 74XX641
 D Octal Bus Transceivers With Open-Collector Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP

@@ -242,6 +242,16 @@ D 4-ch. D-type Flip-flops With Common Clear And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74181
+D Arithmetic Logic Units/Function Generators
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74182
+D Look-Ahead Carry Generator
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74190
 D Synchronous 4-bit Up/down Decade And Binary Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -750,6 +760,11 @@ D 4-ch. D-type Flip-flops With Common Clear And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AC181
+D Arithmetic Logic Units/Function Generators
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AC190
 D Synchronous 4-bit Up/down Decade And Binary Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1046,6 +1061,11 @@ $ENDCMP
 #
 $CMP 74ACT175
 D 4-ch. D-type Flip-flops With Common Clear And Common Clock
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT181
+D Arithmetic Logic Units/Function Generators
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2149,6 +2169,16 @@ $ENDCMP
 #
 $CMP 74AS175
 D 4-ch. D-type Flip-flops With Common Clear And Common Clock
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS181
+D Arithmetic Logic Units/Function Generators
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AS182
+D Look-Ahead Carry Generator
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3769,6 +3799,11 @@ D Dual 4-input Positive-NAND Schmitt Triggers
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS181
+D Arithmetic Logic Units/Function Generators
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS19
 D Hex Schmitt-Trigger Inverters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4643,6 +4678,16 @@ D 4-ch. D-type Flip-flops With Common Clear And Common Clock
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74S181
+D Arithmetic Logic Units/Function Generators
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74S182
+D Look-Ahead Carry Generator
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74S20
 D Dual 4-Input Positive-NAND Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -5101,6 +5146,16 @@ $ENDCMP
 #
 $CMP 74XX18
 D Dual 4-input Positive-NAND Schmitt Triggers
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX181
+D Arithmetic Logic Units/Function Generators
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX182x
+D Look-Ahead Carry Generator
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

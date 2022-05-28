@@ -114,13 +114,13 @@ Wire Wire Line
 Wire Wire Line
 	9700 2550 9700 2650
 $Sheet
-S 750  700  1400 1400
+S 700  700  1000 1000
 U 6296E6C7
 F0 "Generator" 50
 F1 "Generator.sch" 50
 $EndSheet
 $Sheet
-S 3150 850  1250 1050
+S 2000 700  1000 1000
 U 6296ED1F
 F0 "CPU" 50
 F1 "CPU.sch" 50

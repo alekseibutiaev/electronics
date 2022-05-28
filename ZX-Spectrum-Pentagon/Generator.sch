@@ -4,14 +4,14 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 3
-Title ""
-Date ""
-Rev ""
+Title "Generator"
+Date "28.05.2022"
+Rev "0.01v"
 Comp ""
-Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment1 "Comment1"
+Comment2 "Comment2"
+Comment3 "Comment3"
+Comment4 "Comment4"
 $EndDescr
 $Comp
 L 74IEC:74HC04 U1
@@ -33,6 +33,50 @@ F 1 "74HC04" H 1900 1050 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 1900 1410 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 1900 1410 50  0001 C CNN
 	2    1900 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC04 U1
+U 3 1 62A0FCB3
+P 5800 1300
+F 0 "U1" H 5800 1450 50  0000 C CNN
+F 1 "74HC04" H 5800 1150 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 5800 1510 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5800 1510 50  0001 C CNN
+	3    5800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC04 U1
+U 4 1 62ADF546
+P 1350 2250
+F 0 "U1" H 1350 2400 50  0000 C CNN
+F 1 "74HC04" H 1350 2100 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 1350 2460 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 1350 2460 50  0001 C CNN
+	4    1350 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC04 U1
+U 5 1 62B1656A
+P 3200 3600
+F 0 "U1" H 3200 3750 50  0000 C CNN
+F 1 "74HC04" H 3200 3450 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3200 3810 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3200 3810 50  0001 C CNN
+	5    3200 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC04 U1
+U 6 1 62B8E952
+P 3200 2650
+F 0 "U1" H 3200 2800 50  0000 C CNN
+F 1 "74HC04" H 3200 2500 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 3200 2860 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3200 2860 50  0001 C CNN
+	6    3200 2650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -233,17 +277,6 @@ Text GLabel 10500 1850 2    50   Output ~ 10
 ~C25
 Wire Wire Line
 	10500 1850 5500 1850
-$Comp
-L 74IEC:74HC04 U1
-U 3 1 62A0FCB3
-P 5800 1300
-F 0 "U1" H 5800 1450 50  0000 C CNN
-F 1 "74HC04" H 5800 1150 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5800 1510 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5800 1510 50  0001 C CNN
-	3    5800 1300
-	1    0    0    -1  
-$EndComp
 Text GLabel 10500 1300 2    50   Output ~ 10
 ~C1
 Wire Wire Line
@@ -311,17 +344,6 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2650 3550 50  0001 C CNN
 	1    2650 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74IEC:74HC04 U1
-U 4 1 62ADF546
-P 1350 2250
-F 0 "U1" H 1350 2400 50  0000 C CNN
-F 1 "74HC04" H 1350 2100 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 1350 2460 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 1350 2460 50  0001 C CNN
-	4    1350 2250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1000 2250 1150 2250
 Connection ~ 1000 2250
@@ -338,17 +360,6 @@ Wire Wire Line
 Connection ~ 2000 2250
 Text Label 2400 2000 2    50   ~ 0
 C25
-$Comp
-L 74IEC:74HC04 U1
-U 5 1 62B1656A
-P 3200 3600
-F 0 "U1" H 3200 3750 50  0000 C CNN
-F 1 "74HC04" H 3200 3450 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3200 3810 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3200 3810 50  0001 C CNN
-	5    3200 3600
-	1    0    0    -1  
-$EndComp
 Connection ~ 2250 3450
 Wire Wire Line
 	1750 3350 2450 3350
@@ -360,17 +371,6 @@ Wire Wire Line
 	1750 3450 2250 3450
 Text GLabel 10500 2300 2    50   Output ~ 10
 C3
-$Comp
-L 74IEC:74HC04 U1
-U 6 1 62B8E952
-P 3200 2650
-F 0 "U1" H 3200 2800 50  0000 C CNN
-F 1 "74HC04" H 3200 2500 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 3200 2860 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3200 2860 50  0001 C CNN
-	6    3200 2650
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2950 2650 3000 2650
 Wire Wire Line
@@ -400,6 +400,28 @@ F 1 "74HC04" H 2650 3850 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2650 4210 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2650 4210 50  0001 C CNN
 	1    2650 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC04 U8
+U 2 1 641C22EA
+P 4950 6850
+F 0 "U8" H 4950 7000 50  0000 C CNN
+F 1 "74HC04" H 4950 6700 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 4950 7060 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4950 7060 50  0001 C CNN
+	2    4950 6850
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC04 U8
+U 3 1 643F2FC3
+P 7000 5200
+F 0 "U8" H 7000 5350 50  0000 C CNN
+F 1 "74HC04" H 7000 5050 50  0000 C CNN
+F 2 "" H 7000 5410 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 7000 5410 50  0001 C CNN
+	3    7000 5200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1299,17 +1321,6 @@ F 3 "~" H 5250 7050 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 74IEC:74HC04 U15
-U 1 1 641C22EA
-P 4950 6850
-F 0 "U15" H 4950 7000 50  0000 C CNN
-F 1 "74HC04" H 4950 6700 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4950 7060 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4950 7060 50  0001 C CNN
-	1    4950 6850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:D D1
 U 1 1 641C8D35
 P 4650 7150
@@ -1392,17 +1403,6 @@ Entry Wire Line
 	5900 5250 6000 5150
 Text Label 6000 5150 0    50   ~ 0
 B13
-$Comp
-L 74IEC:74HC04 U15
-U 2 1 643F2FC3
-P 7000 5200
-F 0 "U15" H 7000 5350 50  0000 C CNN
-F 1 "74HC04" H 7000 5050 50  0000 C CNN
-F 2 "" H 7000 5410 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 7000 5410 50  0001 C CNN
-	2    7000 5200
-	1    0    0    -1  
-$EndComp
 Text GLabel 10500 4300 2    50   Output ~ 10
 B18
 Entry Wire Line

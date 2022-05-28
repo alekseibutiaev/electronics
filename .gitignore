@@ -1,4 +1,5 @@
 Project Backups
 *.workspace
+*bak
 /74IEC/*.workspace
 /74IEC/Project Backups

@@ -78,7 +78,7 @@ U 1 1 6295AA74
 P 10000 2450
 F 0 "JPWR1" H 10028 2426 50  0000 L CNN
 F 1 "Conn_01x02_Female" H 10028 2335 50  0000 L CNN
-F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 10000 2450 50  0001 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 10000 2450 50  0001 C CNN
 F 3 "~" H 10000 2450 50  0001 C CNN
 	1    10000 2450
 	1    0    0    -1  

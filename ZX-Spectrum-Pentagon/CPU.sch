@@ -1487,6 +1487,8 @@ Text Label 10600 1600 0    50   ~ 0
 D6
 Wire Wire Line
 	10600 1700 10850 1700
+Text Label 10600 1700 0    50   ~ 0
+D7
 Wire Bus Line
 	6900 2500 6900 3200
 Wire Bus Line
@@ -1511,6 +1513,4 @@ Wire Bus Line
 	10500 600  10500 4650
 Wire Bus Line
 	3600 650  3600 3650
-Text Label 10600 1700 0    50   ~ 0
-D7
 $EndSCHEMATC

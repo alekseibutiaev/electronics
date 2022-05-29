@@ -147,11 +147,13 @@ F27 "F-25Hz" O R 2500 3900 50
 F28 "C8" O R 2500 4000 50 
 $EndSheet
 $Sheet
-S 3500 1500 1000 1000
+S 3500 1500 1000 3500
 U 6296ED1F
 F0 "CPU" 50
 F1 "CPU.sch" 50
 F2 "C25" I L 3500 1650 50 
+F3 "C8" I L 3500 1750 50 
+F4 "D0" B R 4500 1650 50 
 $EndSheet
 Wire Bus Line
 	11000 6000 11000 500 
@@ -275,10 +277,6 @@ Wire Wire Line
 	2500 3900 2900 3900
 Wire Wire Line
 	2500 4000 2900 4000
-Wire Bus Line
-	1000 750  1000 7500
-Wire Bus Line
-	3000 1000 3000 7500
 Text Label 2600 3900 0    50   ~ 0
 F-25Hz
 Text Label 2900 4000 2    50   ~ 0
@@ -329,4 +327,14 @@ Text Label 2750 3700 0    50   ~ 0
 B18
 Text Label 2800 3800 0    50   ~ 0
 BL
+Wire Wire Line
+	3500 1750 3100 1750
+Entry Wire Line
+	3000 1850 3100 1750
+Text Label 3100 1750 0    50   ~ 0
+C8
+Wire Bus Line
+	1000 750  1000 7500
+Wire Bus Line
+	3000 1000 3000 7500
 $EndSCHEMATC

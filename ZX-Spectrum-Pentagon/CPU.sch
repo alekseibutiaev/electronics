@@ -248,7 +248,7 @@ Entry Wire Line
 Entry Wire Line
 	1400 3300 1500 3200
 Entry Wire Line
-	1400 3400 1500 3300
+	1300 3950 1400 3850
 Wire Wire Line
 	1500 1250 1900 1250
 Wire Wire Line
@@ -271,8 +271,6 @@ Wire Wire Line
 	1400 2900 1900 2900
 Wire Wire Line
 	1500 3200 1900 3200
-Wire Wire Line
-	1500 3300 1900 3300
 Wire Wire Line
 	1900 3000 1400 3000
 Text Label 1500 1150 0    50   ~ 0
@@ -328,7 +326,7 @@ Text Label 1400 2800 0    50   ~ 0
 Text Label 1400 2900 0    50   ~ 0
 ~WAIT
 Text Label 1400 3000 0    50   ~ 0
-~RESET
+~RST
 Text Label 3250 3350 0    50   ~ 0
 ~xRFSH
 Text Label 3250 2950 0    50   ~ 0
@@ -409,7 +407,7 @@ Entry Wire Line
 	3500 1150 3600 1250
 Text Label 1500 3200 0    50   ~ 0
 ~xBUSACK
-Text Label 1500 3300 0    50   ~ 0
+Text Label 1400 3850 0    50   ~ 0
 ~xBUSRQ
 Wire Wire Line
 	1500 1150 1900 1150
@@ -441,7 +439,7 @@ Wire Wire Line
 	3100 3150 3500 3150
 Wire Wire Line
 	3100 3250 3500 3250
-Text GLabel 850  2200 0    50   Input ~ 0
+Text GLabel 850  2200 0    50   Input ~ 10
 C25
 $Comp
 L Device:R R5
@@ -1052,7 +1050,7 @@ F 3 "~" H 1050 2600 50  0001 C CNN
 	1    1050 2600
 	0    1    1    0   
 $EndComp
-Text GLabel 800  2600 0    50   Input ~ 0
+Text GLabel 800  2600 0    50   Input ~ 10
 C8
 Wire Wire Line
 	1200 2600 1900 2600
@@ -1150,8 +1148,8 @@ $Comp
 L Switch:SW_Push SW1
 U 1 1 6374CB2D
 P 1550 4800
-F 0 "SW1" V 1700 4950 50  0000 C CNN
-F 1 "RESET" V 1400 4950 50  0000 C CNN
+F 0 "SW1" V 1650 4650 50  0000 C CNN
+F 1 "RESET" V 1450 4650 50  0000 C CNN
 F 2 "" H 1550 5000 50  0001 C CNN
 F 3 "~" H 1550 5000 50  0001 C CNN
 	1    1550 4800
@@ -1385,61 +1383,61 @@ Text GLabel 10850 4350 2    50   Output ~ 10
 ~M1
 Text GLabel 10850 4500 2    50   Output ~ 10
 ~RFSH
-Text GLabel 10050 1100 0    50   Input ~ 10
+Text GLabel 850  3550 0    50   Input ~ 10
 ~WAIT
-Text GLabel 10050 1250 0    50   Input ~ 10
+Text GLabel 850  3700 0    50   Input ~ 10
 ~INT
-Text GLabel 10050 1400 0    50   Input ~ 10
+Text GLabel 850  3850 0    50   Input ~ 10
 ~NMI
-Text GLabel 10050 1550 0    50   Input ~ 10
+Text GLabel 850  4000 0    50   Input ~ 10
 ~BUSRQ
-Text GLabel 10050 1700 0    50   Input ~ 10
+Text GLabel 850  4150 0    50   Input ~ 10
 ~RST
-Text GLabel 10050 1850 0    50   Input ~ 10
+Text GLabel 850  4300 0    50   Input ~ 10
 ~C25
 Wire Wire Line
-	10050 1100 10400 1100
+	850  3550 1200 3550
 Entry Wire Line
-	10400 1100 10500 1200
+	1200 3550 1300 3650
 Entry Wire Line
-	10400 1250 10500 1350
+	1200 3700 1300 3800
 Entry Wire Line
-	10400 1400 10500 1500
+	1200 3850 1300 3950
 Entry Wire Line
-	10400 1550 10500 1650
+	1200 4000 1300 4100
 Entry Wire Line
-	10400 1700 10500 1800
+	1200 4150 1300 4250
 Entry Wire Line
-	10400 1850 10500 1950
+	1200 4300 1300 4400
 Entry Wire Line
-	10400 2000 10500 2100
-Text GLabel 10050 2000 0    50   Input ~ 10
+	1200 4450 1300 4550
+Text GLabel 850  4450 0    50   Input ~ 10
 ~ROMCS
 Wire Wire Line
-	10050 1250 10400 1250
+	850  3700 1200 3700
 Wire Wire Line
-	10050 1400 10400 1400
+	850  3850 1200 3850
 Wire Wire Line
-	10050 1550 10400 1550
+	850  4000 1200 4000
 Wire Wire Line
-	10050 1700 10400 1700
+	850  4150 1200 4150
 Wire Wire Line
-	10050 1850 10400 1850
+	850  4300 1200 4300
 Wire Wire Line
-	10050 2000 10400 2000
-Text Label 10250 1100 0    50   ~ 0
+	850  4450 1200 4450
+Text Label 1050 3550 0    50   ~ 0
 ~WAIT
-Text Label 10300 1250 0    50   ~ 0
+Text Label 1100 3700 0    50   ~ 0
 ~INT
-Text Label 10250 1400 0    50   ~ 0
+Text Label 1050 3850 0    50   ~ 0
 ~NMI
-Text Label 10150 1550 0    50   ~ 0
+Text Label 950  4000 0    50   ~ 0
 ~BUSRQ
-Text Label 10250 1700 0    50   ~ 0
+Text Label 1050 4150 0    50   ~ 0
 ~RST
-Text Label 10250 1850 0    50   ~ 0
+Text Label 1050 4300 0    50   ~ 0
 ~C25
-Text Label 10150 2000 0    50   ~ 0
+Text Label 950  4450 0    50   ~ 0
 ~ROMCS
 Entry Wire Line
 	10500 1100 10600 1000
@@ -1490,11 +1488,15 @@ Wire Wire Line
 Text Label 10600 1700 0    50   ~ 0
 D7
 Wire Bus Line
-	6900 2500 6900 3200
-Wire Bus Line
 	1400 3300 1400 3650
+Wire Wire Line
+	1400 3850 1800 3850
+Wire Wire Line
+	1800 3300 1900 3300
+Wire Wire Line
+	1800 3850 1800 3300
 Wire Bus Line
-	1300 2700 1300 7300
+	6900 2500 6900 3200
 Wire Bus Line
 	6700 650  6700 1850
 Wire Bus Line
@@ -1508,9 +1510,11 @@ Wire Bus Line
 Wire Bus Line
 	1400 650  1400 1950
 Wire Bus Line
-	5150 2500 5150 7300
-Wire Bus Line
 	10500 600  10500 4650
+Wire Bus Line
+	1300 2800 1300 7300
+Wire Bus Line
+	5150 2500 5150 7300
 Wire Bus Line
 	3600 650  3600 3650
 $EndSCHEMATC

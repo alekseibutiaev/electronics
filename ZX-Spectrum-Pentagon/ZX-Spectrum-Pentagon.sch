@@ -114,15 +114,39 @@ Wire Wire Line
 Wire Wire Line
 	9700 2550 9700 2650
 $Sheet
-S 700  700  1000 1000
-U 6296E6C7
-F0 "Generator" 50
-F1 "Generator.sch" 50
-$EndSheet
-$Sheet
-S 2000 700  1000 1000
+S 8150 700  1000 1000
 U 6296ED1F
 F0 "CPU" 50
 F1 "CPU.sch" 50
 $EndSheet
+$Sheet
+S 1000 1500 1000 1000
+U 6296E6C7
+F0 "Generator" 50
+F1 "Generator.sch" 50
+F2 "C30" I L 1000 1700 50 
+F3 "C29" I L 1000 1800 50 
+$EndSheet
+Wire Bus Line
+	700  7500 6500 7500
+Wire Bus Line
+	6500 7500 6500 6000
+Wire Bus Line
+	6500 6000 11000 6000
+Wire Bus Line
+	11000 6000 11000 500 
+Entry Wire Line
+	700  1900 800  1800
+Entry Wire Line
+	700  1800 800  1700
+Wire Wire Line
+	800  1700 1000 1700
+Wire Wire Line
+	800  1800 1000 1800
+Wire Bus Line
+	700  750  700  7500
+Text Label 800  1700 0    50   ~ 0
+C30
+Text Label 800  1800 0    50   ~ 0
+C29
 $EndSCHEMATC

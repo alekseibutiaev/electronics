@@ -494,6 +494,16 @@ D 4-Wide AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74573
 D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -626,6 +636,16 @@ $ENDCMP
 #
 $CMP 74ABT377
 D Octal D-Type Flip-Flops With Clock Enable
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ABT540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ABT541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -914,6 +934,16 @@ $ENDCMP
 #
 $CMP 74AC51
 D AND-OR-Invert Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AC541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1225,6 +1255,16 @@ D AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74ACT540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ACT541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74ACT573
 D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1365,6 +1405,16 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74AHC540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHC541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74AHC573
 D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -1487,6 +1537,16 @@ $ENDCMP
 #
 $CMP 74AHCT374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHCT540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74AHCT541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -1936,6 +1996,16 @@ $ENDCMP
 #
 $CMP 74ALS466
 D Octal Buffers With 3-State Outputs With Inversing Output With Inverting Output
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74ALS541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -2472,6 +2542,16 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74BCT540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74BCT541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74BCT573
 D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -2758,6 +2838,16 @@ $ENDCMP
 #
 $CMP 74F51
 D AND-OR-Invert Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74F541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -3166,6 +3256,16 @@ D AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74HC540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HC541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74HC573
 D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -3524,6 +3624,16 @@ $ENDCMP
 #
 $CMP 74HCT393
 D 2-ch. 4-bit Binary Counters
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74HCT541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -4086,6 +4196,16 @@ D 4-Wide AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LS540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LS541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LS55
 D 2-Wide 4-Input ABD-OR-Invertor Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4169,6 +4289,16 @@ $ENDCMP
 #
 $CMP 74LV-AT373
 D 8-ch. Transparent D-Type Latches With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV-AT540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV-AT541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -4353,6 +4483,16 @@ D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LV540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LV541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LV573
 D Octal Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4499,6 +4639,16 @@ D 8-ch. Transparent D-Type Latches With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74LVC540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVC541
+D Octal Buffers/Drivers With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
 $CMP 74LVC574
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
@@ -4562,6 +4712,16 @@ $ENDCMP
 #
 $CMP 74LVT374
 D Octal Edge-Triggered D-Type Flip-flops With 3-State Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVT540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74LVT541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
@@ -5479,6 +5639,16 @@ $ENDCMP
 #
 $CMP 74XX54
 D 4-Wide AND-OR-Invert Gates
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX540
+D Octal Buffers/Drivers With 3-State Outputs With Inverting Outputs
+F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
+$ENDCMP
+#
+$CMP 74XX541
+D Octal Buffers/Drivers With 3-State Outputs
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #

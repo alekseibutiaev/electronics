@@ -51,8 +51,10 @@ done
 
 
 for((I=1; I<=${COUNT}; I++)); do
-  echo "  (pad A${I} smd roundrect (at ${FROM} 0) (size 1.8 6.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
-  echo "  (pad B${I} smd roundrect (at ${FROM} 0) (size 1.8 6.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
+  if [ ${I} -ne ${EMPTY} ] ; then
+    echo "  (pad A${I} smd roundrect (at ${FROM} 0) (size 1.8 6.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
+    echo "  (pad B${I} smd roundrect (at ${FROM} 0) (size 1.8 6.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
+  fi
   FROM=`echo "${FROM} + 2.54" | bc`
 done    
 

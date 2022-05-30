@@ -2,8 +2,13 @@
 
 set -x
 
+# -X | +X
+# -Y | -Y
+#----+---
+# -X | +X
+# +Y | +Y
+
 RE='^[0-9]+$'
-#bc <<< 'scale=4; 2.54*3'
 
 if ! [[ ${1} =~ ${RE} ]] ; then
   echo "parameter COUNT is not a number"
@@ -30,16 +35,21 @@ XD=`echo "2.54 * $((${COUNT} / 2)) + 3.28" | bc`
 XXA=`echo "-2.54 * $((${COUNT} / 2)) - 3.6" | bc`
 XXB=`echo "2.54 * $((${COUNT} / 2)) + 3.6" | bc`
 
-#echo "COUNT=${COUNT} TEDIT=${TEDIT}  SHIFT=${SHIFT} EMPTY=${EMPTY} FROM=${FROM}"
-
 echo "(module EDGE-${COUNT}-2.54 (layer F.Cu) (tedit ${TEDIT})"
 
+#|
 echo "  (fp_line (start ${XA} -3.75) (end ${XA} 4.65) (layer Edge.Cuts) (width 0.2))"
+#|_
 echo "  (fp_line (start ${XA} 4.65) (end ${XB} 4.65) (layer Edge.Cuts) (width 0.2))"
+#|_|
 echo "  (fp_line (start ${XB} 4.65) (end ${XB} -3.75) (layer Edge.Cuts) (width 0.2))"
+#|_|-
 echo "  (fp_line (start ${XB} -3.75) (end ${XC} -3.75) (layer Edge.Cuts) (width 0.2))"
+#|_|-|
 echo "  (fp_line (start ${XC} -3.75) (end ${XC} 4.65) (layer Edge.Cuts) (width 0.2))"
+#|_|-|_
 echo "  (fp_line (start ${XC} 4.65) (end ${XD} 4.65) (layer Edge.Cuts) (width 0.2))"
+#|_|-|_|
 echo "  (fp_line (start ${XD} 4.65) (end ${XD} -3.75) (layer Edge.Cuts) (width 0.2))"
 
 for L in B.CrtYd F.CrtYd ; do

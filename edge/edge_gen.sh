@@ -22,13 +22,27 @@ if [[ "0" == "$((${COUNT} % 2))" ]] ; then
 fi
 FROM=`echo "-2.54*$((${COUNT} / 2)) + ${SHIFT}" | bc`
 
+XA=`echo "-2.54 * $((${COUNT} / 2)) - 3.28" | bc`
+XB=`echo "-2.54 * $((${COUNT} / 2)) - 1.35" | bc`
+XC=`echo "2.54 * $((${COUNT} / 2)) + 1.35" | bc`
+XD=`echo "2.54 * $((${COUNT} / 2)) + 3.28" | bc`
+
 #echo "COUNT=${COUNT} TEDIT=${TEDIT}  SHIFT=${SHIFT} EMPTY=${EMPTY} FROM=${FROM}"
 
 echo "(module EDGE-${COUNT}-2.54 (layer F.Cu) (tedit ${TEDIT})"
 
+echo "  (fp_line (start ${XA} -3.75) (end ${XA} 4.65) (layer Edge.Cuts) (width 0.2))"
+echo "  (fp_line (start ${XA} 4.65) (end ${XB} 4.65) (layer Edge.Cuts) (width 0.2))"
+echo "  (fp_line (start ${XB} 4.65) (end ${XB} -3.75) (layer Edge.Cuts) (width 0.2))"
+echo "  (fp_line (start ${XB} -3.75) (end ${XC} -3.75) (layer Edge.Cuts) (width 0.2))"
+echo "  (fp_line (start ${XC} -3.75) (end ${XC} 4.65) (layer Edge.Cuts) (width 0.2))"
+echo "  (fp_line (start ${XC} 4.65) (end ${XD} 4.65) (layer Edge.Cuts) (width 0.2))"
+echo "  (fp_line (start ${XD} 4.65) (end ${XD} -3.75) (layer Edge.Cuts) (width 0.2))"
+
+
 for((I=1; I<=${COUNT}; I++)); do
-  echo "  (pad A${I} smd roundrect (at ${FROM} 0) (size 1.8 9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
-  echo "  (pad B${I} smd roundrect (at ${FROM} 0) (size 1.8 9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
+  echo "  (pad A${I} smd roundrect (at ${FROM} 0) (size 1.8 6.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
+  echo "  (pad B${I} smd roundrect (at ${FROM} 0) (size 1.8 6.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
   FROM=`echo "${FROM} + 2.54" | bc`
 done    
 

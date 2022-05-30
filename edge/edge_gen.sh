@@ -17,7 +17,7 @@ fi
 TEDIT=`printf "%04X%04X\n" ${RANDOM} ${RANDOM}`
 COUNT=$((${1} < 3 ? 3 : ${1} > 96 ? 96 : ${1}))
 SHIFT=0
-if [[ "0" != "$((${COUNT} % 2))" ]] ; then
+if [[ "0" == "$((${COUNT} % 2))" ]] ; then
   SHIFT="1.27"
 fi
 FROM=`echo "-2.54*$((${COUNT} / 2)) + ${SHIFT}" | bc`
@@ -27,8 +27,8 @@ FROM=`echo "-2.54*$((${COUNT} / 2)) + ${SHIFT}" | bc`
 echo "(module EDGE-${COUNT}-2.54 (layer F.Cu) (tedit ${TEDIT})"
 
 for((I=1; I<=${COUNT}; I++)); do
-  echo "  (pad A${I} smd roundrect (at ${FROM} 0) (size 1.9 9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))"
-  echo "  (pad B${I} smd roundrect (at ${FROM} 0) (size 1.9 9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1))"
+  echo "  (pad A${I} smd roundrect (at ${FROM} 0) (size 1.8 9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
+  echo "  (pad B${I} smd roundrect (at ${FROM} 0) (size 1.8 9) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.1) (solder_mask_margin 0.1))"
   FROM=`echo "${FROM} + 2.54" | bc`
 done    
 

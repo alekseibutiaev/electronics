@@ -36,37 +36,57 @@ XD=`echo "2.54 * ${HALF} + 3.28" | bc`
 XXA=`echo "-2.54 * ${HALF} - 3.6" | bc`
 XXB=`echo "2.54 * ${HALF} + 3.6" | bc`
 
-OUTFILE=`echo "EDGE${COUNT}_${KEY}.kicad_mod"`
+OUTFILE=`echo "EDGE_${COUNT}_${KEY}.kicad_mod"`
 
 echo "(module EDGE-${COUNT}-2.54 (layer F.Cu) (tedit ${TEDIT})" > ${OUTFILE}
 
 #|
 echo "  (fp_line (start ${XA} -3.75) (end ${XA} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
-#|_
-echo "  (fp_line (start ${XA} 4.65) (end ${XB} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
-#|_|
-echo "  (fp_line (start ${XB} 4.65) (end ${XB} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
 if [ ${KEY} -eq 0 ] ; then
+#|_
+  echo "  (fp_line (start ${XA} 4.65) (end ${XB} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|
+  echo "  (fp_line (start ${XB} 4.65) (end ${XB} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
 #|_|-
   echo "  (fp_line (start ${XB} -3.75) (end ${XC} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-|
+  echo "  (fp_line (start ${XC} -3.75) (end ${XC} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-|_
+  echo "  (fp_line (start ${XC} 4.65) (end ${XD} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
 else
   XKEYB=`echo "2.54 * (${KEY} - 1) + ${FROM} - 1" | bc`
   XKEYE=`echo "2.54 * (${KEY} - 1) + ${FROM} + 1" | bc`
-#|_|-*
-  echo "  (fp_line (start ${XB} -3.75) (end ${XKEYB} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
-#|_|-|*
-  echo "  (fp_line (start ${XKEYB} -3.75) (end ${XKEYB} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
-#|_|-|_*
-  echo "  (fp_line (start ${XKEYB} 4.65) (end ${XKEYE} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
-#|_|-|_|
-  echo "  (fp_line (start ${XKEYE} 4.65) (end ${XKEYE} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
-#|_|-|_|-
-  echo "  (fp_line (start ${XKEYE} -3.75) (end ${XC} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
-fi
+  if [ ${KEY} -ne 1 ] ; then
+#|_
+    echo "  (fp_line (start ${XA} 4.65) (end ${XB} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|
+    echo "  (fp_line (start ${XB} 4.65) (end ${XB} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-
+    echo "  (fp_line (start ${XB} -3.75) (end ${XKEYB} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-
+    echo "  (fp_line (start ${XB} -3.75) (end ${XKEYB} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
 #|_|-|
-echo "  (fp_line (start ${XC} -3.75) (end ${XC} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+    echo "  (fp_line (start ${XKEYB} -3.75) (end ${XKEYB} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+  else
+    echo "  (fp_line (start ${XA} 4.65) (end ${XKEYE} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+    echo "  (fp_line (start ${XKEYE} 4.65) (end ${XKEYE} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+  fi
+  if [ ${KEY} -ne ${COUNT} ] ; then
 #|_|-|_
-echo "  (fp_line (start ${XC} 4.65) (end ${XD} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+    echo "  (fp_line (start ${XKEYB} 4.65) (end ${XKEYE} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-|_|
+    echo "  (fp_line (start ${XKEYE} 4.65) (end ${XKEYE} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-|_|-
+    echo "  (fp_line (start ${XKEYE} -3.75) (end ${XC} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-|
+    echo "  (fp_line (start ${XC} -3.75) (end ${XC} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+#|_|-|_
+    echo "  (fp_line (start ${XC} 4.65) (end ${XD} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+  else
+#|_|-|_
+    echo "  (fp_line (start ${XKEYB} 4.65) (end ${XD} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
+  fi
+fi
 #|_|-|_|
 echo "  (fp_line (start ${XD} 4.65) (end ${XD} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${OUTFILE}
 

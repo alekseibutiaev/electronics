@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+#set -x
 
 # -X | +X
 # -Y | -Y
@@ -28,15 +28,15 @@ if [[ "0" == "$((${COUNT} % 2))" ]] ; then
 fi
 FROM=`echo "-2.54 * ${HALF} + ${SHIFT}" | bc`
 
-XA=`echo "-2.54 * ${HALF} - 3.28" | bc`
-XB=`echo "-2.54 * ${HALF} - 1.35" | bc`
-XC=`echo "2.54 * ${HALF} + 1.35" | bc`
-XD=`echo "2.54 * ${HALF} + 3.28" | bc`
+XA=`echo "-2.54 * ${HALF} - 3.28 + ${SHIFT}" | bc`
+XB=`echo "-2.54 * ${HALF} - 1.35 + ${SHIFT}" | bc`
+XC=`echo "2.54 * ${HALF} + 1.35 - ${SHIFT}" | bc`
+XD=`echo "2.54 * ${HALF} + 3.28 - ${SHIFT}" | bc`
 
-XXA=`echo "-2.54 * ${HALF} - 3.6" | bc`
-XXB=`echo "2.54 * ${HALF} + 3.6" | bc`
+XXA=`echo "-2.54 * ${HALF} - 3.6 + ${SHIFT}" | bc`
+XXB=`echo "2.54 * ${HALF} + 3.6 - ${SHIFT}" | bc`
 
-OUTFILE=`echo "EDGE_${COUNT}_${KEY}.kicad_mod"`
+OUTFILE=`echo "EDGE_${COUNT}_${KEY}-2.54.kicad_mod"`
 
 echo "(module EDGE-${COUNT}-2.54 (layer F.Cu) (tedit ${TEDIT})" > ${OUTFILE}
 

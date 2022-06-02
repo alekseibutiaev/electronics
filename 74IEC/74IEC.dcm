@@ -5758,7 +5758,7 @@ D Symbol Open-Collector
 $ENDCMP
 #
 $CMP 74XXTRI
-D Symbol Tri-State
+D Symbol 3-state
 $ENDCMP
 #
 $CMP 74XXTS

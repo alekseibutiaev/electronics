@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+#set -x
 #footprint
 # -X | +X
 # -Y | -Y
@@ -25,7 +25,7 @@ edge_footprint_mail () {
     shift_="1.27"
   fi
 
-  outfile=`echo "EDGE_${count}M-${key}-2.54.kicad_mod"`
+  outfile=`echo "EDGE_${count}M${key}-2.54.kicad_mod"`
 
   from=`echo "-2.54 * ${half} + ${shift_}" | bc`
   xa=`echo "-2.54 * ${half} - 3.28 + ${shift_}" | bc`
@@ -101,10 +101,37 @@ edge_symbol_femail () {
   echo ${key}
 }
 
-edge_symbol_mail () {
+mail_pin () {
+  piny=${1}
+  echo "mail_pin"
+  echo "P 2 0 1 0 -150 ${piny} -130 ${piny} N" >> ${outfile}
+  echo "P 2 0 1 0 150 ${piny} 130 ${piny} N" >> ${outfile}
+  echo "P 2 0 1 20 -130 ${piny} -50 ${piny} N" >> ${outfile}
+  echo "P 2 0 1 20 130 ${piny} 50 ${piny} N" >> ${outfile}
+}
+
+femail_pin () {
+  piny=${1}
+  ya=`echo "${piny} - 10" | bc`
+  yb=`echo "${piny} + 10" | bc`
+  echo "femail_pin"
+  echo "P 2 0 1 0 -150 ${piny} -130 ${piny} N" >> ${outfile}
+  echo "P 2 0 1 0 150 ${piny} 130 ${piny} N" >> ${outfile}
+  echo "P 2 0 1 10 -130 ${ya} -50 ${ya} N" >> ${outfile}
+  echo "P 2 0 1 10 -130 ${yb} -50 ${yb} N" >> ${outfile}
+  echo "P 2 0 1 10 -130 ${ya} -130 ${yb} N" >> ${outfile}
+  echo "P 2 0 1 10 130 ${ya} 50 ${ya} N" >> ${outfile}
+  echo "P 2 0 1 10 130 ${yb} 50 ${yb} N" >> ${outfile}
+  echo "P 2 0 1 10 130 ${ya} 130 ${yb} N" >> ${outfile}
+}
+
+
+edge_symbol_builder () {
   count=${1}
   key=${2}
   outfile=${3}
+  type=${4}
+
   half=$((${count} / 2))
   shifta=0
   shiftb=50
@@ -118,13 +145,12 @@ edge_symbol_mail () {
   refx=50
   sy=`echo "100 * ${half} + ${shiftb}" | bc`
 
-
   echo "#" >> ${outfile}
-  echo "#EDGE-${count}M${key}" >> ${outfile}
+  echo "#EDGE-${count}${type}${key}" >> ${outfile}
   echo "#" >> ${outfile}
-  echo "DEF EDGE-${count}M${key} XM 0 40 Y Y 1 F N" >> ${outfile}
+  echo "DEF EDGE-${count}${type}${key} XM 0 40 Y Y 1 F N" >> ${outfile}
   echo "F0 \"XM\" 0 ${refy} ${refx} H V C CNN" >> ${outfile}
-  echo "F1 \"EDGE-${count}M${key}\" 0 -${refy} ${refx} H V C CNN" >> ${outfile}
+  echo "F1 \"EDGE-${count}${type}${key}\" 0 -${refy} ${refx} H V C CNN" >> ${outfile}
   echo "F2 \"edge:EDGE_3M_0-2.54\" 0 ${refy} ${refx} H I C CNN" >> ${outfile}
   echo "F3 \"\" 0 ${refy} ${refx} H I C CNN" >> ${outfile}
   echo "DRAW" >> ${outfile}
@@ -133,58 +159,18 @@ edge_symbol_mail () {
     if [ ${i} -ne ${key} ] ; then
       echo "X ~ A${i} -250 ${piny} 100 R 50 50 1 1 P" >> ${outfile}
       echo "X ~ B${i} 250 ${piny} 100 L 50 50 1 1 P" >> ${outfile}
-      echo "P 2 0 1 0 -150 ${piny} -130 ${piny} N" >> ${outfile}
-      echo "P 2 0 1 0 150 ${piny} 130 ${piny} N" >> ${outfile}
-      echo "P 2 0 1 20 -130 ${piny} -50 ${piny} N" >> ${outfile}
-      echo "P 2 0 1 20 130 ${piny} 50 ${piny} N" >> ${outfile}
+      if [ "${type}" == "M" ] ; then
+        mail_pin ${piny}
+      else
+        femail_pin ${piny}
+      fi
     else
       echo "P 2 0 0 20 -100 ${piny} 100 ${piny} N" >> ${outfile}
     fi
     piny=`echo ${piny} - 100 | bc`
   done
-
   echo "ENDDRAW" >> ${outfile}
   echo "ENDDEF" >> ${outfile}
-
-#  echo "" >> ${outfile}
-#  echo "" >> ${outfile}
-#  echo "" >> ${outfile}
-#  echo "" >> ${outfile}
-#  echo "" >> ${outfile}
-
-##
-## EDGE-3M
-##
-#DEF EDGE-3M XM 0 40 Y Y 1 F N
-#F0 "XM" 0 200 50 H V C CNN
-#F1 "EDGE-3M" 0 -200 50 H V C CNN
-#F2 "edge:EDGE_3M_0-2.54" 0 200 50 H I C CNN
-#F3 "" 0 200 50 H I C CNN
-#DRAW
-#S -150 150 150 -150 0 1 0 N
-#P 2 0 1 0 -150 -100 -130 -100 N
-#P 2 0 1 0 -150 0 -130 0 N
-#P 2 0 1 0 -150 100 -130 100 N
-#P 2 0 1 0 150 -100 130 -100 N
-#P 2 0 1 0 150 0 130 0 N
-#P 2 0 1 0 150 100 130 100 N
-#P 2 0 1 20 -130 -100 -50 -100 N
-#P 2 0 1 20 -130 0 -50 0 N
-#P 2 0 1 20 -130 100 -50 100 N
-#P 2 0 1 20 130 -100 50 -100 N
-#P 2 0 1 20 130 0 50 0 N
-#P 2 0 1 20 130 100 50 100 N
-#X ~ A1 -250 100 100 R 50 50 1 1 P
-#X ~ A2 -250 0 100 R 50 50 1 1 P
-#X ~ A3 -250 -100 100 R 50 50 1 1 P
-#X ~ B1 250 100 100 L 50 50 1 1 P
-#X ~ B2 250 -100 100 L 50 50 1 1 P
-#X ~ B3 250 0 100 L 50 50 1 1 P
-#ENDDRAW
-#ENDDEF
-
-  echo ${count}
-  echo ${key}
 }
 
 edge_symbol () {
@@ -205,9 +191,8 @@ edge_symbol () {
     echo "#encoding utf-8" >> ${outfile}
   fi
 
-   edge_symbol_mail ${count} ${key} ${outfile}
-
-#  edge_symbol_femail ${count} ${key} ${outfile}
+  edge_symbol_builder ${count} ${key} ${outfile} M
+  edge_symbol_builder ${count} ${key} ${outfile} F
 
   echo "#" >> ${outfile}
   echo "#End Library" >> ${outfile}
@@ -230,7 +215,7 @@ fi
 
 COUNT=$((${1} < 3 ? 3 : ${1} > 96 ? 96 : ${1}))
 
-#edge_footprint_mail ${COUNT} ${KEY}
+edge_footprint_mail ${COUNT} ${KEY}
 
 edge_symbol ${COUNT} ${KEY}
 

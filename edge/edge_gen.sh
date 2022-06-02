@@ -16,7 +16,6 @@
 # -Y | -Y
 
 edge_footprint_mail () {
-
   count=${1}
   key=${2}
   half=$((${count} / 2))
@@ -24,9 +23,7 @@ edge_footprint_mail () {
   if [[ "0" == "$((${count} % 2))" ]] ; then
     shift_="1.27"
   fi
-
   outfile=`echo "EDGE_${count}M${key}-2.54.kicad_mod"`
-
   from=`echo "-2.54 * ${half} + ${shift_}" | bc`
   xa=`echo "-2.54 * ${half} - 3.28 + ${shift_}" | bc`
   xb=`echo "-2.54 * ${half} - 1.35 + ${shift_}" | bc`
@@ -34,9 +31,7 @@ edge_footprint_mail () {
   xd=`echo "2.54 * ${half} + 3.28 - ${shift_}" | bc`
   xxa=`echo "-2.54 * ${half} - 3.6 + ${shift_}" | bc`
   xxb=`echo "2.54 * ${half} + 3.6 - ${shift_}" | bc`
-
   tedit=`printf "%04X%04X\n" ${RANDOM} ${RANDOM}`
-
   echo "(module EDGE-${count}-2.54 (layer F.Cu) (tedit ${tedit})" > ${outfile}
   echo "  (fp_line (start ${xa} -3.75) (end ${xa} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
   if [ ${key} -eq 0 ] ; then
@@ -69,14 +64,12 @@ edge_footprint_mail () {
     fi
   fi
   echo "  (fp_line (start ${xd} 4.65) (end ${xd} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-
   for L in B.CrtYd F.CrtYd ; do
     echo "  (fp_line (start ${xxb} 5) (end ${xxa} 5) (layer ${L}) (width 0.12))" >> ${outfile}
     echo "  (fp_line (start ${xxa} 5) (end ${xxa} -4) (layer ${L}) (width 0.12))" >> ${outfile}
     echo "  (fp_line (start ${xxa} -4) (end ${xxb} -4) (layer ${L}) (width 0.12))" >> ${outfile}
     echo "  (fp_line (start ${xxb} -4) (end ${xxb} 5) (layer ${L}) (width 0.12))" >> ${outfile}
   done
-
   for(( i=1; i <= ${count}; i++)); do
     r="0.2"
     if [ ${i} -ne 1 ] ; then
@@ -88,22 +81,11 @@ edge_footprint_mail () {
     fi
     from=`echo "${from} + 2.54" | bc`
   done    
-
   echo ")" >> ${outfile}
-
-}
-
-edge_symbol_femail () {
-  count=${1}
-  key=${2}
-
-  echo ${count}
-  echo ${key}
 }
 
 mail_pin () {
   piny=${1}
-  echo "mail_pin"
   echo "P 2 0 1 0 -150 ${piny} -130 ${piny} N" >> ${outfile}
   echo "P 2 0 1 0 150 ${piny} 130 ${piny} N" >> ${outfile}
   echo "P 2 0 1 20 -130 ${piny} -50 ${piny} N" >> ${outfile}
@@ -114,7 +96,6 @@ femail_pin () {
   piny=${1}
   ya=`echo "${piny} - 10" | bc`
   yb=`echo "${piny} + 10" | bc`
-  echo "femail_pin"
   echo "P 2 0 1 0 -150 ${piny} -130 ${piny} N" >> ${outfile}
   echo "P 2 0 1 0 150 ${piny} 130 ${piny} N" >> ${outfile}
   echo "P 2 0 1 10 -130 ${ya} -50 ${ya} N" >> ${outfile}
@@ -125,13 +106,11 @@ femail_pin () {
   echo "P 2 0 1 10 130 ${ya} 130 ${yb} N" >> ${outfile}
 }
 
-
 edge_symbol_builder () {
   count=${1}
   key=${2}
   outfile=${3}
   type=${4}
-
   half=$((${count} / 2))
   shifta=0
   shiftb=50
@@ -139,12 +118,10 @@ edge_symbol_builder () {
     shifta=50
     shiftb=0
   fi
-
   piny=`echo "100 * ${half} - ${shifta}" | bc`
   refy=`echo "100 * ${half} + ${shifta} + 100" | bc`
   refx=50
   sy=`echo "100 * ${half} + ${shiftb}" | bc`
-
   echo "#" >> ${outfile}
   echo "#EDGE-${count}${type}${key}" >> ${outfile}
   echo "#" >> ${outfile}
@@ -176,9 +153,7 @@ edge_symbol_builder () {
 edge_symbol () {
   count=${1}
   key=${2}
-
   outfile="edge_lib.lib"
-
   if test -f ${outfile}; then
     back=`date +%F-%H%M%S`
     back=`echo ${outfile}-${back}.bck`
@@ -190,13 +165,10 @@ edge_symbol () {
     echo "EESchema-LIBRARY Version 2.4" > ${outfile}
     echo "#encoding utf-8" >> ${outfile}
   fi
-
   edge_symbol_builder ${count} ${key} ${outfile} M
   edge_symbol_builder ${count} ${key} ${outfile} F
-
   echo "#" >> ${outfile}
   echo "#End Library" >> ${outfile}
-
 }
 
 RE='^[0-9]+$'

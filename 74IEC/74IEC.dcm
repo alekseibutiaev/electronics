@@ -5753,6 +5753,18 @@ D 4-bit Binary Counters
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
 $ENDCMP
 #
+$CMP 74XXOC
+D Symbol Open-Collector
+$ENDCMP
+#
+$CMP 74XXTRI
+D Symbol Tri-State
+$ENDCMP
+#
+$CMP 74XXTS
+D Symbol Schmitt-Trigger
+$ENDCMP
+#
 $CMP untitled
 D AND-OR-Invert Gates
 F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf

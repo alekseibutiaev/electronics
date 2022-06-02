@@ -1,5 +1,6 @@
 Project Backups
 *.workspace
+*bck
 *bak
 *.pdf
 *-cache*

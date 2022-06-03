@@ -1,4 +1,5 @@
 (sym_lib_table
-  (lib (name 74IEC)(type Legacy)(uri ${HOME}/project/electronics/74IEC/74IEC.lib)(options "")(descr "SN74 IEC view"))
-  (lib (name Zilog)(type Legacy)(uri ${HOME}/project/electronics/Zilog/Zilog.lib)(options "")(descr "Zilog library"))
+  (lib (name 74IEC)(type Legacy)(uri ${KIPRJMOD}/../74IEC/74IEC.lib)(options "")(descr "SN74 IEC view"))
+  (lib (name Zilog)(type Legacy)(uri ${KIPRJMOD}/../Zilog/Zilog.lib)(options "")(descr "Zilog library"))
+  (lib (name edge_lib)(type Legacy)(uri ${KIPRJMOD}/edge_lib.lib)(options "")(descr ""))
 )

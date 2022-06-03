@@ -38,8 +38,8 @@ edge_footprint_mail () {
   xb=`echo "-2.54 * ${half} - ${bshift} + ${shift_}" | bc`
   xc=`echo "2.54 * ${half} + ${bshift} - ${shift_}" | bc`
   xd=`echo "2.54 * ${half} + ${ashift} - ${shift_}" | bc`
-  xxa=`echo "-2.54 * ${half} - ${crtyd} + ${shift_}" | bc`
-  xxb=`echo "2.54 * ${half} + ${crtyd} - ${shift_}" | bc`
+  xxa=`echo "-2.54 * ${half} - ${crtydya} + ${shift_}" | bc`
+  xxb=`echo "2.54 * ${half} + ${crtydyb} - ${shift_}" | bc`
   tedit=`printf "%04X%04X\n" ${RANDOM} ${RANDOM}`
   echo "(module EDGE-${count}-2.54 (layer F.Cu) (tedit ${tedit})" > ${outfile}
   echo "  (fp_line (start ${xa} -3.81) (end ${xa} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
@@ -75,8 +75,8 @@ edge_footprint_mail () {
   echo "  (fp_line (start ${xd} 4.59) (end ${xd} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
   for L in B.CrtYd F.CrtYd ; do
     echo "  (fp_line (start ${xxb} ${crtydyb}) (end ${xxa} ${crtydyb}) (layer ${L}) (width 0.12))" >> ${outfile}
-    echo "  (fp_line (start ${xxa} ${crtydyb}) (end ${xxa} ${crtydya}) (layer ${L}) (width 0.12))" >> ${outfile}
-    echo "  (fp_line (start ${xxa} ${crtydya}) (end ${xxb} ${crtydya}) (layer ${L}) (width 0.12))" >> ${outfile}
+    echo "  (fp_line (start ${xxa} ${crtydyb}) (end ${xxa} -${crtydya}) (layer ${L}) (width 0.12))" >> ${outfile}
+    echo "  (fp_line (start ${xxa} -${crtydya}) (end ${xxb} -${crtydya}) (layer ${L}) (width 0.12))" >> ${outfile}
     echo "  (fp_line (start ${xxb} -${crtydya}) (end ${xxb} ${crtydyb}) (layer ${L}) (width 0.12))" >> ${outfile}
   done
   for(( i=1; i <= ${count}; i++)); do
@@ -143,8 +143,8 @@ edge_symbol_builder () {
   echo "S -150 ${sy} 150 -${sy} 0 1 15 N" >> ${outfile}
   for i in `seq 1 ${count}` ; do
     if [ ${i} -ne ${key} ] ; then
-      echo "X ~ A${i} -250 ${piny} 100 R 50 50 1 1 P" >> ${outfile}
-      echo "X ~ B${i} 250 ${piny} 100 L 50 50 1 1 P" >> ${outfile}
+      echo "X ~ A${i} -300 ${piny} 150 R 50 50 1 1 P" >> ${outfile}
+      echo "X ~ B${i} 300 ${piny} 150 L 50 50 1 1 P" >> ${outfile}
       if [ "${type}" == "M" ] ; then
         mail_pin ${piny}
       else

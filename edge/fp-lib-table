@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name edge)(type KiCad)(uri /home/butiaev/project/electronics/edge)(options "")(descr ""))
+  (lib (name edge)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
+  (lib (name edge_lib)(type KiCad)(uri ${KIPRJMOD})(options "")(descr ""))
 )

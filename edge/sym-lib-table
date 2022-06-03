@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name edge)(type Legacy)(uri ${KIPRJMOD}/edge.lib)(options "")(descr ""))
+  (lib (name edge1)(type Legacy)(uri ${KIPRJMOD}/edge_lib.lib)(options "")(descr ""))
+)

@@ -15,7 +15,16 @@
 # -X | +X
 # -Y | -Y
 
+#3.81 4.59
+
+
 edge_footprint_mail () {
+  bshift="1.27"
+  ashift="3.81"
+  crtydya="4"
+  crtydyb="5"
+
+
   count=${1}
   key=${2}
   half=$((${count} / 2))
@@ -25,50 +34,50 @@ edge_footprint_mail () {
   fi
   outfile=`echo "EDGE_${count}M${key}-2.54.kicad_mod"`
   from=`echo "-2.54 * ${half} + ${shift_}" | bc`
-  xa=`echo "-2.54 * ${half} - 3.28 + ${shift_}" | bc`
-  xb=`echo "-2.54 * ${half} - 1.35 + ${shift_}" | bc`
-  xc=`echo "2.54 * ${half} + 1.35 - ${shift_}" | bc`
-  xd=`echo "2.54 * ${half} + 3.28 - ${shift_}" | bc`
-  xxa=`echo "-2.54 * ${half} - 3.6 + ${shift_}" | bc`
-  xxb=`echo "2.54 * ${half} + 3.6 - ${shift_}" | bc`
+  xa=`echo "-2.54 * ${half} - ${ashift} + ${shift_}" | bc`
+  xb=`echo "-2.54 * ${half} - ${bshift} + ${shift_}" | bc`
+  xc=`echo "2.54 * ${half} + ${bshift} - ${shift_}" | bc`
+  xd=`echo "2.54 * ${half} + ${ashift} - ${shift_}" | bc`
+  xxa=`echo "-2.54 * ${half} - ${crtyd} + ${shift_}" | bc`
+  xxb=`echo "2.54 * ${half} + ${crtyd} - ${shift_}" | bc`
   tedit=`printf "%04X%04X\n" ${RANDOM} ${RANDOM}`
   echo "(module EDGE-${count}-2.54 (layer F.Cu) (tedit ${tedit})" > ${outfile}
-  echo "  (fp_line (start ${xa} -3.75) (end ${xa} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+  echo "  (fp_line (start ${xa} -3.81) (end ${xa} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
   if [ ${key} -eq 0 ] ; then
-    echo "  (fp_line (start ${xa} 4.65) (end ${xb} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-    echo "  (fp_line (start ${xb} 4.65) (end ${xb} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-    echo "  (fp_line (start ${xb} -3.75) (end ${xc} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-    echo "  (fp_line (start ${xc} -3.75) (end ${xc} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-    echo "  (fp_line (start ${xc} 4.65) (end ${xd} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+    echo "  (fp_line (start ${xa} 4.59) (end ${xb} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+    echo "  (fp_line (start ${xb} 4.59) (end ${xb} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+    echo "  (fp_line (start ${xb} -3.81) (end ${xc} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+    echo "  (fp_line (start ${xc} -3.81) (end ${xc} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+    echo "  (fp_line (start ${xc} 4.59) (end ${xd} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
   else
     xkeyb=`echo "2.54 * (${key} - 1) + ${from} - 1" | bc`
     xkeye=`echo "2.54 * (${key} - 1) + ${from} + 1" | bc`
     if [ ${key} -ne 1 ] ; then
-      echo "  (fp_line (start ${xa} 4.65) (end ${xb} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xb} 4.65) (end ${xb} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xb} -3.75) (end ${xkeyb} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xb} -3.75) (end ${xkeyb} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xkeyb} -3.75) (end ${xkeyb} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xa} 4.59) (end ${xb} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xb} 4.59) (end ${xb} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xb} -3.81) (end ${xkeyb} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xb} -3.81) (end ${xkeyb} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xkeyb} -3.81) (end ${xkeyb} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
     else
-      echo "  (fp_line (start ${xa} 4.65) (end ${xkeye} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xkeye} 4.65) (end ${xkeye} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xa} 4.59) (end ${xkeye} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xkeye} 4.59) (end ${xkeye} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
     fi
     if [ ${key} -ne ${COUNT} ] ; then
-      echo "  (fp_line (start ${xkeyb} 4.65) (end ${xkeye} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xkeye} 4.65) (end ${xkeye} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xkeye} -3.75) (end ${xc} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xc} -3.75) (end ${xc} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
-      echo "  (fp_line (start ${xc} 4.65) (end ${xd} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xkeyb} 4.59) (end ${xkeye} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xkeye} 4.59) (end ${xkeye} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xkeye} -3.81) (end ${xc} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xc} -3.81) (end ${xc} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xc} 4.59) (end ${xd} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
     else
-      echo "  (fp_line (start ${xkeyb} 4.65) (end ${xd} 4.65) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+      echo "  (fp_line (start ${xkeyb} 4.59) (end ${xd} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
     fi
   fi
-  echo "  (fp_line (start ${xd} 4.65) (end ${xd} -3.75) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
+  echo "  (fp_line (start ${xd} 4.59) (end ${xd} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
   for L in B.CrtYd F.CrtYd ; do
-    echo "  (fp_line (start ${xxb} 5) (end ${xxa} 5) (layer ${L}) (width 0.12))" >> ${outfile}
-    echo "  (fp_line (start ${xxa} 5) (end ${xxa} -4) (layer ${L}) (width 0.12))" >> ${outfile}
-    echo "  (fp_line (start ${xxa} -4) (end ${xxb} -4) (layer ${L}) (width 0.12))" >> ${outfile}
-    echo "  (fp_line (start ${xxb} -4) (end ${xxb} 5) (layer ${L}) (width 0.12))" >> ${outfile}
+    echo "  (fp_line (start ${xxb} ${crtydyb}) (end ${xxa} ${crtydyb}) (layer ${L}) (width 0.12))" >> ${outfile}
+    echo "  (fp_line (start ${xxa} ${crtydyb}) (end ${xxa} ${crtydya}) (layer ${L}) (width 0.12))" >> ${outfile}
+    echo "  (fp_line (start ${xxa} ${crtydya}) (end ${xxb} ${crtydya}) (layer ${L}) (width 0.12))" >> ${outfile}
+    echo "  (fp_line (start ${xxb} -${crtydya}) (end ${xxb} ${crtydyb}) (layer ${L}) (width 0.12))" >> ${outfile}
   done
   for(( i=1; i <= ${count}; i++)); do
     r="0.2"
@@ -172,7 +181,6 @@ edge_symbol () {
 }
 
 RE='^[0-9]+$'
-
 if ! [[ ${1} =~ ${RE} ]] ; then
   echo "parameter COUNT is not a number"
   exit 1
@@ -184,11 +192,7 @@ else
   echo "parameter KEY is not a number"
   exit 1
 fi  
-
 COUNT=$((${1} < 3 ? 3 : ${1} > 96 ? 96 : ${1}))
-
 edge_footprint_mail ${COUNT} ${KEY}
-
 edge_symbol ${COUNT} ${KEY}
-
 

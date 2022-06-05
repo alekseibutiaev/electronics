@@ -1,0 +1,23 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM2596S-12.0V
+D 12.0V 3A Step-Down Voltage Regulator, TO-263
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+$CMP LM2596S-3.3V
+D 3.3V 3A Step-Down Voltage Regulator, TO-263
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+$CMP LM2596S-5.0V
+D 5.0V 3A Step-Down Voltage Regulator, TO-263
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+$CMP LM2596S-ADJV
+D Adjustable 3A Step-Down Voltage Regulator, TO-263
+F http://www.ti.com/lit/ds/symlink/lm2596.pdf
+$ENDCMP
+#
+#End Doc Library

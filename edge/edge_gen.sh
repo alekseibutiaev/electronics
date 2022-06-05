@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#set -x
+set -x
 #footprint
 # -X | +X
 # -Y | -Y
@@ -19,8 +19,10 @@
 
 
 edge_footprint_mail () {
-  bshift="1.27"
-  ashift="3.81"
+  step="2.54"
+  half_step=`echo "scale=2 ; ${step} / 2" | bc`
+  bshift=${half_step}
+  ashift=`echo "scale=2; ${half_step} * 3" | bc`
   crtydya="4"
   crtydyb="5"
 
@@ -30,18 +32,18 @@ edge_footprint_mail () {
   half=$((${count} / 2))
   shift_=0
   if [[ "0" == "$((${count} % 2))" ]] ; then
-    shift_="1.27"
+    shift_=${half_step}
   fi
   outfile=`echo "EDGE_${count}M${key}-2.54.kicad_mod"`
-  from=`echo "-2.54 * ${half} + ${shift_}" | bc`
-  xa=`echo "-2.54 * ${half} - ${ashift} + ${shift_}" | bc`
-  xb=`echo "-2.54 * ${half} - ${bshift} + ${shift_}" | bc`
-  xc=`echo "2.54 * ${half} + ${bshift} - ${shift_}" | bc`
-  xd=`echo "2.54 * ${half} + ${ashift} - ${shift_}" | bc`
-  xxa=`echo "-2.54 * ${half} - ${crtydya} + ${shift_}" | bc`
-  xxb=`echo "2.54 * ${half} + ${crtydyb} - ${shift_}" | bc`
+  from=`echo "-${step} * ${half} + ${shift_}" | bc`
+  xa=`echo "-${step} * ${half} - ${ashift} + ${shift_}" | bc`
+  xb=`echo "-${step} * ${half} - ${bshift} + ${shift_}" | bc`
+  xc=`echo "${step} * ${half} + ${bshift} - ${shift_}" | bc`
+  xd=`echo "${step} * ${half} + ${ashift} - ${shift_}" | bc`
+  xxa=`echo "-${step} * ${half} - ${crtydya} + ${shift_}" | bc`
+  xxb=`echo "${step} * ${half} + ${crtydya} - ${shift_}" | bc`
   tedit=`printf "%04X%04X\n" ${RANDOM} ${RANDOM}`
-  echo "(module EDGE-${count}-2.54 (layer F.Cu) (tedit ${tedit})" > ${outfile}
+  echo "(module EDGE-${count}-${step} (layer F.Cu) (tedit ${tedit})" > ${outfile}
   echo "  (fp_line (start ${xa} -3.81) (end ${xa} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
   if [ ${key} -eq 0 ] ; then
     echo "  (fp_line (start ${xa} 4.59) (end ${xb} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
@@ -50,8 +52,8 @@ edge_footprint_mail () {
     echo "  (fp_line (start ${xc} -3.81) (end ${xc} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
     echo "  (fp_line (start ${xc} 4.59) (end ${xd} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
   else
-    xkeyb=`echo "2.54 * (${key} - 1) + ${from} - 1" | bc`
-    xkeye=`echo "2.54 * (${key} - 1) + ${from} + 1" | bc`
+    xkeyb=`echo "${step} * (${key} - 1) + ${from} - 1" | bc`
+    xkeye=`echo "${step} * (${key} - 1) + ${from} + 1" | bc`
     if [ ${key} -ne 1 ] ; then
       echo "  (fp_line (start ${xa} 4.59) (end ${xb} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
       echo "  (fp_line (start ${xb} 4.59) (end ${xb} -3.81) (layer Edge.Cuts) (width 0.2))" >> ${outfile}
@@ -85,10 +87,10 @@ edge_footprint_mail () {
       r="0.1"
     fi
     if [ ${i} -ne ${key} ] ; then
-      echo "  (pad A${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
-      echo "  (pad B${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
+      echo "  (pad F${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers F.Cu B.Paste B.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
+      echo "  (pad B${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers B.Cu F.Paste F.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
     fi
-    from=`echo "${from} + 2.54" | bc`
+    from=`echo "${from} + ${step}" | bc`
   done    
   echo ")" >> ${outfile}
 }
@@ -143,7 +145,7 @@ edge_symbol_builder () {
   echo "S -150 ${sy} 150 -${sy} 0 1 15 N" >> ${outfile}
   for i in `seq 1 ${count}` ; do
     if [ ${i} -ne ${key} ] ; then
-      echo "X ~ A${i} -300 ${piny} 150 R 50 50 1 1 P" >> ${outfile}
+      echo "X ~ F${i} -300 ${piny} 150 R 50 50 1 1 P" >> ${outfile}
       echo "X ~ B${i} 300 ${piny} 150 L 50 50 1 1 P" >> ${outfile}
       if [ "${type}" == "M" ] ; then
         mail_pin ${piny}

@@ -87,8 +87,8 @@ edge_footprint_mail () {
       r="0.1"
     fi
     if [ ${i} -ne ${key} ] ; then
-      echo "  (pad F${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers F.Cu B.Paste B.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
-      echo "  (pad B${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers B.Cu F.Paste F.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
+      echo "  (pad A${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers B.Cu B.Paste B.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
+      echo "  (pad B${i} smd roundrect (at ${from} 0) (size 1.8 6.5) (layers F.Cu F.Paste F.Mask) (roundrect_rratio ${r}) (solder_mask_margin 0.1))" >> ${outfile}
     fi
     from=`echo "${from} + ${step}" | bc`
   done    
@@ -145,7 +145,7 @@ edge_symbol_builder () {
   echo "S -150 ${sy} 150 -${sy} 0 1 15 N" >> ${outfile}
   for i in `seq 1 ${count}` ; do
     if [ ${i} -ne ${key} ] ; then
-      echo "X ~ F${i} -300 ${piny} 150 R 50 50 1 1 P" >> ${outfile}
+      echo "X ~ A${i} -300 ${piny} 150 R 50 50 1 1 P" >> ${outfile}
       echo "X ~ B${i} 300 ${piny} 150 L 50 50 1 1 P" >> ${outfile}
       if [ "${type}" == "M" ] ; then
         mail_pin ${piny}

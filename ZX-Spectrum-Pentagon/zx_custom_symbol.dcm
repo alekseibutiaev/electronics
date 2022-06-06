@@ -20,4 +20,8 @@ D Adjustable 3A Step-Down Voltage Regulator, TO-263
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf
 $ENDCMP
 #
+$CMP ST662
+D DC-DC Convertor From 5V to 12V, 0.03A
+$ENDCMP
+#
 #End Doc Library

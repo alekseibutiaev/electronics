@@ -753,12 +753,6 @@ Entry Wire Line
 	5150 4050 5250 4150
 Wire Bus Line
 	5250 7500 3000 7500
-Wire Bus Line
-	1000 750  1000 7500
-Wire Bus Line
-	5250 1050 5250 7500
-Wire Bus Line
-	3000 750  3000 7500
 Connection ~ 3000 7500
 Text Label 5150 950  2    50   ~ 0
 D0
@@ -822,4 +816,10 @@ Text Label 5150 3950 2    50   ~ 0
 ~M1
 Text Label 5150 4050 2    50   ~ 0
 ~RFSH
+Wire Bus Line
+	1000 750  1000 7500
+Wire Bus Line
+	5250 1050 5250 7500
+Wire Bus Line
+	3000 750  3000 7500
 $EndSCHEMATC

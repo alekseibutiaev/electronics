@@ -333,28 +333,6 @@ F 3 "~" H 6200 6550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ZX-Spectrum-Pentagon-rescue:LM311-zx_custom_symbol-ZX-Spectrum-Pentagon-rescue U26
-U 1 1 62C2C360
-P 5100 3800
-F 0 "U26" H 5250 4000 50  0000 L CNN
-F 1 "LM311" H 5150 3650 50  0000 L CNN
-F 2 "" H 5100 3800 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 5100 3800 50  0001 C CNN
-	1    5100 3800
-	1    0    0    -1  
-$EndComp
-$Comp
-L ZX-Spectrum-Pentagon-rescue:Resistor_Set_8-zx_custom_symbol-ZX-Spectrum-Pentagon-rescue RSI0?
-U 1 1 62C2EC5F
-P 2650 5400
-F 0 "RSI0?" V 2800 5600 50  0000 C CNN
-F 1 "8x10k" V 2800 5150 50  0000 C CNN
-F 2 "Resistor_THT:R_Array_SIP9" H 2670 5850 50  0001 C CNN
-F 3 "" H 2670 5850 50  0001 C CNN
-	1    2650 5400
-	0    -1   -1   0   
-$EndComp
-$Comp
 L Device:L LIO?
 U 1 1 62C49BBE
 P 5300 -3000
@@ -1973,6 +1951,17 @@ Wire Wire Line
 Connection ~ 1850 1900
 Wire Wire Line
 	3800 1900 3800 1750
+$Comp
+L zx_custom_symbol:LM311 U?
+U 1 1 63A0DC84
+P 5100 3800
+F 0 "U?" H 5444 3846 50  0000 L CNN
+F 1 "LM311" H 5444 3755 50  0000 L CNN
+F 2 "" H 5100 3800 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm311.pdf" H 5100 3800 50  0001 C CNN
+	1    5100 3800
+	1    0    0    -1  
+$EndComp
 Wire Bus Line
 	11150 1200 11150 3500
 Wire Bus Line
@@ -1993,4 +1982,15 @@ Wire Bus Line
 	1500 700  1500 7500
 Wire Bus Line
 	7650 1150 7650 3500
+$Comp
+L zx_custom_symbol:Resistor_Set_8 RSIO?
+U 1 1 62A48178
+P 2650 5400
+F 0 "RSIO?" V 2800 5600 50  0000 C CNN
+F 1 "8x10k" V 2800 5150 50  0000 C CNN
+F 2 "" H 2670 5850 50  0001 C CNN
+F 3 "" H 2670 5850 50  0001 C CNN
+	1    2650 5400
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

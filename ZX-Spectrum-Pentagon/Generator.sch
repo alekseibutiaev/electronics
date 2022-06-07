@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title "Generator"
 Date "28.05.2022"
 Rev "0.01v"
@@ -1408,6 +1408,7 @@ Wire Wire Line
 	6750 6000 6850 6000
 Wire Wire Line
 	6850 6000 10500 6000
+Connection ~ 6850 6000
 Wire Bus Line
 	7400 2850 7400 5300
 Wire Bus Line
@@ -1416,5 +1417,4 @@ Wire Bus Line
 	10000 2850 10000 4200
 Wire Bus Line
 	2150 3650 2150 7700
-Connection ~ 6850 6000
 $EndSCHEMATC

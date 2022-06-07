@@ -1,5 +1,30 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AY-3-8910
+D Programmable Sound Generator
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/166797/ETC1/AY-3-8910/+0W5J-9VwSwJbDbEYG.hvv+/datasheet.pdf
+$ENDCMP
+#
+$CMP AY-3-8912
+D Programmable Sound Generator
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/166797/ETC1/AY-3-8910/+0W5J-9VwSwJbDbEYG.hvv+/datasheet.pdf
+$ENDCMP
+#
+$CMP AY-3-8912_DUMMY
+D Programmable Sound Generator
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/166797/ETC1/AY-3-8910/+0W5J-9VwSwJbDbEYG.hvv+/datasheet.pdf
+$ENDCMP
+#
+$CMP AY-3-8913
+D Programmable Sound Generator
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/166797/ETC1/AY-3-8910/+0W5J-9VwSwJbDbEYG.hvv+/datasheet.pdf
+$ENDCMP
+#
+$CMP AY-3-8913_DUMMY
+D Programmable Sound Generator
+F https://pdf1.alldatasheet.com/datasheet-pdf/view/166797/ETC1/AY-3-8910/+0W5J-9VwSwJbDbEYG.hvv+/datasheet.pdf
+$ENDCMP
+#
 $CMP LM2596S-12.0V
 D 12.0V 3A Step-Down Voltage Regulator, TO-263
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf

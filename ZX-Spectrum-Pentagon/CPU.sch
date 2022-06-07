@@ -1922,7 +1922,7 @@ IN-254
 Text GLabel 5950 6150 2    50   Output ~ 0
 BC1
 Text GLabel 5950 5750 2    50   Output ~ 0
-DO-PORT-32765
+DI-PORT-32765
 Text GLabel 5950 5850 2    50   Output ~ 0
 OUT-254
 Entry Wire Line

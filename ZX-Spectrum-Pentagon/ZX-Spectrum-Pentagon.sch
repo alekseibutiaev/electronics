@@ -417,24 +417,10 @@ Wire Bus Line
 Connection ~ 3000 7600
 Wire Bus Line
 	3000 7600 5250 7600
-Text Label 2900 6850 2    50   ~ 0
-CBRD2
-Text Label 2900 6750 2    50   ~ 0
-CBRD1
 Text Label 2900 6650 2    50   ~ 0
 CBRD0
 Wire Wire Line
-	2500 6850 2900 6850
-Wire Wire Line
-	2500 6750 2900 6750
-Wire Wire Line
 	2500 6650 2900 6650
-Entry Wire Line
-	2900 6850 3000 6950
-Entry Wire Line
-	2900 6750 3000 6850
-Entry Wire Line
-	2900 6650 3000 6750
 Text Label 2900 6450 2    50   ~ 0
 D7
 Text Label 2900 6350 2    50   ~ 0
@@ -499,6 +485,8 @@ F23 "BDIR" I L 1500 7050 50
 F24 "CBRD0" O R 2500 6650 50 
 F25 "CBRD1" O R 2500 6750 50 
 F26 "CBRD2" O R 2500 6850 50 
+F27 "AudioIntR" O R 2500 6950 50 
+F28 "AudioIntL" O R 2500 7050 50 
 $EndSheet
 Text Label 1100 6150 0    50   ~ 0
 A12
@@ -997,6 +985,32 @@ F26 "BL" O R 2500 2900 50
 F27 "F-25Hz" O R 2500 3000 50 
 F28 "C8" O R 2500 3100 50 
 $EndSheet
+Entry Wire Line
+	2900 6650 3000 6750
+Entry Wire Line
+	2900 6750 3000 6850
+Entry Wire Line
+	2900 6850 3000 6950
+Wire Wire Line
+	2500 6750 2900 6750
+Wire Wire Line
+	2500 6850 2900 6850
+Text Label 2900 6750 2    50   ~ 0
+CBRD1
+Text Label 2900 6850 2    50   ~ 0
+CBRD2
+Entry Wire Line
+	2900 6950 3000 7050
+Entry Wire Line
+	2900 7050 3000 7150
+Wire Wire Line
+	2500 6950 2900 6950
+Wire Wire Line
+	2500 7050 2900 7050
+Text Label 2900 6950 2    50   ~ 0
+AudioIntR
+Text Label 2900 7050 2    50   ~ 0
+AudioIntL
 Wire Bus Line
 	5250 900  5250 7600
 Wire Bus Line

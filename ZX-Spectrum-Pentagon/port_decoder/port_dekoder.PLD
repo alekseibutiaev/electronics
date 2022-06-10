@@ -1,0 +1,38 @@
+Name     Alexsei Butiaev ;
+PartNo   01 ;
+Date     09.06.2022 ;
+Revision 01 ;
+Designer Engineer ;
+Company  Home ;
+Assembly None ;
+Location Cyprus ;
+Device   g16v8a ;
+
+/* *************** INPUT PINS *********************/
+PIN 2    =    A0                   ; /*                                 */ 
+PIN 3    =    A1                   ; /*                                 */ 
+PIN 4    =    A5                   ; /*                                 */ 
+PIN 5    =    A7                   ; /*                                 */ 
+/*PIN 6    =    A14                  ;*/ /*                                 */ 
+/*PIN 7    =    A15                  ;*/ /*                                 */ 
+PIN 8    =    !IORQ                ; /*                                 */ 
+PIN 9    =    !RD                  ; /*                                 */ 
+PIN 12   =    !WR                  ; /*                                 */ 
+PIN 13   =    !DI_ULA               ; /*                                 */ 
+/*PIN 14   =    DI_32765             ;*/ /*                                 */ 
+/*PIN 11   =    M1                  ;*/ /*                                 */ 
+
+/* *************** OUTPUT PINS *********************/
+PIN 15    =  !IN254                  ; /*                                 */ 
+PIN 16    =  !OUT254                  ; /*                                 */ 
+/*PIN 17    =  MSEG                  ;*/ /*                                 */
+/*PIN 18    =  BC1                   ;*/ /*                                 */
+/*PIN 19    =  BDIR                  ;*/ /*                                 */ 
+/*PIN 14    = TEST ;*/
+
+!IN254 = !RD # A0 # !A1 # !A5 # !A7 # !IORQ # !DI_ULA;
+
+!OUT254 = !WR # A0 # !A1 # !A5 # !A7 # !IORQ # !DI_ULA;
+
+
+/*TEST = !A0 & A1;*/

@@ -4,3 +4,8 @@ Project Backups
 *bak
 *.pdf
 *-cache*
+*.abs
+*.jed
+*.sim
+*.so
+*.wo

@@ -9,7 +9,7 @@ Location Cyprus;
 Device   g16v8a;
 
 
-ORDER: A0, A1, A5, A7, !DI_ULA, !IORQ, !RD, !WR, !IN254, !OUT254; 
+ORDER: A0, A1, A5, A7, NDI_ULA, NIORQ, NRD, NWR, NIN254, NOUT254; 
 
 
 VECTORS:

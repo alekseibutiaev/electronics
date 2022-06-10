@@ -15,24 +15,24 @@ PIN 4    =    A5                   ; /*                                 */
 PIN 5    =    A7                   ; /*                                 */ 
 /*PIN 6    =    A14                  ;*/ /*                                 */ 
 /*PIN 7    =    A15                  ;*/ /*                                 */ 
-PIN 8    =    !IORQ                ; /*                                 */ 
-PIN 9    =    !RD                  ; /*                                 */ 
-PIN 12   =    !WR                  ; /*                                 */ 
-PIN 13   =    !DI_ULA               ; /*                                 */ 
+PIN 8    =    NIORQ                ; /*                                 */ 
+PIN 9    =    NRD                  ; /*                                 */ 
+PIN 12   =    NWR                  ; /*                                 */ 
+PIN 13   =    NDI_ULA               ; /*                                 */ 
 /*PIN 14   =    DI_32765             ;*/ /*                                 */ 
 /*PIN 11   =    M1                  ;*/ /*                                 */ 
 
 /* *************** OUTPUT PINS *********************/
-PIN 15    =  !IN254                  ; /*                                 */ 
-PIN 16    =  !OUT254                  ; /*                                 */ 
+PIN 15    =  NIN254                  ; /*                                 */ 
+PIN 16    =  NOUT254                  ; /*                                 */ 
 /*PIN 17    =  MSEG                  ;*/ /*                                 */
 /*PIN 18    =  BC1                   ;*/ /*                                 */
 /*PIN 19    =  BDIR                  ;*/ /*                                 */ 
 /*PIN 14    = TEST ;*/
 
-!IN254 = !RD # A0 # !A1 # !A5 # !A7 # !IORQ # !DI_ULA;
+NIN254 = NRD # A0 # !A1 # !A5 # !A7 # NIORQ # NDI_ULA;
 
-!OUT254 = !WR # A0 # !A1 # !A5 # !A7 # !IORQ # !DI_ULA;
+NOUT254 = NWR # A0 # !A1 # !A5 # !A7 # NIORQ # NDI_ULA;
 
 
 /*TEST = !A0 & A1;*/

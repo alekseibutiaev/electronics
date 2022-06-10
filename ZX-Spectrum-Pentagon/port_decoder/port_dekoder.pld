@@ -30,9 +30,9 @@ PIN 16    =  NOUT254                  ; /*                                 */
 /*PIN 19    =  BDIR                  ;*/ /*                                 */ 
 /*PIN 14    = TEST ;*/
 
-NIN254 = NRD # A0 # !A1 # !A5 # !A7 # NIORQ # NDI_ULA;
+NIN254 = !A1 # !A5 # !A7 # A0 # NIORQ # NRD # NDI_ULA;
 
-NOUT254 = NWR # A0 # !A1 # !A5 # !A7 # NIORQ # NDI_ULA;
+NOUT254 = !A1 # !A5 # !A7 # A0 # NIORQ # NWR # NDI_ULA;
 
 
 /*TEST = !A0 & A1;*/

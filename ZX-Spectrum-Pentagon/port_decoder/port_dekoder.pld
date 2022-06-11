@@ -29,12 +29,12 @@ PIN 17    =  CS_32765; /*                                 */
 PIN 18    =  BC1; /*                                 */
 PIN 19    =  BDIR; /*                                 */ 
 
-NIN254 = !A1 # !A5 # !A7 # A0 # NIORQ # NRD # NDI_ULA;
+NIN254 = A0 # !A1 # !A5 # !A7 # NIORQ # NRD # NDI_ULA;
 
-NOUT254 = !A1 # !A5 # !A7 # A0 # NIORQ # NWR # NDI_ULA;
+NOUT254 = A0 # !A1 # !A5 # !A7 # NIORQ # NWR # NDI_ULA;
 
-CS_32765 = A0 & !A1 & A7 & A5 & A14 & !A15 & !NWR & !NIORQ & !DI_32765;
+CS_32765 = A0 & !A1 & A5 & A7 & A14 & !A15 & !NWR & !NIORQ & !DI_32765;
 
-BC1 = !A1 & A7 & A5 & A14 & A15 & !NIORQ & NM1;
+BC1 = !A1 & A5 & A7 & A14 & A15 & !NIORQ & NM1;
 
-BDIR = !A1 & A7 & A5 & A15 & !NWR & !NIORQ;
+BDIR = !A1 & A5 & A7 & A15 & !NWR & !NIORQ;

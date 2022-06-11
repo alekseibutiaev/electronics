@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project source="2.16.1.4.jar" version="1.0">
-  This file is intended to be loaded by Logisim http://logisim.altervista.org
-
-  <lib desc="#Wiring" name="0"/>
+<project source="2.16.1.4.exe" version="1.0">
+This file is intended to be loaded by Logisim http://logisim.altervista.org
+<lib desc="#Wiring" name="0"/>
   <lib desc="#Gates" name="1"/>
   <lib desc="#TTL" name="2"/>
   <lib desc="#Plexers" name="3">
@@ -192,95 +191,19 @@
     <wire from="(110,50)" to="(340,50)"/>
     <wire from="(170,90)" to="(340,90)"/>
     <wire from="(130,140)" to="(280,140)"/>
-    <comp lib="1" loc="(90,450)" name="Buffer">
-      <a name="label" val="I11"/>
+    <comp lib="0" loc="(540,640)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="BDIR"/>
     </comp>
-    <comp lib="0" loc="(50,550)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="!M1"/>
-    </comp>
-    <comp lib="1" loc="(90,320)" name="Buffer">
-      <a name="label" val="I5"/>
-    </comp>
-    <comp lib="1" loc="(90,40)" name="Buffer">
-      <a name="label" val="I16"/>
-    </comp>
-    <comp lib="1" loc="(90,550)" name="Buffer">
-      <a name="label" val="I15"/>
-    </comp>
+    <comp lib="1" loc="(370,100)" name="OR Gate"/>
     <comp lib="1" loc="(340,620)" name="NOR Gate">
       <a name="inputs" val="4"/>
       <a name="negate0" val="true"/>
       <a name="negate1" val="true"/>
     </comp>
-    <comp lib="1" loc="(90,490)" name="Buffer">
-      <a name="label" val="I9"/>
-    </comp>
-    <comp lib="1" loc="(90,110)" name="Buffer">
-      <a name="label" val="I14"/>
-    </comp>
-    <comp lib="0" loc="(50,150)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="!WR"/>
-    </comp>
-    <comp lib="0" loc="(50,490)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A5"/>
-    </comp>
-    <comp lib="0" loc="(50,590)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A14"/>
-    </comp>
-    <comp lib="1" loc="(320,470)" name="OR Gate">
-      <a name="negate0" val="true"/>
-      <a name="negate1" val="true"/>
-    </comp>
-    <comp lib="0" loc="(50,360)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A0"/>
-    </comp>
-    <comp lib="1" loc="(510,640)" name="NOR Gate"/>
-    <comp lib="1" loc="(410,410)" name="NOR Gate">
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(90,590)" name="Buffer">
-      <a name="label" val="I1"/>
-    </comp>
-    <comp lib="0" loc="(50,240)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="!IORQ"/>
-    </comp>
-    <comp lib="0" loc="(50,110)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="!RD"/>
-    </comp>
-    <comp lib="0" loc="(50,660)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A15"/>
-    </comp>
-    <comp lib="1" loc="(420,580)" name="NAND Gate"/>
-    <comp lib="1" loc="(90,660)" name="Buffer">
-      <a name="label" val="I2"/>
-    </comp>
-    <comp lib="0" loc="(530,410)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="CLK-32765"/>
-    </comp>
-    <comp lib="1" loc="(90,400)" name="Buffer">
-      <a name="label" val="I3"/>
-    </comp>
-    <comp lib="0" loc="(440,100)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="!OUT254"/>
-    </comp>
-    <comp lib="1" loc="(510,590)" name="NOR Gate"/>
-    <comp lib="1" loc="(370,100)" name="OR Gate"/>
-    <comp lib="1" loc="(90,360)" name="Buffer">
-      <a name="label" val="I4"/>
+    <comp lib="1" loc="(90,150)" name="Buffer">
+      <a name="label" val="I13"/>
     </comp>
     <comp lib="1" loc="(310,150)" name="OR Gate">
       <a name="inputs" val="6"/>
@@ -288,51 +211,127 @@
       <a name="negate4" val="true"/>
       <a name="negate5" val="true"/>
     </comp>
-    <comp lib="0" loc="(50,40)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="!DI_ULA"/>
-    </comp>
-    <comp lib="1" loc="(420,630)" name="NAND Gate"/>
-    <comp lib="1" loc="(90,150)" name="Buffer">
-      <a name="label" val="I13"/>
-    </comp>
-    <comp lib="0" loc="(50,400)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="DI_32765"/>
-    </comp>
-    <comp lib="0" loc="(540,590)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="BC1"/>
-    </comp>
-    <comp lib="0" loc="(540,640)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="BDIR"/>
-    </comp>
-    <comp lib="0" loc="(50,450)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A7"/>
-    </comp>
-    <comp lib="1" loc="(370,60)" name="OR Gate"/>
-    <comp lib="0" loc="(50,320)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="A1"/>
-    </comp>
-    <comp lib="1" loc="(320,410)" name="OR Gate">
+    <comp lib="1" loc="(410,410)" name="NOR Gate">
       <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(440,100)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="NOUT254"/>
+    </comp>
+    <comp lib="1" loc="(90,110)" name="Buffer">
+      <a name="label" val="I14"/>
+    </comp>
+    <comp lib="0" loc="(50,240)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="NIORQ"/>
+    </comp>
+    <comp lib="1" loc="(320,470)" name="OR Gate">
+      <a name="negate0" val="true"/>
+      <a name="negate1" val="true"/>
+    </comp>
+    <comp lib="1" loc="(90,550)" name="Buffer">
+      <a name="label" val="I15"/>
+    </comp>
+    <comp lib="0" loc="(50,590)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A14"/>
+    </comp>
+    <comp lib="0" loc="(50,360)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A0"/>
+    </comp>
+    <comp lib="0" loc="(50,490)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A5"/>
     </comp>
     <comp lib="1" loc="(320,340)" name="OR Gate">
       <a name="inputs" val="4"/>
       <a name="negate2" val="true"/>
       <a name="negate3" val="true"/>
     </comp>
-    <comp lib="1" loc="(90,240)" name="Buffer"/>
+    <comp lib="1" loc="(90,40)" name="Buffer">
+      <a name="label" val="I16"/>
+    </comp>
+    <comp lib="0" loc="(50,110)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="NRD"/>
+    </comp>
+    <comp lib="0" loc="(50,400)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="DI_32765"/>
+    </comp>
+    <comp lib="0" loc="(50,150)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="NWR"/>
+    </comp>
+    <comp lib="1" loc="(90,360)" name="Buffer">
+      <a name="label" val="I4"/>
+    </comp>
+    <comp lib="0" loc="(50,320)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A1"/>
+    </comp>
+    <comp lib="0" loc="(530,410)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="CS_32765"/>
+    </comp>
+    <comp lib="1" loc="(420,630)" name="NAND Gate"/>
+    <comp lib="1" loc="(90,590)" name="Buffer">
+      <a name="label" val="I1"/>
+    </comp>
+    <comp lib="0" loc="(50,550)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="NM1"/>
+    </comp>
+    <comp lib="1" loc="(90,400)" name="Buffer">
+      <a name="label" val="I3"/>
+    </comp>
+    <comp lib="1" loc="(370,60)" name="OR Gate"/>
+    <comp lib="1" loc="(420,580)" name="NAND Gate"/>
+    <comp lib="1" loc="(510,640)" name="NOR Gate"/>
+    <comp lib="1" loc="(510,590)" name="NOR Gate"/>
+    <comp lib="1" loc="(90,320)" name="Buffer">
+      <a name="label" val="I5"/>
+    </comp>
+    <comp lib="1" loc="(320,410)" name="OR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(90,660)" name="Buffer">
+      <a name="label" val="I2"/>
+    </comp>
+    <comp lib="0" loc="(50,450)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A7"/>
+    </comp>
+    <comp lib="1" loc="(90,450)" name="Buffer">
+      <a name="label" val="I11"/>
+    </comp>
+    <comp lib="1" loc="(90,490)" name="Buffer">
+      <a name="label" val="I9"/>
+    </comp>
     <comp lib="0" loc="(440,60)" name="Pin">
       <a name="facing" val="west"/>
       <a name="output" val="true"/>
       <a name="tristate" val="false"/>
-      <a name="label" val="!IN254"/>
+      <a name="label" val="NIN254"/>
+    </comp>
+    <comp lib="1" loc="(90,240)" name="Buffer"/>
+    <comp lib="0" loc="(540,590)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="BC1"/>
+    </comp>
+    <comp lib="0" loc="(50,40)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="NDI_ULA"/>
+    </comp>
+    <comp lib="0" loc="(50,660)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A15"/>
     </comp>
   </circuit>
 </project>

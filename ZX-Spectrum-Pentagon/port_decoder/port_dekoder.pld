@@ -33,7 +33,7 @@ NIN254 = !A1 # !A5 # !A7 # A0 # NIORQ # NRD # NDI_ULA;
 
 NOUT254 = !A1 # !A5 # !A7 # A0 # NIORQ # NWR # NDI_ULA;
 
-CS_32765 =  !A1 & A0 & A7 & A5 & A14 & !A15 & !NWR & !NIORQ & !DI_32765;
+CS_32765 = A0 & !A1 & A7 & A5 & A14 & !A15 & !NWR & !NIORQ & !DI_32765;
 
 BC1 = !A1 & A7 & A5 & A14 & A15 & !NIORQ & NM1;
 

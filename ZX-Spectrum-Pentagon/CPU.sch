@@ -1865,23 +1865,23 @@ A0
 Text Label 1400 5650 0    50   ~ 0
 A1
 Text Label 1400 5750 0    50   ~ 0
-~RD
+A5
 Text Label 1400 5850 0    50   ~ 0
-~M1
+A7
 Text Label 1400 5950 0    50   ~ 0
-~A5
+A14
 Text Label 1400 6050 0    50   ~ 0
 A15
 Text Label 1400 6150 0    50   ~ 0
-A7
-Text Label 1400 6250 0    50   ~ 0
-A14
-Text Label 1400 6350 0    50   ~ 0
 ~IORQ
+Text Label 1400 6250 0    50   ~ 0
+~RD
+Text Label 1400 6350 0    50   ~ 0
+~WR
 Text Label 1400 6450 0    50   ~ 0
-DI_ULA
+~MI
 Text Label 5050 6350 2    50   ~ 0
-OUT-254
+~NDI_ULA
 Wire Wire Line
 	2000 5050 2000 5100
 Wire Wire Line
@@ -1900,65 +1900,65 @@ Connection ~ 2500 4000
 Wire Wire Line
 	2500 4000 2500 4050
 Text Label 5050 6250 2    50   ~ 0
-~WR
+DI_32765
 Text Label 5050 6050 2    50   ~ 0
-DI-PORT-32765
+~OUT254
 Text Label 5050 5950 2    50   ~ 0
-BC1
+CS_32765
 Text Label 5050 5850 2    50   ~ 0
-IN-254
+BC1
 Text Label 5050 5750 2    50   ~ 0
 BDIR
 Text Label 5050 5650 2    50   ~ 0
-CLK-REG-32765
-Text GLabel 5950 5650 2    50   Output ~ 0
-CLK-REG-32765
-Text GLabel 5950 6050 2    50   Output ~ 0
+~INKMST
+Text GLabel 5950 5500 2    50   Output ~ 10
+CS_32765
+Text GLabel 5950 5700 2    50   Output ~ 10
 BDIR
-Text GLabel 5950 5950 2    50   Output ~ 0
-IN-254
-Text GLabel 5950 6150 2    50   Output ~ 0
+Text GLabel 5950 6250 2    50   Output ~ 10
+~IN254
+Text GLabel 5950 5800 2    50   Output ~ 10
 BC1
-Text GLabel 5950 5750 2    50   Output ~ 0
-DI-PORT-32765
-Text GLabel 5950 5850 2    50   Output ~ 0
-OUT-254
+Text GLabel 5950 5600 2    50   Output ~ 10
+DI_32765
+Text GLabel 5950 6100 2    50   Output ~ 10
+~OUT254
 Entry Wire Line
-	5250 5650 5150 5750
+	5250 5500 5150 5600
 Entry Wire Line
-	5250 5750 5150 5850
+	5250 5600 5150 5700
 Entry Wire Line
-	5250 5850 5150 5950
+	5250 6100 5150 6200
 Entry Wire Line
-	5250 5950 5150 6050
+	5250 6250 5150 6350
 Entry Wire Line
-	5250 6050 5150 6150
+	5250 5700 5150 5800
 Entry Wire Line
-	5250 6150 5150 6250
+	5250 5800 5150 5900
 Wire Wire Line
-	5950 5650 5250 5650
+	5950 5500 5250 5500
 Wire Wire Line
-	5950 6050 5250 6050
+	5950 5700 5250 5700
 Wire Wire Line
-	5950 5950 5250 5950
+	5950 6250 5250 6250
 Wire Wire Line
-	5950 5750 5250 5750
+	5950 5600 5250 5600
 Wire Wire Line
-	5950 5850 5250 5850
-Text Label 5250 5850 0    50   ~ 0
-OUT-254
-Text Label 5250 5750 0    50   ~ 0
-DI-PORT-32765
-Text Label 5250 5950 0    50   ~ 0
-IN-254
-Text Label 5250 6050 0    50   ~ 0
+	5950 6100 5250 6100
+Text Label 5250 6100 0    50   ~ 0
+~OUT254
+Text Label 5250 5600 0    50   ~ 0
+DI_32765
+Text Label 5250 6250 0    50   ~ 0
+~IN254
+Text Label 5250 5700 0    50   ~ 0
 BDIR
-Text Label 5250 5650 0    50   ~ 0
-CLK-REG-32765
-Text Label 5250 6150 0    50   ~ 0
+Text Label 5250 5500 0    50   ~ 0
+CS_32765
+Text Label 5250 5800 0    50   ~ 0
 BC1
 Wire Wire Line
-	5950 6150 5250 6150
+	5950 5800 5250 5800
 Wire Wire Line
 	5550 3600 5250 3600
 Wire Wire Line
@@ -1994,9 +1994,22 @@ Wire Wire Line
 Wire Wire Line
 	6000 3500 6000 3600
 Connection ~ 6000 3600
-NoConn ~ 2650 6150
 Wire Wire Line
 	2500 4500 3000 4500
+Entry Wire Line
+	5050 6150 5150 6250
+Wire Wire Line
+	2650 6150 5050 6150
+Text Label 5050 6150 2    50   ~ 0
+~IN254
+Text GLabel 5950 5950 2    50   Output ~ 10
+~INKMST
+Entry Wire Line
+	5250 5950 5150 6050
+Text Label 5250 5950 0    50   ~ 0
+~INKMST
+Wire Wire Line
+	5950 5950 5250 5950
 Wire Bus Line
 	6900 2500 6900 3200
 Wire Bus Line

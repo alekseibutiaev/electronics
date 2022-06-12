@@ -46,7 +46,9 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
   </mappings>
   <toolbar>
     <tool lib="7" name="Poke Tool"/>
+    <tool lib="7" name="Select Tool"/>
     <tool lib="7" name="Edit Tool"/>
+    <tool lib="7" name="Wiring Tool"/>
     <sep/>
     <tool lib="7" name="Text Tool">
       <a name="text" val=""/>
@@ -76,10 +78,10 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <tool lib="1" name="Controlled Buffer"/>
     <tool lib="1" name="Controlled Inverter"/>
     <sep/>
+    <tool lib="5" name="S-R Flip-Flop"/>
     <tool lib="5" name="D Flip-Flop"/>
     <tool lib="5" name="T Flip-Flop"/>
     <tool lib="5" name="J-K Flip-Flop"/>
-    <tool lib="5" name="S-R Flip-Flop"/>
     <tool lib="5" name="Register"/>
     <tool lib="5" name="Counter"/>
     <tool lib="5" name="Shift Register"/>
@@ -88,7 +90,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <tool lib="6" name="Switch"/>
     <tool lib="6" name="Digital Oscilloscope"/>
     <sep/>
-    <tool lib="7" name="Wiring Tool"/>
   </toolbar>
   <circuit name="main">
     <a name="circuit" val="main"/>
@@ -212,13 +213,11 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(890,200)" to="(950,200)"/>
     <wire from="(890,160)" to="(890,200)"/>
     <wire from="(890,200)" to="(890,280)"/>
-    <wire from="(760,70)" to="(1070,70)"/>
     <wire from="(1070,70)" to="(1070,140)"/>
     <wire from="(870,50)" to="(870,140)"/>
     <wire from="(840,140)" to="(870,140)"/>
     <wire from="(870,50)" to="(890,50)"/>
     <wire from="(1170,50)" to="(1170,140)"/>
-    <wire from="(1170,50)" to="(1220,50)"/>
     <wire from="(1140,140)" to="(1170,140)"/>
     <wire from="(50,60)" to="(90,60)"/>
     <wire from="(120,70)" to="(150,70)"/>
@@ -227,6 +226,8 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     <wire from="(70,110)" to="(130,110)"/>
     <wire from="(130,110)" to="(130,190)"/>
     <wire from="(50,190)" to="(130,190)"/>
+    <wire from="(1170,50)" to="(1190,50)"/>
+    <wire from="(760,70)" to="(1070,70)"/>
     <comp lib="1" loc="(360,190)" name="AND Gate"/>
     <comp lib="0" loc="(290,550)" name="Pin">
       <a name="facing" val="west"/>
@@ -239,6 +240,11 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
       <a name="label" val="T3"/>
     </comp>
     <comp lib="1" loc="(1040,170)" name="OR Gate"/>
+    <comp lib="0" loc="(1190,50)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Q3"/>
+    </comp>
     <comp lib="1" loc="(980,150)" name="AND Gate">
       <a name="negate1" val="true"/>
     </comp>
@@ -253,11 +259,6 @@ This file is intended to be loaded by Logisim http://logisim.altervista.org
     </comp>
     <comp lib="1" loc="(540,280)" name="AND Gate"/>
     <comp lib="1" loc="(360,150)" name="AND Gate"/>
-    <comp lib="0" loc="(1220,50)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="output" val="true"/>
-      <a name="label" val="Q3"/>
-    </comp>
     <comp lib="0" loc="(50,590)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="B"/>

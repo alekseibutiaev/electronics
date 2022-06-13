@@ -66,6 +66,7 @@ F46 "~OUT254" O L 3800 1850 50
 F47 "DI_32765" O L 3800 1750 50 
 F48 "CS_32765" O L 3800 1650 50 
 F49 "~INKMST" O L 3800 2250 50 
+F50 "A14-ROM" I L 3800 2350 50 
 $EndSheet
 Wire Bus Line
 	11000 6000 11000 500 
@@ -405,92 +406,91 @@ Text Label 5150 3700 2    50   ~ 0
 ~M1
 Text Label 5150 3800 2    50   ~ 0
 ~RFSH
-Wire Bus Line
-	1000 7600 3000 7600
-Connection ~ 3000 7600
-Wire Bus Line
-	3000 7600 5250 7600
-Text Label 2900 6750 2    50   ~ 0
+Text Label 2900 6950 2    50   ~ 0
 CBRD0
 Wire Wire Line
-	2500 6750 2900 6750
-Text Label 2900 6550 2    50   ~ 0
+	2500 6950 2900 6950
+Text Label 2900 6750 2    50   ~ 0
 D7
-Text Label 2900 6450 2    50   ~ 0
+Text Label 2900 6650 2    50   ~ 0
 D6
-Text Label 2900 6350 2    50   ~ 0
+Text Label 2900 6550 2    50   ~ 0
 D5
-Text Label 2900 6250 2    50   ~ 0
+Text Label 2900 6450 2    50   ~ 0
 D4
-Text Label 2900 6150 2    50   ~ 0
+Text Label 2900 6350 2    50   ~ 0
 D3
-Text Label 2900 6050 2    50   ~ 0
+Text Label 2900 6250 2    50   ~ 0
 D2
-Text Label 2900 5950 2    50   ~ 0
+Text Label 2900 6150 2    50   ~ 0
 D1
-Text Label 2900 5850 2    50   ~ 0
+Text Label 2900 6050 2    50   ~ 0
 D0
-Text Label 1100 7150 0    50   ~ 0
+Text Label 1100 7350 0    50   ~ 0
 BDIR
-Text Label 1100 7050 0    50   ~ 0
+Text Label 1100 7250 0    50   ~ 0
 BC1
-Text Label 1100 6950 0    50   ~ 0
+Text Label 1100 7150 0    50   ~ 0
 AY-CLK
-Text Label 1100 6850 0    50   ~ 0
+Text Label 1100 7050 0    50   ~ 0
 ~RST
-Text Label 1100 6750 0    50   ~ 0
+Text Label 1100 6950 0    50   ~ 0
 ~OUT254
-Text Label 1100 6650 0    50   ~ 0
+Text Label 1100 6850 0    50   ~ 0
 ~IN254
-Text Label 1100 6550 0    50   ~ 0
+Text Label 1100 6750 0    50   ~ 0
 A15
-Text Label 1100 6450 0    50   ~ 0
+Text Label 1100 6650 0    50   ~ 0
 A14
-Text Label 1100 6350 0    50   ~ 0
+Text Label 1100 6550 0    50   ~ 0
 A13
 $Sheet
-S 1500 5750 1000 1500
+S 1500 5950 1000 1500
 U 62A08194
 F0 "Input_Output" 50
 F1 "Input_Output.sch" 50
-F2 "D0" B R 2500 5850 50 
-F3 "D1" B R 2500 5950 50 
-F4 "D2" B R 2500 6050 50 
-F5 "D3" B R 2500 6150 50 
-F6 "D4" B R 2500 6250 50 
-F7 "D5" B R 2500 6350 50 
-F8 "D6" B R 2500 6450 50 
-F9 "D7" B R 2500 6550 50 
-F10 "A8" I L 1500 5850 50 
-F11 "A9" I L 1500 5950 50 
-F12 "A10" I L 1500 6050 50 
-F13 "A11" I L 1500 6150 50 
-F14 "A12" I L 1500 6250 50 
-F15 "A13" I L 1500 6350 50 
-F16 "A14" I L 1500 6450 50 
-F17 "A15" I L 1500 6550 50 
-F18 "~IN254" I L 1500 6650 50 
-F19 "~OUT254" I L 1500 6750 50 
-F20 "~RST" I L 1500 6850 50 
-F21 "AY-CLK" I L 1500 6950 50 
-F22 "BC1" I L 1500 7050 50 
-F23 "BDIR" I L 1500 7150 50 
-F24 "CBRD0" O R 2500 6750 50 
-F25 "CBRD1" O R 2500 6850 50 
-F26 "CBRD2" O R 2500 6950 50 
-F27 "AudioIntR" O R 2500 7050 50 
-F28 "AudioIntL" O R 2500 7150 50 
+F2 "D0" B R 2500 6050 50 
+F3 "D1" B R 2500 6150 50 
+F4 "D2" B R 2500 6250 50 
+F5 "D3" B R 2500 6350 50 
+F6 "D4" B R 2500 6450 50 
+F7 "D5" B R 2500 6550 50 
+F8 "D6" B R 2500 6650 50 
+F9 "D7" B R 2500 6750 50 
+F10 "A8" I L 1500 6050 50 
+F11 "A9" I L 1500 6150 50 
+F12 "A10" I L 1500 6250 50 
+F13 "A11" I L 1500 6350 50 
+F14 "A12" I L 1500 6450 50 
+F15 "A13" I L 1500 6550 50 
+F16 "A14" I L 1500 6650 50 
+F17 "A15" I L 1500 6750 50 
+F18 "~IN254" I L 1500 6850 50 
+F19 "~OUT254" I L 1500 6950 50 
+F20 "~RST" I L 1500 7050 50 
+F21 "AY-CLK" I L 1500 7150 50 
+F22 "BC1" I L 1500 7250 50 
+F23 "BDIR" I L 1500 7350 50 
+F24 "CBRD0" O R 2500 6950 50 
+F25 "CBRD1" O R 2500 7050 50 
+F26 "CBRD2" O R 2500 7150 50 
+F27 "AudioIntR" O R 2500 7250 50 
+F28 "AudioIntL" O R 2500 7350 50 
 $EndSheet
-Text Label 1100 6250 0    50   ~ 0
+Text Label 1100 6450 0    50   ~ 0
 A12
-Text Label 1100 6150 0    50   ~ 0
+Text Label 1100 6350 0    50   ~ 0
 A11
-Text Label 1100 6050 0    50   ~ 0
+Text Label 1100 6250 0    50   ~ 0
 A10
-Text Label 1100 5950 0    50   ~ 0
+Text Label 1100 6150 0    50   ~ 0
 A9
-Text Label 1100 5850 0    50   ~ 0
+Text Label 1100 6050 0    50   ~ 0
 A8
+Wire Wire Line
+	2500 6750 2900 6750
+Wire Wire Line
+	2500 6650 2900 6650
 Wire Wire Line
 	2500 6550 2900 6550
 Wire Wire Line
@@ -504,9 +504,9 @@ Wire Wire Line
 Wire Wire Line
 	2500 6050 2900 6050
 Wire Wire Line
-	2500 5950 2900 5950
+	1100 7350 1500 7350
 Wire Wire Line
-	2500 5850 2900 5850
+	1100 7250 1500 7250
 Wire Wire Line
 	1100 7150 1500 7150
 Wire Wire Line
@@ -531,10 +531,10 @@ Wire Wire Line
 	1100 6150 1500 6150
 Wire Wire Line
 	1100 6050 1500 6050
-Wire Wire Line
-	1100 5950 1500 5950
-Wire Wire Line
-	1100 5850 1500 5850
+Entry Wire Line
+	2900 6750 3000 6850
+Entry Wire Line
+	2900 6650 3000 6750
 Entry Wire Line
 	2900 6550 3000 6650
 Entry Wire Line
@@ -548,9 +548,9 @@ Entry Wire Line
 Entry Wire Line
 	2900 6050 3000 6150
 Entry Wire Line
-	2900 5950 3000 6050
+	1000 7450 1100 7350
 Entry Wire Line
-	2900 5850 3000 5950
+	1000 7350 1100 7250
 Entry Wire Line
 	1000 7250 1100 7150
 Entry Wire Line
@@ -575,10 +575,6 @@ Entry Wire Line
 	1000 6250 1100 6150
 Entry Wire Line
 	1000 6150 1100 6050
-Entry Wire Line
-	1000 6050 1100 5950
-Entry Wire Line
-	1000 5950 1100 5850
 Text Label 2900 5050 2    50   ~ 0
 DI_32765
 Text Label 2900 4950 2    50   ~ 0
@@ -712,7 +708,7 @@ Entry Wire Line
 Entry Wire Line
 	1000 4350 1100 4250
 $Sheet
-S 1500 4150 1000 1400
+S 1500 4150 1000 1600
 U 630C2D0D
 F0 "Memory_Signal" 50
 F1 "Memory_Signal.sch" 50
@@ -738,6 +734,11 @@ F20 "PA6" O R 2500 4750 50
 F21 "PA7" O R 2500 4850 50 
 F22 "A14-ROM" O R 2500 4950 50 
 F23 "DI_32765" O R 2500 5050 50 
+F24 "C25" I L 1500 5550 50 
+F25 "C31" I L 1500 5650 50 
+F26 "RAS" O R 2500 5150 50 
+F27 "~RAS" O R 2500 5250 50 
+F28 "~CAS" O R 2500 5350 50 
 $EndSheet
 Wire Wire Line
 	1350 3550 1500 3550
@@ -980,19 +981,7 @@ F27 "F-25Hz" O R 2500 3000 50
 F28 "C8" O R 2500 3100 50 
 $EndSheet
 Entry Wire Line
-	2900 6750 3000 6850
-Entry Wire Line
-	2900 6850 3000 6950
-Entry Wire Line
 	2900 6950 3000 7050
-Wire Wire Line
-	2500 6850 2900 6850
-Wire Wire Line
-	2500 6950 2900 6950
-Text Label 2900 6850 2    50   ~ 0
-CBRD1
-Text Label 2900 6950 2    50   ~ 0
-CBRD2
 Entry Wire Line
 	2900 7050 3000 7150
 Entry Wire Line
@@ -1002,8 +991,20 @@ Wire Wire Line
 Wire Wire Line
 	2500 7150 2900 7150
 Text Label 2900 7050 2    50   ~ 0
-AudioIntR
+CBRD1
 Text Label 2900 7150 2    50   ~ 0
+CBRD2
+Entry Wire Line
+	2900 7250 3000 7350
+Entry Wire Line
+	2900 7350 3000 7450
+Wire Wire Line
+	2500 7250 2900 7250
+Wire Wire Line
+	2500 7350 2900 7350
+Text Label 2900 7250 2    50   ~ 0
+AudioIntR
+Text Label 2900 7350 2    50   ~ 0
 AudioIntL
 Text Label 2900 3850 2    50   ~ 0
 AY-POWER
@@ -1025,10 +1026,51 @@ Wire Wire Line
 	3800 2250 3100 2250
 Entry Wire Line
 	3000 2350 3100 2250
+Entry Wire Line
+	3000 2450 3100 2350
+Wire Wire Line
+	3100 2350 3800 2350
+Text Label 3100 2350 0    50   ~ 0
+A14-ROM
 Wire Bus Line
-	5250 800  5250 7600
+	1000 7750 3000 7750
+Connection ~ 3000 7750
 Wire Bus Line
-	1000 900  1000 7600
+	3000 7750 5250 7750
+Entry Wire Line
+	2900 5150 3000 5250
+Entry Wire Line
+	2900 5250 3000 5350
+Entry Wire Line
+	2900 5350 3000 5450
+Entry Wire Line
+	1000 5650 1100 5550
+Entry Wire Line
+	1000 5750 1100 5650
+Wire Wire Line
+	1100 5550 1500 5550
+Wire Wire Line
+	1100 5650 1500 5650
+Wire Wire Line
+	2500 5150 2900 5150
+Wire Wire Line
+	2500 5250 2900 5250
+Wire Wire Line
+	2500 5350 2900 5350
+Text Label 2900 5150 2    50   ~ 0
+RAS
+Text Label 2900 5250 2    50   ~ 0
+~RAS
+Text Label 2900 5350 2    50   ~ 0
+~CAS
+Text Label 1100 5550 0    50   ~ 0
+C25
+Text Label 1100 5650 0    50   ~ 0
+C31
 Wire Bus Line
-	3000 800  3000 7600
+	5250 800  5250 7750
+Wire Bus Line
+	1000 900  1000 7750
+Wire Bus Line
+	3000 800  3000 7750
 $EndSCHEMATC

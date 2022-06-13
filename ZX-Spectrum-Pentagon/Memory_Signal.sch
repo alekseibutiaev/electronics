@@ -116,8 +116,6 @@ Wire Wire Line
 	1800 5600 1400 5600
 Text GLabel 1400 6000 0    50   Input ~ 10
 DIS
-Text GLabel 1450 4500 0    50   Input ~ 10
-~RST
 Wire Wire Line
 	1600 4450 1900 4450
 $Comp
@@ -197,12 +195,6 @@ Wire Wire Line
 	1700 4600 1700 4350
 Wire Wire Line
 	1700 4350 1900 4350
-Text GLabel 1450 4350 0    50   Input ~ 10
-CLK-REG-32765
-Wire Wire Line
-	1450 4500 1600 4500
-Wire Wire Line
-	1450 4350 1700 4350
 Connection ~ 1700 4350
 Text GLabel 1450 3550 0    50   Input ~ 10
 D0
@@ -251,7 +243,7 @@ C35
 Text GLabel 5800 6300 2    50   Output ~ 10
 A14-ROM
 Text GLabel 5800 6400 2    50   Output ~ 10
-DI-PORT-32765
+DI_32765
 Text GLabel 5800 6500 2    50   Output ~ 10
 PA6
 Text GLabel 5800 6600 2    50   Output ~ 10
@@ -285,5 +277,108 @@ Wire Wire Line
 Wire Wire Line
 	2800 4350 2800 6600
 Wire Wire Line
+	1450 4350 1700 4350
+Wire Wire Line
 	1600 4500 1600 4450
+Wire Wire Line
+	1450 4500 1600 4500
+Text GLabel 1450 4500 0    50   Input ~ 10
+~RST
+Text GLabel 1450 4350 0    50   Input ~ 10
+CS_32765
+$Comp
+L 74IEC:74HC74 U?
+U 1 1 64D7210D
+P 2200 1700
+AR Path="/64D7210D" Ref="U?"  Part="1" 
+AR Path="/630C2D0D/64D7210D" Ref="U?"  Part="1" 
+F 0 "U?" H 2200 1950 50  0000 C CNN
+F 1 "74HC74" H 2200 1450 50  0000 C CNN
+F 2 "" H 2200 1950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2200 1950 50  0001 C CNN
+	1    2200 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC74 U?
+U 2 1 64D734A1
+P 2200 2700
+AR Path="/64D734A1" Ref="U?"  Part="2" 
+AR Path="/630C2D0D/64D734A1" Ref="U?"  Part="2" 
+F 0 "U?" H 2200 2950 50  0000 C CNN
+F 1 "74HC74" H 2200 2450 50  0000 C CNN
+F 2 "" H 2200 2950 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2200 2950 50  0001 C CNN
+	2    2200 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2850 1800 2850
+Wire Wire Line
+	1800 2850 1800 2550
+Wire Wire Line
+	1800 1550 1900 1550
+$Comp
+L power:VCC #PWR?
+U 1 1 64D856C7
+P 1800 1450
+F 0 "#PWR?" H 1800 1300 50  0001 C CNN
+F 1 "VCC" H 1815 1623 50  0000 C CNN
+F 2 "" H 1800 1450 50  0001 C CNN
+F 3 "" H 1800 1450 50  0001 C CNN
+	1    1800 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 1450 1800 1550
+Connection ~ 1800 1550
+Wire Wire Line
+	1900 1850 1800 1850
+Wire Wire Line
+	1800 1850 1800 1550
+Wire Wire Line
+	1900 2550 1800 2550
+Connection ~ 1800 2550
+Wire Wire Line
+	1800 2550 1800 1850
+Connection ~ 1800 1850
+Wire Wire Line
+	2500 1600 2600 1600
+Wire Wire Line
+	2600 1600 2600 2200
+Wire Wire Line
+	2600 2200 1700 2200
+Wire Wire Line
+	1700 2200 1700 2650
+Wire Wire Line
+	1700 2650 1900 2650
+Wire Wire Line
+	1900 1650 1450 1650
+Wire Wire Line
+	1900 1750 1600 1750
+Wire Wire Line
+	1900 2750 1600 2750
+Wire Wire Line
+	1600 2750 1600 1750
+Connection ~ 1600 1750
+Wire Wire Line
+	1600 1750 1450 1750
+Text GLabel 1450 1650 0    50   Input ~ 0
+C25
+Text GLabel 1450 1750 0    50   Input ~ 0
+C31
+Text GLabel 2800 1600 2    50   Output ~ 0
+RAS
+Text GLabel 2800 1800 2    50   Output ~ 0
+~RAS
+Text GLabel 2800 2800 2    50   Output ~ 0
+~CAS
+Wire Wire Line
+	2500 2800 2800 2800
+Wire Wire Line
+	2800 1800 2500 1800
+Wire Wire Line
+	2600 1600 2800 1600
+Connection ~ 2600 1600
+NoConn ~ 2500 2600
 $EndSCHEMATC

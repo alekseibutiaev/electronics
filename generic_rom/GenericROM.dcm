@@ -1,5 +1,9 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 271001
+D Generic ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
 $CMP 27128_DIP
 D Generic ROM 128Kbit(16Kx8)
 $ENDCMP
@@ -8,12 +12,20 @@ $CMP 27128_PLCC32
 D Generic ROM 128Kbit(16Kx8)
 $ENDCMP
 #
+$CMP 272001
+D Generic ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
 $CMP 27256_DIP
 D Generic ROM 256Kbit(32Kx8)
 $ENDCMP
 #
 $CMP 27256_PLCC32
 D Generic ROM 256Kbit(32Kx8)
+$ENDCMP
+#
+$CMP 274001
+D Generic ROM 4Mbit(512Kbx8)
 $ENDCMP
 #
 $CMP 27512_DIP

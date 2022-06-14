@@ -44,4 +44,40 @@ $CMP 2764_PLCC32
 D Generic ROM 64Kbit(8Kx8)
 $ENDCMP
 #
+$CMP 29F002
+D Generic Flash ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
+$CMP 29F010
+D Generic Flash ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
+$CMP 29F040
+D Generic Flash ROM 4Mbit(512Kbx8)
+$ENDCMP
+#
+$CMP AM29F002
+D Generic Flash ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
+$CMP AM29F010
+D Generic Flash ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
+$CMP AM29F040
+D Generic Flash ROM 4Mbit(512Kbx8)
+$ENDCMP
+#
+$CMP SST39F010
+D Generic Flash ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
+$CMP SST39F020
+D Generic Flash ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
+$CMP SST39F040
+D Generic Flash ROM 4Mbit(512Kbx8)
+$ENDCMP
+#
 #End Doc Library

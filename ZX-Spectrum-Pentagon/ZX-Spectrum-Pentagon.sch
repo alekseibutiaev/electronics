@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 7
+Sheet 1 8
 Title ""
 Date ""
 Rev ""
@@ -1218,7 +1218,7 @@ Wire Wire Line
 Text Label 3100 2400 0    50   ~ 0
 A14+A15
 $Sheet
-S 5500 650  1000 3000
+S 5500 600  1000 3000
 U 63F76E84
 F0 "Memory" 50
 F1 "Memory.sch" 50

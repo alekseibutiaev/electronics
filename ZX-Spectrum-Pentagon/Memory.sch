@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 8
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -21,7 +21,7 @@ AR Path="/63FB6D99" Ref="U?"  Part="1"
 AR Path="/63F76E84/63FB6D99" Ref="U?"  Part="1" 
 F 0 "U?" H 2300 1850 50  0000 C CNN
 F 1 "74HC257" H 2300 750 50  0000 C CNN
-F 2 "" H 2850 1350 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 1350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 1350 50  0001 C CNN
 	1    2300 1300
 	1    0    0    -1  
@@ -34,7 +34,7 @@ AR Path="/63FBC6C0" Ref="U?"  Part="1"
 AR Path="/63F76E84/63FBC6C0" Ref="U?"  Part="1" 
 F 0 "U?" H 2300 3350 50  0000 C CNN
 F 1 "74HC257" H 2300 2250 50  0000 C CNN
-F 2 "" H 2850 2850 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 2850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 2850 50  0001 C CNN
 	1    2300 2800
 	1    0    0    -1  
@@ -47,7 +47,7 @@ AR Path="/63FC2E67" Ref="U?"  Part="1"
 AR Path="/63F76E84/63FC2E67" Ref="U?"  Part="1" 
 F 0 "U?" H 2300 4850 50  0000 C CNN
 F 1 "74HC257" H 2300 3750 50  0000 C CNN
-F 2 "" H 2850 4350 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 4350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 4350 50  0001 C CNN
 	1    2300 4300
 	1    0    0    -1  
@@ -466,7 +466,7 @@ U 2 1 64281E3C
 P 2800 6950
 F 0 "U?" H 2800 7100 50  0000 C CNN
 F 1 "74HC08" H 2800 6800 50  0000 C CNN
-F 2 "" H 2800 6650 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 6650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 7100 50  0001 C CNN
 	2    2800 6950
 	1    0    0    -1  
@@ -477,7 +477,7 @@ U 4 1 64284777
 P 2800 7350
 F 0 "U?" H 2800 7500 50  0000 C CNN
 F 1 "74HC08" H 2800 7200 50  0000 C CNN
-F 2 "" H 2800 7050 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 7050 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 7500 50  0001 C CNN
 	4    2800 7350
 	1    0    0    -1  
@@ -488,7 +488,7 @@ U 1 1 64285960
 P 2150 6900
 F 0 "U?" H 2150 7050 50  0000 C CNN
 F 1 "74HC08" H 2150 6750 50  0000 C CNN
-F 2 "" H 2150 6600 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2150 6600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2150 7050 50  0001 C CNN
 	1    2150 6900
 	1    0    0    -1  
@@ -944,7 +944,7 @@ AR Path="/63FC2F5D" Ref="U?"  Part="1"
 AR Path="/63F76E84/63FC2F5D" Ref="U?"  Part="1" 
 F 0 "U?" H 2300 6350 50  0000 C CNN
 F 1 "74HC257" H 2300 5250 50  0000 C CNN
-F 2 "" H 2850 5850 50  0001 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 5850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 5850 50  0001 C CNN
 	1    2300 5800
 	1    0    0    -1  
@@ -983,7 +983,7 @@ U 1 1 6372CEF6
 P 5750 1350
 F 0 "U?" H 5750 1900 50  0000 C CNN
 F 1 "74HC541" H 5750 700 50  0000 C CNN
-F 2 "" H 5750 1900 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 5750 1900 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5750 1900 50  0001 C CNN
 	1    5750 1350
 	1    0    0    -1  
@@ -1027,7 +1027,7 @@ AR Path="/62ABE0A0" Ref="U?"  Part="1"
 AR Path="/63F76E84/62ABE0A0" Ref="U?"  Part="1" 
 F 0 "U?" H 4300 3050 50  0000 C CNN
 F 1 "HM628512" H 4300 750 50  0000 C CNN
-F 2 "" H 4300 3050 50  0001 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm" H 4300 3050 50  0001 C CNN
 F 3 "" H 4300 3050 50  0001 C CNN
 	1    4300 1900
 	1    0    0    -1  
@@ -1226,7 +1226,7 @@ U 1 1 62EC474A
 P 2800 6550
 F 0 "U?" H 2800 6700 50  0000 C CNN
 F 1 "74HC32" H 2800 6400 50  0000 C CNN
-F 2 "" H 2800 6250 50  0001 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 6250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 6700 50  0001 C CNN
 	1    2800 6550
 	1    0    0    -1  
@@ -1385,7 +1385,7 @@ AR Path="/63FD0238" Ref="U?"  Part="1"
 AR Path="/63F76E84/63FD0238" Ref="U?"  Part="1" 
 F 0 "U?" H 5750 3250 50  0000 C CNN
 F 1 "74HC574" H 5750 2150 50  0000 C CNN
-F 2 "" H 5750 2400 50  0001 C CNN
+F 2 "Package_DIP:DIP-20_W7.62mm" H 5750 2400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5750 2400 50  0001 C CNN
 	1    5750 2700
 	1    0    0    -1  

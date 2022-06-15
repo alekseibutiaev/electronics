@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title ""
 Date ""
 Rev ""
@@ -1776,6 +1776,220 @@ F51 "MD5" O R 6500 2050 50
 F52 "MD6" O R 6500 2150 50 
 F53 "MD7" O R 6500 2250 50 
 $EndSheet
+$Sheet
+S 3500 5400 1000 2250
+U 62FD43AB
+F0 "VideoFormating" 50
+F1 "Video_Formating.sch" 50
+F2 "MD0" I L 3500 5500 50 
+F3 "MD1" I L 3500 5600 50 
+F4 "MD2" I L 3500 5700 50 
+F5 "MD3" I L 3500 5800 50 
+F6 "MD4" I L 3500 5900 50 
+F7 "MD5" I L 3500 6000 50 
+F8 "MD6" I L 3500 6100 50 
+F9 "MD7" I L 3500 6200 50 
+F10 "CBER0" I L 3500 6400 50 
+F11 "CBRD1" I L 3500 6500 50 
+F12 "CBRD2" I L 3500 6600 50 
+F13 "~C1" I L 3500 6900 50 
+F14 "~C2" I L 3500 7000 50 
+F15 "C3" I L 3500 7100 50 
+F16 "C17" I L 3500 7300 50 
+F17 "C18" I L 3500 7400 50 
+F18 "BL" I L 3500 7500 50 
+F19 "RED" O R 4500 5600 50 
+F20 "GREEN" O R 4500 5700 50 
+F21 "BLUE" O R 4500 5800 50 
+F22 "SYNCOUT" O R 4500 5900 50 
+F23 "SYNC" O R 4500 6000 50 
+F24 "F-25Hz" I L 3500 6300 50 
+F25 "PA6" I L 3500 6700 50 
+F26 "PA7" I L 3500 6800 50 
+F27 "C5" I L 3500 7200 50 
+F28 "GPA6" O R 4500 6100 50 
+F29 "GPA7" O R 4500 6200 50 
+$EndSheet
+Wire Wire Line
+	3500 5500 3100 5500
+Text Label 3100 5500 0    50   ~ 0
+~
+Entry Wire Line
+	3100 5500 3000 5600
+Wire Wire Line
+	3500 5600 3100 5600
+Text Label 3100 5600 0    50   ~ 0
+~
+Entry Wire Line
+	3100 5600 3000 5700
+Wire Wire Line
+	3500 5700 3100 5700
+Text Label 3100 5700 0    50   ~ 0
+~
+Entry Wire Line
+	3100 5700 3000 5800
+Wire Wire Line
+	3500 5800 3100 5800
+Text Label 3100 5800 0    50   ~ 0
+~
+Entry Wire Line
+	3100 5800 3000 5900
+Text Label 3100 5900 0    50   ~ 0
+~
+Entry Wire Line
+	3100 5900 3000 6000
+Wire Wire Line
+	3500 6000 3100 6000
+Text Label 3100 6000 0    50   ~ 0
+~
+Entry Wire Line
+	3100 6000 3000 6100
+Wire Wire Line
+	3500 6100 3100 6100
+Text Label 3100 6100 0    50   ~ 0
+~
+Entry Wire Line
+	3100 6100 3000 6200
+Wire Wire Line
+	3500 6200 3100 6200
+Text Label 3100 6200 0    50   ~ 0
+~
+Text Label 3100 5500 0    50   ~ 0
+MD0
+Text Label 3100 5600 0    50   ~ 0
+MD1
+Text Label 3100 5700 0    50   ~ 0
+MD2
+Text Label 3100 5800 0    50   ~ 0
+MD3
+Text Label 3100 5900 0    50   ~ 0
+MD4
+Text Label 3100 6000 0    50   ~ 0
+MD5
+Text Label 3100 6100 0    50   ~ 0
+MD6
+Text Label 3100 6200 0    50   ~ 0
+MD7
+Wire Wire Line
+	3500 5900 3100 5900
+Entry Wire Line
+	3000 7000 3100 6900
+Text Label 3100 6600 0    50   ~ 0
+CBRD2
+Text Label 3100 6500 0    50   ~ 0
+CBRD1
+Wire Wire Line
+	3500 6600 3100 6600
+Wire Wire Line
+	3500 6500 3100 6500
+Entry Wire Line
+	3100 6600 3000 6700
+Entry Wire Line
+	3100 6500 3000 6600
+Entry Wire Line
+	3100 6400 3000 6500
+Wire Wire Line
+	3500 6400 3100 6400
+Text Label 3100 6400 0    50   ~ 0
+CBRD0
+Entry Wire Line
+	3100 6200 3000 6300
+Entry Wire Line
+	3000 7100 3100 7000
+Entry Wire Line
+	3000 7200 3100 7100
+Entry Wire Line
+	3000 7400 3100 7300
+Entry Wire Line
+	3000 7500 3100 7400
+Entry Wire Line
+	3000 7600 3100 7500
+Wire Wire Line
+	3100 6900 3500 6900
+Wire Wire Line
+	3100 7000 3500 7000
+Wire Wire Line
+	3100 7100 3500 7100
+Wire Wire Line
+	3100 7300 3500 7300
+Wire Wire Line
+	3100 7400 3500 7400
+Wire Wire Line
+	3100 7500 3500 7500
+Text Label 3100 6900 0    50   ~ 0
+~C1
+Text Label 3100 7000 0    50   ~ 0
+~C2
+Text Label 3100 7100 0    50   ~ 0
+C3
+Text Label 3100 7300 0    50   ~ 0
+C17
+Text Label 3100 7400 0    50   ~ 0
+C18
+Text Label 3100 7500 0    50   ~ 0
+BL
+Entry Wire Line
+	5000 5700 4900 5600
+Entry Wire Line
+	5000 5800 4900 5700
+Entry Wire Line
+	5000 5900 4900 5800
+Entry Wire Line
+	5000 6000 4900 5900
+Entry Wire Line
+	5000 6100 4900 6000
+Wire Wire Line
+	4900 5600 4500 5600
+Wire Wire Line
+	4900 5700 4500 5700
+Wire Wire Line
+	4900 5800 4500 5800
+Wire Wire Line
+	4900 5900 4500 5900
+Wire Wire Line
+	4900 6000 4500 6000
+Text Label 4900 5600 2    50   ~ 0
+RED
+Text Label 4900 5700 2    50   ~ 0
+GREEN
+Text Label 4900 5800 2    50   ~ 0
+BLUE
+Text Label 4900 5900 2    50   ~ 0
+SYNCOUT
+Text Label 4900 6000 2    50   ~ 0
+SYNC
+Entry Wire Line
+	3000 6800 3100 6700
+Entry Wire Line
+	3000 6900 3100 6800
+Wire Wire Line
+	3100 6700 3500 6700
+Wire Wire Line
+	3100 6800 3500 6800
+Text Label 3100 6700 0    50   ~ 0
+PA6
+Text Label 3100 6800 0    50   ~ 0
+PA7
+Entry Wire Line
+	3000 6400 3100 6300
+Wire Wire Line
+	3100 6300 3500 6300
+Text Label 3100 6300 0    50   ~ 0
+F-25Hz
+Entry Wire Line
+	3000 7300 3100 7200
+Wire Wire Line
+	3100 7200 3500 7200
+Text Label 3100 7200 0    50   ~ 0
+C5
+Entry Wire Line
+	4900 6100 5000 6200
+Entry Wire Line
+	4900 6200 5000 6300
+Wire Wire Line
+	4500 6100 4900 6100
+Wire Wire Line
+	4500 6200 4900 6200
 Wire Bus Line
 	1000 900  1000 7750
 Wire Bus Line
@@ -1784,4 +1998,8 @@ Wire Bus Line
 	5000 800  5000 6500
 Wire Bus Line
 	3000 800  3000 7750
+Text Label 4900 6100 2    50   ~ 0
+GPA6
+Text Label 4900 6200 2    50   ~ 0
+GPA7
 $EndSCHEMATC

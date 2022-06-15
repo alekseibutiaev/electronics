@@ -64,8 +64,6 @@ $EndComp
 Wire Wire Line
 	2500 3950 3200 3950
 Wire Wire Line
-	3200 3950 3200 6200
-Wire Wire Line
 	2500 4050 3100 4050
 Wire Wire Line
 	2500 4150 3000 4150
@@ -73,21 +71,6 @@ Wire Wire Line
 	2500 4250 2900 4250
 Wire Wire Line
 	2500 4350 2800 4350
-$Comp
-L 74IEC:74HC32 U?
-U 1 1 6310C3B9
-P 5300 5950
-F 0 "U?" H 5300 6100 50  0000 C CNN
-F 1 "74HC32" H 5300 5800 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 5300 5650 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5300 6100 50  0001 C CNN
-	1    5300 5950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5500 5950 5800 5950
-Wire Wire Line
-	5000 5900 5100 5900
 Wire Wire Line
 	3500 4150 3500 5350
 Wire Wire Line
@@ -114,8 +97,6 @@ Wire Wire Line
 Connection ~ 1800 5600
 Wire Wire Line
 	1800 5600 1400 5600
-Text GLabel 1400 6000 0    50   Input ~ 10
-DIS
 Wire Wire Line
 	1600 4450 1900 4450
 $Comp
@@ -151,8 +132,6 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5100 4050 50  0001 C CNN
 	1    4550 4000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3100 4050 3100 6300
 $Comp
 L power:VCC #PWR0122
 U 1 1 631CE012
@@ -174,10 +153,6 @@ Wire Wire Line
 	2400 5650 4000 5650
 Wire Wire Line
 	4000 4450 4000 5650
-Wire Wire Line
-	5000 5900 5000 4100
-Wire Wire Line
-	5000 4100 4850 4100
 $Comp
 L power:GND #PWR0123
 U 1 1 631FC597
@@ -228,18 +203,10 @@ Wire Wire Line
 	1450 4150 1900 4150
 Wire Wire Line
 	1450 4250 1900 4250
-Text GLabel 5800 5950 2    50   Output ~ 10
-C37
 Text GLabel 5800 4300 2    50   Output ~ 10
-MX4
-Text GLabel 5800 3900 2    50   Output ~ 10
-C34
-Text GLabel 5800 3700 2    50   Output ~ 10
-C33
-Wire Wire Line
-	5100 6000 1400 6000
+MX3
 Text GLabel 5800 6200 2    50   Output ~ 10
-C35
+SCRSEL
 Text GLabel 5800 6300 2    50   Output ~ 10
 A14-ROM
 Text GLabel 5800 6400 2    50   Output ~ 10
@@ -268,14 +235,6 @@ Wire Wire Line
 	3000 6400 5800 6400
 Wire Wire Line
 	3100 6300 5800 6300
-Wire Wire Line
-	3200 6200 5800 6200
-Wire Wire Line
-	3000 4150 3000 6400
-Wire Wire Line
-	2900 4250 2900 6500
-Wire Wire Line
-	2800 4350 2800 6600
 Wire Wire Line
 	1450 4350 1700 4350
 Wire Wire Line
@@ -381,4 +340,27 @@ Wire Wire Line
 	2600 1600 2800 1600
 Connection ~ 2600 1600
 NoConn ~ 2500 2600
+Wire Wire Line
+	4850 4100 5800 4100
+Text GLabel 5800 3900 2    50   Output ~ 10
+MX1
+Text GLabel 5800 3700 2    50   Output ~ 10
+MX0
+Text GLabel 5800 4100 2    50   Output ~ 10
+MX2
+Wire Wire Line
+	2800 4350 2800 6600
+Wire Wire Line
+	2900 4250 2900 6500
+Wire Wire Line
+	3000 4150 3000 6400
+Wire Wire Line
+	3100 4050 3100 6300
+Wire Wire Line
+	3200 3900 3200 3950
+Wire Wire Line
+	3200 6200 5800 6200
+Connection ~ 3200 3950
+Wire Wire Line
+	3200 3950 3200 6200
 $EndSCHEMATC

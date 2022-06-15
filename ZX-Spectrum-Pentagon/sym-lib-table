@@ -5,4 +5,5 @@
   (lib (name Gal)(type Legacy)(uri ${KIPRJMOD}/Gal.lib)(options "")(descr ""))
   (lib (name zx_custom_symbol)(type Legacy)(uri ${KIPRJMOD}/zx_custom_symbol.lib)(options "")(descr ""))
   (lib (name GenericROM)(type Legacy)(uri ${KIPRJMOD}/../generic_rom/GenericROM.lib)(options "")(descr ""))
+  (lib (name GenericSRAM)(type Legacy)(uri ${KIPRJMOD}/../generic_sram/GenericSRAM.lib)(options "")(descr ""))
 )

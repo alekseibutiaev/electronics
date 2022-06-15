@@ -399,13 +399,13 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4500 3400 50  0001 C CNN
 $EndComp
 $Comp
 L 74IEC:74HC08 U?
-U 2 1 62DF1E63
+U 3 1 62DF1E63
 P 3850 3700
 F 0 "U?" H 3850 3850 50  0000 C CNN
 F 1 "74HC08" H 3850 3550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3850 3400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3850 3850 50  0001 C CNN
-	2    3850 3700
+	3    3850 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

@@ -578,16 +578,16 @@ Text Label 2900 4850 2    50   ~ 0
 PA7
 Text Label 2900 4750 2    50   ~ 0
 PA6
-Text Label 2900 4650 2    50   ~ 0
-MX4
 Text Label 2900 4550 2    50   ~ 0
-C37
+MX3
 Text Label 2900 4450 2    50   ~ 0
-C35
+MX2
+Text Label 2900 4650 2    50   ~ 0
+SCRSEL
 Text Label 2900 4350 2    50   ~ 0
-C34
+MX1
 Text Label 2900 4250 2    50   ~ 0
-C33
+MX0
 Wire Wire Line
 	2500 5050 2900 5050
 Wire Wire Line
@@ -720,11 +720,11 @@ F11 "~RST" I L 1500 5350 50
 F12 "A14" I L 1500 5050 50 
 F13 "A15" I L 1500 5150 50 
 F14 "DIS" I L 1500 5250 50 
-F15 "C33" O R 2500 4250 50 
-F16 "C34" O R 2500 4350 50 
-F17 "C35" O R 2500 4450 50 
-F18 "C37" O R 2500 4550 50 
-F19 "MX4" O R 2500 4650 50 
+F15 "MX0" O R 2500 4250 50 
+F16 "MX1" O R 2500 4350 50 
+F17 "SCRSEL" O R 2500 4650 50 
+F18 "MX2" O R 2500 4450 50 
+F19 "MX3" O R 2500 4550 50 
 F20 "PA6" O R 2500 4750 50 
 F21 "PA7" O R 2500 4850 50 
 F22 "A14-ROM" O R 2500 4950 50 
@@ -1217,16 +1217,571 @@ Wire Wire Line
 	3100 2400 3500 2400
 Text Label 3100 2400 0    50   ~ 0
 A14+A15
+Wire Wire Line
+	6500 700  6900 700 
+Text Label 6900 700  2    50   ~ 0
+~
+Entry Wire Line
+	6900 700  7000 800 
+Wire Wire Line
+	6500 800  6900 800 
+Text Label 6900 800  2    50   ~ 0
+~
+Entry Wire Line
+	6900 800  7000 900 
+Wire Wire Line
+	6500 900  6900 900 
+Text Label 6900 900  2    50   ~ 0
+~
+Entry Wire Line
+	6900 900  7000 1000
+Wire Wire Line
+	6500 1000 6900 1000
+Text Label 6900 1000 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1000 7000 1100
+Text Label 6900 1100 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1100 7000 1200
+Wire Wire Line
+	6500 1200 6900 1200
+Text Label 6900 1200 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1200 7000 1300
+Wire Wire Line
+	6500 1300 6900 1300
+Text Label 6900 1300 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1300 7000 1400
+Wire Wire Line
+	6500 1400 6900 1400
+Text Label 6900 1400 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1400 7000 1500
+Text Label 6900 700  2    50   ~ 0
+D0
+Text Label 6900 800  2    50   ~ 0
+D1
+Text Label 6900 900  2    50   ~ 0
+D2
+Text Label 6900 1000 2    50   ~ 0
+D3
+Text Label 6900 1100 2    50   ~ 0
+D4
+Text Label 6900 1200 2    50   ~ 0
+D5
+Text Label 6900 1300 2    50   ~ 0
+D6
+Text Label 6900 1400 2    50   ~ 0
+D7
+Wire Wire Line
+	6500 1100 6900 1100
+Text HLabel 6500 700  0    50   BiDi ~ 0
+D0
+Text HLabel 6500 800  0    50   BiDi ~ 0
+D1
+Text HLabel 6500 900  0    50   BiDi ~ 0
+D2
+Text HLabel 6500 1000 0    50   BiDi ~ 0
+D3
+Text HLabel 6500 1100 0    50   BiDi ~ 0
+D4
+Text HLabel 6500 1200 0    50   BiDi ~ 0
+D5
+Text HLabel 6500 1300 0    50   BiDi ~ 0
+D6
+Text HLabel 6500 1400 0    50   BiDi ~ 0
+D7
+Wire Wire Line
+	5500 1700 5100 1700
+Wire Wire Line
+	5500 1200 5100 1200
+Text Label 5100 2100 0    50   ~ 0
+A14
+Text Label 5100 2200 0    50   ~ 0
+A15
+Text Label 5100 2000 0    50   ~ 0
+A13
+Text Label 5100 1900 0    50   ~ 0
+A12
+Text Label 5100 1800 0    50   ~ 0
+A11
+Text Label 5100 1700 0    50   ~ 0
+A10
+Text Label 5100 1600 0    50   ~ 0
+A9
+Text Label 5100 1500 0    50   ~ 0
+A8
+Text Label 5100 1400 0    50   ~ 0
+A7
+Text Label 5100 1300 0    50   ~ 0
+A6
+Text Label 5100 1200 0    50   ~ 0
+A5
+Text Label 5100 1100 0    50   ~ 0
+A4
+Text Label 5100 1000 0    50   ~ 0
+A3
+Text Label 5100 900  0    50   ~ 0
+A2
+Text Label 5100 800  0    50   ~ 0
+A1
+Text Label 5100 700  0    50   ~ 0
+A0
+Entry Wire Line
+	5100 2200 5000 2300
+Text Label 5100 2200 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2200 5100 2200
+Entry Wire Line
+	5100 2100 5000 2200
+Text Label 5100 2100 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2100 5100 2100
+Entry Wire Line
+	5100 2000 5000 2100
+Text Label 5100 2000 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2000 5100 2000
+Entry Wire Line
+	5100 1900 5000 2000
+Text Label 5100 1900 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1900 5100 1900
+Entry Wire Line
+	5100 1800 5000 1900
+Text Label 5100 1800 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1800 5100 1800
+Entry Wire Line
+	5100 1700 5000 1800
+Text Label 5100 1700 0    50   ~ 0
+~
+Entry Wire Line
+	5100 1600 5000 1700
+Text Label 5100 1600 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1600 5100 1600
+Entry Wire Line
+	5100 1500 5000 1600
+Text Label 5100 1500 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1500 5100 1500
+Entry Wire Line
+	5100 1400 5000 1500
+Text Label 5100 1400 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1400 5100 1400
+Entry Wire Line
+	5100 1300 5000 1400
+Text Label 5100 1300 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1300 5100 1300
+Entry Wire Line
+	5100 1200 5000 1300
+Text Label 5100 1200 0    50   ~ 0
+~
+Entry Wire Line
+	5100 1100 5000 1200
+Text Label 5100 1100 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1100 5100 1100
+Entry Wire Line
+	5100 1000 5000 1100
+Text Label 5100 1000 0    50   ~ 0
+~
+Wire Wire Line
+	5500 1000 5100 1000
+Entry Wire Line
+	5100 900  5000 1000
+Text Label 5100 900  0    50   ~ 0
+~
+Wire Wire Line
+	5500 900  5100 900 
+Entry Wire Line
+	5100 800  5000 900 
+Text Label 5100 800  0    50   ~ 0
+~
+Wire Wire Line
+	5500 800  5100 800 
+Entry Wire Line
+	5100 700  5000 800 
+Text Label 5100 700  0    50   ~ 0
+~
+Wire Wire Line
+	5500 700  5100 700 
+Wire Wire Line
+	5500 3400 5100 3400
+Wire Wire Line
+	5500 2900 5100 2900
+Text Label 5100 3600 0    50   ~ 0
+B18
+Text Label 5100 3500 0    50   ~ 0
+B17
+Text Label 5100 3400 0    50   ~ 0
+B16
+Text Label 5100 3300 0    50   ~ 0
+B15
+Text Label 5100 3200 0    50   ~ 0
+B14
+Text Label 5100 3100 0    50   ~ 0
+B11
+Text Label 5100 3000 0    50   ~ 0
+B10
+Text Label 5100 2900 0    50   ~ 0
+B9
+Text Label 5100 2800 0    50   ~ 0
+B5
+Text Label 5100 2700 0    50   ~ 0
+B4
+Text Label 5100 2600 0    50   ~ 0
+B3
+Text Label 5100 2500 0    50   ~ 0
+B2
+Text Label 5100 2400 0    50   ~ 0
+B1
+Entry Wire Line
+	5100 3600 5000 3700
+Text Label 5100 3600 0    50   ~ 0
+~
+Wire Wire Line
+	5500 3600 5100 3600
+Entry Wire Line
+	5100 3500 5000 3600
+Text Label 5100 3500 0    50   ~ 0
+~
+Wire Wire Line
+	5500 3500 5100 3500
+Entry Wire Line
+	5100 3400 5000 3500
+Text Label 5100 3400 0    50   ~ 0
+~
+Entry Wire Line
+	5100 3300 5000 3400
+Text Label 5100 3300 0    50   ~ 0
+~
+Wire Wire Line
+	5500 3300 5100 3300
+Entry Wire Line
+	5100 3200 5000 3300
+Text Label 5100 3200 0    50   ~ 0
+~
+Wire Wire Line
+	5500 3200 5100 3200
+Entry Wire Line
+	5100 3100 5000 3200
+Text Label 5100 3100 0    50   ~ 0
+~
+Wire Wire Line
+	5500 3100 5100 3100
+Entry Wire Line
+	5100 3000 5000 3100
+Text Label 5100 3000 0    50   ~ 0
+~
+Wire Wire Line
+	5500 3000 5100 3000
+Entry Wire Line
+	5100 2900 5000 3000
+Text Label 5100 2900 0    50   ~ 0
+~
+Entry Wire Line
+	5100 2800 5000 2900
+Text Label 5100 2800 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2800 5100 2800
+Entry Wire Line
+	5100 2700 5000 2800
+Text Label 5100 2700 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2700 5100 2700
+Entry Wire Line
+	5100 2600 5000 2700
+Text Label 5100 2600 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2600 5100 2600
+Entry Wire Line
+	5100 2500 5000 2600
+Text Label 5100 2500 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2500 5100 2500
+Entry Wire Line
+	5100 2400 5000 2500
+Text Label 5100 2400 0    50   ~ 0
+~
+Wire Wire Line
+	5500 2400 5100 2400
+Wire Wire Line
+	6500 2400 6900 2400
+Text Label 6900 2400 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2400 7000 2500
+Wire Wire Line
+	6500 2500 6900 2500
+Text Label 6900 2500 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2500 7000 2600
+Wire Wire Line
+	6500 2600 6900 2600
+Text Label 6900 2600 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2600 7000 2700
+Wire Wire Line
+	6500 2700 6900 2700
+Text Label 6900 2700 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2700 7000 2800
+Text Label 6900 2800 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2800 7000 2900
+Wire Wire Line
+	6500 3200 6900 3200
+Text Label 6900 3200 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3200 7000 3300
+Wire Wire Line
+	6500 3300 6900 3300
+Text Label 6900 3300 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3300 7000 3400
+Wire Wire Line
+	6500 3400 6900 3400
+Text Label 6900 3400 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3400 7000 3500
+Text Label 6900 2400 2    50   ~ 0
+CPU
+Text Label 6900 2500 2    50   ~ 0
+DIPLAY
+Text Label 6900 2600 2    50   ~ 0
+RAS
+Text Label 6900 2700 2    50   ~ 0
+~RAS
+Text Label 6900 2800 2    50   ~ 0
+CAS
+Text Label 6900 3200 2    50   ~ 0
+MX0
+Text Label 6900 3300 2    50   ~ 0
+MX1
+Text Label 6900 3400 2    50   ~ 0
+MX2
+Wire Wire Line
+	6500 2800 6900 2800
+Wire Wire Line
+	6500 2900 6900 2900
+Text Label 6900 2900 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2900 7000 3000
+Wire Wire Line
+	6500 3000 6900 3000
+Text Label 6900 3000 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3000 7000 3100
+Wire Wire Line
+	6500 3100 6900 3100
+Text Label 6900 3100 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3100 7000 3200
+Text Label 6900 2900 2    50   ~ 0
+C16
+Text Label 6900 3000 2    50   ~ 0
+C19
+Text Label 6900 3100 2    50   ~ 0
+C20
+Wire Wire Line
+	6500 3500 6900 3500
+Text Label 6900 3500 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3500 7000 3600
+Wire Wire Line
+	6500 3600 6900 3600
+Text Label 6900 3600 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3600 7000 3700
+Wire Wire Line
+	6500 3700 6900 3700
+Text Label 6900 3700 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3700 7000 3800
+Text Label 6900 3500 2    50   ~ 0
+MX3
+Text Label 6900 3600 2    50   ~ 0
+GPA6
+Text Label 6900 3700 2    50   ~ 0
+GPA7
+Wire Wire Line
+	6500 3800 6900 3800
+Text Label 6900 3800 2    50   ~ 0
+~
+Entry Wire Line
+	6900 3800 7000 3900
+Text Label 6900 3800 2    50   ~ 0
+SCRSEL
+Wire Bus Line
+	7000 6500 5000 6500
+Connection ~ 5000 6500
+Wire Bus Line
+	5000 6500 5000 7750
+Wire Wire Line
+	6500 1550 6900 1550
+Text Label 6900 1550 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1550 7000 1650
+Wire Wire Line
+	6500 1650 6900 1650
+Text Label 6900 1650 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1650 7000 1750
+Wire Wire Line
+	6500 1750 6900 1750
+Text Label 6900 1750 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1750 7000 1850
+Wire Wire Line
+	6500 1850 6900 1850
+Text Label 6900 1850 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1850 7000 1950
+Text Label 6900 1950 2    50   ~ 0
+~
+Entry Wire Line
+	6900 1950 7000 2050
+Wire Wire Line
+	6500 2050 6900 2050
+Text Label 6900 2050 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2050 7000 2150
+Wire Wire Line
+	6500 2150 6900 2150
+Text Label 6900 2150 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2150 7000 2250
+Wire Wire Line
+	6500 2250 6900 2250
+Text Label 6900 2250 2    50   ~ 0
+~
+Entry Wire Line
+	6900 2250 7000 2350
+Text Label 6900 1550 2    50   ~ 0
+MD0
+Text Label 6900 1650 2    50   ~ 0
+MD1
+Text Label 6900 1750 2    50   ~ 0
+MD2
+Text Label 6900 1850 2    50   ~ 0
+MD3
+Text Label 6900 1950 2    50   ~ 0
+MD4
+Text Label 6900 2050 2    50   ~ 0
+MD5
+Text Label 6900 2150 2    50   ~ 0
+MD6
+Text Label 6900 2250 2    50   ~ 0
+MD7
+Wire Wire Line
+	6500 1950 6900 1950
 $Sheet
-S 5500 600  1000 3000
+S 5500 600  1000 3300
 U 63F76E84
 F0 "Memory" 50
 F1 "Memory.sch" 50
+F2 "A0" I L 5500 700 50 
+F3 "A2" I L 5500 900 50 
+F4 "A1" I L 5500 800 50 
+F5 "A3" I L 5500 1000 50 
+F6 "A4" I L 5500 1100 50 
+F7 "A5" I L 5500 1200 50 
+F8 "A6" I L 5500 1300 50 
+F9 "A7" I L 5500 1400 50 
+F10 "A8" I L 5500 1500 50 
+F11 "A9" I L 5500 1600 50 
+F12 "A10" I L 5500 1700 50 
+F13 "A11" I L 5500 1800 50 
+F14 "A12" I L 5500 1900 50 
+F15 "A13" I L 5500 2000 50 
+F16 "A14" I L 5500 2100 50 
+F17 "A15" I L 5500 2200 50 
+F18 "B1" I L 5500 2400 50 
+F19 "B2" I L 5500 2500 50 
+F20 "B3" I L 5500 2600 50 
+F21 "B4" I L 5500 2700 50 
+F22 "B5" I L 5500 2800 50 
+F23 "B9" I L 5500 2900 50 
+F24 "B10" I L 5500 3000 50 
+F25 "B11" I L 5500 3100 50 
+F26 "B14" I L 5500 3200 50 
+F27 "B15" I L 5500 3300 50 
+F28 "B16" I L 5500 3400 50 
+F29 "B17" I L 5500 3500 50 
+F30 "B18" I L 5500 3600 50 
+F31 "CPU" I R 6500 2400 50 
+F32 "DIPLAY" I R 6500 2500 50 
+F33 "RAS" I R 6500 2600 50 
+F34 "~RAS" I R 6500 2700 50 
+F35 "CAS" I R 6500 2800 50 
+F36 "C16" I R 6500 2900 50 
+F37 "C19" I R 6500 3000 50 
+F38 "C20" I R 6500 3100 50 
+F39 "MX0" I R 6500 3200 50 
+F40 "MX1" I R 6500 3300 50 
+F41 "MX3" I R 6500 3500 50 
+F42 "MX2" I R 6500 3400 50 
+F43 "GPA6" I R 6500 3600 50 
+F44 "GPA7" I R 6500 3700 50 
+F45 "SCRSEL" I R 6500 3800 50 
+F46 "MD0" O R 6500 1550 50 
+F47 "MD1" O R 6500 1650 50 
+F48 "MD2" O R 6500 1750 50 
+F49 "MD3" O R 6500 1850 50 
+F50 "MD4" O R 6500 1950 50 
+F51 "MD5" O R 6500 2050 50 
+F52 "MD6" O R 6500 2150 50 
+F53 "MD7" O R 6500 2250 50 
 $EndSheet
 Wire Bus Line
 	1000 900  1000 7750
 Wire Bus Line
-	5000 800  5000 7750
+	7000 800  7000 6500
+Wire Bus Line
+	5000 800  5000 6500
 Wire Bus Line
 	3000 800  3000 7750
 $EndSCHEMATC

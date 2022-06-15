@@ -5765,9 +5765,4 @@ $CMP 74XXTS
 D Symbol Schmitt-Trigger
 $ENDCMP
 #
-$CMP untitled
-D AND-OR-Invert Gates
-F https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf
-$ENDCMP
-#
 #End Doc Library

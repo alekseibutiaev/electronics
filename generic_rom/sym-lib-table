@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name GenericROM)(type Legacy)(uri ${KIPRJMOD}/GenericROM.lib)(options "")(descr ""))
+)

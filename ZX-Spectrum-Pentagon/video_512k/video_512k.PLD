@@ -5,8 +5,8 @@ Revision 01 ;
 Designer Engineer ;
 Company  home ;
 Assembly None ;
-Location  ;
-Device   g16v8 ;
+Location Cyprus ;
+Device   g16v8a ;
 
 /* *************** INPUT PINS *********************/
 PIN 1 = F25HZ; /**/ 
@@ -21,10 +21,15 @@ PIN 13 = GPA7; /**/
 PIN 14 = FLASH; /**/  
 PIN 15 = MUX; /**/
 
+Pin [16..19] = [Q0..3];
+
+Q0.d = !Q0;
+Q1.d = (!Q1 & Q0) # (Q1 & !Q0);
+Q2.d = ((!Q2 & Q1 & Q0) # (Q2 & !(Q1 & Q0)));
+Q3.d = ((!Q3 & Q2 & Q1 & Q0) # (Q3 & !(Q2 & Q1 & Q0)));
+
+MUX = !(FLASH_BIT & Q3) $ SERDATA;
+
 GPA6 = DI512K & PA6;
 GPA7 = DI512K & PA7;
-
-FLASH = F25HZ;
-
-MUX = !(FLASH_BIT & FLASH) $ SERDATA;
 

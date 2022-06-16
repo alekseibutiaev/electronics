@@ -1,0 +1,30 @@
+Name     Butiaev Aleksei ;
+PartNo   00 ;
+Date     16.06.2022 ;
+Revision 01 ;
+Designer Engineer ;
+Company  home ;
+Assembly None ;
+Location  ;
+Device   g16v8 ;
+
+/* *************** INPUT PINS *********************/
+PIN 1 = F25HZ; /**/ 
+PIN 2 = PA6; /**/ 
+PIN 3 = PA7; /**/ 
+PIN 4 = SERDATA; /**/ 
+PIN 5 = DI512K; /**/ 
+PIN 6 = FLASH_BIT; /**/
+/* *************** OUTPUT PINS *********************/
+PIN 12 = GPA6; /**/ 
+PIN 13 = GPA7; /**/ 
+PIN 14 = FLASH; /**/  
+PIN 15 = MUX; /**/
+
+GPA6 = DI512K & PA6;
+GPA7 = DI512K & PA7;
+
+FLASH = F25HZ;
+
+MUX = !(FLASH_BIT & FLASH) $ SERDATA;
+

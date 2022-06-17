@@ -8,7 +8,7 @@ Assembly None ;
 Location Cyprus ;
 Device   g16v8a ;
 
-/**************** INPUT PINS *********************/
+/**************** INPUT PINS **********************/
 PIN 1 = F25HZ; /**/ 
 PIN 2 = SERDATA; /**/ 
 PIN 3 = FLASH_BIT; /**/

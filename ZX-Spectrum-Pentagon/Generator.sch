@@ -890,7 +890,7 @@ Connection ~ 3900 4050
 Wire Wire Line
 	2850 6300 3900 6300
 Text GLabel 10500 5750 2    50   Output ~ 10
-F-25Hz
+F25Hz
 Entry Wire Line
 	5550 3450 5650 3350
 Entry Wire Line

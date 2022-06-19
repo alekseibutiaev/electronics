@@ -416,13 +416,13 @@ D4
 Text Label 1600 1850 0    50   ~ 0
 D5
 Text GLabel -4950 -12050 2    50   Output ~ 10
-CBRD0
+CBRDB
 Text GLabel 3000 1450 2    50   Output ~ 10
-CBRD0
+CBRDB
 Text GLabel 3000 1550 2    50   Output ~ 10
-CBRD1
+CBRDR
 Text GLabel 3000 1650 2    50   Output ~ 10
-CBRD2
+CBRDG
 Wire Wire Line
 	2550 1450 3000 1450
 Wire Wire Line

@@ -1455,9 +1455,9 @@ MD6
 Text GLabel 6800 1700 2    50   Output ~ 0
 MD7
 Wire Bus Line
-	6450 700  6450 3450
+	6450 700  6450 2950
 Wire Bus Line
-	5000 700  5000 3700
+	5000 700  5000 3050
 Wire Bus Line
 	3400 700  3400 7700
 Wire Bus Line

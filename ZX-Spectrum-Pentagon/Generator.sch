@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 6 9
+Sheet 5 9
 Title "Generator"
 Date "28.05.2022"
 Rev "0.01v"
@@ -807,7 +807,7 @@ $EndComp
 Wire Wire Line
 	3900 1100 4400 1100
 Wire Wire Line
-	3900 1100 3900 4050
+	3900 1100 3900 2750
 Wire Wire Line
 	3100 1200 4400 1200
 Wire Wire Line
@@ -1370,7 +1370,7 @@ Wire Wire Line
 Wire Wire Line
 	5300 4800 10500 4800
 Wire Wire Line
-	3900 4450 3900 6000
+	3900 4450 3900 5600
 Wire Wire Line
 	7200 6000 10500 6000
 Connection ~ 7200 6000
@@ -1411,6 +1411,17 @@ Wire Wire Line
 Connection ~ 5300 4800
 Wire Wire Line
 	4950 4700 4950 4800
+Text GLabel 10500 5600 2    50   Output ~ 10
+VSYNC
+Wire Wire Line
+	10500 5600 3900 5600
+Connection ~ 3900 5600
+Wire Wire Line
+	3900 5600 3900 6000
+Text GLabel 10500 2750 2    50   Output ~ 10
+VSYNC
+Wire Wire Line
+	10500 2750 3900 2750
 Wire Bus Line
 	7400 2850 7400 5300
 Wire Bus Line
@@ -1419,4 +1430,7 @@ Wire Bus Line
 	10000 2850 10000 4200
 Wire Bus Line
 	2150 3650 2150 7700
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 2750 3900 4050
 $EndSCHEMATC

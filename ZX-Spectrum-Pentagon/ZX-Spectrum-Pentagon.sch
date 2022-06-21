@@ -743,55 +743,53 @@ F6 "+12V" U R 2500 3800 50
 F7 "GND" U R 2500 3900 50 
 F8 "AY-POWER" U R 2500 4000 50 
 $EndSheet
-Text Label 2800 2900 0    50   ~ 0
+Text Label 2900 2900 2    50   ~ 0
 BL
-Text Label 2750 2800 0    50   ~ 0
+Text Label 2900 2800 2    50   ~ 0
 B18
-Text Label 2750 2700 0    50   ~ 0
+Text Label 2900 2700 2    50   ~ 0
 B17
-Text Label 2750 2600 0    50   ~ 0
+Text Label 2900 2600 2    50   ~ 0
 B16
-Text Label 2750 2500 0    50   ~ 0
+Text Label 2900 2500 2    50   ~ 0
 B15
-Text Label 2750 2400 0    50   ~ 0
+Text Label 2900 2400 2    50   ~ 0
 B14
-Text Label 2750 2300 0    50   ~ 0
+Text Label 2900 2300 2    50   ~ 0
 B11
-Text Label 2750 2200 0    50   ~ 0
+Text Label 2900 2200 2    50   ~ 0
 B10
-Text Label 2800 2100 0    50   ~ 0
+Text Label 2900 2100 2    50   ~ 0
 B9
-Text Label 2800 2000 0    50   ~ 0
+Text Label 2900 2000 2    50   ~ 0
 B5
-Text Label 2800 1900 0    50   ~ 0
+Text Label 2900 1900 2    50   ~ 0
 B4
-Text Label 2800 1800 0    50   ~ 0
+Text Label 2900 1800 2    50   ~ 0
 B3
-Text Label 2800 1700 0    50   ~ 0
+Text Label 2900 1700 2    50   ~ 0
 B2
-Text Label 2800 1600 0    50   ~ 0
+Text Label 2900 1600 2    50   ~ 0
 B1
-Text Label 2800 1500 0    50   ~ 0
-C7
-Text Label 2800 1400 0    50   ~ 0
+Text Label 2900 1500 2    50   ~ 0
+SYNC
+Text Label 2900 1400 2    50   ~ 0
 C5
-Text Label 2800 1300 0    50   ~ 0
+Text Label 2900 1300 2    50   ~ 0
 C3
-Text Label 2800 1200 0    50   ~ 0
+Text Label 2900 1200 2    50   ~ 0
 ~C2
-Text Label 2750 1100 0    50   ~ 0
+Text Label 2900 1100 2    50   ~ 0
 C25
-Text Label 2750 1000 0    50   ~ 0
+Text Label 2900 1000 2    50   ~ 0
 ~C25
-Text Label 2600 900  0    50   ~ 0
+Text Label 2900 900  2    50   ~ 0
 AY-CLK
-Text Label 2800 800  0    50   ~ 0
-~C1
-Text Label 2750 700  0    50   ~ 0
+Text Label 2900 700  2    50   ~ 0
 C31
 Text Label 2900 3100 2    50   ~ 0
 C8
-Text Label 2650 3000 0    50   ~ 0
+Text Label 2900 3000 2    50   ~ 0
 F25Hz
 Wire Wire Line
 	2500 3100 2900 3100
@@ -920,7 +918,7 @@ F8 "C25" O R 2500 1100 50
 F9 "~C2" O R 2500 1200 50 
 F10 "C3" O R 2500 1300 50 
 F11 "C5" O R 2500 1400 50 
-F12 "C7" O R 2500 1500 50 
+F12 "SYNC" O R 2500 1500 50 
 F13 "B1" O R 2500 1600 50 
 F14 "B2" O R 2500 1700 50 
 F15 "B3" O R 2500 1800 50 
@@ -1558,14 +1556,14 @@ F19 "RED_CN" O R 4500 5600 50
 F20 "GREEN_CN" O R 4500 5700 50 
 F21 "BLUE_CN" O R 4500 5800 50 
 F22 "SYNCOUT" O R 4500 6400 50 
-F23 "SYNC" O R 4500 6500 50 
+F23 "SYNCO" O R 4500 6500 50 
 F24 "F25Hz" I L 3500 6300 50 
 F25 "PA6" I L 3500 6700 50 
 F26 "PA7" I L 3500 6800 50 
 F27 "C5" I L 3500 7200 50 
 F28 "GPA6" O R 4500 7100 50 
 F29 "GPA7" O R 4500 7200 50 
-F30 "C7" I L 3500 7300 50 
+F30 "SYNC" I L 3500 7300 50 
 F31 "RED_EN" O R 4500 6000 50 
 F32 "GREEN_EN" O R 4500 6100 50 
 F33 "BLUE_EN" O R 4500 6200 50 
@@ -1683,7 +1681,7 @@ Text Label 3100 7000 0    50   ~ 0
 Text Label 3100 7100 0    50   ~ 0
 C3
 Text Label 3100 7300 0    50   ~ 0
-C7
+SYNC
 Text Label 3100 7400 0    50   ~ 0
 C17
 Text Label 3100 7500 0    50   ~ 0
@@ -1713,7 +1711,7 @@ BLUE_EN
 Text Label 4900 6400 2    50   ~ 0
 SYNCOUT
 Text Label 4900 6500 2    50   ~ 0
-SYNC
+SYNCO
 Entry Wire Line
 	3000 6800 3100 6700
 Entry Wire Line
@@ -2017,6 +2015,9 @@ Wire Wire Line
 	2500 3200 2900 3200
 Entry Wire Line
 	2900 3200 3000 3300
+Text Label 2900 800  2    50   ~ 0
+~C1
+NoConn ~ 17200 9450
 Wire Bus Line
 	5000 6500 5000 7750
 Wire Bus Line

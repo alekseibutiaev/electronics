@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 10
+Sheet 1 11
 Title ""
 Date ""
 Rev ""
@@ -67,6 +67,8 @@ F47 "CS_32765" O L 3500 1600 50
 F48 "~INKMST" O L 3500 2200 50 
 F49 "A14-ROM" I L 3500 2300 50 
 F50 "A14+A15" I L 3500 2400 50 
+F51 "+12V" U L 3500 3700 50 
+F52 "+9V" U L 3500 3800 50 
 $EndSheet
 Wire Bus Line
 	11000 6000 11000 500 
@@ -700,11 +702,11 @@ Text GLabel 1350 3600 0    50   UnSpc ~ 0
 PowA
 Text Label 2900 3800 2    50   ~ 0
 GND
-Text Label 2900 3700 2    50   ~ 0
-+12V
-Text Label 2900 3600 2    50   ~ 0
-VCC
 Text Label 2900 3500 2    50   ~ 0
++12V
+Text Label 2900 3700 2    50   ~ 0
+VCC
+Text Label 2900 3600 2    50   ~ 0
 +9V
 Wire Wire Line
 	2500 3800 2900 3800
@@ -729,9 +731,9 @@ F0 "Power Sources" 50
 F1 "Power_Sources.sch" 50
 F2 "PowA" U L 1500 3600 50 
 F3 "PowB" U L 1500 3700 50 
-F4 "+9V" U R 2500 3500 50 
-F5 "VCC" U R 2500 3600 50 
-F6 "+12V" U R 2500 3700 50 
+F4 "+9V" U R 2500 3600 50 
+F5 "VCC" U R 2500 3700 50 
+F6 "+12V" U R 2500 3500 50 
 F7 "GND" U R 2500 3800 50 
 $EndSheet
 Text Label 2900 2900 2    50   ~ 0
@@ -2051,6 +2053,52 @@ Entry Wire Line
 	1000 7600 1100 7500
 Wire Wire Line
 	2500 1400 2900 1400
+$Sheet
+S 5500 7000 1000 500 
+U 664FB8AD
+F0 "PoverIndicator" 50
+F1 "PoverIndicator.sch" 50
+F2 "+12V" U L 5500 7100 50 
+F3 "+9V" U L 5500 7200 50 
+F4 "VCC" U L 5500 7300 50 
+F5 "GND" U L 5500 7400 50 
+$EndSheet
+Text Label 5100 7400 0    50   ~ 0
+GND
+Text Label 5100 7100 0    50   ~ 0
++12V
+Text Label 5100 7300 0    50   ~ 0
+VCC
+Text Label 5100 7200 0    50   ~ 0
++9V
+Wire Wire Line
+	5500 7400 5100 7400
+Wire Wire Line
+	5500 7300 5100 7300
+Wire Wire Line
+	5500 7200 5100 7200
+Wire Wire Line
+	5500 7100 5100 7100
+Entry Wire Line
+	5100 7400 5000 7500
+Entry Wire Line
+	5100 7300 5000 7400
+Entry Wire Line
+	5100 7200 5000 7300
+Entry Wire Line
+	5100 7100 5000 7200
+Wire Wire Line
+	3500 3800 3100 3800
+Text Label 3100 3800 0    50   ~ 0
++9V
+Entry Wire Line
+	3100 3800 3000 3900
+Wire Wire Line
+	3500 3700 3100 3700
+Text Label 3100 3700 0    50   ~ 0
++12V
+Entry Wire Line
+	3100 3700 3000 3800
 Wire Bus Line
 	5000 6500 5000 7750
 Wire Bus Line

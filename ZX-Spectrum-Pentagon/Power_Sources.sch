@@ -14,17 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L zx_custom_symbol:XZ_Power_Jack CNPS?
-U 1 1 62D4C473
-P 1300 1900
-F 0 "CNPS?" H 1300 1700 50  0000 C CNN
-F 1 "XZPJ" H 1300 2100 50  0000 C CNN
-F 2 "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" H 1300 2100 50  0001 C CNN
-F 3 "" H 1300 2100 50  0001 C CNN
-	1    1300 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C CPS?
 U 1 1 629CF5C6
 P 3250 2150
@@ -1522,4 +1511,15 @@ Wire Wire Line
 	8500 1950 8500 2000
 Wire Wire Line
 	6950 1950 6950 2000
+$Comp
+L zx_custom_symbol:Power_Jack CN?
+U 1 1 62B64645
+P 1300 1900
+F 0 "CN?" H 1357 2225 50  0000 C CNN
+F 1 "Power_Jack" H 1357 2134 50  0000 C CNN
+F 2 "" H 1300 2100 50  0001 C CNN
+F 3 "" H 1300 2100 50  0001 C CNN
+	1    1300 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

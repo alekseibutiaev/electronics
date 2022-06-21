@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 10
+Sheet 6 10
 Title ""
 Date ""
 Rev ""
@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74IEC:74HC04 U?
+L 74IEC:74HC04 U19
 U 5 1 62DD20EA
 P 4800 1650
-F 0 "U?" H 4800 1800 50  0000 C CNN
+F 0 "U19" H 4800 1800 50  0000 C CNN
 F 1 "74HC04" H 4800 1500 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4800 1860 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4800 1860 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4800 1860 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC04 U?
+L 74IEC:74HC04 U19
 U 6 1 62DD2A50
 P 2100 4050
-F 0 "U?" H 2100 4200 50  0000 C CNN
+F 0 "U19" H 2100 4200 50  0000 C CNN
 F 1 "74HC04" H 2100 3900 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2100 4260 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2100 4260 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2100 4260 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC00 U?
+L 74IEC:74HC00 U26
 U 1 1 62DE43CC
 P 2800 1600
-F 0 "U?" H 2800 1750 50  0000 C CNN
+F 0 "U26" H 2800 1750 50  0000 C CNN
 F 1 "74HC00" H 2800 1450 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 1350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 2800 1750 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 2800 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC00 U?
+L 74IEC:74HC00 U7
 U 4 1 62DE5B71
 P 3400 1050
-F 0 "U?" H 3400 1200 50  0000 C CNN
+F 0 "U7" H 3400 1200 50  0000 C CNN
 F 1 "74HC00" H 3400 900 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3400 800 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 3400 1200 50  0001 C CNN
@@ -58,10 +58,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 3400 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC00 U?
+L 74IEC:74HC00 U26
 U 4 1 62DE735F
 P 5400 3650
-F 0 "U?" H 5400 3800 50  0000 C CNN
+F 0 "U26" H 5400 3800 50  0000 C CNN
 F 1 "74HC00" H 5400 3500 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5400 3400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 5400 3800 50  0001 C CNN
@@ -69,10 +69,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 5400 3800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC00 U?
+L 74IEC:74HC00 U26
 U 2 1 62DE918E
 P 3650 2000
-F 0 "U?" H 3650 2150 50  0000 C CNN
+F 0 "U26" H 3650 2150 50  0000 C CNN
 F 1 "74HC00" H 3650 1850 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3650 1750 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 3650 2150 50  0001 C CNN
@@ -80,10 +80,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 3650 2150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC00 U?
+L 74IEC:74HC00 U26
 U 3 1 62DEB57F
 P 5400 3100
-F 0 "U?" H 5400 3250 50  0000 C CNN
+F 0 "U26" H 5400 3250 50  0000 C CNN
 F 1 "74HC00" H 5400 2950 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5400 2850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 5400 3250 50  0001 C CNN
@@ -91,10 +91,10 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 5400 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC02 U?
+L 74IEC:74HC02 U22
 U 4 1 62DEE5F4
 P 4300 1650
-F 0 "U?" H 4300 1800 50  0000 C CNN
+F 0 "U22" H 4300 1800 50  0000 C CNN
 F 1 "74HC02" H 4300 1500 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 4300 1350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4300 1800 50  0001 C CNN
@@ -102,10 +102,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4300 1800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC08 U?
+L 74IEC:74HC08 U28
 U 2 1 62DEFFFA
 P 2700 4100
-F 0 "U?" H 2700 4250 50  0000 C CNN
+F 0 "U28" H 2700 4250 50  0000 C CNN
 F 1 "74HC08" H 2700 3950 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2700 3800 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2700 4250 50  0001 C CNN
@@ -113,21 +113,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2700 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC74 U?
-U 1 1 62DF37D0
-P 2800 3050
-F 0 "U?" H 2800 3300 50  0000 C CNN
-F 1 "74HC74" H 2800 2800 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 3300 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 3300 50  0001 C CNN
-	1    2800 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74IEC:74HC04 U?
+L 74IEC:74HC04 U19
 U 4 1 62DF61B8
 P 2800 1000
-F 0 "U?" H 2800 1150 50  0000 C CNN
+F 0 "U19" H 2800 1150 50  0000 C CNN
 F 1 "74HC04" H 2800 850 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 1210 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 1210 50  0001 C CNN
@@ -135,10 +124,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 1210 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC86 U?
+L 74IEC:74HC86 U20
 U 3 1 62DF8E97
 P 3700 3100
-F 0 "U?" H 3700 3250 50  0000 C CNN
+F 0 "U20" H 3700 3250 50  0000 C CNN
 F 1 "74HC86" H 3700 2950 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3700 2800 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3700 3300 50  0001 C CNN
@@ -146,10 +135,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3700 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC11 U?
+L 74IEC:74HC11 U16
 U 3 1 62DFAC72
 P 2000 3000
-F 0 "U?" H 2000 3200 50  0000 C CNN
+F 0 "U16" H 2000 3200 50  0000 C CNN
 F 1 "74HC11" H 2000 2800 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2000 3200 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2000 3200 50  0001 C CNN
@@ -157,10 +146,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2000 3200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC32 U?
+L 74IEC:74HC32 U10
 U 3 1 62DFC85F
 P 2100 4450
-F 0 "U?" H 2100 4600 50  0000 C CNN
+F 0 "U10" H 2100 4600 50  0000 C CNN
 F 1 "74HC32" H 2100 4300 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2100 4150 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2100 4600 50  0001 C CNN
@@ -236,10 +225,10 @@ Wire Wire Line
 Wire Wire Line
 	2400 2800 2400 2900
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0139
 U 1 1 62FD515E
 P 2400 2800
-F 0 "#PWR?" H 2400 2650 50  0001 C CNN
+F 0 "#PWR0139" H 2400 2650 50  0001 C CNN
 F 1 "VCC" H 2415 2973 50  0000 C CNN
 F 2 "" H 2400 2800 50  0001 C CNN
 F 3 "" H 2400 2800 50  0001 C CNN
@@ -366,10 +355,10 @@ Connection ~ 4100 3000
 Wire Wire Line
 	4100 3000 4200 3000
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR0140
 U 1 1 62FEB200
 P 4100 2900
-F 0 "#PWR?" H 4100 2750 50  0001 C CNN
+F 0 "#PWR0140" H 4100 2750 50  0001 C CNN
 F 1 "VCC" H 4115 3073 50  0000 C CNN
 F 2 "" H 4100 2900 50  0001 C CNN
 F 3 "" H 4100 2900 50  0001 C CNN
@@ -384,24 +373,11 @@ Wire Wire Line
 	1250 3400 2300 3400
 Wire Wire Line
 	4050 3700 5000 3700
-Wire Wire Line
-	4800 3250 5100 3250
 $Comp
-L 74IEC:74HC74 U?
-U 2 1 62DF4D16
-P 4500 3150
-F 0 "U?" H 4500 3400 50  0000 C CNN
-F 1 "74HC74" H 4500 2900 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm" H 4500 3400 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4500 3400 50  0001 C CNN
-	2    4500 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 74IEC:74HC08 U?
+L 74IEC:74HC08 U28
 U 1 1 62DF1E63
 P 3850 3700
-F 0 "U?" H 3850 3850 50  0000 C CNN
+F 0 "U28" H 3850 3850 50  0000 C CNN
 F 1 "74HC08" H 3850 3550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 3850 3400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 3850 3850 50  0001 C CNN
@@ -441,4 +417,28 @@ Wire Wire Line
 Wire Wire Line
 	3850 2000 4000 2000
 Connection ~ 4000 2000
+Wire Wire Line
+	4800 3250 5100 3250
+$Comp
+L 74IEC:74HC74 U27
+U 1 1 6477B3AE
+P 2800 3050
+F 0 "U27" H 2800 3300 50  0000 C CNN
+F 1 "74HC74" H 2800 2800 50  0000 C CNN
+F 2 "" H 2800 3300 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 3300 50  0001 C CNN
+	1    2800 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74IEC:74HC74 U27
+U 2 1 6477D441
+P 4500 3150
+F 0 "U27" H 4500 3400 50  0000 C CNN
+F 1 "74HC74" H 4500 2900 50  0000 C CNN
+F 2 "" H 4500 3400 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4500 3400 50  0001 C CNN
+	2    4500 3150
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

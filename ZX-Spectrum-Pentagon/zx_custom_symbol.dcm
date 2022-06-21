@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AD724
+D RGB to NTSC/PAL Encoder
+F https://www.analog.com/media/en/technical-documentation/data-sheets/AD724.pdf
+$ENDCMP
+#
 $CMP AY-3-8910
 D Programmable Sound Generator
 F https://pdf1.alldatasheet.com/datasheet-pdf/view/166797/ETC1/AY-3-8910/+0W5J-9VwSwJbDbEYG.hvv+/datasheet.pdf
@@ -61,6 +66,10 @@ $CMP LT1011
 D Voltage Comparator, DIP-8/SOIC-8
 K cmp open collector
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1011.pdf
+$ENDCMP
+#
+$CMP NPN
+D Transistor NPN
 $ENDCMP
 #
 $CMP ST662

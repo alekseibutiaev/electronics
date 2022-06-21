@@ -837,7 +837,7 @@ Wire Wire Line
 	3900 4450 4000 4450
 Connection ~ 3900 4450
 Text GLabel 10500 2600 2    50   Output ~ 10
-SYNC
+FSYNC
 Wire Wire Line
 	10500 2600 4750 2600
 Wire Wire Line

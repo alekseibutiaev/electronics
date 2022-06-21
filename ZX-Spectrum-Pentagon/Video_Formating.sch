@@ -508,7 +508,7 @@ Text Label 1400 3350 2    50   ~ 0
 Text Label 1400 3500 2    50   ~ 0
 C3
 Text Label 1400 3700 2    50   ~ 0
-SYNC
+FSYNC
 Text Label 1400 3800 2    50   ~ 0
 C17
 Text Label 1400 3900 2    50   ~ 0
@@ -1148,7 +1148,7 @@ Wire Wire Line
 Text GLabel 10500 4500 2    50   Output ~ 10
 SYNCOUT
 Text GLabel 10500 5300 2    50   Output ~ 10
-SYNCO
+SYNCTTL
 Wire Wire Line
 	8500 3850 8500 4100
 Wire Wire Line
@@ -1313,7 +1313,7 @@ C3
 Text GLabel 1000 3600 0    50   Input ~ 10
 C5
 Text GLabel 1000 3700 0    50   Input ~ 10
-SYNC
+FSYNC
 Text GLabel 1000 3800 0    50   Input ~ 10
 C17
 Text GLabel 1000 3900 0    50   Input ~ 10
@@ -1359,7 +1359,7 @@ Wire Wire Line
 Entry Wire Line
 	1500 4750 1600 4850
 Text Label 1600 4850 0    50   ~ 0
-SYNC
+FSYNC
 $Comp
 L power:VCC #PWR?
 U 1 1 64647478

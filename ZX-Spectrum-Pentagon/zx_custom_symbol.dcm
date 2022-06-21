@@ -36,6 +36,12 @@ K audio jack receptacle mono headphones phone TS connector
 F ~
 $ENDCMP
 #
+$CMP Conn_02x28
+D Generic connector, double row, 02x28, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F ~
+$ENDCMP
+#
 $CMP LM2596S-12.0V
 D 12.0V 3A Step-Down Voltage Regulator, TO-263
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf

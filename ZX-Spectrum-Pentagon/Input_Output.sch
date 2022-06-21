@@ -2111,7 +2111,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 2250 5500 2250
 Text GLabel 7150 700  0    50   UnSpc ~ 10
-AY-POWER
+AYPOWER
 Wire Wire Line
 	7150 700  7250 700 
 Connection ~ 7250 700 

@@ -191,8 +191,6 @@ Text GLabel 1000 4350 0    50   Input ~ 10
 RAS
 Text GLabel 1000 4500 0    50   Input ~ 10
 ~CAS
-Text GLabel 1000 4650 0    50   Input ~ 10
-~RAS
 Text Label 1600 1650 0    50   ~ 0
 B4
 Entry Wire Line
@@ -492,12 +490,6 @@ Wire Wire Line
 	1400 4500 1000 4500
 Text Label 1400 4500 2    50   ~ 0
 ~CAS
-Entry Wire Line
-	1500 4550 1400 4650
-Wire Wire Line
-	1400 4650 1000 4650
-Text Label 1400 4650 2    50   ~ 0
-~RAS
 Entry Wire Line
 	1500 850  1400 950 
 Entry Wire Line
@@ -1355,14 +1347,6 @@ Wire Wire Line
 	2600 6500 1600 6500
 Wire Wire Line
 	1950 6850 1600 6850
-Wire Bus Line
-	3400 700  3400 7700
-Wire Bus Line
-	1500 700  1500 7300
-Wire Bus Line
-	5000 700  5000 3050
-Wire Bus Line
-	6450 700  6450 2950
 Text Label 1600 3150 0    50   ~ 0
 SCRSEL
 Text Label 1600 2350 0    50   ~ 0
@@ -1460,4 +1444,12 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 2850 50  0001 C CNN
 	1    2300 2800
 	1    0    0    -1  
 $EndComp
+Wire Bus Line
+	6450 700  6450 2950
+Wire Bus Line
+	5000 700  5000 3050
+Wire Bus Line
+	3400 700  3400 7700
+Wire Bus Line
+	1500 700  1500 7300
 $EndSCHEMATC

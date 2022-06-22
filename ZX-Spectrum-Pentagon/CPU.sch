@@ -2441,8 +2441,6 @@ NoConn ~ 8950 2500
 NoConn ~ 8950 2600
 NoConn ~ 8950 2700
 NoConn ~ 9450 1300
-NoConn ~ 9450 1400
-NoConn ~ 8950 1400
 Entry Wire Line
 	1500 2650 1600 2550
 Text Label 1400 3650 2    50   ~ 0

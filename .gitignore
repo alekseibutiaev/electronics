@@ -9,3 +9,5 @@ Project Backups
 *.sim
 *.so
 *.wo
+*.erc*
+

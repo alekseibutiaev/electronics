@@ -1521,13 +1521,13 @@ Wire Wire Line
 	6650 3050 6750 3050
 $Comp
 L 74IEC:74HC14 U?
-U 6 1 6294A0A1
+U 2 1 6294A0A1
 P 6450 3050
 F 0 "U?" H 6450 3200 50  0000 C CNN
 F 1 "74HC14" H 6450 2900 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 6450 3260 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 6450 3260 50  0001 C CNN
-	6    6450 3050
+	2    6450 3050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1553,13 +1553,13 @@ Wire Wire Line
 	5450 2650 5750 2650
 $Comp
 L 74IEC:74HC14 U?
-U 5 1 6294B2DD
+U 1 1 6294B2DD
 P 5950 2650
 F 0 "U?" H 5950 2800 50  0000 C CNN
 F 1 "74HC14" H 5950 2500 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 5950 2860 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5950 2860 50  0001 C CNN
-	5    5950 2650
+	1    5950 2650
 	1    0    0    -1  
 $EndComp
 Entry Wire Line
@@ -2261,7 +2261,7 @@ U 1 1 67C473E7
 P 9200 2350
 F 0 "JCPU?" H 9200 3917 50  0000 C CNN
 F 1 "Conn_02x28" H 9200 3826 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x28_P2.54mm_Vertical" H 9150 2400 50  0001 C CNN
+F 2 "ZX-Spectrum-Pentagon:PinSocket_2x28_P2.54mm_Vertical" H 9150 2400 50  0001 C CNN
 F 3 "~" H 9150 2400 50  0001 C CNN
 	1    9200 2350
 	1    0    0    -1  

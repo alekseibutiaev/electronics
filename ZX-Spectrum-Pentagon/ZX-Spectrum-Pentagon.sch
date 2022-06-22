@@ -62,8 +62,6 @@ F42 "+9V" U L 3500 3800 50
 F43 "~RESET" I L 3500 1400 50 
 F44 "~RST" I L 3500 1300 50 
 $EndSheet
-Wire Bus Line
-	11000 6000 11000 500 
 Wire Wire Line
 	3500 700  3100 700 
 Entry Wire Line

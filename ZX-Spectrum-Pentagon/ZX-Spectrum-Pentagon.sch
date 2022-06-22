@@ -613,8 +613,8 @@ Entry Wire Line
 $Sheet
 S 1500 4100 1000 1600
 U 630C2D0D
-F0 "Memory_Signal" 50
-F1 "Memory_Signal.sch" 50
+F0 "MemorySignal" 50
+F1 "MemorySignal.sch" 50
 F2 "D0" I L 1500 4200 50 
 F3 "D1" I L 1500 4300 50 
 F4 "D2" I L 1500 4400 50 
@@ -677,8 +677,8 @@ Entry Wire Line
 $Sheet
 S 1500 3400 1000 500 
 U 62A0558E
-F0 "Power Sources" 50
-F1 "Power_Sources.sch" 50
+F0 "PowerSources" 50
+F1 "PowerSources.sch" 50
 F2 "PowA" U L 1500 3600 50 
 F3 "PowB" U L 1500 3700 50 
 F4 "+9V" U R 2500 3600 50 
@@ -929,8 +929,8 @@ C31
 $Sheet
 S 3500 4100 1000 1100
 U 62A83A0A
-F0 "Memory_Sharing" 50
-F1 "Memory_Sharing.sch" 50
+F0 "MemorySharing" 50
+F1 "MemorySharing.sch" 50
 F2 "A14" I L 3500 4200 50 
 F3 "A15" I L 3500 4300 50 
 F4 "~RD" I L 3500 4400 50 
@@ -1456,7 +1456,7 @@ $Sheet
 S 3500 5400 1000 2200
 U 62FD43AB
 F0 "VideoFormating" 50
-F1 "Video_Formating.sch" 50
+F1 "VideoFormating.sch" 50
 F2 "MD0" I L 3500 5500 50 
 F3 "MD1" I L 3500 5600 50 
 F4 "MD2" I L 3500 5700 50 
@@ -1841,8 +1841,8 @@ CBRDB
 $Sheet
 S 1500 6000 1000 1600
 U 62A08194
-F0 "Input_Output" 50
-F1 "Input_Output.sch" 50
+F0 "InputOutput" 50
+F1 "InputOutput.sch" 50
 F2 "D0" B R 2500 6100 50 
 F3 "D1" B R 2500 6200 50 
 F4 "D2" B R 2500 6300 50 

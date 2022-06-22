@@ -1813,9 +1813,6 @@ Wire Wire Line
 	5500 4100 5500 5000
 Wire Wire Line
 	5000 3500 5000 3800
-Wire Wire Line
-	5000 3800 5000 3850
-Connection ~ 5000 3800
 $Comp
 L zx_custom_symbol:LM311 U?
 U 1 1 63A0DC84

@@ -1080,8 +1080,6 @@ $EndComp
 Wire Wire Line
 	6100 5250 6450 5250
 Wire Wire Line
-	3800 5750 8800 5750
-Wire Wire Line
 	7200 6000 7300 6000
 Wire Wire Line
 	5400 5200 5400 5300
@@ -1133,8 +1131,6 @@ Wire Wire Line
 	5050 4700 5050 4800
 Text GLabel 10500 5600 2    50   Output ~ 10
 HSYNC
-Wire Wire Line
-	10500 5600 8150 5600
 Connection ~ 4000 5600
 Wire Wire Line
 	4000 5600 4000 6000
@@ -1621,12 +1617,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 7500 3750 50  0001 C CNN
 	1    6950 3700
 	1    0    0    -1  
 $EndComp
-Connection ~ 8150 5600
 Wire Wire Line
-	8150 5600 4000 5600
-Connection ~ 8800 5750
+	3800 5750 10500 5750
 Wire Wire Line
-	8800 5750 10500 5750
+	4000 5600 10500 5600
 Wire Bus Line
 	7500 2850 7500 5300
 Wire Bus Line

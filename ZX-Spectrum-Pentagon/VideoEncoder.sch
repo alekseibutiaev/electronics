@@ -1103,13 +1103,13 @@ Wire Wire Line
 Wire Wire Line
 	5900 5200 6300 5200
 Wire Wire Line
-	4050 1200 4000 1200
-Connection ~ 4050 1200
+	4100 1200 4000 1200
+Connection ~ 4100 1200
 Wire Wire Line
-	4050 1100 4000 1100
-Connection ~ 4050 1100
+	4100 1100 4000 1100
+Connection ~ 4100 1100
 Wire Wire Line
-	4050 1100 4050 1200
+	4100 1100 4100 1200
 Text Label 4400 1200 2    50   ~ 0
 LUMA
 Text Label 4400 1100 2    50   ~ 0
@@ -1117,9 +1117,9 @@ VIDEO
 Text Label 4400 1000 2    50   ~ 0
 SYNC
 Wire Wire Line
-	4400 1200 4050 1200
+	4400 1200 4100 1200
 Wire Wire Line
-	4400 1100 4050 1100
+	4400 1100 4100 1100
 Wire Wire Line
 	4400 1000 4000 1000
 Entry Wire Line

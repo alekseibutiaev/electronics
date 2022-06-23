@@ -68,17 +68,6 @@ F 3 "~" H 1000 3250 50  0001 C CNN
 	1    1000 3250
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Bridge_+-AA DPS?
-U 1 1 629DB190
-P 2300 1900
-F 0 "DPS?" H 2450 2100 50  0000 L CNN
-F 1 "D_Bridge_+-AA" H 2644 1855 50  0001 L CNN
-F 2 "Diode_SMD:Diode_Bridge_Vishay_DFS" H 2300 1900 50  0001 C CNN
-F 3 "~" H 2300 1900 50  0001 C CNN
-	1    2300 1900
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2300 1550 2300 1600
 Wire Wire Line
@@ -1383,4 +1372,15 @@ Wire Wire Line
 Wire Wire Line
 	9500 900  10500 900 
 Connection ~ 9500 1850
+$Comp
+L Device:D_Bridge_+A-A DPS?
+U 1 1 62BAF1DA
+P 2300 1900
+F 0 "DPS?" H 2450 2100 50  0000 L CNN
+F 1 "DF005S" H 2450 1650 50  0000 L CNN
+F 2 "Diode_SMD:Diode_Bridge_Vishay_DFS" H 2300 1900 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/88573/dfs.pdf" H 2300 1900 50  0001 C CNN
+	1    2300 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

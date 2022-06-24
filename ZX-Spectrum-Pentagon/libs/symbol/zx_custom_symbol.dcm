@@ -80,6 +80,12 @@ K cmp open collector
 F https://www.analog.com/media/en/technical-documentation/data-sheets/lt1011.pdf
 $ENDCMP
 #
+$CMP Mini-DIN-8
+D 8-pin Mini-DIN connector
+K Mini-DIN
+F http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf
+$ENDCMP
+#
 $CMP NPN
 D Transistor NPN
 $ENDCMP

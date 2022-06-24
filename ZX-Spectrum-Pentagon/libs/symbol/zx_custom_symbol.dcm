@@ -42,6 +42,12 @@ K connector
 F ~
 $ENDCMP
 #
+$CMP Conn_Coaxial
+D coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, ...)
+K BNC SMA SMB SMC coaxial connector CINCH RCA
+F  ~
+$ENDCMP
+#
 $CMP LM2596S-12.0V
 D 12.0V 3A Step-Down Voltage Regulator, TO-263
 F http://www.ti.com/lit/ds/symlink/lm2596.pdf

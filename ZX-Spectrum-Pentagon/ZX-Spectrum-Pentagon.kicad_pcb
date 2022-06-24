@@ -89,8 +89,6 @@
       (outputdirectory ""))
   )
 
-  (net 0 "")
-
   (net_class Default "This is the default net class."
     (clearance 0.2)
     (trace_width 0.25)

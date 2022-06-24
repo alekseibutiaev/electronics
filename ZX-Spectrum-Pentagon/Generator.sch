@@ -384,17 +384,6 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4300 4700 50  0001 C CNN
 	2    4300 4500
 	1    0    0    -1  
 $EndComp
-$Comp
-L 74IEC:74HC157 U18
-U 1 1 63A00742
-P 6950 3700
-F 0 "U18" H 6950 4250 50  0000 C CNN
-F 1 "74HC157" H 6950 3150 50  0000 C CNN
-F 2 "Package_DIP:DIP-16_W7.62mm" H 6950 3850 50  0001 C CNN
-F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 6950 3850 50  0001 C CNN
-	1    6950 3700
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	3000 4100 2900 4100
 Wire Wire Line
@@ -1091,8 +1080,6 @@ $EndComp
 Wire Wire Line
 	6100 5250 6450 5250
 Wire Wire Line
-	3800 5750 10500 5750
-Wire Wire Line
 	7200 6000 7300 6000
 Wire Wire Line
 	5400 5200 5400 5300
@@ -1144,8 +1131,6 @@ Wire Wire Line
 	5050 4700 5050 4800
 Text GLabel 10500 5600 2    50   Output ~ 10
 HSYNC
-Wire Wire Line
-	10500 5600 4000 5600
 Connection ~ 4000 5600
 Wire Wire Line
 	4000 5600 4000 6000
@@ -1621,6 +1606,21 @@ Wire Wire Line
 	10500 4600 8850 4600
 Wire Wire Line
 	2950 6750 5550 6750
+$Comp
+L 74IEC:74HC257 U?
+U 1 1 62B96FF4
+P 6950 3700
+F 0 "U?" H 6950 4250 50  0000 C CNN
+F 1 "74HC257" H 6950 3150 50  0000 C CNN
+F 2 "Package_DIP:DIP-16_W7.62mm" H 7500 3750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 7500 3750 50  0001 C CNN
+	1    6950 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3800 5750 10500 5750
+Wire Wire Line
+	4000 5600 10500 5600
 Wire Bus Line
 	7500 2850 7500 5300
 Wire Bus Line

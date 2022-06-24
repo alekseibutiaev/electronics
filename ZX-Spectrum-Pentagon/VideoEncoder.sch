@@ -977,7 +977,7 @@ L Connector:Conn_01x03_Male JVE?
 U 1 1 63743A78
 P 4000 7600
 F 0 "JVE?" V 4250 7450 50  0000 R CNN
-F 1 "PAL/NTSC" V 4100 7450 50  0000 R CNN
+F 1 "PAL/NTSC" V 4150 8000 50  0000 C CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 4000 7600 50  0001 C CNN
 F 3 "~" H 4000 7600 50  0001 C CNN
 	1    4000 7600
@@ -1337,12 +1337,6 @@ Wire Wire Line
 Connection ~ 5200 4000
 Wire Wire Line
 	5200 4000 5700 4000
-Wire Bus Line
-	6500 800  6500 1950
-Wire Bus Line
-	4500 800  4500 4100
-Wire Bus Line
-	1500 800  1500 1300
 $Comp
 L zx_custom_symbol:Conn_Coaxial JVE?
 U 1 1 62EC1959
@@ -1354,4 +1348,24 @@ F 3 " ~" H 8150 5000 50  0001 C CNN
 	1    8150 5000
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62B90E90
+P 4500 7300
+F 0 "#PWR?" H 4500 7050 50  0001 C CNN
+F 1 "GND" H 4505 7127 50  0000 C CNN
+F 2 "" H 4500 7300 50  0001 C CNN
+F 3 "" H 4500 7300 50  0001 C CNN
+	1    4500 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 7200 4500 7300
+Connection ~ 4500 7200
+Wire Bus Line
+	1500 800  1500 1300
+Wire Bus Line
+	6500 800  6500 1950
+Wire Bus Line
+	4500 800  4500 4100
 $EndSCHEMATC

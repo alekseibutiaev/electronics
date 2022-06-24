@@ -1383,4 +1383,234 @@ F 3 "https://www.vishay.com/docs/88573/dfs.pdf" H 2300 1900 50  0001 C CNN
 	1    2300 1900
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62BC832F
+P 900 5000
+F 0 "#PWR?" H 900 4750 50  0001 C CNN
+F 1 "GND" V 905 4872 50  0000 R CNN
+F 2 "" H 900 5000 50  0001 C CNN
+F 3 "" H 900 5000 50  0001 C CNN
+	1    900  5000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C CPF?
+U 1 1 62BC8823
+P 1000 4750
+F 0 "CPF?" H 1115 4796 50  0000 L CNN
+F 1 "100nF" H 1115 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 1038 4600 50  0001 C CNN
+F 3 "~" H 1000 4750 50  0001 C CNN
+	1    1000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  4500 1000 4500
+Wire Wire Line
+	1000 4500 1000 4600
+Wire Wire Line
+	900  5000 1000 5000
+Wire Wire Line
+	1000 4900 1000 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC8831
+P 1500 4750
+F 0 "CPF?" H 1615 4796 50  0000 L CNN
+F 1 "100nF" H 1615 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 1538 4600 50  0001 C CNN
+F 3 "~" H 1500 4750 50  0001 C CNN
+	1    1500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 4500 1500 4500
+Wire Wire Line
+	1500 4500 1500 4600
+Wire Wire Line
+	1000 5000 1500 5000
+Wire Wire Line
+	1500 4900 1500 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC883F
+P 2000 4750
+F 0 "CPF?" H 2115 4796 50  0000 L CNN
+F 1 "100nF" H 2115 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 2038 4600 50  0001 C CNN
+F 3 "~" H 2000 4750 50  0001 C CNN
+	1    2000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 4500 2000 4500
+Wire Wire Line
+	2000 4500 2000 4600
+Wire Wire Line
+	1500 5000 2000 5000
+Wire Wire Line
+	2000 4900 2000 5000
+Connection ~ 1500 4500
+Connection ~ 1500 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC884F
+P 2500 4750
+F 0 "CPF?" H 2615 4796 50  0000 L CNN
+F 1 "100nF" H 2615 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 2538 4600 50  0001 C CNN
+F 3 "~" H 2500 4750 50  0001 C CNN
+	1    2500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 4500 2500 4500
+Wire Wire Line
+	2500 4500 2500 4600
+Wire Wire Line
+	2000 5000 2500 5000
+Wire Wire Line
+	2500 4900 2500 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC885D
+P 3000 4750
+F 0 "CPF?" H 3115 4796 50  0000 L CNN
+F 1 "100nF" H 3115 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 3038 4600 50  0001 C CNN
+F 3 "~" H 3000 4750 50  0001 C CNN
+	1    3000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4500 3000 4500
+Wire Wire Line
+	3000 4500 3000 4600
+Wire Wire Line
+	2500 5000 3000 5000
+Wire Wire Line
+	3000 4900 3000 5000
+Connection ~ 2500 4500
+Connection ~ 2500 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC886D
+P 3500 4750
+F 0 "CPF?" H 3615 4796 50  0000 L CNN
+F 1 "100nF" H 3615 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 3538 4600 50  0001 C CNN
+F 3 "~" H 3500 4750 50  0001 C CNN
+	1    3500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3000 4500 3500 4500
+Wire Wire Line
+	3500 4500 3500 4600
+Wire Wire Line
+	3000 5000 3500 5000
+Wire Wire Line
+	3500 4900 3500 5000
+Connection ~ 3000 4500
+Connection ~ 3000 5000
+Connection ~ 2000 4500
+Connection ~ 2000 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC887F
+P 4000 4750
+F 0 "CPF?" H 4115 4796 50  0000 L CNN
+F 1 "100nF" H 4115 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 4038 4600 50  0001 C CNN
+F 3 "~" H 4000 4750 50  0001 C CNN
+	1    4000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3500 4500 4000 4500
+Wire Wire Line
+	4000 4500 4000 4600
+Wire Wire Line
+	3500 5000 4000 5000
+Wire Wire Line
+	4000 4900 4000 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC888D
+P 4500 4750
+F 0 "CPF?" H 4615 4796 50  0000 L CNN
+F 1 "100nF" H 4615 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 4538 4600 50  0001 C CNN
+F 3 "~" H 4500 4750 50  0001 C CNN
+	1    4500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 4500 4500 4500
+Wire Wire Line
+	4500 4500 4500 4600
+Wire Wire Line
+	4000 5000 4500 5000
+Wire Wire Line
+	4500 4900 4500 5000
+Connection ~ 4000 4500
+Connection ~ 4000 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC889D
+P 5000 4750
+F 0 "CPF?" H 5115 4796 50  0000 L CNN
+F 1 "100nF" H 5115 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 5038 4600 50  0001 C CNN
+F 3 "~" H 5000 4750 50  0001 C CNN
+	1    5000 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 4500 5000 4500
+Wire Wire Line
+	5000 4500 5000 4600
+Wire Wire Line
+	4500 5000 5000 5000
+Wire Wire Line
+	5000 4900 5000 5000
+Connection ~ 4500 4500
+Connection ~ 4500 5000
+$Comp
+L Device:C CPF?
+U 1 1 62BC88AD
+P 5500 4750
+F 0 "CPF?" H 5615 4796 50  0000 L CNN
+F 1 "100nF" H 5615 4705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder" H 5538 4600 50  0001 C CNN
+F 3 "~" H 5500 4750 50  0001 C CNN
+	1    5500 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4500 5500 4500
+Wire Wire Line
+	5500 4500 5500 4600
+Wire Wire Line
+	5000 5000 5500 5000
+Wire Wire Line
+	5500 4900 5500 5000
+Connection ~ 5000 4500
+Connection ~ 5000 5000
+Connection ~ 3500 4500
+Connection ~ 3500 5000
+$Comp
+L power:VCC #PWR?
+U 1 1 62BC88C3
+P 900 4500
+F 0 "#PWR?" H 900 4350 50  0001 C CNN
+F 1 "VCC" V 915 4627 50  0000 L CNN
+F 2 "" H 900 4500 50  0001 C CNN
+F 3 "" H 900 4500 50  0001 C CNN
+	1    900  4500
+	0    -1   -1   0   
+$EndComp
+Connection ~ 1000 4500
+Connection ~ 1000 5000
 $EndSCHEMATC

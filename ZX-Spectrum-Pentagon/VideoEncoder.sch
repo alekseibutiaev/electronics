@@ -217,17 +217,6 @@ F 3 "~" H 7600 5000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector:Conn_Coaxial JVE?
-U 1 1 62EC1959
-P 8150 5000
-F 0 "JVE?" H 8250 4900 50  0000 L CNN
-F 1 "Conn_Coaxial" H 8250 4884 50  0001 L CNN
-F 2 "ZX-Spectrum-Pentagon:CUI_RCJ-013" H 8150 5000 50  0001 C CNN
-F 3 " ~" H 8150 5000 50  0001 C CNN
-	1    8150 5000
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR?
 U 1 1 62EA775C
 P 8150 5300
@@ -1349,9 +1338,20 @@ Connection ~ 5200 4000
 Wire Wire Line
 	5200 4000 5700 4000
 Wire Bus Line
-	1500 800  1500 1300
-Wire Bus Line
 	6500 800  6500 1950
 Wire Bus Line
 	4500 800  4500 4100
+Wire Bus Line
+	1500 800  1500 1300
+$Comp
+L zx_custom_symbol:Conn_Coaxial JVE?
+U 1 1 62EC1959
+P 8150 5000
+F 0 "JVE?" H 8150 5150 50  0000 C CNN
+F 1 "Video" H 8250 4884 50  0000 L CNN
+F 2 "ZX-Spectrum-Pentagon:CUI_RCJ-013" H 8150 5000 50  0001 C CNN
+F 3 " ~" H 8150 5000 50  0001 C CNN
+	1    8150 5000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

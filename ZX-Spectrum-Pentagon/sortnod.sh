@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#set -x
+set -x
 
 step=${1}
 minposx=`echo "scale=0 ; ${2} / ${step}" | bc`
@@ -20,13 +20,26 @@ c2=`echo "scale=4; ${dxmax} + ${dymin}" | bc`
 c3=`echo "scale=4; ${dxmin} + ${dymax}" | bc`
 c4=`echo "scale=4; ${dxmax} + ${dymax}" | bc`
 
-if [ ${c1} -le ${c2} ] && [ ${c1} -le ${c3} ] && [ ${c1} -le ${c4} ] ; then
-    echo "x=${minx}, y=${miny}"
-elif [ ${c2} -le ${c3} ] && [ ${c2} -le ${c4} ] ; then
-    echo "x=${maxx}, y=${miny}"
-elif [ ${c3} -le ${c4} ] ; then
-    echo "x=${minx}, y=${maxy}"
+if (($(echo "${c1} < ${c2}" | bc -l))) && (($(echo "${c1} < ${c3}" | bc -l))) &&
+        (($(echo "${c1} < ${c4}" | bc -l))); then
+  echo "x=${minx}, y=${miny}"
+elif (($(echo "${c2} < ${c3}" | bc -l))) && (($(echo "${c2} < ${c4}" | bc -l))) ; then
+  echo "x=${maxx}, y=${miny}"
+elif (($(echo "${c2} < ${c3}" | bc -l))) ; then
+  echo "x=${minx}, y=${maxy}"
 else
-    echo "x=${maxx}, y=${maxy}"
-fi
+  echo "x=${maxx}, y=${maxy}"
+fi 
+
+
+
+#if [[ "${c1}" -le "${c2}" ]] && [[ "${c1}" -le "${c3}" ]] && [[ "${c1}" -le "${c4}" ] ; then
+#    echo "x=${minx}, y=${miny}"
+#elif [ ${c2} -le ${c3} ] && [ ${c2} -le ${c4} ] ; then
+#    echo "x=${maxx}, y=${miny}"
+#elif [ ${c3} -le ${c4} ] ; then
+#    echo "x=${minx}, y=${maxy}"
+#else
+#    echo "x=${maxx}, y=${maxy}"
+#fi
 

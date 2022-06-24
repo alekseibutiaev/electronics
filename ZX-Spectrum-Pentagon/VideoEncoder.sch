@@ -72,9 +72,9 @@ AudioIntL
 Text Label 4600 1350 0    50   ~ 0
 AudioIntR
 Connection ~ 2300 2450
-Text Label 6400 1250 2    50   ~ 0
-RED
 Text Label 6400 950  2    50   ~ 0
+RED
+Text Label 6400 1850 2    50   ~ 0
 GREEN
 Text Label 4600 1250 0    50   ~ 0
 BLUE
@@ -90,7 +90,7 @@ Entry Wire Line
 	4400 3500 4500 3600
 Entry Wire Line
 	4400 4000 4500 4100
-Text Label 6400 1750 2    50   ~ 0
+Text Label 6400 1250 2    50   ~ 0
 VIDEO
 Wire Wire Line
 	5500 950  5500 1050
@@ -99,11 +99,11 @@ Wire Wire Line
 Entry Wire Line
 	6500 1050 6400 950 
 Wire Wire Line
-	5500 1650 5500 1750
+	5500 1650 5500 1850
 Wire Wire Line
-	6400 1750 5500 1750
+	6400 1850 5500 1850
 Entry Wire Line
-	6500 1850 6400 1750
+	6500 1950 6400 1850
 Wire Wire Line
 	6400 1350 5800 1350
 Wire Wire Line
@@ -123,13 +123,13 @@ Entry Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 631447CC
-P 5100 1550
-F 0 "#PWR?" H 5100 1300 50  0001 C CNN
-F 1 "GND" H 5105 1377 50  0000 C CNN
-F 2 "" H 5100 1550 50  0001 C CNN
-F 3 "" H 5100 1550 50  0001 C CNN
-	1    5100 1550
-	1    0    0    -1  
+P 4850 1700
+F 0 "#PWR?" H 4850 1450 50  0001 C CNN
+F 1 "GND" H 4855 1527 50  0000 C CNN
+F 2 "" H 4850 1700 50  0001 C CNN
+F 3 "" H 4850 1700 50  0001 C CNN
+	1    4850 1700
+	0    1    1    0   
 $EndComp
 Text GLabel 1000 5900 0    50   Input ~ 10
 VSYNC
@@ -384,19 +384,6 @@ F 1 "GND" H 1905 5127 50  0000 C CNN
 F 2 "" H 1900 5300 50  0001 C CNN
 F 3 "" H 1900 5300 50  0001 C CNN
 	1    1900 5300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Mini-DIN-8 J?
-U 1 1 62DD07EE
-P 5500 1350
-AR Path="/62FD43AB/62DD07EE" Ref="J?"  Part="1" 
-AR Path="/62BF0F7B/62DD07EE" Ref="J?"  Part="1" 
-F 0 "J?" H 5300 1650 50  0000 C CNN
-F 1 "Mini-DIN-8" H 5500 950 50  0001 C CNN
-F 2 "ZX-Spectrum-Pentagon:CUI_MD-80SGK" V 5490 1340 50  0001 C CNN
-F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" V 5490 1340 50  0001 C CNN
-	1    5500 1350
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1257,8 +1244,6 @@ F 3 "~" H 5700 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5100 1450 5100 1550
-Wire Wire Line
 	4650 4700 4900 4700
 Wire Wire Line
 	4650 2150 4650 4700
@@ -1341,8 +1326,10 @@ $Comp
 L zx_custom_symbol:Conn_Coaxial JVE?
 U 1 1 62EC1959
 P 8150 5000
-F 0 "JVE?" H 8150 5150 50  0000 C CNN
-F 1 "Video" H 8250 4884 50  0000 L CNN
+AR Path="/62EC1959" Ref="JVE?"  Part="1" 
+AR Path="/62BF0F7B/62EC1959" Ref="JVE?"  Part="1" 
+F 0 "JVE?" H 8000 5100 50  0000 C CNN
+F 1 "Video" H 8250 5100 50  0000 L CNN
 F 2 "ZX-Spectrum-Pentagon:CUI_RCJ-013" H 8150 5000 50  0001 C CNN
 F 3 " ~" H 8150 5000 50  0001 C CNN
 	1    8150 5000
@@ -1362,6 +1349,55 @@ $EndComp
 Wire Wire Line
 	4500 7200 4500 7300
 Connection ~ 4500 7200
+$Comp
+L zx_custom_symbol:Mini-DIN-8 JVE?
+U 1 1 62BAAD99
+P 5500 1350
+F 0 "JVE?" H 5700 1600 50  0000 C CNN
+F 1 "SVIDEO" H 5250 1600 50  0000 C CNN
+F 2 "ZX-Spectrum-Pentagon:CUI_MD-80SGK" V 5490 1340 50  0001 C CNN
+F 3 "http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf" V 5490 1340 50  0001 C CNN
+	1    5500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5100 1450 5100 1600
+Wire Wire Line
+	4850 1700 5100 1700
+Wire Wire Line
+	5200 1600 5100 1600
+Connection ~ 5100 1600
+Wire Wire Line
+	5100 1600 5100 1700
+Wire Wire Line
+	5200 1700 5100 1700
+Connection ~ 5100 1700
+Connection ~ 5900 1700
+Wire Wire Line
+	5800 1700 5900 1700
+Wire Wire Line
+	5900 1600 5900 1700
+Wire Wire Line
+	5800 1600 5900 1600
+Wire Wire Line
+	6000 1700 5900 1700
+$Comp
+L power:GND #PWR?
+U 1 1 62C0F5F3
+P 6000 1700
+F 0 "#PWR?" H 6000 1450 50  0001 C CNN
+F 1 "GND" H 6005 1527 50  0000 C CNN
+F 2 "" H 6000 1700 50  0001 C CNN
+F 3 "" H 6000 1700 50  0001 C CNN
+	1    6000 1700
+	0    -1   1    0   
+$EndComp
+Wire Wire Line
+	8050 5200 8050 5250
+Wire Wire Line
+	8050 5250 8250 5250
+Wire Wire Line
+	8250 5250 8250 5200
 Wire Bus Line
 	1500 800  1500 1300
 Wire Bus Line

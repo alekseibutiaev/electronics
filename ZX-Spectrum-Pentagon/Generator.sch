@@ -1306,24 +1306,24 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4600 1500 50  0001 C CNN
 $EndComp
 $Comp
 L 74IEC:74HC14 U?
-U 4 1 629C03DD
+U 3 1 629C03DD
 P 2900 1100
 F 0 "U?" H 2900 1250 50  0000 C CNN
 F 1 "74HC14" H 2900 950 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2900 1310 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2900 1310 50  0001 C CNN
-	4    2900 1100
+	3    2900 1100
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74IEC:74HC14 U?
-U 3 1 629BF100
+U 2 1 629BF100
 P 2400 1100
 F 0 "U?" H 2400 1250 50  0000 C CNN
 F 1 "74HC14" H 2400 950 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2400 1310 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2400 1310 50  0001 C CNN
-	3    2400 1100
+	2    2400 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1432,28 +1432,28 @@ Wire Wire Line
 Connection ~ 8850 3700
 $Comp
 L 74IEC:74HC14 U?
-U 6 1 6347B914
+U 5 1 6347B914
 P 9650 3700
 AR Path="/6296ED1F/6347B914" Ref="U?"  Part="4" 
-AR Path="/6296E6C7/6347B914" Ref="U?"  Part="6" 
+AR Path="/6296E6C7/6347B914" Ref="U?"  Part="5" 
 F 0 "U?" H 9650 3850 50  0000 C CNN
 F 1 "74HC14" H 9650 3550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 9650 3910 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 9650 3910 50  0001 C CNN
-	6    9650 3700
+	5    9650 3700
 	1    0    0    -1  
 $EndComp
 $Comp
 L 74IEC:74HC14 U?
-U 5 1 6347B91A
+U 4 1 6347B91A
 P 9150 3700
 AR Path="/6296ED1F/6347B91A" Ref="U?"  Part="3" 
-AR Path="/6296E6C7/6347B91A" Ref="U?"  Part="5" 
+AR Path="/6296E6C7/6347B91A" Ref="U?"  Part="4" 
 F 0 "U?" H 9150 3850 50  0000 C CNN
 F 1 "74HC14" H 9150 3550 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 9150 3910 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 9150 3910 50  0001 C CNN
-	5    9150 3700
+	4    9150 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line

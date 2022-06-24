@@ -1,6 +1,6 @@
 #!/bin/bash
 
-set -x
+#set -x
 
 step=${1}
 minposx=`echo "scale=0 ; ${2} / ${step}" | bc`
@@ -25,7 +25,7 @@ if (($(echo "${c1} < ${c2}" | bc -l))) && (($(echo "${c1} < ${c3}" | bc -l))) &&
   echo "x=${minx}, y=${miny}"
 elif (($(echo "${c2} < ${c3}" | bc -l))) && (($(echo "${c2} < ${c4}" | bc -l))) ; then
   echo "x=${maxx}, y=${miny}"
-elif (($(echo "${c2} < ${c3}" | bc -l))) ; then
+elif (($(echo "${c3} < ${c4}" | bc -l))) ; then
   echo "x=${minx}, y=${maxy}"
 else
   echo "x=${maxx}, y=${maxy}"

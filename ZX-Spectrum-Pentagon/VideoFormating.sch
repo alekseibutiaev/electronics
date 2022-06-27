@@ -13,70 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1400 2400 2    50   ~ 0
-MD7
-Text Label 1400 2300 2    50   ~ 0
-MD6
-Text Label 1400 2200 2    50   ~ 0
-MD5
-Text Label 1400 2100 2    50   ~ 0
-MD4
-Text Label 1400 2000 2    50   ~ 0
-MD3
-Text Label 1400 1900 2    50   ~ 0
-MD2
-Text Label 1400 1800 2    50   ~ 0
-MD1
-Text Label 1400 1700 2    50   ~ 0
-MD0
-Wire Wire Line
-	1400 2400 950  2400
-Wire Wire Line
-	1400 2300 950  2300
-Wire Wire Line
-	1400 2200 950  2200
-Wire Wire Line
-	1400 2100 950  2100
-Wire Wire Line
-	1400 2000 950  2000
-Wire Wire Line
-	1400 1900 950  1900
-Wire Wire Line
-	1400 1800 950  1800
-Wire Wire Line
-	1400 1700 950  1700
-Text HLabel 950  1700 0    50   Input ~ 10
-MD0
-Text HLabel 950  1800 0    50   Input ~ 10
-MD1
-Text HLabel 950  1900 0    50   Input ~ 10
-MD2
-Text HLabel 950  2000 0    50   Input ~ 10
-MD3
-Text HLabel 950  2100 0    50   Input ~ 10
-MD4
-Text HLabel 950  2200 0    50   Input ~ 10
-MD5
-Text HLabel 950  2300 0    50   Input ~ 10
-MD6
-Text HLabel 950  2400 0    50   Input ~ 10
-MD7
-Entry Wire Line
-	1400 2400 1500 2300
-Entry Wire Line
-	1400 2300 1500 2200
-Entry Wire Line
-	1400 2200 1500 2100
-Entry Wire Line
-	1400 2100 1500 2000
-Entry Wire Line
-	1400 2000 1500 1900
-Entry Wire Line
-	1400 1900 1500 1800
-Entry Wire Line
-	1400 1800 1500 1700
-Entry Wire Line
-	1400 1700 1500 1600
 $Comp
 L 74IEC:74HC574 U29
 U 1 1 632C89BD
@@ -104,10 +40,10 @@ Wire Wire Line
 Wire Wire Line
 	2700 2050 2700 2150
 $Comp
-L power:GND #PWR0141
+L power:GND #PWR041
 U 1 1 632E6C13
 P 2700 2250
-F 0 "#PWR0141" H 2700 2000 50  0001 C CNN
+F 0 "#PWR041" H 2700 2000 50  0001 C CNN
 F 1 "GND" H 2705 2077 50  0000 C CNN
 F 2 "" H 2700 2250 50  0001 C CNN
 F 3 "" H 2700 2250 50  0001 C CNN
@@ -142,8 +78,6 @@ Text Label 1600 1350 0    50   ~ 0
 MD3
 Text Label 1600 1250 0    50   ~ 0
 MD2
-Text Label 1600 1150 0    50   ~ 0
-MD1
 Text Label 1600 1050 0    50   ~ 0
 MD0
 Wire Wire Line
@@ -159,8 +93,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 1250 1900 1250
 Wire Wire Line
-	1600 1150 1900 1150
-Wire Wire Line
 	1600 1050 1900 1050
 Entry Wire Line
 	1600 1750 1500 1650
@@ -174,8 +106,6 @@ Entry Wire Line
 	1600 1350 1500 1250
 Entry Wire Line
 	1600 1250 1500 1150
-Entry Wire Line
-	1600 1150 1500 1050
 Entry Wire Line
 	1600 1050 1500 950 
 Wire Wire Line
@@ -220,14 +150,8 @@ Text Label 1600 6750 0    50   ~ 0
 MD6
 Text Label 1600 6650 0    50   ~ 0
 MD5
-Text Label 1600 6550 0    50   ~ 0
-MD4
-Text Label 1600 6450 0    50   ~ 0
-MD3
 Text Label 1600 6350 0    50   ~ 0
 MD2
-Text Label 1600 6250 0    50   ~ 0
-MD1
 Text Label 1600 6150 0    50   ~ 0
 MD0
 Wire Wire Line
@@ -237,13 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 6650 1900 6650
 Wire Wire Line
-	1600 6550 1900 6550
-Wire Wire Line
-	1600 6450 1900 6450
-Wire Wire Line
 	1600 6350 1900 6350
-Wire Wire Line
-	1600 6250 1900 6250
 Wire Wire Line
 	1600 6150 1900 6150
 Entry Wire Line
@@ -253,13 +171,7 @@ Entry Wire Line
 Entry Wire Line
 	1600 6650 1500 6550
 Entry Wire Line
-	1600 6550 1500 6450
-Entry Wire Line
-	1600 6450 1500 6350
-Entry Wire Line
 	1600 6350 1500 6250
-Entry Wire Line
-	1600 6250 1500 6150
 Entry Wire Line
 	1600 6150 1500 6050
 Wire Wire Line
@@ -307,8 +219,6 @@ Wire Wire Line
 	2800 7250 2800 7350
 Connection ~ 2800 7250
 Wire Wire Line
-	1900 7050 1900 7150
-Wire Wire Line
 	2900 7150 2650 7150
 Wire Wire Line
 	2650 7150 2650 7450
@@ -331,14 +241,14 @@ Text Label 1600 5950 0    50   ~ 0
 Wire Wire Line
 	2700 7050 2900 7050
 $Comp
-L power:GND #PWR0142
+L power:GND #PWR046
 U 1 1 63470A69
-P 1900 7150
-F 0 "#PWR0142" H 1900 6900 50  0001 C CNN
-F 1 "GND" H 1905 6977 50  0000 C CNN
-F 2 "" H 1900 7150 50  0001 C CNN
-F 3 "" H 1900 7150 50  0001 C CNN
-	1    1900 7150
+P 1800 7150
+F 0 "#PWR046" H 1800 6900 50  0001 C CNN
+F 1 "GND" H 1805 6977 50  0000 C CNN
+F 2 "" H 1800 7150 50  0001 C CNN
+F 3 "" H 1800 7150 50  0001 C CNN
+	1    1800 7150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -584,10 +494,10 @@ Wire Wire Line
 Wire Wire Line
 	4850 6650 4700 6650
 $Comp
-L power:GND #PWR0143
+L power:GND #PWR045
 U 1 1 6397C066
 P 4850 6950
-F 0 "#PWR0143" H 4850 6700 50  0001 C CNN
+F 0 "#PWR045" H 4850 6700 50  0001 C CNN
 F 1 "GND" H 4855 6777 50  0000 C CNN
 F 2 "" H 4850 6950 50  0001 C CNN
 F 3 "" H 4850 6950 50  0001 C CNN
@@ -609,10 +519,10 @@ F 3 "~" H 4200 6050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:VCC #PWR0144
+L power:VCC #PWR044
 U 1 1 639BDFE6
 P 4200 5700
-F 0 "#PWR0144" H 4200 5550 50  0001 C CNN
+F 0 "#PWR044" H 4200 5550 50  0001 C CNN
 F 1 "VCC" H 4215 5873 50  0000 C CNN
 F 2 "" H 4200 5700 50  0001 C CNN
 F 3 "" H 4200 5700 50  0001 C CNN
@@ -736,10 +646,10 @@ Entry Wire Line
 Text Label 1600 5550 0    50   ~ 0
 512KMOD
 $Comp
-L power:GND #PWR0145
+L power:GND #PWR047
 U 1 1 6334F3AB
 P 2800 7350
-F 0 "#PWR0145" H 2800 7100 50  0001 C CNN
+F 0 "#PWR047" H 2800 7100 50  0001 C CNN
 F 1 "GND" H 2805 7177 50  0000 C CNN
 F 2 "" H 2800 7350 50  0001 C CNN
 F 3 "" H 2800 7350 50  0001 C CNN
@@ -773,10 +683,10 @@ Wire Wire Line
 	5600 5400 6000 5400
 Connection ~ 4900 3850
 $Comp
-L power:GND #PWR0146
+L power:GND #PWR043
 U 1 1 635A9564
 P 4900 4950
-F 0 "#PWR0146" H 4900 4700 50  0001 C CNN
+F 0 "#PWR043" H 4900 4700 50  0001 C CNN
 F 1 "GND" H 4905 4777 50  0000 C CNN
 F 2 "" H 4900 4950 50  0001 C CNN
 F 3 "" H 4900 4950 50  0001 C CNN
@@ -861,10 +771,10 @@ Entry Wire Line
 Text Label 1600 4350 0    50   ~ 0
 512KMOD
 $Comp
-L power:VCC #PWR0147
+L power:VCC #PWR042
 U 1 1 64647478
 P 2650 4750
-F 0 "#PWR0147" H 2650 4600 50  0001 C CNN
+F 0 "#PWR042" H 2650 4600 50  0001 C CNN
 F 1 "VCC" H 2665 4923 50  0000 C CNN
 F 2 "" H 2650 4750 50  0001 C CNN
 F 3 "" H 2650 4750 50  0001 C CNN
@@ -899,6 +809,98 @@ NoConn ~ 4700 6450
 NoConn ~ 4700 6850
 Wire Wire Line
 	5000 4050 4800 4050
+Wire Wire Line
+	1900 7050 1800 7050
+Wire Wire Line
+	1800 7050 1800 7150
+Entry Wire Line
+	1500 1050 1600 1150
+Wire Wire Line
+	1600 1150 1900 1150
+Text Label 1600 1150 0    50   ~ 0
+MD1
+Entry Wire Line
+	1500 6150 1600 6250
+Entry Wire Line
+	1500 6350 1600 6450
+Entry Wire Line
+	1500 6450 1600 6550
+Wire Wire Line
+	1600 6250 1900 6250
+Wire Wire Line
+	1600 6450 1900 6450
+Wire Wire Line
+	1600 6550 1900 6550
+Text Label 1600 6250 0    50   ~ 0
+MD1
+Text Label 1600 6450 0    50   ~ 0
+MD3
+Text Label 1600 6550 0    50   ~ 0
+MD4
+Text HLabel 1000 1050 0    50   Input ~ 0
+MD0
+Text HLabel 1000 1150 0    50   Input ~ 0
+MD1
+Text HLabel 1000 1250 0    50   Input ~ 0
+MD2
+Text HLabel 1000 1350 0    50   Input ~ 0
+MD3
+Text HLabel 1000 1450 0    50   Input ~ 0
+MD4
+Text HLabel 1000 1550 0    50   Input ~ 0
+MD5
+Text HLabel 1000 1650 0    50   Input ~ 0
+MD6
+Text HLabel 1000 1750 0    50   Input ~ 0
+MD7
+Entry Wire Line
+	1400 1050 1500 950 
+Entry Wire Line
+	1400 1150 1500 1050
+Entry Wire Line
+	1400 1250 1500 1150
+Entry Wire Line
+	1400 1350 1500 1250
+Entry Wire Line
+	1400 1450 1500 1350
+Entry Wire Line
+	1400 1550 1500 1450
+Entry Wire Line
+	1400 1650 1500 1550
+Entry Wire Line
+	1400 1750 1500 1650
+Wire Wire Line
+	1000 1750 1400 1750
+Wire Wire Line
+	1000 1650 1400 1650
+Wire Wire Line
+	1000 1550 1400 1550
+Wire Wire Line
+	1000 1450 1400 1450
+Wire Wire Line
+	1000 1350 1400 1350
+Wire Wire Line
+	1000 1250 1400 1250
+Wire Wire Line
+	1000 1150 1400 1150
+Wire Wire Line
+	1000 1050 1400 1050
 Wire Bus Line
 	1500 950  1500 7350
+Text Label 1400 1050 2    50   ~ 0
+MD0
+Text Label 1400 1150 2    50   ~ 0
+MD1
+Text Label 1400 1250 2    50   ~ 0
+MD2
+Text Label 1400 1350 2    50   ~ 0
+MD3
+Text Label 1400 1450 2    50   ~ 0
+MD4
+Text Label 1400 1550 2    50   ~ 0
+MD5
+Text Label 1400 1650 2    50   ~ 0
+MD6
+Text Label 1400 1750 2    50   ~ 0
+MD7
 $EndSCHEMATC

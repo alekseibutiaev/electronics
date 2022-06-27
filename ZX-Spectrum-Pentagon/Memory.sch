@@ -18,8 +18,8 @@ L 74IEC:74HC257 U?
 U 1 1 63FB6D99
 P 2300 1300
 AR Path="/63FB6D99" Ref="U?"  Part="1" 
-AR Path="/63F76E84/63FB6D99" Ref="U?"  Part="1" 
-F 0 "U?" H 2300 1850 50  0000 C CNN
+AR Path="/63F76E84/63FB6D99" Ref="U36"  Part="1" 
+F 0 "U36" H 2300 1850 50  0000 C CNN
 F 1 "74HC257" H 2300 750 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 1350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 1350 50  0001 C CNN
@@ -31,8 +31,8 @@ L 74IEC:74HC257 U?
 U 1 1 63FC2E67
 P 2300 4300
 AR Path="/63FC2E67" Ref="U?"  Part="1" 
-AR Path="/63F76E84/63FC2E67" Ref="U?"  Part="1" 
-F 0 "U?" H 2300 4850 50  0000 C CNN
+AR Path="/63F76E84/63FC2E67" Ref="U40"  Part="1" 
+F 0 "U40" H 2300 4850 50  0000 C CNN
 F 1 "74HC257" H 2300 3750 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 4350 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 4350 50  0001 C CNN
@@ -119,22 +119,6 @@ Text Label 6650 2950 2    50   ~ 0
 D6
 Text Label 6650 3050 2    50   ~ 0
 D7
-Text GLabel 6800 2350 2    50   BiDi ~ 10
-D0
-Text GLabel 6800 2450 2    50   BiDi ~ 10
-D1
-Text GLabel 6800 2550 2    50   BiDi ~ 10
-D2
-Text GLabel 6800 2650 2    50   BiDi ~ 10
-D3
-Text GLabel 6800 2750 2    50   BiDi ~ 10
-D4
-Text GLabel 6800 2850 2    50   BiDi ~ 10
-D5
-Text GLabel 6800 2950 2    50   BiDi ~ 10
-D6
-Text GLabel 6800 3050 2    50   BiDi ~ 10
-D7
 Wire Wire Line
 	5100 950  5400 950 
 Wire Wire Line
@@ -183,32 +167,32 @@ Entry Wire Line
 	5000 950  5100 1050
 Entry Wire Line
 	5000 850  5100 950 
-Text GLabel 1000 4150 0    50   Input ~ 10
+Text HLabel 1000 4150 0    50   Input ~ 10
 CPU
-Text GLabel 1000 4250 0    50   Input ~ 10
+Text HLabel 1000 4250 0    50   Input ~ 10
 DISPLAY
-Text GLabel 1000 4350 0    50   Input ~ 10
+Text HLabel 1000 4350 0    50   Input ~ 10
 RAS
-Text GLabel 1000 4500 0    50   Input ~ 10
+Text HLabel 1000 4500 0    50   Input ~ 10
 ~CAS
 Text Label 1600 1650 0    50   ~ 0
-B4
+ZB4
 Entry Wire Line
 	1500 1550 1600 1650
 Wire Wire Line
 	1950 1650 1600 1650
 Text Label 1600 1450 0    50   ~ 0
-B3
+ZB3
 Entry Wire Line
 	1500 1350 1600 1450
 Wire Wire Line
 	1950 1450 1600 1450
 Text Label 1600 1250 0    50   ~ 0
-B2
+ZB2
 Entry Wire Line
 	1500 1150 1600 1250
 Text Label 1600 1050 0    50   ~ 0
-B1
+ZB1
 Entry Wire Line
 	1500 950  1600 1050
 Wire Wire Line
@@ -244,19 +228,19 @@ DISPLAY
 Wire Wire Line
 	1950 1250 1600 1250
 Text Label 1600 4650 0    50   ~ 0
-B16
+ZB16
 Entry Wire Line
 	1500 4550 1600 4650
 Text Label 1600 4450 0    50   ~ 0
-B15
+ZB15
 Entry Wire Line
 	1500 4350 1600 4450
 Text Label 1600 4250 0    50   ~ 0
-B14
+ZB14
 Entry Wire Line
 	1500 4150 1600 4250
 Text Label 1600 4050 0    50   ~ 0
-B11
+ZB11
 Entry Wire Line
 	1500 3950 1600 4050
 Text Label 1600 4550 0    50   ~ 0
@@ -277,16 +261,14 @@ Entry Wire Line
 	1500 3850 1600 3950
 Entry Wire Line
 	1500 4650 1600 4750
-Wire Wire Line
-	1600 4750 1950 4750
 Text Label 1600 4750 0    50   ~ 0
 DISPLAY
 Text Label 1600 5750 0    50   ~ 0
-B18
+ZB18
 Entry Wire Line
 	1500 5650 1600 5750
 Text Label 1600 5550 0    50   ~ 0
-B17
+ZB17
 Entry Wire Line
 	1500 5450 1600 5550
 Text Label 1600 6050 0    50   ~ 0
@@ -374,10 +356,10 @@ Wire Wire Line
 Text Label 3250 1600 2    50   ~ 0
 MA3
 $Comp
-L 74IEC:74HC08 U?
+L 74IEC:74HC08 U28
 U 4 1 64281E3C
 P 2800 6950
-F 0 "U?" H 2800 7100 50  0000 C CNN
+F 0 "U28" H 2800 7100 50  0000 C CNN
 F 1 "74HC08" H 2800 6800 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 6650 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 7100 50  0001 C CNN
@@ -385,10 +367,10 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 7100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC08 U?
+L 74IEC:74HC08 U43
 U 1 1 64284777
 P 2800 7350
-F 0 "U?" H 2800 7500 50  0000 C CNN
+F 0 "U43" H 2800 7500 50  0000 C CNN
 F 1 "74HC08" H 2800 7200 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 7050 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 7500 50  0001 C CNN
@@ -396,17 +378,17 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 7500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74IEC:74HC08 U?
+L 74IEC:74HC08 U28
 U 3 1 64285960
 P 2150 6900
-F 0 "U?" H 2150 7050 50  0000 C CNN
+F 0 "U28" H 2150 7050 50  0000 C CNN
 F 1 "74HC08" H 2150 6750 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2150 6600 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2150 7050 50  0001 C CNN
 	3    2150 6900
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 5750 0    50   Input ~ 10
+Text HLabel 1000 5750 0    50   Input ~ 10
 MX3
 Wire Wire Line
 	1400 5750 1000 5750
@@ -427,10 +409,10 @@ MA17
 Wire Wire Line
 	3300 4600 2600 4600
 $Comp
-L power:GND #PWR?
+L power:GND #PWR048
 U 1 1 62ADF420
 P 1200 7100
-F 0 "#PWR?" H 1200 6850 50  0001 C CNN
+F 0 "#PWR048" H 1200 6850 50  0001 C CNN
 F 1 "GND" V 1205 6972 50  0000 R CNN
 F 2 "" H 1200 7100 50  0001 C CNN
 F 3 "" H 1200 7100 50  0001 C CNN
@@ -440,10 +422,10 @@ $EndComp
 Wire Wire Line
 	1400 7100 1200 7100
 $Comp
-L power:VCC #PWR?
+L power:VCC #PWR049
 U 1 1 62B05F95
 P 1200 7200
-F 0 "#PWR?" H 1200 7050 50  0001 C CNN
+F 0 "#PWR049" H 1200 7050 50  0001 C CNN
 F 1 "VCC" V 1215 7328 50  0000 L CNN
 F 2 "" H 1200 7200 50  0001 C CNN
 F 3 "" H 1200 7200 50  0001 C CNN
@@ -579,55 +561,55 @@ C16
 Wire Wire Line
 	1400 4950 1000 4950
 Text Label 1400 3800 2    50   ~ 0
-B18
+ZB18
 Wire Wire Line
 	1400 3800 1000 3800
 Text Label 1400 3700 2    50   ~ 0
-B17
+ZB17
 Wire Wire Line
 	1400 3700 1000 3700
 Text Label 1400 3600 2    50   ~ 0
-B16
+ZB16
 Wire Wire Line
 	1400 3600 1000 3600
 Text Label 1400 3500 2    50   ~ 0
-B15
+ZB15
 Wire Wire Line
 	1400 3500 1000 3500
 Text Label 1400 3400 2    50   ~ 0
-B14
+ZB14
 Wire Wire Line
 	1400 3400 1000 3400
 Text Label 1400 3300 2    50   ~ 0
-B11
+ZB11
 Wire Wire Line
 	1400 3300 1000 3300
 Text Label 1400 3200 2    50   ~ 0
-B10
+ZB10
 Wire Wire Line
 	1400 3200 1000 3200
 Text Label 1400 3100 2    50   ~ 0
-B9
+ZB9
 Wire Wire Line
 	1400 3100 1000 3100
 Text Label 1400 3000 2    50   ~ 0
-B5
+ZB5
 Wire Wire Line
 	1400 3000 1000 3000
 Text Label 1400 2900 2    50   ~ 0
-B4
+ZB4
 Wire Wire Line
 	1400 2900 1000 2900
 Text Label 1400 2800 2    50   ~ 0
-B3
+ZB3
 Wire Wire Line
 	1400 2800 1000 2800
 Text Label 1400 2700 2    50   ~ 0
-B2
+ZB2
 Wire Wire Line
 	1400 2700 1000 2700
 Text Label 1400 2600 2    50   ~ 0
-B1
+ZB1
 Wire Wire Line
 	1400 2600 1000 2600
 Text Label 1400 5550 2    50   ~ 0
@@ -694,74 +676,74 @@ Text Label 1400 950  2    50   ~ 0
 A0
 Wire Wire Line
 	1400 950  1000 950 
-Text GLabel 1000 4950 0    50   Input ~ 10
+Text HLabel 1000 4950 0    50   Input ~ 10
 C16
-Text GLabel 1000 5150 0    50   Input ~ 10
+Text HLabel 1000 5150 0    50   Input ~ 10
 C20
-Text GLabel 1000 5050 0    50   Input ~ 10
+Text HLabel 1000 5050 0    50   Input ~ 10
 C19
-Text GLabel 1000 5650 0    50   Input ~ 10
+Text HLabel 1000 5650 0    50   Input ~ 10
 MX2
-Text GLabel 1000 5550 0    50   Input ~ 10
+Text HLabel 1000 5550 0    50   Input ~ 10
 MX1
-Text GLabel 1000 5450 0    50   Input ~ 10
+Text HLabel 1000 5450 0    50   Input ~ 10
 MX0
-Text GLabel 1000 2250 0    50   Input ~ 10
+Text HLabel 1000 2250 0    50   Input ~ 10
 A13
-Text GLabel 1000 2150 0    50   Input ~ 10
+Text HLabel 1000 2150 0    50   Input ~ 10
 A12
-Text GLabel 1000 2050 0    50   Input ~ 10
+Text HLabel 1000 2050 0    50   Input ~ 10
 A11
-Text GLabel 1000 1950 0    50   Input ~ 10
+Text HLabel 1000 1950 0    50   Input ~ 10
 A10
-Text GLabel 1000 1850 0    50   Input ~ 10
+Text HLabel 1000 1850 0    50   Input ~ 10
 A9
-Text GLabel 1000 1750 0    50   Input ~ 10
+Text HLabel 1000 1750 0    50   Input ~ 10
 A8
-Text GLabel 1000 1650 0    50   Input ~ 10
+Text HLabel 1000 1650 0    50   Input ~ 10
 A7
-Text GLabel 1000 1550 0    50   Input ~ 10
+Text HLabel 1000 1550 0    50   Input ~ 10
 A6
-Text GLabel 1000 1450 0    50   Input ~ 10
+Text HLabel 1000 1450 0    50   Input ~ 10
 A5
-Text GLabel 1000 1350 0    50   Input ~ 10
+Text HLabel 1000 1350 0    50   Input ~ 10
 A4
-Text GLabel 1000 1250 0    50   Input ~ 10
+Text HLabel 1000 1250 0    50   Input ~ 10
 A3
-Text GLabel 1000 1150 0    50   Input ~ 10
+Text HLabel 1000 1150 0    50   Input ~ 10
 A2
-Text GLabel 1000 1050 0    50   Input ~ 10
+Text HLabel 1000 1050 0    50   Input ~ 10
 A1
-Text GLabel 1000 950  0    50   Input ~ 10
+Text HLabel 1000 950  0    50   Input ~ 10
 A0
-Text GLabel 1000 6050 0    50   Input ~ 10
+Text HLabel 1000 6050 0    50   Input ~ 10
 SCRSEL
-Text GLabel 1000 3800 0    50   Input ~ 10
-B18
-Text GLabel 1000 3700 0    50   Input ~ 10
-B17
-Text GLabel 1000 3600 0    50   Input ~ 10
-B16
-Text GLabel 1000 3500 0    50   Input ~ 10
-B15
-Text GLabel 1000 3400 0    50   Input ~ 10
-B14
-Text GLabel 1000 3300 0    50   Input ~ 10
-B11
-Text GLabel 1000 3200 0    50   Input ~ 10
-B10
-Text GLabel 1000 3100 0    50   Input ~ 10
-B9
-Text GLabel 1000 3000 0    50   Input ~ 10
-B5
-Text GLabel 1000 2900 0    50   Input ~ 10
-B4
-Text GLabel 1000 2800 0    50   Input ~ 10
-B3
-Text GLabel 1000 2700 0    50   Input ~ 10
-B2
-Text GLabel 1000 2600 0    50   Input ~ 10
-B1
+Text HLabel 1000 3800 0    50   Input ~ 10
+ZB18
+Text HLabel 1000 3700 0    50   Input ~ 10
+ZB17
+Text HLabel 1000 3600 0    50   Input ~ 10
+ZB16
+Text HLabel 1000 3500 0    50   Input ~ 10
+ZB15
+Text HLabel 1000 3400 0    50   Input ~ 10
+ZB14
+Text HLabel 1000 3300 0    50   Input ~ 10
+ZB11
+Text HLabel 1000 3200 0    50   Input ~ 10
+ZB10
+Text HLabel 1000 3100 0    50   Input ~ 10
+ZB9
+Text HLabel 1000 3000 0    50   Input ~ 10
+ZB5
+Text HLabel 1000 2900 0    50   Input ~ 10
+ZB4
+Text HLabel 1000 2800 0    50   Input ~ 10
+ZB3
+Text HLabel 1000 2700 0    50   Input ~ 10
+ZB2
+Text HLabel 1000 2600 0    50   Input ~ 10
+ZB1
 Wire Wire Line
 	1400 7200 1200 7200
 Entry Wire Line
@@ -840,8 +822,8 @@ L 74IEC:74HC257 U?
 U 1 1 63FC2F5D
 P 2300 5800
 AR Path="/63FC2F5D" Ref="U?"  Part="1" 
-AR Path="/63F76E84/63FC2F5D" Ref="U?"  Part="1" 
-F 0 "U?" H 2300 6350 50  0000 C CNN
+AR Path="/63F76E84/63FC2F5D" Ref="U42"  Part="1" 
+F 0 "U42" H 2300 6350 50  0000 C CNN
 F 1 "74HC257" H 2300 5250 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 5850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 5850 50  0001 C CNN
@@ -871,10 +853,10 @@ Entry Wire Line
 Text Label 1600 850  0    50   ~ 0
 GND
 $Comp
-L 74IEC:74HC541 U?
+L 74IEC:74HC541 U39
 U 1 1 6372CEF6
 P 5750 1400
-F 0 "U?" H 5750 1950 50  0000 C CNN
+F 0 "U39" H 5750 1950 50  0000 C CNN
 F 1 "74HC541" H 5750 750 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 5750 1950 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5750 1950 50  0001 C CNN
@@ -901,24 +883,18 @@ Wire Wire Line
 Wire Wire Line
 	6050 1250 6350 1250
 Wire Wire Line
-	6050 1350 6350 1350
-Wire Wire Line
-	6050 1450 6350 1450
-Wire Wire Line
 	6050 1550 6350 1550
 Wire Wire Line
 	6050 1650 6350 1650
 Wire Wire Line
 	6050 1750 6350 1750
-Wire Bus Line
-	6450 700  5000 700 
 $Comp
 L GenericSRAM:HM628512 U?
 U 1 1 62ABE0A0
 P 4300 1950
 AR Path="/62ABE0A0" Ref="U?"  Part="1" 
-AR Path="/63F76E84/62ABE0A0" Ref="U?"  Part="1" 
-F 0 "U?" H 4300 3100 50  0000 C CNN
+AR Path="/63F76E84/62ABE0A0" Ref="U37"  Part="1" 
+F 0 "U37" H 4300 3100 50  0000 C CNN
 F 1 "HM628512" H 4300 800 50  0000 C CNN
 F 2 "Package_DIP:DIP-32_W15.24mm" H 4300 3100 50  0001 C CNN
 F 3 "" H 4300 3100 50  0001 C CNN
@@ -1087,7 +1063,6 @@ Wire Wire Line
 	4700 1650 4900 1650
 Text Label 4750 1650 0    50   ~ 0
 MD7
-Connection ~ 5000 700 
 Text Label 3500 3000 0    50   ~ 0
 C16
 Wire Wire Line
@@ -1104,16 +1079,11 @@ Wire Wire Line
 	3500 2900 3900 2900
 Entry Wire Line
 	3400 2800 3500 2900
-Wire Bus Line
-	5000 700  3400 700 
-Wire Bus Line
-	3400 700  1500 700 
-Connection ~ 3400 700 
 $Comp
-L 74IEC:74HC32 U?
+L 74IEC:74HC32 U10
 U 4 1 62EC474A
 P 2800 6550
-F 0 "U?" H 2800 6700 50  0000 C CNN
+F 0 "U10" H 2800 6700 50  0000 C CNN
 F 1 "74HC32" H 2800 6400 50  0000 C CNN
 F 2 "Package_DIP:DIP-14_W7.62mm" H 2800 6250 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2800 6700 50  0001 C CNN
@@ -1150,9 +1120,9 @@ Wire Wire Line
 	1400 5850 1000 5850
 Wire Wire Line
 	1400 5950 1000 5950
-Text GLabel 1000 5950 0    50   Input ~ 10
+Text HLabel 1000 5950 0    50   Input ~ 10
 GPA7
-Text GLabel 1000 5850 0    50   Input ~ 10
+Text HLabel 1000 5850 0    50   Input ~ 10
 GPA6
 Entry Wire Line
 	5000 3050 5100 3150
@@ -1267,8 +1237,8 @@ L 74IEC:74HC574 U?
 U 1 1 63FD0238
 P 5750 2700
 AR Path="/63FD0238" Ref="U?"  Part="1" 
-AR Path="/63F76E84/63FD0238" Ref="U?"  Part="1" 
-F 0 "U?" H 5750 3250 50  0000 C CNN
+AR Path="/63F76E84/63FD0238" Ref="U41"  Part="1" 
+F 0 "U41" H 5750 3250 50  0000 C CNN
 F 1 "74HC574" H 5750 2150 50  0000 C CNN
 F 2 "Package_DIP:DIP-20_W7.62mm" H 5750 2400 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 5750 2400 50  0001 C CNN
@@ -1323,24 +1293,22 @@ Wire Wire Line
 	6550 1150 6800 1150
 Wire Wire Line
 	6550 1050 6800 1050
-Text GLabel 6800 1050 2    50   Output ~ 0
+Text HLabel 6800 1050 2    50   Output ~ 10
 MD0
-Text GLabel 6800 1150 2    50   Output ~ 0
+Text HLabel 6800 1150 2    50   Output ~ 10
 MD1
-Text GLabel 6800 1250 2    50   Output ~ 0
+Text HLabel 6800 1250 2    50   Output ~ 10
 MD2
-Text GLabel 6800 1350 2    50   Output ~ 0
+Text HLabel 6800 1350 2    50   Output ~ 10
 MD3
-Text GLabel 6800 1450 2    50   Output ~ 0
+Text HLabel 6800 1450 2    50   Output ~ 10
 MD4
-Text GLabel 6800 1550 2    50   Output ~ 0
+Text HLabel 6800 1550 2    50   Output ~ 10
 MD5
-Text GLabel 6800 1650 2    50   Output ~ 0
+Text HLabel 6800 1650 2    50   Output ~ 10
 MD6
-Text GLabel 6800 1750 2    50   Output ~ 0
+Text HLabel 6800 1750 2    50   Output ~ 10
 MD7
-Wire Wire Line
-	1950 1750 1600 1750
 Wire Wire Line
 	3900 2800 3500 2800
 Wire Wire Line
@@ -1360,7 +1328,7 @@ Entry Wire Line
 Wire Wire Line
 	1950 2950 1600 2950
 Text Label 1600 2950 0    50   ~ 0
-B10
+ZB10
 Text Label 3150 3100 0    50   ~ 0
 MA7
 Wire Wire Line
@@ -1422,11 +1390,11 @@ Wire Wire Line
 Entry Wire Line
 	1500 2450 1600 2550
 Text Label 1600 2550 0    50   ~ 0
-B5
+ZB5
 Entry Wire Line
 	1500 2650 1600 2750
 Text Label 1600 2750 0    50   ~ 0
-B9
+ZB9
 Wire Wire Line
 	1950 3150 1600 3150
 Entry Wire Line
@@ -1436,20 +1404,49 @@ L 74IEC:74HC257 U?
 U 1 1 63FBC6C0
 P 2300 2800
 AR Path="/63FBC6C0" Ref="U?"  Part="1" 
-AR Path="/63F76E84/63FBC6C0" Ref="U?"  Part="1" 
-F 0 "U?" H 2300 3350 50  0000 C CNN
+AR Path="/63F76E84/63FBC6C0" Ref="U38"  Part="1" 
+F 0 "U38" H 2300 3350 50  0000 C CNN
 F 1 "74HC257" H 2300 2250 50  0000 C CNN
 F 2 "Package_DIP:DIP-16_W7.62mm" H 2850 2850 50  0001 C CNN
 F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 2850 2850 50  0001 C CNN
 	1    2300 2800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1950 1750 1600 1750
+Wire Wire Line
+	1950 4750 1600 4750
+Text HLabel 6800 2350 2    50   BiDi ~ 10
+D0
+Text HLabel 6800 2450 2    50   BiDi ~ 10
+D1
+Text HLabel 6800 2550 2    50   BiDi ~ 10
+D2
+Text HLabel 6800 2650 2    50   BiDi ~ 10
+D3
+Text HLabel 6800 2750 2    50   BiDi ~ 10
+D4
+Text HLabel 6800 2850 2    50   BiDi ~ 10
+D5
+Text HLabel 6800 2950 2    50   BiDi ~ 10
+D6
+Text HLabel 6800 3050 2    50   BiDi ~ 10
+D7
+Wire Wire Line
+	6350 1350 6050 1350
+Wire Wire Line
+	6350 1450 6050 1450
+Connection ~ 5000 600 
 Wire Bus Line
-	6450 700  6450 2950
+	5000 600  6450 600 
 Wire Bus Line
-	5000 700  5000 3050
+	1500 600  5000 600 
 Wire Bus Line
-	3400 700  3400 7700
+	6450 600  6450 2950
 Wire Bus Line
-	1500 700  1500 7300
+	5000 600  5000 3050
+Wire Bus Line
+	3400 800  3400 7250
+Wire Bus Line
+	1500 600  1500 7300
 $EndSCHEMATC

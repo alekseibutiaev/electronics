@@ -13,22 +13,18 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 600  1100 2    50   Output ~ 10
-AudioIntR
-Text GLabel 600  1200 2    50   Output ~ 10
-AudioIntL
+Text HLabel 1000 1100 0    50   Input ~ 10
+AUDIOR
+Text HLabel 1000 1200 0    50   Input ~ 10
+AUDIOL
 Entry Wire Line
-	1400 1100 1500 1200
+	1400 1100 1500 1000
 Entry Wire Line
-	1400 1200 1500 1300
+	1400 1200 1500 1100
 Wire Wire Line
 	1000 1100 1400 1100
 Wire Wire Line
 	1000 1200 1400 1200
-Text Label 1400 1100 2    50   ~ 0
-AudioIntR
-Text Label 1400 1200 2    50   ~ 0
-AudioIntL
 Wire Bus Line
 	1500 800  4500 800 
 $Comp
@@ -47,11 +43,11 @@ SYNC
 Wire Wire Line
 	3300 1750 4400 1750
 Entry Wire Line
-	4400 1750 4500 1850
+	4400 1750 4500 1650
 Text Label 6600 1850 0    50   ~ 0
 LUMA
 Entry Wire Line
-	6500 1950 6600 1850
+	6500 1750 6600 1850
 Wire Wire Line
 	4650 2150 4800 2150
 $Comp
@@ -68,9 +64,9 @@ F 3 "~" H 3150 1750 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 6400 1350 2    50   ~ 0
-AudioIntL
+AUDIOL
 Text Label 4600 1350 0    50   ~ 0
-AudioIntR
+AUDIOR
 Connection ~ 2300 2450
 Text Label 6400 950  2    50   ~ 0
 RED
@@ -85,11 +81,11 @@ RED
 Text Label 4400 3000 2    50   ~ 0
 BLUE
 Entry Wire Line
-	4400 3000 4500 3100
+	4400 3000 4500 2900
 Entry Wire Line
-	4400 3500 4500 3600
+	4400 3500 4500 3400
 Entry Wire Line
-	4400 4000 4500 4100
+	4400 4000 4500 3900
 Text Label 6400 1250 2    50   ~ 0
 VIDEO
 Wire Wire Line
@@ -97,13 +93,13 @@ Wire Wire Line
 Wire Wire Line
 	6400 950  5500 950 
 Entry Wire Line
-	6500 1050 6400 950 
+	6500 850  6400 950 
 Wire Wire Line
 	5500 1650 5500 1850
 Wire Wire Line
 	6400 1850 5500 1850
 Entry Wire Line
-	6500 1950 6400 1850
+	6500 1750 6400 1850
 Wire Wire Line
 	6400 1350 5800 1350
 Wire Wire Line
@@ -113,13 +109,13 @@ Wire Wire Line
 Wire Wire Line
 	4600 1250 5200 1250
 Entry Wire Line
-	6500 1450 6400 1350
+	6500 1250 6400 1350
 Entry Wire Line
-	6500 1350 6400 1250
+	6500 1150 6400 1250
 Entry Wire Line
-	4500 1450 4600 1350
+	4500 1250 4600 1350
 Entry Wire Line
-	4500 1350 4600 1250
+	4500 1150 4600 1250
 $Comp
 L power:GND #PWR?
 U 1 1 631447CC
@@ -131,9 +127,9 @@ F 3 "" H 4850 1700 50  0001 C CNN
 	1    4850 1700
 	0    1    1    0   
 $EndComp
-Text GLabel 1000 5900 0    50   Input ~ 10
+Text HLabel 1000 5900 0    50   Input ~ 10
 VSYNC
-Text GLabel 1000 5800 0    50   Input ~ 10
+Text HLabel 1000 5800 0    50   Input ~ 10
 HSYNC
 Wire Wire Line
 	4400 5100 4900 5100
@@ -365,15 +361,15 @@ F 3 "" H 5400 5800 50  0001 C CNN
 	1    5400 5100
 	1    0    0    -1  
 $EndComp
-Text GLabel 1000 3950 0    50   Input ~ 10
+Text HLabel 1000 3950 0    50   Input ~ 10
 TTLY
-Text GLabel 1000 2750 0    50   Input ~ 10
+Text HLabel 1000 2750 0    50   Input ~ 10
 TTLB
-Text GLabel 1000 3250 0    50   Input ~ 10
+Text HLabel 1000 3250 0    50   Input ~ 10
 TTLR
-Text GLabel 1000 3750 0    50   Input ~ 10
+Text HLabel 1000 3750 0    50   Input ~ 10
 TTLG
-Text GLabel 1000 2050 0    50   Input ~ 10
+Text HLabel 1000 2050 0    50   Input ~ 10
 TTLSYNC
 $Comp
 L power:GND #PWR?
@@ -1099,11 +1095,11 @@ Wire Wire Line
 Wire Wire Line
 	4400 1000 4000 1000
 Entry Wire Line
-	4400 1200 4500 1300
+	4400 1200 4500 1100
 Entry Wire Line
-	4400 1100 4500 1200
+	4400 1100 4500 1000
 Entry Wire Line
-	4400 1000 4500 1100
+	4400 1000 4500 900 
 $Comp
 L Connector:Conn_01x03_Male JVE?
 U 1 1 63EE0925
@@ -1195,13 +1191,13 @@ CRMA
 Wire Wire Line
 	6600 1750 7500 1750
 Entry Wire Line
-	6400 1450 6500 1550
+	6400 1450 6500 1350
 Wire Wire Line
 	5800 1450 6400 1450
 Text Label 6400 1450 2    50   ~ 0
 CRMA
 Entry Wire Line
-	6500 1850 6600 1750
+	6500 1650 6600 1750
 Wire Wire Line
 	7500 1750 7500 2150
 Wire Wire Line
@@ -1403,10 +1399,14 @@ Wire Wire Line
 	8150 5300 8150 5400
 Wire Wire Line
 	8150 5300 8250 5300
+Text Label 1400 1100 2    50   ~ 0
+AUDIOR
+Text Label 1400 1200 2    50   ~ 0
+AUDIOL
 Wire Bus Line
-	1500 800  1500 1300
+	1500 800  1500 1100
 Wire Bus Line
-	6500 800  6500 1950
+	6500 800  6500 1750
 Wire Bus Line
-	4500 800  4500 4100
+	4500 800  4500 3900
 $EndSCHEMATC

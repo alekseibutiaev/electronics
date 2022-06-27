@@ -13,59 +13,59 @@ Comment2 "Comment2"
 Comment3 "Comment3"
 Comment4 "Comment4"
 $EndDescr
-Text GLabel 10450 600  2    50   BiDi ~ 10
+Text HLabel 10450 600  2    50   BiDi ~ 10
 D0
-Text GLabel 10450 700  2    50   BiDi ~ 10
+Text HLabel 10450 700  2    50   BiDi ~ 10
 D1
-Text GLabel 10450 800  2    50   BiDi ~ 10
+Text HLabel 10450 800  2    50   BiDi ~ 10
 D2
-Text GLabel 10450 900  2    50   BiDi ~ 10
+Text HLabel 10450 900  2    50   BiDi ~ 10
 D3
-Text GLabel 10450 1000 2    50   BiDi ~ 10
+Text HLabel 10450 1000 2    50   BiDi ~ 10
 D4
-Text GLabel 10450 1100 2    50   BiDi ~ 10
+Text HLabel 10450 1100 2    50   BiDi ~ 10
 D5
-Text GLabel 10450 1200 2    50   BiDi ~ 10
+Text HLabel 10450 1200 2    50   BiDi ~ 10
 D6
-Text GLabel 10450 1300 2    50   BiDi ~ 10
+Text HLabel 10450 1300 2    50   BiDi ~ 10
 D7
-Text GLabel 10450 1400 2    50   Output ~ 10
+Text HLabel 10450 1400 2    50   Output ~ 10
 A0
-Text GLabel 10450 1500 2    50   Output ~ 10
+Text HLabel 10450 1500 2    50   Output ~ 10
 A1
-Text GLabel 10450 1600 2    50   Output ~ 10
+Text HLabel 10450 1600 2    50   Output ~ 10
 A2
-Text GLabel 10450 1700 2    50   Output ~ 10
+Text HLabel 10450 1700 2    50   Output ~ 10
 A3
-Text GLabel 10450 1800 2    50   Output ~ 10
+Text HLabel 10450 1800 2    50   Output ~ 10
 A4
-Text GLabel 10450 1900 2    50   Output ~ 10
+Text HLabel 10450 1900 2    50   Output ~ 10
 A5
-Text GLabel 10450 2000 2    50   Output ~ 10
+Text HLabel 10450 2000 2    50   Output ~ 10
 A6
-Text GLabel 10450 2100 2    50   Output ~ 10
+Text HLabel 10450 2100 2    50   Output ~ 10
 A7
-Text GLabel 10450 2200 2    50   Output ~ 10
+Text HLabel 10450 2200 2    50   Output ~ 10
 A8
-Text GLabel 10450 2300 2    50   Output ~ 10
+Text HLabel 10450 2300 2    50   Output ~ 10
 A9
-Text GLabel 10450 2400 2    50   Output ~ 10
+Text HLabel 10450 2400 2    50   Output ~ 10
 A10
-Text GLabel 10450 2500 2    50   Output ~ 10
+Text HLabel 10450 2500 2    50   Output ~ 10
 A11
-Text GLabel 10450 2600 2    50   Output ~ 10
+Text HLabel 10450 2600 2    50   Output ~ 10
 A12
-Text GLabel 10450 2700 2    50   Output ~ 10
+Text HLabel 10450 2700 2    50   Output ~ 10
 A13
-Text GLabel 10450 2800 2    50   Output ~ 10
+Text HLabel 10450 2800 2    50   Output ~ 10
 A14
-Text GLabel 10450 2900 2    50   Output ~ 10
+Text HLabel 10450 2900 2    50   Output ~ 10
 A15
-Text GLabel 10450 3050 2    50   Output ~ 10
+Text HLabel 10450 3050 2    50   Output ~ 10
 ~MREQ
-Text GLabel 10450 3200 2    50   Output ~ 10
+Text HLabel 10450 3200 2    50   Output ~ 10
 ~RD
-Text GLabel 10450 3350 2    50   Output ~ 10
+Text HLabel 10450 3350 2    50   Output ~ 10
 ~RFSH
 Entry Wire Line
 	9950 700  10050 600 
@@ -229,17 +229,17 @@ Text Label 10050 3200 0    50   ~ 0
 ~RD
 Text Label 10050 3350 0    50   ~ 0
 ~RFSH
-Text GLabel 10450 3950 2    50   Output ~ 10
+Text HLabel 10450 3950 2    50   Output ~ 10
 CS_32765
-Text GLabel 10450 4150 2    50   Output ~ 10
+Text HLabel 10450 4150 2    50   Output ~ 10
 BDIR
-Text GLabel 10450 4700 2    50   Output ~ 10
+Text HLabel 10450 4700 2    50   Output ~ 10
 ~IN254
-Text GLabel 10450 4250 2    50   Output ~ 10
+Text HLabel 10450 4250 2    50   Output ~ 10
 BC1
-Text GLabel 10450 4050 2    50   Output ~ 10
+Text HLabel 10450 4050 2    50   Output ~ 10
 DI_32765
-Text GLabel 10450 4550 2    50   Output ~ 10
+Text HLabel 10450 4550 2    50   Output ~ 10
 ~OUT254
 Entry Wire Line
 	10050 3950 9950 4050
@@ -277,7 +277,7 @@ Text Label 10050 4250 0    50   ~ 0
 BC1
 Wire Wire Line
 	10450 4250 10050 4250
-Text GLabel 10450 4400 2    50   Output ~ 10
+Text HLabel 10450 4400 2    50   Output ~ 10
 ~INKMST
 Entry Wire Line
 	10050 4400 9950 4500
@@ -372,7 +372,7 @@ Text Label 1400 4900 2    50   ~ 0
 A14-ROM
 Wire Wire Line
 	950  4900 1400 4900
-Text GLabel 950  4900 0    50   Input ~ 10
+Text HLabel 950  4900 0    50   Input ~ 10
 A14-ROM
 Text Label 3500 5950 0    50   ~ 0
 A10
@@ -623,11 +623,11 @@ Entry Wire Line
 	1400 3800 1500 3900
 Entry Wire Line
 	1400 3650 1500 3750
-Text GLabel 950  3950 0    50   Input ~ 10
+Text HLabel 950  3950 0    50   Input ~ 10
 ~C25
-Text GLabel 950  3800 0    50   Input ~ 10
+Text HLabel 950  3800 0    50   Input ~ 10
 ~RST
-Text GLabel 950  3650 0    50   Input ~ 10
+Text HLabel 950  3650 0    50   Input ~ 10
 ~INT
 Text Label 6950 4100 0    50   ~ 0
 ~RST
@@ -1187,7 +1187,7 @@ F 3 "~" H 1250 1900 50  0001 C CNN
 	1    1250 1900
 	-1   0    0    1   
 $EndComp
-Text GLabel 950  2150 0    50   Input ~ 10
+Text HLabel 950  2150 0    50   Input ~ 10
 C25
 Wire Wire Line
 	3300 3200 3700 3200
@@ -1876,7 +1876,7 @@ Wire Wire Line
 Wire Wire Line
 	2550 6900 2650 6900
 Text Label 1600 6700 0    50   ~ 0
-A14+A15
+~FQUATER
 Wire Wire Line
 	3050 6950 3300 6950
 Wire Wire Line
@@ -1885,10 +1885,10 @@ Wire Wire Line
 	1600 6800 2000 6800
 Text Label 1600 6800 0    50   ~ 0
 ~MREQ
-Text GLabel 950  5000 0    50   Input ~ 10
-A14+A15
+Text HLabel 950  5000 0    50   Input ~ 10
+~FQUATER
 Text Label 1600 7000 0    50   ~ 0
-A14+A15
+ROMCS
 Text Label 3050 6950 0    50   ~ 0
 ~ROMCE
 Text Label 3500 6850 0    50   ~ 0
@@ -1989,7 +1989,7 @@ L Device:R RCPU?
 U 1 1 638A1D66
 P 7250 4900
 F 0 "RCPU?" H 7320 4946 50  0000 L CNN
-F 1 "1kOm" H 7320 4855 50  0000 L CNN
+F 1 "10kOm" H 7320 4855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7180 4900 50  0001 C CNN
 F 3 "~" H 7250 4900 50  0001 C CNN
 	1    7250 4900
@@ -2033,12 +2033,12 @@ Text Label 3500 6650 0    50   ~ 0
 RA17
 Text Label 3500 6750 0    50   ~ 0
 RA18
-Text GLabel 950  5250 0    50   UnSpc ~ 10
+Text HLabel 950  5250 0    50   UnSpc ~ 10
 +9V
 Wire Wire Line
 	950  5000 1400 5000
 Text Label 1400 5000 2    50   ~ 0
-A14+A15
+~FQUATER
 Entry Wire Line
 	1400 5000 1500 5100
 Entry Wire Line
@@ -2060,7 +2060,7 @@ Entry Wire Line
 	5350 3950 5450 3850
 Text Label 5450 3850 0    50   ~ 0
 +9V
-Text GLabel 950  5150 0    50   UnSpc ~ 10
+Text HLabel 950  5150 0    50   UnSpc ~ 10
 +12V
 Wire Wire Line
 	950  5150 1400 5150
@@ -2398,7 +2398,7 @@ Wire Wire Line
 	1400 4100 1000 4100
 Text Label 1400 4100 2    50   ~ 0
 ~RESET
-Text GLabel 1000 4100 0    50   Input ~ 10
+Text HLabel 1000 4100 0    50   Input ~ 10
 ~RESET
 Entry Wire Line
 	1400 3950 1500 4050

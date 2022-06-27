@@ -13,13 +13,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text GLabel 1000 1000 0    50   UnSpc ~ 0
+Text HLabel 1000 1000 0    50   UnSpc ~ 0
 +12V
-Text GLabel 1000 1500 0    50   UnSpc ~ 0
+Text HLabel 1000 1500 0    50   UnSpc ~ 0
 +9V
-Text GLabel 1000 2000 0    50   UnSpc ~ 0
+Text HLabel 1000 2000 0    50   UnSpc ~ 0
 VCC
-Text GLabel 1000 3000 0    50   UnSpc ~ 0
+Text HLabel 1000 3000 0    50   UnSpc ~ 0
 GND
 $Comp
 L Device:R RPI?

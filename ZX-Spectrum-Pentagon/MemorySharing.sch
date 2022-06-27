@@ -199,9 +199,6 @@ Wire Wire Line
 	3400 2550 4900 2550
 Wire Wire Line
 	4900 2550 4900 3050
-Connection ~ 4900 2550
-Wire Wire Line
-	4900 2550 6000 2550
 Wire Wire Line
 	1700 3650 1700 3100
 Wire Wire Line
@@ -209,16 +206,14 @@ Wire Wire Line
 Wire Wire Line
 	3100 2950 3200 2950
 Wire Wire Line
-	3200 2950 3200 2250
-Wire Wire Line
 	3450 1950 1500 1950
-Text GLabel 1250 1950 0    50   Input ~ 10
+Text HLabel 1250 1950 0    50   Input ~ 10
 RAS
-Text GLabel 1250 2900 0    50   Input ~ 10
+Text HLabel 1250 2900 0    50   Input ~ 10
 ~RFSH
 Wire Wire Line
 	1800 2900 1250 2900
-Text GLabel 1250 1000 0    50   Input ~ 10
+Text HLabel 1250 1000 0    50   Input ~ 10
 ~RD
 Wire Wire Line
 	1250 1000 2500 1000
@@ -245,9 +240,6 @@ Wire Wire Line
 Wire Wire Line
 	2200 3000 2500 3000
 Wire Wire Line
-	3200 2250 6000 2250
-Connection ~ 3200 2250
-Wire Wire Line
 	1800 3000 1600 3000
 Wire Wire Line
 	1500 3750 1500 1950
@@ -255,16 +247,14 @@ Connection ~ 1500 1950
 Wire Wire Line
 	1500 1950 1250 1950
 Wire Wire Line
-	2300 4450 2400 4450
-Wire Wire Line
 	2400 4450 2400 4150
 Wire Wire Line
 	1900 4050 1250 4050
-Text GLabel 1250 4050 0    50   Input ~ 10
+Text HLabel 1250 4050 0    50   Input ~ 10
 ~MREQ
-Text GLabel 1250 4400 0    50   Input ~ 10
+Text HLabel 1250 4400 0    50   Input ~ 10
 A14
-Text GLabel 1250 4500 0    50   Input ~ 10
+Text HLabel 1250 4500 0    50   Input ~ 10
 A15
 Wire Wire Line
 	1900 4400 1250 4400
@@ -286,49 +276,38 @@ Wire Wire Line
 	3500 3050 3400 3050
 Wire Wire Line
 	3400 3050 3400 2550
-Text GLabel 1250 3400 0    50   Input ~ 10
+Text HLabel 1250 3400 0    50   Input ~ 10
 ~CAS
 Wire Wire Line
 	3650 3750 1500 3750
-Text GLabel 6000 1050 2    50   Output ~ 10
+Text HLabel 6000 1050 2    50   Output ~ 10
 C19
-Text GLabel 6000 1650 2    50   Output ~ 10
+Text HLabel 6000 1650 2    50   Output ~ 10
 C16
-Text GLabel 6000 2000 2    50   Output ~ 10
+Text HLabel 6000 2000 2    50   Output ~ 10
 C20
-Text GLabel 6000 2250 2    50   Output ~ 10
+Text HLabel 6000 2250 2    50   Output ~ 10
 CPU
 Connection ~ 3300 3150
 Wire Wire Line
 	3300 3150 3300 3650
 Connection ~ 3300 3650
 Connection ~ 1600 1650
-Wire Wire Line
-	3300 2400 6000 2400
-Text GLabel 6000 2400 2    50   Output ~ 10
+Text HLabel 6000 2400 2    50   Output ~ 10
 DISPLAY
-Text GLabel 6000 2550 2    50   Output ~ 10
+Text HLabel 6000 2550 2    50   Output ~ 10
 C29
-Text GLabel 6000 3100 2    50   Output ~ 10
+Text HLabel 6000 3100 2    50   Output ~ 10
 C17
-Text GLabel 6000 3400 2    50   Output ~ 10
+Text HLabel 6000 3400 2    50   Output ~ 10
 C30
-Text GLabel 6000 3650 2    50   Output ~ 10
+Text HLabel 6000 3650 2    50   Output ~ 10
 C18
-Wire Wire Line
-	2400 4450 6000 4450
-Text GLabel 6000 4450 2    50   Output ~ 10
-A14+A15
+Text HLabel 6000 4450 2    50   Output ~ 10
+~FQUATER
 Connection ~ 1600 3000
 Wire Wire Line
 	1600 3000 1600 3850
-Wire Wire Line
-	3300 2400 3300 3150
-Wire Wire Line
-	2500 3100 2300 3100
-Wire Wire Line
-	2300 3100 2300 3400
-Connection ~ 2300 3400
 Wire Wire Line
 	3300 3650 3650 3650
 Wire Wire Line
@@ -341,8 +320,6 @@ Wire Wire Line
 	5000 3700 5200 3700
 Wire Wire Line
 	5000 3150 5000 3700
-Wire Wire Line
-	4000 3400 2300 3400
 Wire Wire Line
 	4000 3200 4000 3400
 Wire Wire Line
@@ -369,8 +346,6 @@ Wire Wire Line
 	4100 2900 4100 3000
 Wire Wire Line
 	3900 3100 4200 3100
-Wire Wire Line
-	1250 3400 2300 3400
 Wire Wire Line
 	4050 3700 5000 3700
 $Comp
@@ -400,7 +375,6 @@ Wire Notes Line
 	4050 1450 4050 1850
 Text Notes 4450 1450 0    50   ~ 0
 Try to change\nfrom 74HC02 + 74HC04\nto one 74HC32\n
-Connection ~ 2400 4450
 Wire Wire Line
 	4800 3050 4900 3050
 Connection ~ 4900 3050
@@ -410,8 +384,6 @@ Wire Wire Line
 	4000 2000 6000 2000
 Wire Wire Line
 	3450 2050 3200 2050
-Wire Wire Line
-	3200 2050 3200 2250
 Wire Wire Line
 	3000 1600 4100 1600
 Wire Wire Line
@@ -441,4 +413,32 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4500 3400 50  0001 C CNN
 	2    4500 3150
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	2400 4450 2300 4450
+Wire Wire Line
+	3200 2050 3200 2250
+Wire Wire Line
+	3300 3150 3300 2400
+Wire Wire Line
+	3300 2400 6000 2400
+Wire Wire Line
+	6000 2250 3200 2250
+Connection ~ 3200 2250
+Wire Wire Line
+	3200 2250 3200 2950
+Wire Wire Line
+	6000 4450 2400 4450
+Connection ~ 2400 4450
+Wire Wire Line
+	6000 2550 4900 2550
+Connection ~ 4900 2550
+Wire Wire Line
+	1250 3400 2300 3400
+Wire Wire Line
+	2500 3100 2300 3100
+Wire Wire Line
+	2300 3100 2300 3400
+Connection ~ 2300 3400
+Wire Wire Line
+	2300 3400 4000 3400
 $EndSCHEMATC

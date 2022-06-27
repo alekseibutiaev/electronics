@@ -62,8 +62,6 @@ F 3 "https://www.ti.com/lit/ds/symlink/sn7400.pdf" H 2200 5800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2500 3950 3200 3950
-Wire Wire Line
 	2500 4050 3100 4050
 Wire Wire Line
 	2500 4250 2900 4250
@@ -77,12 +75,12 @@ Wire Wire Line
 	1700 5350 1700 5700
 Wire Wire Line
 	1700 5700 2000 5700
-Text GLabel 1400 5700 0    50   Input ~ 10
+Text HLabel 1400 5700 0    50   Input ~ 10
 A14
 Wire Wire Line
 	1400 5700 1700 5700
 Connection ~ 1700 5700
-Text GLabel 1400 5600 0    50   Input ~ 10
+Text HLabel 1400 5600 0    50   Input ~ 10
 A15
 Wire Wire Line
 	2000 5600 1800 5600
@@ -169,21 +167,21 @@ Wire Wire Line
 Wire Wire Line
 	1700 4350 1900 4350
 Connection ~ 1700 4350
-Text GLabel 1450 3550 0    50   Input ~ 10
+Text HLabel 1450 3550 0    50   Input ~ 10
 D0
-Text GLabel 1450 3650 0    50   Input ~ 10
+Text HLabel 1450 3650 0    50   Input ~ 10
 D1
-Text GLabel 1450 3750 0    50   Input ~ 10
+Text HLabel 1450 3750 0    50   Input ~ 10
 D2
-Text GLabel 1450 3850 0    50   Input ~ 10
+Text HLabel 1450 3850 0    50   Input ~ 10
 D3
-Text GLabel 1450 3950 0    50   Input ~ 10
+Text HLabel 1450 3950 0    50   Input ~ 10
 D4
-Text GLabel 1450 4050 0    50   Input ~ 10
+Text HLabel 1450 4050 0    50   Input ~ 10
 D5
-Text GLabel 1450 4150 0    50   Input ~ 10
+Text HLabel 1450 4150 0    50   Input ~ 10
 D6
-Text GLabel 1450 4250 0    50   Input ~ 10
+Text HLabel 1450 4250 0    50   Input ~ 10
 D7
 Wire Wire Line
 	1450 3550 1900 3550
@@ -201,24 +199,18 @@ Wire Wire Line
 	1450 4150 1900 4150
 Wire Wire Line
 	1450 4250 1900 4250
-Text GLabel 5800 4300 2    50   Output ~ 10
+Text HLabel 5800 4300 2    50   Output ~ 10
 MX3
-Text GLabel 5800 6200 2    50   Output ~ 10
+Text HLabel 5800 6200 2    50   Output ~ 10
 SCRSEL
-Text GLabel 5800 6300 2    50   Output ~ 10
+Text HLabel 5800 6300 2    50   Output ~ 10
 A14-ROM
-Text GLabel 5800 6400 2    50   Output ~ 10
+Text HLabel 5800 6400 2    50   Output ~ 10
 DI_32765
-Text GLabel 5800 6500 2    50   Output ~ 10
+Text HLabel 5800 6500 2    50   Output ~ 10
 PA6
-Text GLabel 5800 6600 2    50   Output ~ 10
+Text HLabel 5800 6600 2    50   Output ~ 10
 PA7
-Wire Wire Line
-	4850 3700 5800 3700
-Wire Wire Line
-	4850 3900 5800 3900
-Wire Wire Line
-	4850 4300 5800 4300
 Wire Wire Line
 	4200 3550 3750 3550
 Wire Wire Line
@@ -239,9 +231,9 @@ Wire Wire Line
 	1600 4500 1600 4450
 Wire Wire Line
 	1450 4500 1600 4500
-Text GLabel 1450 4500 0    50   Input ~ 10
+Text HLabel 1450 4500 0    50   Input ~ 10
 ~RST
-Text GLabel 1450 4350 0    50   Input ~ 10
+Text HLabel 1450 4350 0    50   Input ~ 10
 CS_32765
 Wire Wire Line
 	1900 2850 1800 2850
@@ -294,13 +286,13 @@ Wire Wire Line
 Connection ~ 1600 1750
 Wire Wire Line
 	1600 1750 1450 1750
-Text GLabel 1450 1650 0    50   Input ~ 10
+Text HLabel 1450 1650 0    50   Input ~ 10
 C25
-Text GLabel 1450 1750 0    50   Input ~ 10
+Text HLabel 1450 1750 0    50   Input ~ 10
 C31
-Text GLabel 2800 1600 2    50   Output ~ 10
+Text HLabel 2800 1600 2    50   Output ~ 10
 RAS
-Text GLabel 2800 2800 2    50   Output ~ 10
+Text HLabel 2800 2800 2    50   Output ~ 10
 ~CAS
 Wire Wire Line
 	2500 2800 2800 2800
@@ -308,14 +300,10 @@ Wire Wire Line
 	2600 1600 2800 1600
 Connection ~ 2600 1600
 NoConn ~ 2500 2600
-Wire Wire Line
-	4850 4100 5800 4100
-Text GLabel 5800 3900 2    50   Output ~ 10
+Text HLabel 5800 3900 2    50   Output ~ 10
 MX1
-Text GLabel 5800 3700 2    50   Output ~ 10
+Text HLabel 5800 3700 2    50   Output ~ 10
 MX0
-Text GLabel 5800 4100 2    50   Output ~ 10
-MX2
 Wire Wire Line
 	2800 4350 2800 6600
 Wire Wire Line
@@ -353,4 +341,16 @@ $EndComp
 NoConn ~ 2500 1800
 Wire Wire Line
 	3000 4150 2500 4150
+Wire Wire Line
+	4850 3700 5800 3700
+Wire Wire Line
+	4850 3900 5800 3900
+Wire Wire Line
+	4850 4300 5800 4300
+Wire Wire Line
+	2500 3950 3200 3950
+Wire Wire Line
+	4850 4100 5800 4100
+Text HLabel 5800 4100 2    50   Output ~ 10
+MX2
 $EndSCHEMATC

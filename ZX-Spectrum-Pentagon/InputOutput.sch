@@ -211,45 +211,45 @@ F 3 "~" H 6700 4600 50  0001 C CNN
 	1    6700 4400
 	-1   0    0    -1  
 $EndComp
-Text GLabel 1000 1000 0    50   BiDi ~ 10
+Text HLabel 1000 1000 0    50   BiDi ~ 10
 D0
-Text GLabel 1000 1100 0    50   BiDi ~ 10
+Text HLabel 1000 1100 0    50   BiDi ~ 10
 D1
-Text GLabel 1000 1200 0    50   BiDi ~ 10
+Text HLabel 1000 1200 0    50   BiDi ~ 10
 D2
-Text GLabel 1000 1300 0    50   BiDi ~ 10
+Text HLabel 1000 1300 0    50   BiDi ~ 10
 D3
-Text GLabel 1000 1400 0    50   BiDi ~ 10
+Text HLabel 1000 1400 0    50   BiDi ~ 10
 D4
-Text GLabel 1000 1500 0    50   BiDi ~ 10
+Text HLabel 1000 1500 0    50   BiDi ~ 10
 D5
-Text GLabel 1000 1600 0    50   BiDi ~ 10
+Text HLabel 1000 1600 0    50   BiDi ~ 10
 D6
-Text GLabel 1000 1700 0    50   BiDi ~ 10
+Text HLabel 1000 1700 0    50   BiDi ~ 10
 D7
-Text GLabel 1000 1800 0    50   Input ~ 10
+Text HLabel 1000 1800 0    50   Input ~ 10
 A8
-Text GLabel 1000 1900 0    50   Input ~ 10
+Text HLabel 1000 1900 0    50   Input ~ 10
 A9
-Text GLabel 1000 2000 0    50   Input ~ 10
+Text HLabel 1000 2000 0    50   Input ~ 10
 A10
-Text GLabel 1000 2100 0    50   Input ~ 10
+Text HLabel 1000 2100 0    50   Input ~ 10
 A11
-Text GLabel 1000 2200 0    50   Input ~ 10
+Text HLabel 1000 2200 0    50   Input ~ 10
 A12
-Text GLabel 1000 2300 0    50   Input ~ 10
+Text HLabel 1000 2300 0    50   Input ~ 10
 A13
-Text GLabel 1000 2400 0    50   Input ~ 10
+Text HLabel 1000 2400 0    50   Input ~ 10
 A14
-Text GLabel 1000 2500 0    50   Input ~ 10
+Text HLabel 1000 2500 0    50   Input ~ 10
 A15
-Text GLabel 1000 2600 0    50   Input ~ 10
+Text HLabel 1000 2600 0    50   Input ~ 10
 AYCLK
-Text GLabel 1000 2700 0    50   Input ~ 10
+Text HLabel 1000 2700 0    50   Input ~ 10
 BC1
-Text GLabel 1000 2800 0    50   Input ~ 10
+Text HLabel 1000 2800 0    50   Input ~ 10
 BDIR
-Text GLabel 1000 3250 0    50   Input ~ 10
+Text HLabel 1000 3250 0    50   Input ~ 10
 ~RST
 Entry Wire Line
 	1400 1000 1500 1100
@@ -415,13 +415,13 @@ Text Label 1600 1750 0    50   ~ 0
 D4
 Text Label 1600 1850 0    50   ~ 0
 D5
-Text GLabel -4950 -12050 2    50   Output ~ 10
+Text HLabel -4950 -12050 2    50   Output ~ 10
 CBRDB
-Text GLabel 3000 1450 2    50   Output ~ 10
+Text HLabel 3000 1450 2    50   Output ~ 10
 CBRDB
-Text GLabel 3000 1550 2    50   Output ~ 10
+Text HLabel 3000 1550 2    50   Output ~ 10
 CBRDR
-Text GLabel 3000 1650 2    50   Output ~ 10
+Text HLabel 3000 1650 2    50   Output ~ 10
 CBRDG
 Wire Wire Line
 	2550 1450 3000 1450
@@ -475,13 +475,7 @@ Entry Wire Line
 Wire Wire Line
 	4200 6000 4400 6000
 Wire Wire Line
-	4200 6100 4400 6100
-Wire Wire Line
 	4200 6200 4400 6200
-Wire Wire Line
-	4200 6300 4400 6300
-Wire Wire Line
-	4200 6700 4400 6700
 Wire Wire Line
 	4200 6800 4400 6800
 Wire Wire Line
@@ -1920,10 +1914,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 4100 9000 4600
 Connection ~ 9000 4600
-Text GLabel 10150 5900 2    50   Output ~ 10
-AudioIntR
-Text GLabel 10150 6000 2    50   Output ~ 10
-AudioIntL
+Text HLabel 10150 5900 2    50   Output ~ 10
+AUDIOR
+Text HLabel 10150 6000 2    50   Output ~ 10
+AUDIOL
 Wire Wire Line
 	8600 4200 9800 4200
 Wire Wire Line
@@ -2071,9 +2065,9 @@ Entry Wire Line
 	1500 3200 1400 3100
 Entry Wire Line
 	1500 3050 1400 2950
-Text GLabel 1000 2950 0    50   Input ~ 10
+Text HLabel 1000 2950 0    50   Input ~ 10
 ~IN254
-Text GLabel 1000 3100 0    50   Input ~ 10
+Text HLabel 1000 3100 0    50   Input ~ 10
 ~OUT254
 Wire Wire Line
 	3000 5600 3000 6850
@@ -2087,7 +2081,7 @@ Entry Wire Line
 	1400 3400 1500 3500
 Text Label 1600 5700 0    50   ~ 0
 ~INKMST
-Text GLabel 1000 3400 0    50   Input ~ 10
+Text HLabel 1000 3400 0    50   Input ~ 10
 ~INKMST
 Wire Wire Line
 	2200 6850 3000 6850
@@ -2247,12 +2241,18 @@ F 3 "" H 4250 900 50  0001 C CNN
 	1    4250 900 
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4200 6300 4400 6300
+Wire Wire Line
+	4200 6700 4400 6700
+Wire Wire Line
+	4200 6100 4400 6100
 Wire Bus Line
 	11150 1200 11150 3500
 Wire Bus Line
 	6000 3500 6000 5000
 Wire Bus Line
-	4500 5900 4500 7500
+	4500 6100 4500 7500
 Wire Bus Line
 	9400 1150 9400 3500
 Wire Bus Line

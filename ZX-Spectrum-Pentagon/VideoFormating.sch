@@ -13,70 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 1400 2400 2    50   ~ 0
-MD7
-Text Label 1400 2300 2    50   ~ 0
-MD6
-Text Label 1400 2200 2    50   ~ 0
-MD5
-Text Label 1400 2100 2    50   ~ 0
-MD4
-Text Label 1400 2000 2    50   ~ 0
-MD3
-Text Label 1400 1900 2    50   ~ 0
-MD2
-Text Label 1400 1800 2    50   ~ 0
-MD1
-Text Label 1400 1700 2    50   ~ 0
-MD0
-Wire Wire Line
-	1400 2400 950  2400
-Wire Wire Line
-	1400 2300 950  2300
-Wire Wire Line
-	1400 2200 950  2200
-Wire Wire Line
-	1400 2100 950  2100
-Wire Wire Line
-	1400 2000 950  2000
-Wire Wire Line
-	1400 1900 950  1900
-Wire Wire Line
-	1400 1800 950  1800
-Wire Wire Line
-	1400 1700 950  1700
-Text GLabel 950  1700 0    50   Input ~ 10
-MD0
-Text GLabel 950  1800 0    50   Input ~ 10
-MD1
-Text GLabel 950  1900 0    50   Input ~ 10
-MD2
-Text GLabel 950  2000 0    50   Input ~ 10
-MD3
-Text GLabel 950  2100 0    50   Input ~ 10
-MD4
-Text GLabel 950  2200 0    50   Input ~ 10
-MD5
-Text GLabel 950  2300 0    50   Input ~ 10
-MD6
-Text GLabel 950  2400 0    50   Input ~ 10
-MD7
-Entry Wire Line
-	1400 2400 1500 2300
-Entry Wire Line
-	1400 2300 1500 2200
-Entry Wire Line
-	1400 2200 1500 2100
-Entry Wire Line
-	1400 2100 1500 2000
-Entry Wire Line
-	1400 2000 1500 1900
-Entry Wire Line
-	1400 1900 1500 1800
-Entry Wire Line
-	1400 1800 1500 1700
-Entry Wire Line
-	1400 1700 1500 1600
 $Comp
 L 74IEC:74HC574 U?
 U 1 1 632C89BD
@@ -142,8 +78,6 @@ Text Label 1600 1350 0    50   ~ 0
 MD3
 Text Label 1600 1250 0    50   ~ 0
 MD2
-Text Label 1600 1150 0    50   ~ 0
-MD1
 Text Label 1600 1050 0    50   ~ 0
 MD0
 Wire Wire Line
@@ -159,8 +93,6 @@ Wire Wire Line
 Wire Wire Line
 	1600 1250 1900 1250
 Wire Wire Line
-	1600 1150 1900 1150
-Wire Wire Line
 	1600 1050 1900 1050
 Entry Wire Line
 	1600 1750 1500 1650
@@ -174,8 +106,6 @@ Entry Wire Line
 	1600 1350 1500 1250
 Entry Wire Line
 	1600 1250 1500 1150
-Entry Wire Line
-	1600 1150 1500 1050
 Entry Wire Line
 	1600 1050 1500 950 
 Wire Wire Line
@@ -220,14 +150,8 @@ Text Label 1600 6750 0    50   ~ 0
 MD6
 Text Label 1600 6650 0    50   ~ 0
 MD5
-Text Label 1600 6550 0    50   ~ 0
-MD4
-Text Label 1600 6450 0    50   ~ 0
-MD3
 Text Label 1600 6350 0    50   ~ 0
 MD2
-Text Label 1600 6250 0    50   ~ 0
-MD1
 Text Label 1600 6150 0    50   ~ 0
 MD0
 Wire Wire Line
@@ -237,13 +161,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 6650 1900 6650
 Wire Wire Line
-	1600 6550 1900 6550
-Wire Wire Line
-	1600 6450 1900 6450
-Wire Wire Line
 	1600 6350 1900 6350
-Wire Wire Line
-	1600 6250 1900 6250
 Wire Wire Line
 	1600 6150 1900 6150
 Entry Wire Line
@@ -253,13 +171,7 @@ Entry Wire Line
 Entry Wire Line
 	1600 6650 1500 6550
 Entry Wire Line
-	1600 6550 1500 6450
-Entry Wire Line
-	1600 6450 1500 6350
-Entry Wire Line
 	1600 6350 1500 6250
-Entry Wire Line
-	1600 6250 1500 6150
 Entry Wire Line
 	1600 6150 1500 6050
 Wire Wire Line
@@ -307,8 +219,6 @@ Wire Wire Line
 	2800 7250 2800 7350
 Connection ~ 2800 7250
 Wire Wire Line
-	1900 7050 1900 7150
-Wire Wire Line
 	2900 7150 2650 7150
 Wire Wire Line
 	2650 7150 2650 7450
@@ -333,12 +243,12 @@ Wire Wire Line
 $Comp
 L power:GND #PWR?
 U 1 1 63470A69
-P 1900 7150
-F 0 "#PWR?" H 1900 6900 50  0001 C CNN
-F 1 "GND" H 1905 6977 50  0000 C CNN
-F 2 "" H 1900 7150 50  0001 C CNN
-F 3 "" H 1900 7150 50  0001 C CNN
-	1    1900 7150
+P 1800 7150
+F 0 "#PWR?" H 1800 6900 50  0001 C CNN
+F 1 "GND" H 1805 6977 50  0000 C CNN
+F 2 "" H 1800 7150 50  0001 C CNN
+F 3 "" H 1800 7150 50  0001 C CNN
+	1    1800 7150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -697,33 +607,33 @@ Wire Wire Line
 	1000 4000 1400 4000
 Text Label 1400 4000 2    50   ~ 0
 BL
-Text GLabel 1000 2550 0    50   Input ~ 10
+Text HLabel 1000 2550 0    50   Input ~ 10
 F25Hz
-Text GLabel 1000 2650 0    50   Input ~ 10
+Text HLabel 1000 2650 0    50   Input ~ 10
 CBRDB
-Text GLabel 1000 2750 0    50   Input ~ 10
+Text HLabel 1000 2750 0    50   Input ~ 10
 CBRDR
-Text GLabel 1000 2850 0    50   Input ~ 10
+Text HLabel 1000 2850 0    50   Input ~ 10
 CBRDG
-Text GLabel 1000 2950 0    50   Input ~ 10
+Text HLabel 1000 2950 0    50   Input ~ 10
 PA6
-Text GLabel 1000 3050 0    50   Input ~ 10
+Text HLabel 1000 3050 0    50   Input ~ 10
 PA7
-Text GLabel 1000 3200 0    50   Input ~ 10
+Text HLabel 1000 3200 0    50   Input ~ 10
 ~C1
-Text GLabel 1000 3350 0    50   Input ~ 10
+Text HLabel 1000 3350 0    50   Input ~ 10
 ~C2
-Text GLabel 1000 3500 0    50   Input ~ 10
+Text HLabel 1000 3500 0    50   Input ~ 10
 C3
-Text GLabel 1000 3600 0    50   Input ~ 10
+Text HLabel 1000 3600 0    50   Input ~ 10
 C5
-Text GLabel 1000 3700 0    50   Input ~ 10
+Text HLabel 1000 3700 0    50   Input ~ 10
 FSYNC
-Text GLabel 1000 3800 0    50   Input ~ 10
+Text HLabel 1000 3800 0    50   Input ~ 10
 C17
-Text GLabel 1000 3900 0    50   Input ~ 10
+Text HLabel 1000 3900 0    50   Input ~ 10
 C18
-Text GLabel 1000 4000 0    50   Input ~ 10
+Text HLabel 1000 4000 0    50   Input ~ 10
 BL
 Wire Wire Line
 	4200 5800 4200 5700
@@ -881,24 +791,116 @@ Wire Wire Line
 Wire Wire Line
 	4700 4450 4700 3950
 Connection ~ 4700 3950
-Text GLabel 6000 4650 2    50   Output ~ 10
+Text HLabel 6000 4650 2    50   Output ~ 10
 GPA6
-Text GLabel 6000 4550 2    50   Output ~ 10
+Text HLabel 6000 4550 2    50   Output ~ 10
 GPA7
-Text GLabel 6000 5400 2    50   Output ~ 10
+Text HLabel 6000 5400 2    50   Output ~ 10
 TTLSYNC
-Text GLabel 6000 3800 2    50   Output ~ 10
+Text HLabel 6000 3800 2    50   Output ~ 10
 TTLY
-Text GLabel 6000 3200 2    50   Output ~ 10
+Text HLabel 6000 3200 2    50   Output ~ 10
 TTLG
-Text GLabel 6000 2000 2    50   Output ~ 10
+Text HLabel 6000 2000 2    50   Output ~ 10
 TTLR
-Text GLabel 6000 1400 2    50   Output ~ 10
+Text HLabel 6000 1400 2    50   Output ~ 10
 TTLB
 NoConn ~ 4700 6450
 NoConn ~ 4700 6850
 Wire Wire Line
 	5000 4050 4800 4050
+Wire Wire Line
+	1900 7050 1800 7050
+Wire Wire Line
+	1800 7050 1800 7150
+Entry Wire Line
+	1500 1050 1600 1150
+Wire Wire Line
+	1600 1150 1900 1150
+Text Label 1600 1150 0    50   ~ 0
+MD1
+Entry Wire Line
+	1500 6150 1600 6250
+Entry Wire Line
+	1500 6350 1600 6450
+Entry Wire Line
+	1500 6450 1600 6550
+Wire Wire Line
+	1600 6250 1900 6250
+Wire Wire Line
+	1600 6450 1900 6450
+Wire Wire Line
+	1600 6550 1900 6550
+Text Label 1600 6250 0    50   ~ 0
+MD1
+Text Label 1600 6450 0    50   ~ 0
+MD3
+Text Label 1600 6550 0    50   ~ 0
+MD4
+Text HLabel 1000 1050 0    50   Input ~ 0
+MD0
+Text HLabel 1000 1150 0    50   Input ~ 0
+MD1
+Text HLabel 1000 1250 0    50   Input ~ 0
+MD2
+Text HLabel 1000 1350 0    50   Input ~ 0
+MD3
+Text HLabel 1000 1450 0    50   Input ~ 0
+MD4
+Text HLabel 1000 1550 0    50   Input ~ 0
+MD5
+Text HLabel 1000 1650 0    50   Input ~ 0
+MD6
+Text HLabel 1000 1750 0    50   Input ~ 0
+MD7
+Entry Wire Line
+	1400 1050 1500 950 
+Entry Wire Line
+	1400 1150 1500 1050
+Entry Wire Line
+	1400 1250 1500 1150
+Entry Wire Line
+	1400 1350 1500 1250
+Entry Wire Line
+	1400 1450 1500 1350
+Entry Wire Line
+	1400 1550 1500 1450
+Entry Wire Line
+	1400 1650 1500 1550
+Entry Wire Line
+	1400 1750 1500 1650
+Wire Wire Line
+	1000 1750 1400 1750
+Wire Wire Line
+	1000 1650 1400 1650
+Wire Wire Line
+	1000 1550 1400 1550
+Wire Wire Line
+	1000 1450 1400 1450
+Wire Wire Line
+	1000 1350 1400 1350
+Wire Wire Line
+	1000 1250 1400 1250
+Wire Wire Line
+	1000 1150 1400 1150
+Wire Wire Line
+	1000 1050 1400 1050
 Wire Bus Line
-	1500 950  1500 7500
+	1500 950  1500 7350
+Text Label 1400 1050 2    50   ~ 0
+MD0
+Text Label 1400 1150 2    50   ~ 0
+MD1
+Text Label 1400 1250 2    50   ~ 0
+MD2
+Text Label 1400 1350 2    50   ~ 0
+MD3
+Text Label 1400 1450 2    50   ~ 0
+MD4
+Text Label 1400 1550 2    50   ~ 0
+MD5
+Text Label 1400 1650 2    50   ~ 0
+MD6
+Text Label 1400 1750 2    50   ~ 0
+MD7
 $EndSCHEMATC

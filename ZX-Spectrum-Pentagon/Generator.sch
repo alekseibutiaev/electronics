@@ -199,11 +199,11 @@ Wire Wire Line
 Entry Wire Line
 	2050 3550 2150 3650
 Text Label 2050 3550 2    50   ~ 0
-ZB1
+SA0
 Entry Wire Line
 	2050 3650 2150 3750
 Text Label 2050 3650 2    50   ~ 0
-ZB2
+SA1
 Entry Wire Line
 	2050 4350 2150 4450
 Entry Wire Line
@@ -217,11 +217,11 @@ Wire Wire Line
 Wire Wire Line
 	1750 4550 2050 4550
 Text Label 2050 4350 2    50   ~ 0
-ZB3
+SA2
 Text Label 2050 4450 2    50   ~ 0
-ZB4
+SA3
 Text Label 2050 4550 2    50   ~ 0
-ZB5
+SA4
 Wire Wire Line
 	750  3600 1050 3600
 Wire Wire Line
@@ -339,7 +339,7 @@ F 3 "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" H 4350 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2250 4750 0    50   ~ 0
-ZB5
+SA4
 Entry Wire Line
 	2150 4850 2250 4750
 Entry Wire Line
@@ -349,11 +349,11 @@ Entry Wire Line
 Wire Wire Line
 	2250 4000 2450 4000
 Text Label 2250 4000 0    50   ~ 0
-ZB3
+SA2
 Wire Wire Line
 	2450 4450 2250 4450
 Text Label 2250 4450 0    50   ~ 0
-ZB4
+SA3
 Entry Wire Line
 	2050 4650 2150 4750
 Wire Wire Line
@@ -403,7 +403,7 @@ B13
 Text Label 2050 6150 2    50   ~ 0
 B12
 Text Label 2050 6050 2    50   ~ 0
-ZB11
+SA7
 Entry Wire Line
 	2050 6250 2150 6350
 Entry Wire Line
@@ -416,7 +416,7 @@ Connection ~ 1850 5700
 Wire Wire Line
 	1850 5850 1850 5700
 Text Label 2050 5600 2    50   ~ 0
-ZB9
+SA5
 Text Label 2050 5500 2    50   ~ 0
 B8
 Text Label 2050 5400 2    50   ~ 0
@@ -506,9 +506,9 @@ Wire Wire Line
 Wire Wire Line
 	2250 6300 2550 6300
 Text Label 2250 6300 0    50   ~ 0
-ZB10
+SA6
 Text Label 2250 6400 0    50   ~ 0
-ZB11
+SA7
 Wire Wire Line
 	2450 6700 2550 6700
 Wire Wire Line
@@ -546,7 +546,7 @@ Wire Wire Line
 Entry Wire Line
 	2150 5550 2250 5450
 Text Label 2250 5450 0    50   ~ 0
-ZB1
+SA0
 Wire Wire Line
 	3050 5100 3050 5000
 Text HLabel 10500 2650 2    50   Output ~ 10
@@ -628,29 +628,29 @@ Wire Wire Line
 Wire Wire Line
 	6100 3950 6500 3950
 Text HLabel 10500 3100 2    50   Output ~ 10
-ZB1
+SA0
 Text HLabel 10500 3200 2    50   Output ~ 10
-ZB2
+SA1
 Text HLabel 10500 3300 2    50   Output ~ 10
-ZB3
+SA2
 Text HLabel 10500 3400 2    50   Output ~ 10
-ZB4
+SA3
 Text HLabel 10500 3500 2    50   Output ~ 10
-ZB5
+SA4
 Text HLabel 10500 3600 2    50   Output ~ 10
-ZB9
+SA5
 Text HLabel 10500 3700 2    50   Output ~ 10
-ZB10
+SA6
 Text HLabel 10500 3800 2    50   Output ~ 10
-ZB11
+SA7
 Text HLabel 10500 3900 2    50   Output ~ 10
-ZB14
+SA8
 Text HLabel 10500 4000 2    50   Output ~ 10
-ZB15
+SA9
 Text HLabel 10500 4100 2    50   Output ~ 10
-ZB16
+SA10
 Text HLabel 10500 4200 2    50   Output ~ 10
-ZB17
+SA11
 Entry Wire Line
 	7400 3400 7500 3500
 Entry Wire Line
@@ -668,13 +668,13 @@ Wire Wire Line
 Wire Wire Line
 	7150 4000 7400 4000
 Text Label 7400 3400 2    50   ~ 0
-ZB14
+SA8
 Text Label 7400 3600 2    50   ~ 0
-ZB15
+SA9
 Text Label 7400 3800 2    50   ~ 0
-ZB16
+SA10
 Text Label 7400 4000 2    50   ~ 0
-ZB17
+SA11
 Entry Wire Line
 	10150 3000 10250 3100
 Entry Wire Line
@@ -722,29 +722,29 @@ Entry Wire Line
 Entry Wire Line
 	10150 3400 10250 3500
 Text Label 10250 3100 0    50   ~ 0
-ZB1
+SA0
 Text Label 10250 3200 0    50   ~ 0
-ZB2
+SA1
 Text Label 10250 3300 0    50   ~ 0
-ZB3
+SA2
 Text Label 10250 3400 0    50   ~ 0
-ZB4
+SA3
 Text Label 10250 3500 0    50   ~ 0
-ZB5
+SA4
 Text Label 10250 3600 0    50   ~ 0
-ZB9
+SA5
 Text Label 10250 3700 0    50   ~ 0
-ZB10
+SA6
 Text Label 10250 3800 0    50   ~ 0
-ZB11
+SA7
 Text Label 10250 3900 0    50   ~ 0
-ZB14
+SA8
 Text Label 10250 4000 0    50   ~ 0
-ZB15
+SA9
 Text Label 10250 4100 0    50   ~ 0
-ZB16
+SA10
 Text Label 10250 4200 0    50   ~ 0
-ZB17
+SA11
 Wire Wire Line
 	4550 4500 4750 4500
 Text HLabel 10500 4800 2    50   Output ~ 10
@@ -820,7 +820,7 @@ Entry Wire Line
 Text Label 5750 5150 0    50   ~ 0
 B13
 Text HLabel 10500 4300 2    50   Output ~ 10
-ZB18
+SA12
 Entry Wire Line
 	10150 4200 10250 4300
 Wire Wire Line
@@ -830,7 +830,7 @@ Entry Wire Line
 Wire Wire Line
 	7150 5200 7400 5200
 Text Label 7400 5200 2    50   ~ 0
-ZB18
+SA12
 Text HLabel 6100 4150 0    50   Input ~ 10
 C30
 Wire Wire Line
@@ -847,7 +847,7 @@ Text Label 5450 6750 0    50   ~ 0
 C6
 Connection ~ 850  5450
 Text Label 10250 4300 0    50   ~ 0
-ZB18
+SA12
 Wire Wire Line
 	6650 5200 6750 5200
 Wire Wire Line
@@ -1609,7 +1609,7 @@ Connection ~ 7500 2850
 Wire Wire Line
 	6250 5150 5750 5150
 Text Label 2050 5700 2    50   ~ 0
-ZB10
+SA6
 Wire Wire Line
 	2250 5150 2450 5150
 Entry Wire Line

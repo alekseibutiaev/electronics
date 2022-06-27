@@ -176,23 +176,23 @@ RAS
 Text HLabel 1000 4500 0    50   Input ~ 10
 ~CAS
 Text Label 1600 1650 0    50   ~ 0
-ZB4
+SA3
 Entry Wire Line
 	1500 1550 1600 1650
 Wire Wire Line
 	1950 1650 1600 1650
 Text Label 1600 1450 0    50   ~ 0
-ZB3
+SA2
 Entry Wire Line
 	1500 1350 1600 1450
 Wire Wire Line
 	1950 1450 1600 1450
 Text Label 1600 1250 0    50   ~ 0
-ZB2
+SA1
 Entry Wire Line
 	1500 1150 1600 1250
 Text Label 1600 1050 0    50   ~ 0
-ZB1
+SA0
 Entry Wire Line
 	1500 950  1600 1050
 Wire Wire Line
@@ -228,19 +228,19 @@ DISPLAY
 Wire Wire Line
 	1950 1250 1600 1250
 Text Label 1600 4650 0    50   ~ 0
-ZB16
+SA10
 Entry Wire Line
 	1500 4550 1600 4650
 Text Label 1600 4450 0    50   ~ 0
-ZB15
+SA9
 Entry Wire Line
 	1500 4350 1600 4450
 Text Label 1600 4250 0    50   ~ 0
-ZB14
+SA8
 Entry Wire Line
 	1500 4150 1600 4250
 Text Label 1600 4050 0    50   ~ 0
-ZB11
+SA7
 Entry Wire Line
 	1500 3950 1600 4050
 Text Label 1600 4550 0    50   ~ 0
@@ -264,11 +264,11 @@ Entry Wire Line
 Text Label 1600 4750 0    50   ~ 0
 DISPLAY
 Text Label 1600 5750 0    50   ~ 0
-ZB18
+SA12
 Entry Wire Line
 	1500 5650 1600 5750
 Text Label 1600 5550 0    50   ~ 0
-ZB17
+SA11
 Entry Wire Line
 	1500 5450 1600 5550
 Text Label 1600 6050 0    50   ~ 0
@@ -561,55 +561,55 @@ C16
 Wire Wire Line
 	1400 4950 1000 4950
 Text Label 1400 3800 2    50   ~ 0
-ZB18
+SA12
 Wire Wire Line
 	1400 3800 1000 3800
 Text Label 1400 3700 2    50   ~ 0
-ZB17
+SA11
 Wire Wire Line
 	1400 3700 1000 3700
 Text Label 1400 3600 2    50   ~ 0
-ZB16
+SA10
 Wire Wire Line
 	1400 3600 1000 3600
 Text Label 1400 3500 2    50   ~ 0
-ZB15
+SA9
 Wire Wire Line
 	1400 3500 1000 3500
 Text Label 1400 3400 2    50   ~ 0
-ZB14
+SA8
 Wire Wire Line
 	1400 3400 1000 3400
 Text Label 1400 3300 2    50   ~ 0
-ZB11
+SA7
 Wire Wire Line
 	1400 3300 1000 3300
 Text Label 1400 3200 2    50   ~ 0
-ZB10
+SA6
 Wire Wire Line
 	1400 3200 1000 3200
 Text Label 1400 3100 2    50   ~ 0
-ZB9
+SA5
 Wire Wire Line
 	1400 3100 1000 3100
 Text Label 1400 3000 2    50   ~ 0
-ZB5
+SA4
 Wire Wire Line
 	1400 3000 1000 3000
 Text Label 1400 2900 2    50   ~ 0
-ZB4
+SA3
 Wire Wire Line
 	1400 2900 1000 2900
 Text Label 1400 2800 2    50   ~ 0
-ZB3
+SA2
 Wire Wire Line
 	1400 2800 1000 2800
 Text Label 1400 2700 2    50   ~ 0
-ZB2
+SA1
 Wire Wire Line
 	1400 2700 1000 2700
 Text Label 1400 2600 2    50   ~ 0
-ZB1
+SA0
 Wire Wire Line
 	1400 2600 1000 2600
 Text Label 1400 5550 2    50   ~ 0
@@ -719,31 +719,31 @@ A0
 Text HLabel 1000 6050 0    50   Input ~ 10
 SCRSEL
 Text HLabel 1000 3800 0    50   Input ~ 10
-ZB18
+SA12
 Text HLabel 1000 3700 0    50   Input ~ 10
-ZB17
+SA11
 Text HLabel 1000 3600 0    50   Input ~ 10
-ZB16
+SA10
 Text HLabel 1000 3500 0    50   Input ~ 10
-ZB15
+SA9
 Text HLabel 1000 3400 0    50   Input ~ 10
-ZB14
+SA8
 Text HLabel 1000 3300 0    50   Input ~ 10
-ZB11
+SA7
 Text HLabel 1000 3200 0    50   Input ~ 10
-ZB10
+SA6
 Text HLabel 1000 3100 0    50   Input ~ 10
-ZB9
+SA5
 Text HLabel 1000 3000 0    50   Input ~ 10
-ZB5
+SA4
 Text HLabel 1000 2900 0    50   Input ~ 10
-ZB4
+SA3
 Text HLabel 1000 2800 0    50   Input ~ 10
-ZB3
+SA2
 Text HLabel 1000 2700 0    50   Input ~ 10
-ZB2
+SA1
 Text HLabel 1000 2600 0    50   Input ~ 10
-ZB1
+SA0
 Wire Wire Line
 	1400 7200 1200 7200
 Entry Wire Line
@@ -1328,7 +1328,7 @@ Entry Wire Line
 Wire Wire Line
 	1950 2950 1600 2950
 Text Label 1600 2950 0    50   ~ 0
-ZB10
+SA6
 Text Label 3150 3100 0    50   ~ 0
 MA7
 Wire Wire Line
@@ -1390,11 +1390,11 @@ Wire Wire Line
 Entry Wire Line
 	1500 2450 1600 2550
 Text Label 1600 2550 0    50   ~ 0
-ZB5
+SA4
 Entry Wire Line
 	1500 2650 1600 2750
 Text Label 1600 2750 0    50   ~ 0
-ZB9
+SA5
 Wire Wire Line
 	1950 3150 1600 3150
 Entry Wire Line

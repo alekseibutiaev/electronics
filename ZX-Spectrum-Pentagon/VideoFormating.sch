@@ -837,21 +837,21 @@ Text Label 1600 6450 0    50   ~ 0
 MD3
 Text Label 1600 6550 0    50   ~ 0
 MD4
-Text HLabel 1000 1050 0    50   Input ~ 0
+Text HLabel 1000 1050 0    50   Input ~ 10
 MD0
-Text HLabel 1000 1150 0    50   Input ~ 0
+Text HLabel 1000 1150 0    50   Input ~ 10
 MD1
-Text HLabel 1000 1250 0    50   Input ~ 0
+Text HLabel 1000 1250 0    50   Input ~ 10
 MD2
-Text HLabel 1000 1350 0    50   Input ~ 0
+Text HLabel 1000 1350 0    50   Input ~ 10
 MD3
-Text HLabel 1000 1450 0    50   Input ~ 0
+Text HLabel 1000 1450 0    50   Input ~ 10
 MD4
-Text HLabel 1000 1550 0    50   Input ~ 0
+Text HLabel 1000 1550 0    50   Input ~ 10
 MD5
-Text HLabel 1000 1650 0    50   Input ~ 0
+Text HLabel 1000 1650 0    50   Input ~ 10
 MD6
-Text HLabel 1000 1750 0    50   Input ~ 0
+Text HLabel 1000 1750 0    50   Input ~ 10
 MD7
 Entry Wire Line
 	1400 1050 1500 950 
@@ -885,8 +885,6 @@ Wire Wire Line
 	1000 1150 1400 1150
 Wire Wire Line
 	1000 1050 1400 1050
-Wire Bus Line
-	1500 950  1500 7350
 Text Label 1400 1050 2    50   ~ 0
 MD0
 Text Label 1400 1150 2    50   ~ 0
@@ -903,4 +901,6 @@ Text Label 1400 1650 2    50   ~ 0
 MD6
 Text Label 1400 1750 2    50   ~ 0
 MD7
+Wire Bus Line
+	1500 950  1500 7350
 $EndSCHEMATC

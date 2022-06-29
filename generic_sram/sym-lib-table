@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name GenericSRAM)(type Legacy)(uri ${KIPRJMOD}/GenericSRAM.lib)(options "")(descr ""))
-  (lib (name GenericROM)(type Legacy)(uri ${KIPRJMOD}/../generic_rom/GenericROM.lib)(options "")(descr ""))
+  (lib (name "GenericSRAM.KiCad5")(type "Legacy")(uri "${KIPRJMOD}/GenericSRAM.kicad5.lib")(options "")(descr "")(disabled))
+  (lib (name "GenericSRAM.KiCad6")(type "KiCad")(uri "${KIPRJMOD}/GenericSRAM.kicad_sym")(options "")(descr ""))
 )

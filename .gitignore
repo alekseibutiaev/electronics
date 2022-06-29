@@ -10,4 +10,5 @@ Project Backups
 *.so
 *.wo
 *.erc*
+*-backups
 

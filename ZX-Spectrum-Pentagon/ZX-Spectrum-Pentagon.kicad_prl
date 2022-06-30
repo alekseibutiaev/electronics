@@ -1,16 +1,21 @@
 {
   "board": {
-    "active_layer": 47,
+    "active_layer": 36,
     "active_layer_preset": "",
-    "auto_track_width": true,
-    "hidden_nets": [],
+    "auto_track_width": false,
+    "hidden_nets": [
+      "GND",
+      "VCC",
+      "/PowerIndicator/VCC",
+      "/PowerIndicator/GND"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.6
+      "zones": 1.0
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -36,7 +41,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -62,7 +66,7 @@
       35,
       36
     ],
-    "visible_layers": "000f0f0_00000000",
+    "visible_layers": "00210e3_80000000",
     "zone_display_mode": 0
   },
   "meta": {

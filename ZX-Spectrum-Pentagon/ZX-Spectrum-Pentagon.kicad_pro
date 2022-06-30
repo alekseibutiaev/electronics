@@ -130,7 +130,7 @@
         }
       ],
       "zones_allow_external_fillets": false,
-      "zones_use_no_outline": true
+      "zones_use_no_outline": false
     },
     "layer_presets": []
   },

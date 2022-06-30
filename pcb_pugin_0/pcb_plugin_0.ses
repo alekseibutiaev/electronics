@@ -1,0 +1,435 @@
+
+(session "pcb_plugin_0.ses"
+  (base_design "pcb_plugin_0.dsn")
+  (placement
+    (resolution um 10)
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+      (place "R8" 1574800 -901700 front 180)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+      (place "D7" 1524000 -901700 front 0)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::1"
+      (place "R6" 1752600 -850900 front 0)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::2"
+      (place "R9" 1574800 -876300 front 180)
+    )
+    (component "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+      (place "C1" 1587500 -660400 front 270)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::3"
+      (place "R4" 1752600 -927100 front 0)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::4"
+      (place "R1" 1663700 -577850 front 0)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder::1"
+      (place "D4" 1803400 -901700 front 180)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::5"
+      (place "R5" 1752600 -901700 front 0)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::6"
+      (place "R7" 1574800 -927100 front 180)
+    )
+    (component "Package_DIP:DIP-14_W7.62mm"
+      (place "U1" 1625600 -825500 front 0)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder::2"
+      (place "D1" 1803400 -977900 front 180)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder::3"
+      (place "D3" 1803400 -927100 front 180)
+    )
+    (component "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+      (place "J1" 1758950 -666750 front 90)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder::4"
+      (place "D2" 1803400 -952500 front 180)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder::5"
+      (place "D6" 1524000 -927100 front 0)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder::6"
+      (place "D8" 1524000 -876300 front 0)
+    )
+    (component "Package_DIP:DIP-14_W7.62mm::1"
+      (place "U2" 1625700 -622250 front 0)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::7"
+      (place "R3" 1752600 -952500 front 0)
+    )
+    (component "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder::7"
+      (place "D5" 1803400 -850900 front 180)
+    )
+    (component "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder::8"
+      (place "R2" 1752600 -977900 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "6.0.4-6f826c9f35~116~ubuntu18.04.1")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle "F.Cu" 8000 0 0)
+        )
+        (shape
+          (circle "B.Cu" 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle "F.Cu" 8000 0 0)
+        )
+        (shape
+          (circle "B.Cu" 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "Net-(C1-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1625700 -647650
+            1589875 -647650
+            1587500 -650025
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1625700 -647650
+            1625700 -622250
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1625700 -622250
+            1625700 -610997
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1625700 -610997
+            1653700 -582997
+            1653700 -577850
+          )
+        )
+      )
+      (net "Net-(C1-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1625700 -673050
+            1589775 -673050
+            1587500 -670775
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1625700 -698450
+            1625700 -673050
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1625700 -723850
+            1625700 -698450
+          )
+        )
+      )
+      (net "Net-(U2-Pad10)"
+        (wire
+          (path "F.Cu" 2500
+            1701900 -723850
+            1701900 -749250
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1701900 -698450
+            1701900 -723850
+          )
+        )
+      )
+      (net "Net-(D1-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1762600 -977900
+            1793150 -977900
+          )
+        )
+      )
+      (net "Net-(D2-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1762600 -952500
+            1793150 -952500
+          )
+        )
+      )
+      (net "Net-(D3-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1793150 -927100
+            1762600 -927100
+          )
+        )
+      )
+      (net "Net-(D4-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1762600 -901700
+            1793150 -901700
+          )
+        )
+      )
+      (net "Net-(D5-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1793150 -850900
+            1762600 -850900
+          )
+        )
+      )
+      (net "Net-(D6-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1534250 -927100
+            1564800 -927100
+          )
+        )
+      )
+      (net "Net-(D7-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1534250 -901700
+            1564800 -901700
+          )
+        )
+      )
+      (net "Net-(D8-Pad2)"
+        (wire
+          (path "F.Cu" 2500
+            1534250 -876300
+            1564800 -876300
+          )
+        )
+      )
+      (net "VCC"
+        (wire
+          (path "B.Cu" 2500
+            1665147 -850900
+            1625600 -850900
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1690547 -825500
+            1665147 -850900
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1690547 -876300
+            1665147 -850900
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1701800 -876300
+            1690547 -876300
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1701800 -825500
+            1690547 -825500
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1701800 -825500
+            1701800 -814247
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1758950 -666750
+            1758950 -757097
+            1701800 -814247
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1758950 -666750
+            1747197 -666750
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1701900 -622250
+            1713153 -622250
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1713153 -622250
+            1747197 -656294
+            1747197 -666750
+          )
+        )
+      )
+      (net "Net-(R1-Pad2)"
+        (wire
+          (path "B.Cu" 2500
+            1701900 -673050
+            1701900 -684303
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1625700 -749250
+            1636953 -749250
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1636953 -749250
+            1636953 -746437
+            1699087 -684303
+            1701900 -684303
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1701900 -647650
+            1701900 -636397
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1701900 -636397
+            1699087 -636397
+            1673700 -611010
+            1673700 -577850
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1701900 -673050
+            1701900 -647650
+          )
+        )
+      )
+      (net "Net-(R2-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1742600 -977900
+            1701800 -977900
+          )
+        )
+      )
+      (net "Net-(R3-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1742600 -952500
+            1701800 -952500
+          )
+        )
+      )
+      (net "Net-(R4-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1701800 -927100
+            1742600 -927100
+          )
+        )
+      )
+      (net "Net-(R5-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1701800 -901700
+            1742600 -901700
+          )
+        )
+      )
+      (net "Net-(R6-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1701800 -850900
+            1701800 -862153
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1625600 -952500
+            1625600 -941247
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1625600 -941247
+            1628414 -941247
+            1690547 -879114
+            1690547 -870592
+            1698986 -862153
+            1701800 -862153
+          )
+        )
+        (wire
+          (path "F.Cu" 2500
+            1701800 -850900
+            1742600 -850900
+          )
+        )
+      )
+      (net "Net-(R7-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1625600 -927100
+            1584800 -927100
+          )
+        )
+      )
+      (net "Net-(R8-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1625600 -901700
+            1584800 -901700
+          )
+        )
+      )
+      (net "Net-(R9-Pad1)"
+        (wire
+          (path "F.Cu" 2500
+            1625600 -876300
+            1584800 -876300
+          )
+        )
+      )
+      (net "Net-(U1-Pad1)"
+        (wire
+          (path "B.Cu" 2500
+            1625600 -825500
+            1636853 -825500
+          )
+        )
+        (wire
+          (path "B.Cu" 2500
+            1701900 -774650
+            1687703 -774650
+            1636853 -825500
+          )
+        )
+      )
+    )
+  )
+)

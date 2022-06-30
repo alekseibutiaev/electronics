@@ -5375,14 +5375,14 @@
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-0000629d6b04"
       (reference "CPS?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062a3a618"
-      (reference "CPS?") (unit 1) (value "4.7uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062a81fc8"
       (reference "CPS?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062a83edf"
       (reference "CPS?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/02c66c99-ea35-495d-8865-1f59e2f714b1"
+      (reference "CPS?") (unit 1) (value "4.7uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/47817719-fcbd-4e48-b8ba-f939598c5b63"
       (reference "CPS?") (unit 1) (value "4.7uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
@@ -5735,8 +5735,8 @@
     (path "/00000000-0000-0000-0000-000062fd43ab/00000000-0000-0000-0000-0000639a492b"
       (reference "RVF?") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000063505ff7"
-      (reference "SWCPU?") (unit 1) (value "SW_DIP_x04") (footprint "Button_Switch_THT:SW_DIP_SPSTx04_Slide_9.78x12.34mm_W7.62mm_P2.54mm")
+    (path "/00000000-0000-0000-0000-00006296ed1f/0f30c589-1da9-44c3-9669-b2064ce8998b"
+      (reference "SWCPU?") (unit 1) (value "ROMSELECT") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006347b936"
       (reference "SWG?") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS")
@@ -5749,9 +5749,6 @@
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006293a18d"
       (reference "U?") (unit 1) (value "74HC93") (footprint "Package_DIP:DIP-14_W7.62mm")
-    )
-    (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-00006293d735"
-      (reference "U?") (unit 1) (value "74HC245") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000062942c60"
       (reference "U?") (unit 1) (value "74HC244") (footprint "Package_DIP:DIP-20_W7.62mm")
@@ -5896,6 +5893,9 @@
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/d6d4d911-fa1f-480a-ae42-a1878610f9dd"
       (reference "U?") (unit 1) (value "Z80CPU") (footprint "Package_DIP:DIP-40_W15.24mm")
+    )
+    (path "/00000000-0000-0000-0000-00006296ed1f/ea8fca53-0d3f-445e-9882-438f09a90184"
+      (reference "U?") (unit 1) (value "74HC245") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-00006294532d"
       (reference "U?") (unit 2) (value "74HC244") (footprint "Package_DIP:DIP-20_W7.62mm")

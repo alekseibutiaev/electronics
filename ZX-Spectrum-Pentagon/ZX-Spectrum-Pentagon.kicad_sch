@@ -5159,6 +5159,12 @@
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000067f4db88"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000062a0558e/14ba8719-0099-4cb8-8493-f42ea096e478"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/b631f93f-b426-4e0f-a7bc-84d74e204e47"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006298b702"
       (reference "CG?") (unit 1) (value "100pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -5331,6 +5337,36 @@
       (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062ad9639"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/171921ed-ad7b-4d9d-8199-bb91794e4fb5"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/1b65e8ef-75d5-4527-b65a-e5a402562f20"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/2b70044c-8308-465b-a2cd-378dca8bb936"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/2f8fa58f-b218-4e62-8650-c2dc7a386eeb"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/36cb27c9-0b6d-4442-9a73-d4c5369ff136"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/8f83958f-00b4-4571-b1db-4e8033bcf380"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/9f83d9e9-d41e-43d0-a247-d69bbc9b6d6d"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/c15a5c46-d6d8-454b-8ad6-2fce29d64735"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/e96a4ec0-de3c-4c11-991e-2d4a68e7cc4e"
+      (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a0558e/f713669f-8c37-4524-a155-a42c7a79b143"
       (reference "CPF?") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-0000629cf5c6"

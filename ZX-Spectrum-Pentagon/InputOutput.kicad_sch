@@ -2442,7 +2442,6 @@
     )
   )
 
-
   (junction (at 120.65 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 0193fe51-e6ea-42c3-9bac-5a69dcd2a0dd)
   )
@@ -6721,8 +6720,8 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062c4c79b)
     (property "Reference" "SWIO?" (id 0) (at 162.56 99.06 0))
-    (property "Value" "" (id 1) (at 177.8 99.06 0))
-    (property "Footprint" "" (id 2) (at 170.18 111.76 0)
+    (property "Value" "ABC/ACB" (id 1) (at 177.8 99.06 0))
+    (property "Footprint" "ZX-Spectrum-Pentagon:PS-22F03" (id 2) (at 170.18 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 170.18 111.76 0)

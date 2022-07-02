@@ -3901,8 +3901,10 @@
       (net 181 "/VideoFormating/512KMOD") (pinfunction "B") (pintype "passive") (tstamp 985a3b9c-b76b-4185-8376-4261517ccf8b))
     (pad "6" thru_hole circle (at 1.5 3.2) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask)
       (net 185 "unconnected-(SWIO2-Pad6)") (pinfunction "C") (pintype "passive+no_connect") (tstamp 1d467a80-56b5-4f64-87e9-386a4893134f))
-    (pad "7" thru_hole circle (at -3.4 -5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask) (tstamp 05977c14-c3de-4814-9787-a97802d23897))
-    (pad "8" thru_hole circle (at 3.4 5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask) (tstamp e2070485-ec50-4070-aa88-48fc386995a2))
+    (pad "7" thru_hole circle (at -3.4 -5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask)
+      (net 4 "GND") (pintype "passive") (tstamp 05977c14-c3de-4814-9787-a97802d23897))
+    (pad "8" thru_hole circle (at 3.4 5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask)
+      (net 4 "GND") (pintype "passive") (tstamp e2070485-ec50-4070-aa88-48fc386995a2))
   )
 
   (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder" (layer "F.Cu")
@@ -10207,7 +10209,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp d9c5a633-b5d3-4d45-9a56-7a168bb74216)
     )
-    (fp_text value "SW_Push_DPDT" (at 0 9.2 unlocked) (layer "F.Fab") hide
+    (fp_text value "ABC/ACB" (at 0 9.2 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 98845508-f97a-4729-8853-c410ed7101bc)
     )
@@ -10250,8 +10252,10 @@
       (net 167 "Net-(RIO11-Pad1)") (pinfunction "B") (pintype "passive") (tstamp f272fb89-1c5e-4b34-a0bf-70b29523f57d))
     (pad "6" thru_hole circle (at 1.5 3.2) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask)
       (net 182 "/InputOutput/CHB") (pinfunction "C") (pintype "passive") (tstamp e27fd478-87ee-4077-a2b7-cd09986042e9))
-    (pad "7" thru_hole circle (at -3.4 -5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask) (tstamp 8f6a666e-b7f1-4d51-96ac-7bfaaf8857a3))
-    (pad "8" thru_hole circle (at 3.4 5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask) (tstamp 53097e93-9027-4811-b8a1-815195032782))
+    (pad "7" thru_hole circle (at -3.4 -5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask)
+      (net 4 "GND") (pintype "passive") (tstamp 8f6a666e-b7f1-4d51-96ac-7bfaaf8857a3))
+    (pad "8" thru_hole circle (at 3.4 5.9) (size 1.4 1.4) (drill 0.762) (layers *.Cu *.Mask)
+      (net 4 "GND") (pintype "passive") (tstamp 53097e93-9027-4811-b8a1-815195032782))
   )
 
   (footprint "Package_DIP:DIP-16_W7.62mm" (layer "F.Cu")

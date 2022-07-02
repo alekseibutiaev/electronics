@@ -6,5 +6,4 @@
   (lib (name "edge_lib")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/edge_lib.kicad_sym")(options "")(descr "edge connector 2.54"))
   (lib (name "Gal")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/gal.kicad_sym")(options "")(descr "GAL ic"))
   (lib (name "zx_custom_symbol")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/zx_custom_symbol.kicad_sym")(options "")(descr "custom symbol for zx pentagon project"))
-  (lib (name "ZX-Spectrum-Pentagon-rescue")(type "Legacy")(uri "${KIPRJMOD}/ZX-Spectrum-Pentagon-rescue.lib")(options "")(descr ""))
 )

@@ -482,9 +482,7 @@
           "Net-(RIO11-Pad1)",
           "Net-(RIO2-Pad1)",
           "unconnected-(JIO2-PadRN)",
-          "unconnected-(JIO2-PadTN)",
-          "unconnected-(SWIO2-Pad3)",
-          "unconnected-(SWIO2-Pad6)"
+          "unconnected-(JIO2-PadTN)"
         ],
         "pcb_color": "rgb(124, 70, 173)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

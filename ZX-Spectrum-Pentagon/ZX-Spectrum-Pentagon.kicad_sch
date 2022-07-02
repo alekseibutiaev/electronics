@@ -5493,22 +5493,22 @@
       (reference "JCPU?") (unit 1) (value "Conn_02x28") (footprint "ZX-Spectrum-Pentagon:PinSocket_2x28_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006307af71"
-      (reference "JIO?") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+      (reference "JIO?") (unit 1) (value "Conn_01x02_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000063f0ab09"
-      (reference "JIO?") (unit 1) (value "AudioJack") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal")
+      (reference "JIO?") (unit 1) (value "SJ1 - 353 5 NG") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-0000648882f1"
       (reference "JIO?") (unit 1) (value "Conn_01x03_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000064a800b7"
-      (reference "JIO?") (unit 1) (value "AudioJack") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal")
+      (reference "JIO?") (unit 1) (value "SJ1 - 353 5 NG") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062fe39db"
-      (reference "JIOA?") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "JIOA?") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006301d156"
-      (reference "JIOB?") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "JIOB?") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c0e915"
       (reference "JIOKB?") (unit 1) (value "Conn_01x05_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")

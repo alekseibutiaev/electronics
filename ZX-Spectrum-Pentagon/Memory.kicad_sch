@@ -935,7 +935,6 @@
   )
 
   (bus_alias "MADDRESS" (members "MA0" "MA1" "MA2" "MA3" "MA4" "MA5" "MA6" "MA7" "MA8" "MA9" "MA10" "MA11" "MA12" "MA13" "MA14" "MA15" "MA16" "MA17" "MA18"))
-
   (junction (at 134.62 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 6a0db904-612f-4e87-b2a2-b4e7ffc4da16)
   )

@@ -7,7 +7,6 @@
   (lib_symbols
   )
 
-
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5746,7 +5745,7 @@
       (reference "SWIO?") (unit 1) (value "ABC/ACB") (footprint "ZX-Spectrum-Pentagon:PS-22F03")
     )
     (path "/00000000-0000-0000-0000-000062fd43ab/00000000-0000-0000-0000-0000638d500f"
-      (reference "SWIO?") (unit 1) (value "SW_Push_DPDT") (footprint "ZX-Spectrum-Pentagon:PS-22F03")
+      (reference "SWVF?") (unit 1) (value "128K/512K") (footprint "ZX-Spectrum-Pentagon:PS-22F03")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006293a18d"
       (reference "U?") (unit 1) (value "74HC93") (footprint "Package_DIP:DIP-14_W7.62mm")

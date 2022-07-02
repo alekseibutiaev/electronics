@@ -1,0 +1,1549 @@
+ERC report (Сб 02 июл 2022 17:57:43, Encoding UTF8)
+
+***** Sheet /
+[net_not_bus_member]: Net /C17 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,200 in): Bus to Wire Entry
+    @(5,000 in, 4,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C16 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,100 in): Bus to Wire Entry
+    @(5,000 in, 4,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /TTLR is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,200 in): Bus to Wire Entry
+    @(5,000 in, 4,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /TTLB is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,100 in): Bus to Wire Entry
+    @(5,000 in, 4,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C29 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,600 in): Bus to Wire Entry
+    @(5,000 in, 4,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C18 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,300 in): Bus to Wire Entry
+    @(5,000 in, 4,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C19 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,400 in): Bus to Wire Entry
+    @(5,000 in, 4,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /TTLSYNC is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,500 in): Bus to Wire Entry
+    @(5,000 in, 4,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /TTLY is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,400 in): Bus to Wire Entry
+    @(5,000 in, 4,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /TTLG is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,300 in): Bus to Wire Entry
+    @(5,000 in, 4,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C20 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,500 in): Bus to Wire Entry
+    @(5,000 in, 4,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C30 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,700 in): Bus to Wire Entry
+    @(5,000 in, 4,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /HSYNC is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,600 in): Bus to Wire Entry
+    @(5,000 in, 4,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /VSYNC is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,700 in): Bus to Wire Entry
+    @(5,000 in, 4,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,800 in): Bus to Wire Entry
+    @(5,000 in, 4,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /DISPLAY is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,900 in): Bus to Wire Entry
+    @(5,000 in, 4,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{FQUATER} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 5,000 in): Bus to Wire Entry
+    @(5,000 in, 5,000 in): Vertical Bus, length 0,400 in
+[net_not_bus_member]: Net /AUDIOR is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,800 in): Bus to Wire Entry
+    @(5,000 in, 4,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /AUDIOL is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 4,900 in): Bus to Wire Entry
+    @(5,000 in, 4,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D0 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,000 in): Bus to Wire Entry
+    @(3,000 in, 5,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,100 in): Bus to Wire Entry
+    @(3,000 in, 6,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /BC1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 7,200 in): Bus to Wire Entry
+    @(1,000 in, 7,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /RST is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 7,000 in): Bus to Wire Entry
+    @(1,000 in, 6,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /AYCLK is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 7,100 in): Bus to Wire Entry
+    @(1,000 in, 7,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /BDIR is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 7,300 in): Bus to Wire Entry
+    @(1,000 in, 7,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{INKMST} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 7,400 in): Bus to Wire Entry
+    @(1,000 in, 7,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{IN254} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 6,800 in): Bus to Wire Entry
+    @(1,000 in, 6,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{OUT254} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 6,900 in): Bus to Wire Entry
+    @(1,000 in, 6,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /BL is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 6,500 in): Bus to Wire Entry
+    @(5,000 in, 6,500 in): Vertical Bus, length 0,700 in
+[net_not_bus_member]: Net /TTYG is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 5,600 in): Bus to Wire Entry
+    @(5,000 in, 5,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PowerIndicator/+12V is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,100 in, 7,100 in): Bus to Wire Entry
+    @(5,000 in, 7,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PowerIndicator/VCC is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,100 in, 7,300 in): Bus to Wire Entry
+    @(5,000 in, 7,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PowerIndicator/GND is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,100 in, 7,400 in): Bus to Wire Entry
+    @(5,000 in, 7,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PowerIndicator/+9V is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,100 in, 7,200 in): Bus to Wire Entry
+    @(5,000 in, 7,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CBRDG is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 7,100 in): Bus to Wire Entry
+    @(3,000 in, 7,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /FSYNC is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 7,400 in): Bus to Wire Entry
+    @(3,000 in, 7,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C5 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 7,100 in): Bus to Wire Entry
+    @(3,000 in, 7,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PA6 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,600 in): Bus to Wire Entry
+    @(3,000 in, 6,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PA7 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,700 in): Bus to Wire Entry
+    @(3,000 in, 6,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CBRDB is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,900 in): Bus to Wire Entry
+    @(3,000 in, 6,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{C1} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,800 in): Bus to Wire Entry
+    @(3,000 in, 6,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{C2} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,900 in): Bus to Wire Entry
+    @(3,000 in, 6,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CBRDR is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 7,000 in): Bus to Wire Entry
+    @(3,000 in, 6,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C3 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 7,000 in): Bus to Wire Entry
+    @(3,000 in, 7,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C25 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 5,400 in): Bus to Wire Entry
+    @(1,000 in, 5,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C31 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 5,500 in): Bus to Wire Entry
+    @(1,000 in, 5,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D4 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,400 in): Bus to Wire Entry
+    @(3,000 in, 6,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D6 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,500 in): Bus to Wire Entry
+    @(3,000 in, 6,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D7 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,700 in): Bus to Wire Entry
+    @(3,000 in, 6,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D2 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,200 in): Bus to Wire Entry
+    @(3,000 in, 6,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D3 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,300 in): Bus to Wire Entry
+    @(3,000 in, 6,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /F25Hz is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 6,200 in): Bus to Wire Entry
+    @(3,000 in, 6,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{INT} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 0,900 in): Bus to Wire Entry
+    @(3,000 in, 0,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /DI_32765 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 1,600 in): Bus to Wire Entry
+    @(3,000 in, 1,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CS_32765 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 1,500 in): Bus to Wire Entry
+    @(3,000 in, 1,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{C25} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 1,200 in): Bus to Wire Entry
+    @(3,000 in, 1,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{RST} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 1,200 in): Bus to Wire Entry
+    @(3,000 in, 1,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{RESET} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 1,300 in): Bus to Wire Entry
+    @(3,000 in, 1,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D5 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,000 in, 4,600 in): Bus to Wire Entry
+    @(1,000 in, 4,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA0 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 1,800 in): Bus to Wire Entry
+    @(3,000 in, 1,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA8 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 2,600 in): Bus to Wire Entry
+    @(3,000 in, 2,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PowerSources/GND is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 3,700 in): Bus to Wire Entry
+    @(3,000 in, 3,700 in): Vertical Bus, length 0,400 in
+[net_not_bus_member]: Net /RAS is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 4,400 in): Bus to Wire Entry
+    @(3,000 in, 4,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /+12V is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 3,400 in): Bus to Wire Entry
+    @(3,000 in, 3,000 in): Vertical Bus, length 0,400 in
+[net_not_bus_member]: Net /PowerSources/+9V is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 3,500 in): Bus to Wire Entry
+    @(3,000 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PowerSources/VCC is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 3,600 in): Bus to Wire Entry
+    @(3,000 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A14-ROM is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,000 in, 4,800 in): Bus to Wire Entry
+    @(3,000 in, 4,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA5 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,550 in): Bus to Wire Entry
+    @(5,000 in, 2,550 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA6 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,650 in): Bus to Wire Entry
+    @(5,000 in, 2,600 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A12 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,600 in): Bus to Wire Entry
+    @(5,000 in, 2,550 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A13 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,700 in): Bus to Wire Entry
+    @(5,000 in, 2,700 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA4 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,450 in): Bus to Wire Entry
+    @(5,000 in, 2,400 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A11 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,500 in): Bus to Wire Entry
+    @(5,000 in, 2,500 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A7 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,100 in): Bus to Wire Entry
+    @(5,000 in, 2,100 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A5 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,900 in): Bus to Wire Entry
+    @(5,000 in, 1,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A6 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,000 in): Bus to Wire Entry
+    @(5,000 in, 2,000 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA2 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,250 in): Bus to Wire Entry
+    @(5,000 in, 2,250 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,150 in): Bus to Wire Entry
+    @(5,000 in, 2,100 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A8 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,200 in): Bus to Wire Entry
+    @(5,000 in, 2,150 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA7 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,750 in): Bus to Wire Entry
+    @(5,000 in, 2,750 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A14 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,800 in): Bus to Wire Entry
+    @(5,000 in, 2,750 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A10 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,400 in): Bus to Wire Entry
+    @(5,000 in, 2,350 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A9 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,300 in): Bus to Wire Entry
+    @(5,000 in, 2,250 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA3 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,350 in): Bus to Wire Entry
+    @(5,000 in, 2,300 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA9 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,950 in): Bus to Wire Entry
+    @(5,000 in, 2,900 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA10 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,050 in): Bus to Wire Entry
+    @(5,000 in, 3,000 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA11 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,150 in): Bus to Wire Entry
+    @(5,000 in, 3,100 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /SA12 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,250 in): Bus to Wire Entry
+    @(5,000 in, 3,250 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /A15 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,900 in): Bus to Wire Entry
+    @(5,000 in, 2,900 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /~{MREQ} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,000 in): Bus to Wire Entry
+    @(5,000 in, 3,000 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /~{RFSH} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,200 in): Bus to Wire Entry
+    @(5,000 in, 3,200 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /~{RD} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,100 in): Bus to Wire Entry
+    @(5,000 in, 3,100 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /MD1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 1,550 in): Bus to Wire Entry
+    @(7,000 in, 1,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD0 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 1,450 in): Bus to Wire Entry
+    @(7,000 in, 1,300 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /~{CAS} is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 2,550 in): Bus to Wire Entry
+    @(7,000 in, 2,400 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /MD6 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 2,050 in): Bus to Wire Entry
+    @(7,000 in, 2,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD5 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 1,950 in): Bus to Wire Entry
+    @(7,000 in, 1,850 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD2 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 1,650 in): Bus to Wire Entry
+    @(7,000 in, 1,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD3 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 1,750 in): Bus to Wire Entry
+    @(7,000 in, 1,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD4 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 1,850 in): Bus to Wire Entry
+    @(7,000 in, 1,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD7 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 2,150 in): Bus to Wire Entry
+    @(7,000 in, 2,150 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /SCRSEL is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 3,600 in): Bus to Wire Entry
+    @(7,000 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /GPA7 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 3,500 in): Bus to Wire Entry
+    @(7,000 in, 3,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /GPA6 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,000 in, 3,400 in): Bus to Wire Entry
+    @(7,000 in, 2,850 in): Vertical Bus, length 0,550 in
+[net_not_bus_member]: Net /MX2 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,600 in): Bus to Wire Entry
+    @(5,000 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MX0 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,400 in): Bus to Wire Entry
+    @(5,000 in, 3,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MX3 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,700 in): Bus to Wire Entry
+    @(5,000 in, 3,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MX1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,500 in): Bus to Wire Entry
+    @(5,000 in, 3,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A0 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,400 in): Bus to Wire Entry
+    @(5,000 in, 1,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A1 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,500 in): Bus to Wire Entry
+    @(5,000 in, 1,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A2 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,600 in): Bus to Wire Entry
+    @(5,000 in, 1,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A3 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,700 in): Bus to Wire Entry
+    @(5,000 in, 1,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A4 is graphically connected to bus /<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,800 in): Bus to Wire Entry
+    @(5,000 in, 1,800 in): Vertical Bus, length 0,100 in
+
+***** Sheet /Generator/
+[net_not_bus_member]: Net /SA2 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 4,350 in): Bus to Wire Entry
+    @(2,150 in, 4,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA1 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 3,650 in): Bus to Wire Entry
+    @(2,150 in, 3,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA0 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 3,550 in): Bus to Wire Entry
+    @(2,150 in, 3,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Generator/B12 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,650 in, 3,450 in): Bus to Wire Entry
+    @(5,650 in, 2,850 in): Vertical Bus, length 0,600 in
+[net_not_bus_member]: Net /Generator/B7 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,650 in, 3,750 in): Bus to Wire Entry
+    @(5,650 in, 3,750 in): Vertical Bus, length 0,200 in
+[net_not_bus_member]: Net /Generator/B8 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,650 in, 3,950 in): Bus to Wire Entry
+    @(5,650 in, 3,750 in): Vertical Bus, length 0,200 in
+[net_not_bus_member]: Net /Generator/B13 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,650 in, 3,650 in): Bus to Wire Entry
+    @(5,650 in, 3,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{RST} is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,150 in, 4,350 in): Bus to Wire Entry
+    @(10,150 in, 4,200 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /SA11 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,400 in, 4,000 in): Bus to Wire Entry
+    @(7,500 in, 4,100 in): Vertical Bus, length 1,200 in
+[net_not_bus_member]: Net /SA10 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,400 in, 3,800 in): Bus to Wire Entry
+    @(7,500 in, 3,700 in): Vertical Bus, length 0,200 in
+[net_not_bus_member]: Net /SA12 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,400 in, 5,200 in): Bus to Wire Entry
+    @(7,500 in, 4,100 in): Vertical Bus, length 1,200 in
+[net_not_bus_member]: Net /SA7 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,150 in, 3,700 in): Bus to Wire Entry
+    @(10,150 in, 3,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA9 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,150 in, 3,900 in): Bus to Wire Entry
+    @(10,150 in, 3,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA5 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,150 in, 3,500 in): Bus to Wire Entry
+    @(10,150 in, 3,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA8 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,150 in, 3,800 in): Bus to Wire Entry
+    @(10,150 in, 3,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA6 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,150 in, 3,600 in): Bus to Wire Entry
+    @(10,150 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Generator/B51 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 6,350 in): Bus to Wire Entry
+    @(2,150 in, 6,450 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /Generator/B6 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 5,050 in): Bus to Wire Entry
+    @(2,150 in, 4,850 in): Vertical Bus, length 0,300 in
+[net_not_bus_member]: Net /SA3 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 4,450 in): Bus to Wire Entry
+    @(2,150 in, 4,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA4 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 4,550 in): Bus to Wire Entry
+    @(2,150 in, 4,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Generator/B50 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(2,050 in, 4,650 in): Bus to Wire Entry
+    @(2,150 in, 4,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Generator/C6 is graphically connected to bus /Generator/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,550 in, 6,750 in): Bus to Wire Entry
+    @(5,650 in, 5,250 in): Vertical Bus, length 1,600 in
+
+***** Sheet /PowerSources/
+
+***** Sheet /MemorySignal/
+
+***** Sheet /InputOutput/
+[net_not_bus_member]: Net /InputOutput/CHB is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 4,000 in): Bus to Wire Entry
+    @(6,000 in, 4,000 in): Vertical Bus, length 0,400 in
+[net_not_bus_member]: Net /~{INKMST} is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 3,400 in): Bus to Wire Entry
+    @(1,500 in, 3,500 in): Vertical Bus, length 2,300 in
+[net_not_bus_member]: Net /~{OUT254} is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 3,200 in): Bus to Wire Entry
+    @(1,500 in, 3,200 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /~{IN254} is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 3,050 in): Bus to Wire Entry
+    @(1,500 in, 2,900 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /A9 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 1,900 in): Bus to Wire Entry
+    @(1,500 in, 2,000 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /D0 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,600 in, 1,350 in): Bus to Wire Entry
+    @(1,500 in, 1,400 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /InputOutput/CHC is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,300 in, 2,100 in): Bus to Wire Entry
+    @(9,400 in, 2,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/CHA is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,300 in, 1,900 in): Bus to Wire Entry
+    @(9,400 in, 2,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOA7 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,300 in, 1,750 in): Bus to Wire Entry
+    @(9,400 in, 1,850 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /InputOutput/IOA6 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,300 in, 1,650 in): Bus to Wire Entry
+    @(9,400 in, 1,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D2 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 1,350 in): Bus to Wire Entry
+    @(6,000 in, 1,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D3 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 1,450 in): Bus to Wire Entry
+    @(6,000 in, 1,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D1 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 1,250 in): Bus to Wire Entry
+    @(6,000 in, 1,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOB0 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 1,900 in): Bus to Wire Entry
+    @(7,650 in, 2,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D5 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 1,650 in): Bus to Wire Entry
+    @(6,000 in, 1,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D4 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 1,550 in): Bus to Wire Entry
+    @(6,000 in, 1,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOA4 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 1,450 in): Bus to Wire Entry
+    @(7,650 in, 1,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOA5 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 1,550 in): Bus to Wire Entry
+    @(7,650 in, 1,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D7 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 1,850 in): Bus to Wire Entry
+    @(6,000 in, 1,850 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /D6 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 1,750 in): Bus to Wire Entry
+    @(6,000 in, 1,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOA2 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 1,250 in): Bus to Wire Entry
+    @(7,650 in, 1,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOA1 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 1,150 in): Bus to Wire Entry
+    @(7,650 in, 1,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOA0 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 1,050 in): Bus to Wire Entry
+    @(7,650 in, 1,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOA3 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 1,350 in): Bus to Wire Entry
+    @(7,650 in, 1,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOB5 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 2,400 in): Bus to Wire Entry
+    @(7,650 in, 2,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOB4 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 2,300 in): Bus to Wire Entry
+    @(7,650 in, 2,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /BDIR is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 2,400 in): Bus to Wire Entry
+    @(6,000 in, 2,250 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /BC1 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 2,600 in): Bus to Wire Entry
+    @(6,000 in, 2,600 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /AYCLK is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 2,750 in): Bus to Wire Entry
+    @(6,000 in, 2,600 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /InputOutput/IOB7 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 2,600 in): Bus to Wire Entry
+    @(7,650 in, 2,700 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /InputOutput/IOB6 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 2,500 in): Bus to Wire Entry
+    @(7,650 in, 2,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOB3 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 2,200 in): Bus to Wire Entry
+    @(7,650 in, 2,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOB1 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 2,000 in): Bus to Wire Entry
+    @(7,650 in, 2,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /InputOutput/IOB2 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(7,550 in, 2,100 in): Bus to Wire Entry
+    @(7,650 in, 2,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{RST} is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,000 in, 2,250 in): Bus to Wire Entry
+    @(6,000 in, 2,250 in): Vertical Bus, length 0,150 in
+[multiple_net_names]: Both VCC and BC2 are attached to the same items; VCC will be used in the netlist
+    ; Severity: warning
+    @(7,250 in, 1,000 in): Symbol U19 [AY-3-8910] Pin 40 [VCC, Power input, Line]
+    @(6,100 in, 2,400 in): Label 'BC2'
+[multiple_net_names]: Both GND and AY~{A9} are attached to the same items; GND will be used in the netlist
+    ; Severity: warning
+    @(4,750 in, 1,450 in): Symbol #PWR030 [GND] Pin 1 [GND, Power input, Line]
+    @(6,100 in, 2,000 in): Label 'AY~{A9}'
+[net_not_bus_member]: Net /A8 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 6,500 in): Bus to Wire Entry
+    @(4,500 in, 6,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A10 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 7,100 in): Bus to Wire Entry
+    @(4,500 in, 7,100 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /A11 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 7,250 in): Bus to Wire Entry
+    @(4,500 in, 7,100 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /A12 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 6,800 in): Bus to Wire Entry
+    @(4,500 in, 6,650 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /A13 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 6,650 in): Bus to Wire Entry
+    @(4,500 in, 6,650 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /A15 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 6,200 in): Bus to Wire Entry
+    @(4,500 in, 6,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A14 is graphically connected to bus /InputOutput/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 6,350 in): Bus to Wire Entry
+    @(4,500 in, 6,350 in): Vertical Bus, length 0,050 in
+
+***** Sheet /CPU/
+[net_not_bus_member]: Net /A11 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,700 in): Bus to Wire Entry
+    @(8,450 in, 3,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A10 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,700 in): Bus to Wire Entry
+    @(9,950 in, 3,700 in): Vertical Bus, length 0,350 in
+[net_not_bus_member]: Net /~{OUT254} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,050 in, 4,550 in): Bus to Wire Entry
+    @(9,950 in, 4,650 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /~{IN254} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,050 in, 4,700 in): Bus to Wire Entry
+    @(9,950 in, 4,650 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /~{INKMST} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,050 in, 4,400 in): Bus to Wire Entry
+    @(9,950 in, 4,350 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /BDIR is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,050 in, 4,150 in): Bus to Wire Entry
+    @(9,950 in, 4,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /DI_32765 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,050 in, 4,050 in): Bus to Wire Entry
+    @(9,950 in, 4,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /BC1 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,050 in, 4,250 in): Bus to Wire Entry
+    @(9,950 in, 4,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CS_32765 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(10,050 in, 3,950 in): Bus to Wire Entry
+    @(9,950 in, 4,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/RA15 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 6,550 in): Bus to Wire Entry
+    @(3,400 in, 6,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{FQUATER} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 6,800 in): Bus to Wire Entry
+    @(1,500 in, 6,500 in): Vertical Bus, length 0,300 in
+[net_not_bus_member]: Net /CPU/~{IORQ} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 6,200 in): Bus to Wire Entry
+    @(1,500 in, 6,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /+12V is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 5,150 in): Bus to Wire Entry
+    @(1,500 in, 5,100 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /D3 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,300 in): Bus to Wire Entry
+    @(5,350 in, 5,400 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /D1 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,100 in): Bus to Wire Entry
+    @(5,350 in, 5,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D0 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,000 in): Bus to Wire Entry
+    @(5,350 in, 4,850 in): Vertical Bus, length 0,250 in
+[net_not_bus_member]: Net /D2 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,200 in): Bus to Wire Entry
+    @(5,350 in, 5,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D4 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,400 in): Bus to Wire Entry
+    @(5,350 in, 5,450 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /D5 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,500 in): Bus to Wire Entry
+    @(5,350 in, 5,550 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /D6 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,600 in): Bus to Wire Entry
+    @(5,350 in, 5,650 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /D7 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 5,700 in): Bus to Wire Entry
+    @(5,350 in, 5,800 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A14-ROM is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,500 in, 6,350 in): Bus to Wire Entry
+    @(3,400 in, 6,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{ROMCE} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,500 in, 6,850 in): Bus to Wire Entry
+    @(3,400 in, 6,950 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/RA17 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 6,750 in): Bus to Wire Entry
+    @(3,400 in, 6,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/RA16 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 6,650 in): Bus to Wire Entry
+    @(3,400 in, 6,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/RA18 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 6,850 in): Bus to Wire Entry
+    @(3,400 in, 6,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xWR} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 3,100 in): Bus to Wire Entry
+    @(3,800 in, 3,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xM1} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 3,200 in): Bus to Wire Entry
+    @(3,800 in, 3,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xD5 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,700 in): Bus to Wire Entry
+    @(1,850 in, 1,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xD6 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,800 in): Bus to Wire Entry
+    @(1,850 in, 1,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xD4 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,600 in): Bus to Wire Entry
+    @(1,850 in, 1,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xD7 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,900 in): Bus to Wire Entry
+    @(1,850 in, 1,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xD3 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,500 in): Bus to Wire Entry
+    @(1,850 in, 1,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xRFSH} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 3,300 in): Bus to Wire Entry
+    @(3,800 in, 3,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xHALT} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,800 in, 3,300 in): Bus to Wire Entry
+    @(3,800 in, 3,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xBUSACK} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,800 in, 3,400 in): Bus to Wire Entry
+    @(3,800 in, 3,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{RST} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 3,800 in): Bus to Wire Entry
+    @(1,500 in, 3,900 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /~{INT} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 3,650 in): Bus to Wire Entry
+    @(1,500 in, 3,050 in): Vertical Bus, length 0,700 in
+[net_not_bus_member]: Net /CPU/xD0 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,200 in): Bus to Wire Entry
+    @(1,850 in, 0,600 in): Vertical Bus, length 0,600 in
+[net_not_bus_member]: Net /CPU/xD1 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,300 in): Bus to Wire Entry
+    @(1,850 in, 1,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xD2 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,850 in, 1,400 in): Bus to Wire Entry
+    @(1,850 in, 1,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{NMI} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,750 in): Bus to Wire Entry
+    @(1,500 in, 2,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{HALT} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 3,250 in): Bus to Wire Entry
+    @(5,350 in, 3,200 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /CPU/BUSACK is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,250 in, 3,000 in): Bus to Wire Entry
+    @(5,350 in, 3,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/DIR is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,750 in, 3,050 in): Bus to Wire Entry
+    @(6,850 in, 3,150 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /PowerSources/+9V is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,450 in, 1,400 in): Bus to Wire Entry
+    @(8,450 in, 1,200 in): Vertical Bus, length 0,200 in
+[net_not_bus_member]: Net /A12 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 2,700 in): Bus to Wire Entry
+    @(9,950 in, 2,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A13 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 2,800 in): Bus to Wire Entry
+    @(9,950 in, 2,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{WR} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 2,900 in): Bus to Wire Entry
+    @(9,950 in, 2,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A14 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 2,900 in): Bus to Wire Entry
+    @(9,950 in, 2,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A15 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,000 in): Bus to Wire Entry
+    @(9,950 in, 3,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{WAIT} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,100 in): Bus to Wire Entry
+    @(9,950 in, 3,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{MREQ} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,150 in): Bus to Wire Entry
+    @(9,950 in, 3,100 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /CPU/~{M1} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,400 in): Bus to Wire Entry
+    @(9,950 in, 3,400 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /~{RD} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,300 in): Bus to Wire Entry
+    @(9,950 in, 3,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A8 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,600 in): Bus to Wire Entry
+    @(9,950 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{RFSH} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(9,950 in, 3,500 in): Bus to Wire Entry
+    @(9,950 in, 3,450 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /A1 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 1,900 in): Bus to Wire Entry
+    @(8,450 in, 2,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A0 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 1,800 in): Bus to Wire Entry
+    @(8,450 in, 1,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{C25} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 1,700 in): Bus to Wire Entry
+    @(8,450 in, 1,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A2 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 2,000 in): Bus to Wire Entry
+    @(8,450 in, 2,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/ROMCS is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,400 in): Bus to Wire Entry
+    @(8,450 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A9 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,600 in): Bus to Wire Entry
+    @(8,450 in, 3,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{BUSACK} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,500 in): Bus to Wire Entry
+    @(8,450 in, 3,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A3 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 2,100 in): Bus to Wire Entry
+    @(8,450 in, 2,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{DI_ULA} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 2,200 in): Bus to Wire Entry
+    @(8,450 in, 2,300 in): Vertical Bus, length 0,600 in
+[net_not_bus_member]: Net /CPU/~{BUSRQ} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 2,800 in): Bus to Wire Entry
+    @(8,450 in, 2,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{RESET} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 2,900 in): Bus to Wire Entry
+    @(8,450 in, 3,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A4 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,300 in): Bus to Wire Entry
+    @(8,450 in, 3,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A5 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,200 in): Bus to Wire Entry
+    @(8,450 in, 3,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A6 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,100 in): Bus to Wire Entry
+    @(8,450 in, 3,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A7 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(8,550 in, 3,000 in): Bus to Wire Entry
+    @(8,450 in, 3,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA0 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,100 in): Bus to Wire Entry
+    @(3,800 in, 1,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA1 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,200 in): Bus to Wire Entry
+    @(3,800 in, 1,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA2 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,300 in): Bus to Wire Entry
+    @(3,800 in, 1,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA5 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,600 in): Bus to Wire Entry
+    @(3,800 in, 1,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA6 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,700 in): Bus to Wire Entry
+    @(3,800 in, 1,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA3 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,400 in): Bus to Wire Entry
+    @(3,800 in, 1,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA4 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,500 in): Bus to Wire Entry
+    @(3,800 in, 1,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA7 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,800 in): Bus to Wire Entry
+    @(3,800 in, 1,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA8 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 1,900 in): Bus to Wire Entry
+    @(3,800 in, 1,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA9 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 2,000 in): Bus to Wire Entry
+    @(3,800 in, 2,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA10 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 2,100 in): Bus to Wire Entry
+    @(3,800 in, 2,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA15 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 2,600 in): Bus to Wire Entry
+    @(3,800 in, 2,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xMREQ} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,800 in, 2,600 in): Bus to Wire Entry
+    @(3,800 in, 2,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xRD} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,800 in, 2,700 in): Bus to Wire Entry
+    @(3,800 in, 2,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/~{xIORQ} is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,800 in, 2,800 in): Bus to Wire Entry
+    @(3,800 in, 2,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA14 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 2,500 in): Bus to Wire Entry
+    @(3,800 in, 2,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA11 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 2,200 in): Bus to Wire Entry
+    @(3,800 in, 2,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA12 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 2,300 in): Bus to Wire Entry
+    @(3,800 in, 2,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU/xA13 is graphically connected to bus /CPU/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,700 in, 2,400 in): Bus to Wire Entry
+    @(3,800 in, 2,400 in): Vertical Bus, length 0,100 in
+
+***** Sheet /MemorySharing/
+
+***** Sheet /VideoFormating/
+[net_not_bus_member]: Net /MD6 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,600 in, 6,750 in): Bus to Wire Entry
+    @(1,500 in, 6,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD5 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,600 in, 6,650 in): Bus to Wire Entry
+    @(1,500 in, 6,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD4 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 6,450 in): Bus to Wire Entry
+    @(1,500 in, 6,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD3 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 6,350 in): Bus to Wire Entry
+    @(1,500 in, 6,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD2 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,600 in, 6,350 in): Bus to Wire Entry
+    @(1,500 in, 6,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD7 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,600 in, 6,850 in): Bus to Wire Entry
+    @(1,500 in, 6,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C18 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 6,850 in): Bus to Wire Entry
+    @(1,500 in, 6,850 in): Vertical Bus, length 0,500 in
+[net_not_bus_member]: Net /VideoFormating/SERDATA is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,550 in): Bus to Wire Entry
+    @(1,500 in, 5,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD1 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 6,150 in): Bus to Wire Entry
+    @(1,500 in, 6,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD0 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,600 in, 6,150 in): Bus to Wire Entry
+    @(1,500 in, 6,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{C2} is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,850 in): Bus to Wire Entry
+    @(1,500 in, 5,850 in): Vertical Bus, length 0,200 in
+[net_not_bus_member]: Net /~{C1} is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 7,350 in): Bus to Wire Entry
+    @(1,500 in, 6,850 in): Vertical Bus, length 0,500 in
+[net_not_bus_member]: Net /VideoFormating/512KMOD is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,450 in): Bus to Wire Entry
+    @(1,500 in, 5,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /FSYNC is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,350 in): Bus to Wire Entry
+    @(1,500 in, 4,250 in): Vertical Bus, length 1,100 in
+[net_not_bus_member]: Net /PA6 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,150 in): Bus to Wire Entry
+    @(1,500 in, 4,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /PA7 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,050 in): Bus to Wire Entry
+    @(1,500 in, 3,900 in): Vertical Bus, length 0,150 in
+[net_not_bus_member]: Net /F25Hz is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 3,750 in): Bus to Wire Entry
+    @(1,500 in, 3,750 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /CBRDR is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,550 in): Bus to Wire Entry
+    @(1,500 in, 2,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /BL is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,850 in): Bus to Wire Entry
+    @(1,500 in, 2,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C5 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,750 in): Bus to Wire Entry
+    @(1,500 in, 2,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CBRDG is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,650 in): Bus to Wire Entry
+    @(1,500 in, 2,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CBRDB is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,450 in): Bus to Wire Entry
+    @(1,500 in, 2,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C17 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 3,800 in): Bus to Wire Entry
+    @(1,500 in, 3,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C3 is graphically connected to bus /VideoFormating/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 3,500 in): Bus to Wire Entry
+    @(1,500 in, 3,250 in): Vertical Bus, length 0,150 in
+
+***** Sheet /Memory/
+[net_not_bus_member]: Net /Memory/MA17 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,500 in): Bus to Wire Entry
+    @(3,400 in, 2,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA18 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,600 in): Bus to Wire Entry
+    @(3,400 in, 2,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /~{CAS} is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,700 in): Bus to Wire Entry
+    @(3,400 in, 2,700 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD4 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,250 in): Bus to Wire Entry
+    @(5,000 in, 1,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA15 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,300 in): Bus to Wire Entry
+    @(3,400 in, 2,200 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA16 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,400 in): Bus to Wire Entry
+    @(3,400 in, 2,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA10 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,800 in): Bus to Wire Entry
+    @(3,400 in, 1,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA11 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,900 in): Bus to Wire Entry
+    @(3,400 in, 1,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA13 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,100 in): Bus to Wire Entry
+    @(3,400 in, 2,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA14 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,200 in): Bus to Wire Entry
+    @(3,400 in, 2,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA12 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 2,000 in): Bus to Wire Entry
+    @(3,400 in, 1,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA2 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,000 in): Bus to Wire Entry
+    @(3,400 in, 0,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA1 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 0,900 in): Bus to Wire Entry
+    @(3,400 in, 0,900 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA0 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 0,800 in): Bus to Wire Entry
+    @(3,400 in, 0,800 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA4 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,200 in): Bus to Wire Entry
+    @(3,400 in, 1,100 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA3 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,100 in): Bus to Wire Entry
+    @(3,400 in, 1,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA9 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,700 in): Bus to Wire Entry
+    @(3,400 in, 1,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA8 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,600 in): Bus to Wire Entry
+    @(3,400 in, 1,600 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA7 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,500 in): Bus to Wire Entry
+    @(3,400 in, 1,500 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA6 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,400 in): Bus to Wire Entry
+    @(3,400 in, 1,400 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/MA5 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(3,400 in, 1,300 in): Bus to Wire Entry
+    @(3,400 in, 1,300 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D2 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,550 in, 2,550 in): Bus to Wire Entry
+    @(6,450 in, 2,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D1 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,550 in, 2,450 in): Bus to Wire Entry
+    @(6,450 in, 2,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D0 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,550 in, 2,350 in): Bus to Wire Entry
+    @(6,450 in, 1,650 in): Vertical Bus, length 0,600 in
+[net_not_bus_member]: Net /C19 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 3,050 in): Bus to Wire Entry
+    @(5,000 in, 2,950 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C20 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,950 in): Bus to Wire Entry
+    @(5,000 in, 2,950 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D7 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,550 in, 3,050 in): Bus to Wire Entry
+    @(6,450 in, 2,850 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D6 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,550 in, 2,950 in): Bus to Wire Entry
+    @(6,450 in, 2,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D5 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,550 in, 2,850 in): Bus to Wire Entry
+    @(6,450 in, 2,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D3 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,350 in, 2,650 in): Bus to Wire Entry
+    @(6,450 in, 2,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /D4 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,550 in, 2,750 in): Bus to Wire Entry
+    @(6,450 in, 2,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD5 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,650 in): Bus to Wire Entry
+    @(5,000 in, 2,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD3 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,450 in): Bus to Wire Entry
+    @(5,000 in, 2,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD0 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,150 in): Bus to Wire Entry
+    @(5,000 in, 2,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD1 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,250 in): Bus to Wire Entry
+    @(5,000 in, 2,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MD2 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 2,350 in): Bus to Wire Entry
+    @(5,000 in, 2,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /C16 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,850 in): Bus to Wire Entry
+    @(5,000 in, 1,850 in): Vertical Bus, length 0,300 in
+[net_not_bus_member]: Net /MD7 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,550 in): Bus to Wire Entry
+    @(5,000 in, 1,550 in): Vertical Bus, length 0,300 in
+[net_not_bus_member]: Net /MD6 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,450 in): Bus to Wire Entry
+    @(5,000 in, 1,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /Memory/В5 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(5,000 in, 1,350 in): Bus to Wire Entry
+    @(5,000 in, 1,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A0 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 0,750 in): Bus to Wire Entry
+    @(1,500 in, 0,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A1 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 0,850 in): Bus to Wire Entry
+    @(1,500 in, 0,850 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A3 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,050 in): Bus to Wire Entry
+    @(1,500 in, 1,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA0 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 0,950 in): Bus to Wire Entry
+    @(1,500 in, 0,950 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA3 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,550 in): Bus to Wire Entry
+    @(1,500 in, 1,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /DISPLAY is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,650 in): Bus to Wire Entry
+    @(1,500 in, 1,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA2 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,350 in): Bus to Wire Entry
+    @(1,500 in, 1,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A4 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,150 in): Bus to Wire Entry
+    @(1,500 in, 1,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA1 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,150 in): Bus to Wire Entry
+    @(1,500 in, 1,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A2 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,250 in): Bus to Wire Entry
+    @(1,500 in, 1,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A5 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 1,250 in): Bus to Wire Entry
+    @(1,500 in, 1,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA6 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,850 in): Bus to Wire Entry
+    @(1,500 in, 2,850 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A6 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,750 in): Bus to Wire Entry
+    @(1,500 in, 2,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA4 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,450 in): Bus to Wire Entry
+    @(1,500 in, 2,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA5 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 2,650 in): Bus to Wire Entry
+    @(1,500 in, 2,650 in): Vertical Bus, length 0,100 in
+[multiple_net_names]: Both GAP7 and GPA7 are attached to the same items; GAP7 will be used in the netlist
+    ; Severity: warning
+    @(1,400 in, 5,150 in): Label 'GAP7'
+    @(1,000 in, 5,150 in): Hierarchical Label 'GPA7'
+[net_not_bus_member]: Net /GAP7 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 5,150 in): Bus to Wire Entry
+    @(1,500 in, 4,950 in): Vertical Bus, length 0,100 in
+[multiple_net_names]: Both GAP6 and GPA6 are attached to the same items; GAP6 will be used in the netlist
+    ; Severity: warning
+    @(1,400 in, 5,050 in): Label 'GAP6'
+    @(1,000 in, 5,050 in): Hierarchical Label 'GPA6'
+[net_not_bus_member]: Net /MX2 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,750 in): Bus to Wire Entry
+    @(1,500 in, 4,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /GAP6 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 5,050 in): Bus to Wire Entry
+    @(1,500 in, 4,950 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MX3 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 4,950 in): Bus to Wire Entry
+    @(1,500 in, 4,850 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MX0 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,550 in): Bus to Wire Entry
+    @(1,500 in, 4,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /MX1 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,650 in): Bus to Wire Entry
+    @(1,500 in, 4,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA10 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,550 in): Bus to Wire Entry
+    @(1,500 in, 4,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A11 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,350 in): Bus to Wire Entry
+    @(1,500 in, 5,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA11 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,450 in): Bus to Wire Entry
+    @(1,500 in, 5,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA12 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,650 in): Bus to Wire Entry
+    @(1,500 in, 5,550 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A13 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,750 in): Bus to Wire Entry
+    @(1,500 in, 5,650 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A12 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,550 in): Bus to Wire Entry
+    @(1,500 in, 5,450 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /CPU is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 6,750 in): Bus to Wire Entry
+    @(1,500 in, 6,500 in): Vertical Bus, length 0,250 in
+[net_not_bus_member]: Net /A8 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,050 in): Bus to Wire Entry
+    @(1,500 in, 4,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA8 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,150 in): Bus to Wire Entry
+    @(1,500 in, 4,050 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A7 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 3,850 in): Bus to Wire Entry
+    @(1,500 in, 3,750 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA7 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 3,950 in): Bus to Wire Entry
+    @(1,500 in, 3,850 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SA9 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,350 in): Bus to Wire Entry
+    @(1,500 in, 4,250 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A9 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,250 in): Bus to Wire Entry
+    @(1,500 in, 4,150 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /A10 is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 4,450 in): Bus to Wire Entry
+    @(1,500 in, 4,350 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /SCRSEL is graphically connected to bus /Memory/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,500 in, 5,150 in): Bus to Wire Entry
+    @(1,500 in, 5,150 in): Vertical Bus, length 0,100 in
+
+***** Sheet /VideoEncoder/
+[net_not_bus_member]: Net /AUDIOL is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 1,200 in): Bus to Wire Entry
+    @(1,500 in, 1,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /AUDIOR is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(1,400 in, 1,100 in): Bus to Wire Entry
+    @(1,500 in, 1,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /VideoEncoder/GREEN is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,400 in, 4,000 in): Bus to Wire Entry
+    @(4,500 in, 3,400 in): Vertical Bus, length 0,500 in
+[net_not_bus_member]: Net /VideoEncoder/RED is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,400 in, 3,500 in): Bus to Wire Entry
+    @(4,500 in, 2,900 in): Vertical Bus, length 0,500 in
+[multiple_net_names]: Both LUMA and VIDEO are attached to the same items; LUMA will be used in the netlist
+    ; Severity: warning
+    @(4,400 in, 1,200 in): Label 'LUMA'
+    @(4,400 in, 1,100 in): Label 'VIDEO'
+[net_not_bus_member]: Net /VideoEncoder/LUMA is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,400 in, 1,100 in): Bus to Wire Entry
+    @(4,500 in, 1,000 in): Vertical Bus, length 0,100 in
+[net_not_bus_member]: Net /VideoEncoder/BLUE is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,500 in, 1,150 in): Bus to Wire Entry
+    @(4,500 in, 1,100 in): Vertical Bus, length 0,050 in
+[net_not_bus_member]: Net /VideoEncoder/SYNC is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(4,400 in, 1,750 in): Bus to Wire Entry
+    @(4,500 in, 1,250 in): Vertical Bus, length 0,400 in
+[net_not_bus_member]: Net /VideoEncoder/CRMA is graphically connected to bus /VideoEncoder/<NO NET> but is not a member of that bus
+    ; Severity: warning
+    @(6,500 in, 1,650 in): Bus to Wire Entry
+    @(6,500 in, 1,350 in): Vertical Bus, length 0,300 in
+
+***** Sheet /PowerIndicator/
+
+ ** ERC messages: 381  Errors 0  Warnings 381

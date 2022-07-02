@@ -7,6 +7,7 @@
   (lib_symbols
   )
 
+
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5742,7 +5743,7 @@
       (reference "SWG?") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c4c79b"
-      (reference "SWIO?") (unit 1) (value "SW_Push_DPDT") (footprint "ZX-Spectrum-Pentagon:PS-22F03")
+      (reference "SWIO?") (unit 1) (value "ABC/ACB") (footprint "ZX-Spectrum-Pentagon:PS-22F03")
     )
     (path "/00000000-0000-0000-0000-000062fd43ab/00000000-0000-0000-0000-0000638d500f"
       (reference "SWIO?") (unit 1) (value "SW_Push_DPDT") (footprint "ZX-Spectrum-Pentagon:PS-22F03")

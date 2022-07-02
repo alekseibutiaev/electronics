@@ -66,8 +66,8 @@
       35,
       36
     ],
-    "visible_layers": "0021000_00000000",
-    "zone_display_mode": 0
+    "visible_layers": "0021030_80000001",
+    "zone_display_mode": 1
   },
   "meta": {
     "filename": "ZX-Spectrum-Pentagon.kicad_prl",

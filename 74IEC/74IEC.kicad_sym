@@ -37636,6 +37636,22 @@
       (text "&" (at -5.08 0 0)
         (effects (font (size 1.27 1.27)))
       )
+      (pin no_connect non_logic (at -3.81 -1.27 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at -3.81 -1.27 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at -3.81 -1.27 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at -3.81 -1.27 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "74XX93_1_1"
       (rectangle (start -6.35 -6.35) (end 6.35 6.35)

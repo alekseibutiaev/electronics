@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 49,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_nets": [
@@ -267,7 +267,6 @@
       "/C17",
       "Net-(U32-Pad10)",
       "/C18",
-      "Net-(U34-Pad12)",
       "/Memory/MA17",
       "/GPA6",
       "/MD0",
@@ -278,14 +277,14 @@
       "/MD5",
       "/MD6",
       "/MD7",
-      "Net-(U35-Pad12)",
-      "Net-(U35-Pad13)",
-      "Net-(U35-Pad14)",
-      "Net-(U35-Pad15)",
-      "Net-(U35-Pad16)",
-      "Net-(U35-Pad17)",
-      "Net-(U35-Pad18)",
-      "Net-(U35-Pad19)",
+      "Net-(U36-Pad13)",
+      "Net-(U36-Pad14)",
+      "Net-(U36-Pad15)",
+      "Net-(U36-Pad16)",
+      "Net-(U36-Pad17)",
+      "Net-(U36-Pad18)",
+      "Net-(U36-Pad19)",
+      "Net-(U38-Pad14)",
       "/VideoFormating/FLASL_BIT",
       "/VideoFormating/BRIGHT",
       "/VideoFormating/GREEN_B",
@@ -375,7 +374,6 @@
       8,
       9,
       10,
-      11,
       12,
       13,
       14,
@@ -401,8 +399,8 @@
       35,
       36
     ],
-    "visible_layers": "0021000_00000000",
-    "zone_display_mode": 1
+    "visible_layers": "003f0f0_00000000",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ZX-Spectrum-Pentagon.kicad_prl",

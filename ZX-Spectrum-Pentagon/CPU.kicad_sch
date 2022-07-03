@@ -9688,7 +9688,7 @@
     (uuid ea8fca53-0d3f-445e-9882-438f09a90184)
     (property "Reference" "U?" (id 0) (at 118.11 19.05 0))
     (property "Value" "74HC245" (id 1) (at 118.11 48.26 0))
-    (property "Footprint" "Package_DIP:DIP-22_W7.62mm" (id 2) (at 118.11 45.72 0)
+    (property "Footprint" "Package_DIP:DIP-20_W7.62mm" (id 2) (at 118.11 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" (id 3) (at 118.11 45.72 0)

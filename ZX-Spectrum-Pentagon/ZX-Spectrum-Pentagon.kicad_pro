@@ -760,7 +760,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ZX-Spectrum-Pentagon.net",
-      "specctra_dsn": "",
+      "specctra_dsn": "ZX-Spectrum-Pentagon.dsn",
       "step": "",
       "vrml": ""
     },

@@ -416,6 +416,7 @@
         "microvia_drill": 0.1,
         "name": "DATA",
         "nets": [
+          "/D0",
           "/D1",
           "/D2",
           "/D3",

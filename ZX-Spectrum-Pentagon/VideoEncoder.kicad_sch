@@ -1039,6 +1039,7 @@
     )
   )
 
+
   (junction (at 101.6 157.48) (diameter 0) (color 0 0 0 0)
     (uuid 08105565-d11b-4e41-91a8-f6c4e9f02e18)
   )
@@ -2409,8 +2410,8 @@
     (pin "8" (uuid 1aa386a7-90f6-4c7b-b6af-1adf81053b06))
     (pin "S1" (uuid 35d1cdec-0520-403e-a190-2ae82ad1ce36))
     (pin "S2" (uuid bf3ec985-72fc-498f-8c51-764497874e28))
-    (pin "S3" (uuid 3b48528a-b277-473d-b1ea-aaa2c4c1da06))
-    (pin "S3" (uuid 3b48528a-b277-473d-b1ea-aaa2c4c1da06))
+    (pin "S3" (uuid 3b48528a-b277-473d-b1ea-aaa2c4c1da08))
+    (pin "S3" (uuid 3b48528a-b277-473d-b1ea-aaa2c4c1da08))
   )
 
   (symbol (lib_id "power:GND") (at 152.4 43.18 90) (mirror x) (unit 1)
@@ -3158,9 +3159,9 @@
   (symbol (lib_id "zx_custom_symbol:AD724") (at 137.16 129.54 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000636f408d)
-    (property "Reference" "U52" (id 0) (at 137.16 116.84 0))
-    (property "Value" "AD724" (id 1) (at 137.16 142.24 0))
-    (property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" (id 2) (at 137.16 111.76 0)
+    (property "Reference" "U50" (id 0) (at 137.16 116.84 0))
+    (property "Value" "" (id 1) (at 137.16 142.24 0))
+    (property "Footprint" "" (id 2) (at 137.16 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 137.16 111.76 0)

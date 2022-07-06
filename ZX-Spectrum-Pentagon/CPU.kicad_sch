@@ -3451,6 +3451,7 @@
     )
   )
 
+
   (junction (at 144.78 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 10fdbb84-b46d-441c-ab6c-c1010168e0dd)
   )
@@ -8939,12 +8940,12 @@
     (pin "9" (uuid be08ee66-6552-42b6-aeae-9273f465dd36))
   )
 
-  (symbol (lib_id "74IEC:74HC14") (at 151.13 67.31 0) (unit 1)
+  (symbol (lib_id "74IEC:74HC14") (at 151.13 67.31 0) (unit 5)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006294b2dd)
     (property "Reference" "U2" (id 0) (at 151.13 63.5 0))
-    (property "Value" "74HC14" (id 1) (at 151.13 71.12 0))
-    (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 151.13 61.976 0)
+    (property "Value" "" (id 1) (at 151.13 71.12 0))
+    (property "Footprint" "" (id 2) (at 151.13 61.976 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" (id 3) (at 151.13 61.976 0)

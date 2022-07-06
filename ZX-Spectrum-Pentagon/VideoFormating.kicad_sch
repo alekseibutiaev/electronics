@@ -961,6 +961,7 @@
     )
   )
 
+
   (junction (at 124.46 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 03955992-e784-4313-a01b-e80695e67a25)
   )
@@ -2868,8 +2869,8 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000638d500f)
     (property "Reference" "SWVF?" (id 0) (at 114.3 153.67 0))
-    (property "Value" "" (id 1) (at 114.3 184.15 0))
-    (property "Footprint" "" (id 2) (at 114.3 166.37 0)
+    (property "Value" "128K/512K" (id 1) (at 114.3 184.15 0))
+    (property "Footprint" "ZX-Spectrum-Pentagon:PS-22F03" (id 2) (at 114.3 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 114.3 166.37 0)

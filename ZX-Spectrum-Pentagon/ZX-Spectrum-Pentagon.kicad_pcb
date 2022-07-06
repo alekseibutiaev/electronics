@@ -80,20 +80,18 @@
 
   (net 0 "")
 
+  (gr_circle (center 228.6 144.78) (end 232.6 144.78) (layer "B.SilkS") (width 0.1) (fill none) (tstamp 3c121a93-b189-409b-a104-2bdd37ff0b51))
+  (gr_circle (center 215.9 39.37) (end 219.9 39.37) (layer "B.SilkS") (width 0.1) (fill none) (tstamp 6b8ac91e-9d2b-49db-8a80-1da009ad1c5e))
+  (gr_circle (center 127 24.13) (end 131 24.13) (layer "B.SilkS") (width 0.1) (fill none) (tstamp 9b07d532-5f76-4469-8dbf-25ac27eef589))
+  (gr_circle (center 228.6 64.77) (end 232.6 64.77) (layer "B.SilkS") (width 0.1) (fill none) (tstamp c7f7bd58-1ebd-40fd-a39d-a95530a751b6))
   (gr_circle (center 24.13 64.77) (end 28.13 64.77) (layer "B.SilkS") (width 0.1) (fill none) (tstamp dfa5b9a5-8402-4bbe-8735-a86f18a422e3))
   (gr_circle (center 24.13 144.78) (end 28.13 144.78) (layer "B.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-  (gr_circle (center 215.9 39.37) (end 219.9 39.37) (layer "B.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-  (gr_circle (center 228.6 64.77) (end 232.6 64.77) (layer "B.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-  (gr_circle (center 228.6 144.78) (end 232.6 144.78) (layer "B.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-  (gr_circle (center 127 24.13) (end 131 24.13) (layer "B.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-
   (gr_circle (center 24.13 64.77) (end 28.13 64.77) (layer "F.SilkS") (width 0.1) (fill none) (tstamp 28dc37b2-9d45-485a-bbc0-1456d8ef8498))
+  (gr_circle (center 228.6 144.78) (end 232.6 144.78) (layer "F.SilkS") (width 0.1) (fill none) (tstamp 94c3d0e3-d7fb-421d-bbb4-5c800d76c809))
+  (gr_circle (center 228.6 64.77) (end 232.6 64.77) (layer "F.SilkS") (width 0.1) (fill none) (tstamp 9a595c4c-9ac1-4ae3-8ff3-1b7f2281a894))
+  (gr_circle (center 215.9 39.37) (end 219.9 39.37) (layer "F.SilkS") (width 0.1) (fill none) (tstamp a26bdee6-0e16-4ea6-87f7-fb32c714896e))
   (gr_circle (center 24.13 144.78) (end 28.13 144.78) (layer "F.SilkS") (width 0.1) (fill none) (tstamp b3780847-212b-456a-9805-a92650fb4bff))
-  (gr_circle (center 215.9 39.37) (end 219.9 39.37) (layer "F.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-  (gr_circle (center 228.6 64.77) (end 232.6 64.77) (layer "F.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-  (gr_circle (center 228.6 144.78) (end 232.6 144.78) (layer "F.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-  (gr_circle (center 127 24.13) (end 131 24.13) (layer "F.SilkS") (width 0.1) (fill none) (tstamp e72f0def-aa8c-4f49-9b04-539302f0b226))
-
+  (gr_circle (center 127 24.13) (end 131 24.13) (layer "F.SilkS") (width 0.1) (fill none) (tstamp ea28e946-b74f-4ba8-ac7b-b1884c5e7296))
   (gr_line (start 20.32 149.32) (end 20.32 20.32) (layer "Edge.Cuts") (width 0.2) (tstamp 00000000-0000-0000-0000-0000629377c9))
   (gr_line (start 233.42 149.32) (end 20.32 149.32) (layer "Edge.Cuts") (width 0.2) (tstamp 4dc6088c-89a5-4db7-b3ae-db4b6396ad49))
   (gr_line (start 210.54 20.32) (end 233.42 20.32) (layer "Edge.Cuts") (width 0.2) (tstamp 936e2ca6-11ae-4f42-9128-52bb329f3d21))
@@ -104,10 +102,10 @@
   )
 
   (via (at 24.13 64.77) (size 4.6) (drill 4.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 00000000-0000-0000-0000-000062932d3b))
-  (via (at 24.13 144.78) (size 4.6) (drill 4.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp f9865a9f-edb8-49c7-828f-4896e1f3047a))
   (via (at 215.9 39.37) (size 4.6) (drill 4.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 00000000-0000-0000-0000-0000629332c3))
   (via (at 228.6 64.77) (size 4.6) (drill 4.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 00000000-0000-0000-0000-0000629332c4))
   (via (at 228.6 144.78) (size 4.6) (drill 4.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 00000000-0000-0000-0000-00006293368f))
   (via (at 127 24.13) (size 4.6) (drill 4.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp 00000000-0000-0000-0000-000062b3a0c9))
+  (via (at 24.13 144.78) (size 4.6) (drill 4.4) (layers "F.Cu" "B.Cu") (net 0) (tstamp f9865a9f-edb8-49c7-828f-4896e1f3047a))
 
 )

@@ -7,7 +7,6 @@
   (lib_symbols
   )
 
-
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5817,9 +5816,6 @@
     (path "/00000000-0000-0000-0000-000062a83a0a/00000000-0000-0000-0000-000062dd2a50"
       (reference "U7") (unit 6) (value "74HC04") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000063258955"
-      (reference "U8") (unit 1) (value "74HC00") (footprint "Package_DIP:DIP-14_W7.62mm")
-    )
     (path "/00000000-0000-0000-0000-0000630c2d0d/00000000-0000-0000-0000-0000630edd14"
       (reference "U8") (unit 2) (value "74HC00") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
@@ -6023,6 +6019,9 @@
     )
     (path "/00000000-0000-0000-0000-000063f76e84/00000000-0000-0000-0000-000064284777"
       (reference "U49") (unit 1) (value "74HC08") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/00000000-0000-0000-0000-00006296ed1f/2ac5d644-6055-46ab-8e22-a7fb277ef7e4"
+      (reference "U49") (unit 2) (value "74HC08") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636f408d"
       (reference "U50") (unit 1) (value "AD724") (footprint "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm")

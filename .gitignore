@@ -11,4 +11,6 @@ Project Backups
 *.wo
 *.erc*
 *-backups
+*.kicad_prl
+report.txt
 

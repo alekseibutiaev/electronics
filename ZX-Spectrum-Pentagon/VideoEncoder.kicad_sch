@@ -2390,7 +2390,7 @@
     (pin "8" (uuid 1aa386a7-90f6-4c7b-b6af-1adf81053b06))
     (pin "S1" (uuid 35d1cdec-0520-403e-a190-2ae82ad1ce36))
     (pin "S2" (uuid bf3ec985-72fc-498f-8c51-764497874e28))
-    (pin "S3" (uuid 3b48528a-b277-473d-b1ea-aaa2c4c1da0c))
+    (pin "S3" (uuid 3b48528a-b277-473d-b1ea-aaa2c4c1da08))
   )
 
   (symbol (lib_id "power:GND") (at 152.4 41.91 90) (mirror x) (unit 1)

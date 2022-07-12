@@ -37356,6 +37356,18 @@
       (text "CT10" (at 0 6.35 0)
         (effects (font (size 1 1)))
       )
+      (pin no_connect non_logic (at 0 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "5" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "74XX90_0_1"
       (rectangle (start -6.35 -7.62) (end 6.35 7.62)
@@ -37408,6 +37420,10 @@
         (name "D0" (effects (font (size 1.27 1.27))))
         (number "14" (effects (font (size 1.27 1.27))))
       )
+      (pin input line (at -8.89 1.27 0) (length 2.54)
+        (name "R0" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
       (pin input line (at -8.89 -1.27 0) (length 2.54)
         (name "R1" (effects (font (size 1.27 1.27))))
         (number "3" (effects (font (size 1.27 1.27))))
@@ -37423,10 +37439,6 @@
       (pin output line (at 8.89 -1.27 180) (length 2.54)
         (name "Q2" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
-      )
-      (pin input line (at -8.89 1.27 0) (length 2.54)
-        (name "R0" (effects (font (size 1.27 1.27))))
-        (number "~" (effects (font (size 1.27 1.27))))
       )
     )
   )
@@ -37482,6 +37494,32 @@
     )
     (property "ki_fp_filters" "*DIP*14*W7.62mm *SO*14*" (id 5) (at 0 0 0)
       (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "74XX92_0_0"
+      (pin no_connect non_logic (at 0 3.81 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at -1.27 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "2" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at -1.27 -2.54 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "3" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 1.27 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 -1.27 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 -3.81 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
+      )
     )
     (symbol "74XX92_1_1"
       (rectangle (start -6.35 -5.08) (end 6.35 5.08)
@@ -37635,6 +37673,22 @@
       )
       (text "&" (at -5.08 0 0)
         (effects (font (size 1.27 1.27)))
+      )
+      (pin no_connect non_logic (at 0 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "13" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "4" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "6" (effects (font (size 1.27 1.27))))
+      )
+      (pin no_connect non_logic (at 0 0 180) (length 0) hide
+        (name "~" (effects (font (size 1.27 1.27))))
+        (number "7" (effects (font (size 1.27 1.27))))
       )
     )
     (symbol "74XX93_1_1"

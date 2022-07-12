@@ -1288,6 +1288,22 @@
         (text "&" (at -5.08 0 0)
           (effects (font (size 1.27 1.27)))
         )
+        (pin no_connect non_logic (at 0 0 180) (length 0) hide
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "13" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect non_logic (at 0 0 180) (length 0) hide
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect non_logic (at 0 0 180) (length 0) hide
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect non_logic (at 0 0 180) (length 0) hide
+          (name "~" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
       )
       (symbol "74HC93_1_1"
         (rectangle (start -6.35 -6.35) (end 6.35 6.35)
@@ -4007,6 +4023,10 @@
     (property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" (id 3) (at 116.84 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "13" (uuid b6dd8fdc-18a4-46af-939d-0c752bcc943a))
+    (pin "4" (uuid 5ef3d16b-43db-4c4d-8060-1afb4025f177))
+    (pin "6" (uuid 874f12f7-a602-48d5-96fe-a8c1bca85492))
+    (pin "7" (uuid 21a54025-ddab-4e10-9efe-975b980761c5))
     (pin "1" (uuid c37d352d-f5d8-43c0-a18d-fe804c7794d4))
     (pin "10" (uuid 75a5fe21-3c2e-40d4-a982-61510b7e1cae))
     (pin "11" (uuid eb9187aa-3187-4552-8e5d-ef935460bd8d))

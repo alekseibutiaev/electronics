@@ -10,16 +10,16 @@ Location Cyprus ;
 Device   g16v8a ;
 
 /* *************** INPUT PINS *********************/
-PIN 1    =    A0; /* Input - CPU A0 */
-PIN 2    =    A1; /* Input - CPU A1 */
-PIN 3    =    A5; /* Input - CPU A5 */
-PIN 4    =    A7; /* Input - CPU A7  */
+PIN 1    =    A15; /* Input - CPU A0 */
+PIN 2    =    A5; /* Input - CPU A1 */
+PIN 3    =    A7; /* Input - CPU A5 */
+PIN 4    =    NRD; /* Input - CPU A7  */
 PIN 5    =    A14; /* Input - CPU A14 */
-PIN 6    =    A15; /* Input - CPU A15 */
+PIN 6    =    A1; /* Input - CPU A15 */
 PIN 7    =    NIORQ; /* Input - CPU !IORQ. Active Low */
-PIN 8    =    NRD; /* Input - CPU !RD. Active Low */
-PIN 9    =    NWR; /* Input - CPU !WR. Active Low */
-PIN 11   =    NM1; /* Input - CPU !MI. Active Low */
+PIN 8    =    A0; /* Input - CPU !RD. Active Low */
+PIN 9    =    NM1; /* Input - CPU !WR. Active Low */
+PIN 11   =    NWR; /* Input - CPU !MI. Active Low */
 PIN 12   =    NDI_ULA; /* Input - Disable ULA from EDGE connector. Active Low */
 PIN 13   =    DI_32765; /* Input - Disable Memory segment Registor. Active Low */
 

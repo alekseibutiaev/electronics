@@ -3249,7 +3249,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a5d3955-c3d0-4a31-a9b4-f525905f9325)
   )
-  (label "D6" (at 73.66 167.64 180)
+  (label "D5" (at 73.66 167.64 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6a71434d-4657-484d-ab26-a0d1a903bf70)
   )

@@ -29,7 +29,7 @@ PIN 15    =  NOUT254; /* Output - Write To Port 254 */
 PIN 16    =  CS_32765; /* Output - Write To Memory Segment Registor */
 PIN 17    =  BC1; /* Output - Signal BC1 for AY-3-8910 */
 PIN 18    =  BDIR; /* Output - Signal BC1 for AY-3-8910 */
-PIN 19    =  NINKMST; /* Output - Read From Port 31 Kempston Joistic */
+PIN 19    =  DIR; /* Output - Data bus buffer direction */
 
 PORT254 = [A0, !A1, !A5, !A7, NIORQ, NDI_ULA]:#;
 
@@ -43,4 +43,4 @@ BC1 = !A1 & A5 & A7 & A14 & A15 & !NIORQ & NM1;
 
 BDIR = !A1 & A5 & A7 & A15 & !NWR & !NIORQ;
 
-NINKMST = !A1 # !A0 # A7 # A5 # NIORQ # NRD;
+DIR = NRD & NM1;

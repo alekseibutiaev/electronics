@@ -398,7 +398,7 @@
           "/A8",
           "/A9"
         ],
-        "pcb_color": "rgb(0, 128, 0)",
+        "pcb_color": "rgb(0, 0, 128)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -474,7 +474,7 @@
           "/~{RD}",
           "/~{RFSH}"
         ],
-        "pcb_color": "rgb(167, 14, 179)",
+        "pcb_color": "rgb(0, 128, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -501,7 +501,7 @@
           "/D6",
           "/D7"
         ],
-        "pcb_color": "rgb(192, 0, 0)",
+        "pcb_color": "rgb(128, 0, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -522,7 +522,7 @@
           "/PowerIndicator/GND",
           "GND"
         ],
-        "pcb_color": "rgb(0, 0, 128)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
@@ -560,7 +560,7 @@
           "/Memory/MA8",
           "/Memory/MA9"
         ],
-        "pcb_color": "rgb(0, 192, 0)",
+        "pcb_color": "rgb(0, 0, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -587,7 +587,7 @@
           "/MD6",
           "/MD7"
         ],
-        "pcb_color": "rgb(0, 0, 192)",
+        "pcb_color": "rgb(255, 0, 0)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -608,7 +608,7 @@
           "/~{RESET}",
           "Net-(RG4-Pad2)"
         ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(245, 42, 255)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -650,7 +650,7 @@
           "/SCRSEL",
           "/~{CAS}"
         ],
-        "pcb_color": "rgb(192, 192, 0)",
+        "pcb_color": "rgb(90, 127, 153)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -671,7 +671,7 @@
           "/PowerIndicator/VCC",
           "VCC"
         ],
-        "pcb_color": "rgb(128, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.8,
         "via_diameter": 0.8,
@@ -728,7 +728,7 @@
           "/~{INT}",
           "/~{RST}"
         ],
-        "pcb_color": "rgb(128, 128, 128)",
+        "pcb_color": "rgb(122, 255, 178)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,

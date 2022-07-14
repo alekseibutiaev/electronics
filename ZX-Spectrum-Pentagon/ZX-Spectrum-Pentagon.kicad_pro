@@ -398,7 +398,7 @@
           "/A8",
           "/A9"
         ],
-        "pcb_color": "rgb(0, 0, 128)",
+        "pcb_color": "rgb(0, 0, 181)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
@@ -465,6 +465,7 @@
         "name": "BUSCONTROL",
         "nets": [
           "/CPU/BUSACK",
+          "/CPU/DIR",
           "/CPU/~{BUSACK}",
           "/CPU/~{HALT}",
           "/CPU/~{IORQ}",

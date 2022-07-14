@@ -561,7 +561,7 @@
           "/Memory/MA8",
           "/Memory/MA9"
         ],
-        "pcb_color": "rgb(0, 0, 255)",
+        "pcb_color": "rgb(216, 41, 253)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,

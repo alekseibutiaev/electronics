@@ -21,15 +21,15 @@ PIN 8    =    A0; /* Input - CPU A0 */
 PIN 9    =    NM1; /* Input - CPU !MI. Active Low */
 PIN 11   =    NWR; /* Input - CPU !WR. Active Low */
 PIN 12   =    NDI_ULA; /* Input - Disable ULA from EDGE connector. Active Low */
-PIN 13   =    DI_32765; /* Input - Disable Memory segment Registor. Active Low */
+PIN 15   =    DI_32765; /* Input - Disable Memory segment Registor. Active Low */
 
 /* *************** OUTPUT PINS *********************/
-PIN 14    =  NIN254; /* Output - Read From Port 254 */
-PIN 15    =  NOUT254; /* Output - Write To Port 254 */
-PIN 16    =  CS_32765; /* Output - Write To Memory Segment Registor */
-PIN 17    =  BC1; /* Output - Signal BC1 for AY-3-8910 */
-PIN 18    =  BDIR; /* Output - Signal BC1 for AY-3-8910 */
-PIN 19    =  DIR; /* Output - Data bus buffer direction */
+PIN 13    =  BC1; /* Output - Signal BC1 for AY-3-8910 */
+PIN 14    =  BDIR; /* Output - Signal BC1 for AY-3-8910 */
+PIN 16    =  NIN254; /* Output - Read From Port 254. Active Low */
+PIN 17    =  NOUT254; /* Output - Write To Port 254. Active Low */
+PIN 18    =  CS_32765; /* Output - Write To Memory Segment Registor */
+PIN 19    =  DIR; /* Output - Data bus buffer direction low from bus to CPU */
 
 PORT254 = [A0, !A1, !A5, !A7, NIORQ, NDI_ULA]:#;
 

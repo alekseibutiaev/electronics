@@ -3422,7 +3422,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid acdf493d-739a-4d35-8c1e-df996214cc4e)
   )
-  (label "CBRDG" (at 78.74 165.1 0)
+  (label "CBRDR" (at 78.74 165.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid af3bf9a4-bacc-4c97-80b2-8505239c4034)
   )
@@ -4955,9 +4955,6 @@
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000066070525"
       (reference "#PWR030") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062cb7136"
-      (reference "#PWR031") (unit 1) (value "VCC") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062f06981"
       (reference "#PWR032") (unit 1) (value "VCC") (footprint "")
     )
@@ -5077,6 +5074,12 @@
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062b90e90"
       (reference "#PWR072") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062a08194/08213452-ca5c-4cf6-8d31-90cc528023d7"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062a08194/884b6039-71ed-4eda-988e-e1ef03e29c9d"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062a08194/6b4c881c-e5fb-4bc1-bae8-078b4c591314"
       (reference "#PWR10000") (unit 1) (value "AYVCC") (footprint "")
@@ -5804,8 +5807,8 @@
     (path "/00000000-0000-0000-0000-0000630c2d0d/00000000-0000-0000-0000-0000630c909e"
       (reference "U17") (unit 1) (value "74HC257") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bbd058"
-      (reference "U18") (unit 1) (value "74HC273") (footprint "Package_DIP:DIP-20_W7.62mm")
+    (path "/00000000-0000-0000-0000-000062a08194/ed9207ef-5740-4f08-aa2c-dc6603a1c704"
+      (reference "U18") (unit 1) (value "74HC574") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006318ffce"
       (reference "U19") (unit 1) (value "AY-3-8910") (footprint "Package_DIP:DIP-40_W15.24mm")
@@ -5819,11 +5822,8 @@
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000063a0dc84"
       (reference "U22") (unit 1) (value "LM311") (footprint "Package_DIP:DIP-8_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062f40619"
-      (reference "U23") (unit 1) (value "74HC244") (footprint "Package_DIP:DIP-20_W7.62mm")
-    )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062f3fae9"
-      (reference "U23") (unit 2) (value "74HC244") (footprint "Package_DIP:DIP-20_W7.62mm")
+    (path "/00000000-0000-0000-0000-000062a08194/9f6e5684-f491-437a-a083-c49f21fd5dc4"
+      (reference "U23") (unit 1) (value "74HC245") (footprint "Package_DIP:DIP-20_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/ea8fca53-0d3f-445e-9882-438f09a90184"
       (reference "U24") (unit 1) (value "74HC245") (footprint "Package_DIP:DIP-20_W7.62mm")

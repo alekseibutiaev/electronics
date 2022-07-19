@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 47,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
@@ -64,7 +64,7 @@
       37
     ],
     "visible_layers": "003ff7f_80000001",
-    "zone_display_mode": 1
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "ZX-Spectrum-Pentagon.kicad_prl",

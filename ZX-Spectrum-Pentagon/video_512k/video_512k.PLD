@@ -16,11 +16,11 @@ PIN 4 = PA6; /**/
 PIN 5 = PA7; /**/ 
 PIN 6 = DI512K; /**/ 
 /**************** OUTPUT PINS *********************/
-PIN 12 = GPA6; /**/ 
-PIN 13 = GPA7; /**/ 
-PIN 14 = MUX; /**/
+PIN 17 = MUX; /**/ 
+PIN 18 = GPA6; /**/ 
+PIN 19 = GPA7; /**/
 
-PinNode [16..19] = [Q0..3];
+PinNode [12..15] = [Q0..3];
 
 Q0.d = !Q0;
 Q1.d = (!Q1 & Q0) # (Q1 & !Q0);

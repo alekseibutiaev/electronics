@@ -24,8 +24,8 @@ PIN 12   =    NDI_ULA; /* Input - Disable ULA from EDGE connector. Active Low */
 PIN 13   =    DI_32765; /* Input - Disable Memory segment Registor. Active Low */
 
 /* *************** OUTPUT PINS *********************/
-PIN 14    =  BC1; /* Output - Signal BC1 for AY-3-8910 */
-PIN 15    =  BDIR; /* Output - Signal BC1 for AY-3-8910 */
+PIN 14    =  BDIR; /* Output - Signal BC1 for AY-3-8910 */
+PIN 15    =  BC1; /* Output - Signal BC1 for AY-3-8910 */
 PIN 16    =  NIN254; /* Output - Read From Port 254. Active Low */
 PIN 17    =  NOUT254; /* Output - Write To Port 254. Active Low */
 PIN 18    =  CS_32765; /* Output - Write To Memory Segment Registor */

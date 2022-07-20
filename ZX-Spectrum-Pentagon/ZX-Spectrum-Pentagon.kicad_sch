@@ -3489,7 +3489,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid acdf493d-739a-4d35-8c1e-df996214cc4e)
   )
-  (label "CBRDG" (at 78.74 165.1 0)
+  (label "CBRDR" (at 78.74 165.1 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid af3bf9a4-bacc-4c97-80b2-8505239c4034)
   )

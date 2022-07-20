@@ -254,7 +254,7 @@
   )
 
   (no_connect (at 77.47 125.73) (uuid 2942a805-25c4-4562-9488-1d04bc2c28e9))
-  (no_connect (at 67.31 124.46) (uuid 2942a805-25c4-4562-9488-1d04bc2c28ea))
+  (no_connect (at 67.31 125.73) (uuid 2942a805-25c4-4562-9488-1d04bc2c28ea))
 
   (wire (pts (xy 50.8 38.1) (xy 50.8 53.34))
     (stroke (width 0) (type default) (color 0 0 0 0))

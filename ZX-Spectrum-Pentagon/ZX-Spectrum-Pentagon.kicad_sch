@@ -3686,7 +3686,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid eb0c8305-b80f-439e-83e0-5993733b2d1c)
   )
-  (label "TTYG" (at 124.46 144.78 180)
+  (label "TTLG" (at 124.46 144.78 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid eb4881ec-9235-42d2-bc80-a512598c9f6b)
   )

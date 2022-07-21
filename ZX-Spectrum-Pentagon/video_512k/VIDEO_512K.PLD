@@ -9,15 +9,15 @@ Location Cyprus ;
 Device   g16v8a ;
 
 /**************** INPUT PINS **********************/
-PIN 1 = F25HZ; /**/ 
-PIN 2 = SERDATA; /**/ 
+PIN 1 = F25HZ; /**/
+PIN 2 = SERDATA; /**/
 PIN 3 = FLASH_BIT; /**/
-PIN 4 = PA6; /**/ 
-PIN 5 = PA7; /**/ 
-PIN 6 = DI512K; /**/ 
+PIN 4 = PA7; /**/
+PIN 5 = PA6; /**/
+PIN 6 = DI512K; /**/
 /**************** OUTPUT PINS *********************/
-PIN 17 = MUX; /**/ 
-PIN 18 = GPA6; /**/ 
+PIN 17 = MUX; /**/
+PIN 18 = GPA6; /**/
 PIN 19 = GPA7; /**/
 
 PinNode [12..15] = [Q0..3];

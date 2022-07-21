@@ -7,7 +7,6 @@
   (lib_symbols
   )
 
-
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5439,12 +5438,6 @@
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c0fa26"
       (reference "JIOKB2") (unit 1) (value "Conn_01x08_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/96a3f578-01fb-437b-ad63-494fb9444a25"
-      (reference "JP1") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/72ce85fa-618d-488d-9901-5b543fcad2d3"
-      (reference "JP2") (unit 1) (value "SolderJumper_2_Bridged") (footprint "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm")
-    )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062b64645"
       (reference "JPS1") (unit 1) (value "Power_Jack") (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002")
     )
@@ -5965,7 +5958,7 @@
       (reference "YVE1") (unit 1) (value "3.579545MHz OR 14.318180MHz") (footprint "Crystal:Crystal_HC49-U_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063626ebb"
-      (reference "YVE2") (unit 1) (value "4.433618MHz or 17.734480MHz") (footprint "Crystal:Crystal_HC49-U_Vertical")
+      (reference "YVE2") (unit 1) (value "4.433619MHz or 17.734480MHz") (footprint "Crystal:Crystal_HC49-U_Vertical")
     )
   )
 )

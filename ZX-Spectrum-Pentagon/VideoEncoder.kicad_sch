@@ -3199,7 +3199,7 @@
     (pin "2" (uuid 5c4561c9-e654-4300-9375-52e45b592abf))
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 190.5 68.58 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 190.5 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 1eb76fd5-a852-4f2e-bc83-0522a75778ac)
     (property "Reference" "CVE2" (id 0) (at 194.31 66.04 0))
@@ -3230,7 +3230,7 @@
     (pin "3" (uuid 0bfb99d0-dc12-4822-aa06-14fb74d2ea7a))
   )
 
-  (symbol (lib_id "Device:C_Polarized") (at 177.8 68.58 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized") (at 177.8 68.58 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 51e09a0e-0662-47ae-b867-91e3e0be9fbe)
     (property "Reference" "CVE1" (id 0) (at 181.61 66.4209 0))

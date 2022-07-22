@@ -448,7 +448,7 @@
     (pin "2" (uuid f9399130-c5ba-48ae-ab7e-129903dd1209))
   )
 
-  (symbol (lib_id "74IEC:74HC14") (at 72.39 125.73 0) (unit 6)
+  (symbol (lib_id "74IEC:74HC14") (at 72.39 125.73 0) (unit 4)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d051a85f-0ae0-413a-9603-a7e210cddc59)
     (property "Reference" "U2" (id 0) (at 72.39 118.11 0))

@@ -1688,7 +1688,7 @@
     (pin "9" (uuid f2a398d5-2ffd-42ac-9b73-e7e865b10b90))
   )
 
-  (symbol (lib_id "74IEC:74HC32") (at 53.34 113.03 0) (unit 2)
+  (symbol (lib_id "74IEC:74HC32") (at 53.34 113.03 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062dfc85f)
     (property "Reference" "U31" (id 0) (at 53.34 109.22 0))

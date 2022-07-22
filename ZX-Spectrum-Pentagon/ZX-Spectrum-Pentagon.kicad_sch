@@ -3178,7 +3178,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 69dd3c47-0321-4a38-8540-440db123f2b5)
   )
-  (label "RST" (at 27.94 180.34 0)
+  (label "~{RST}" (at 27.94 180.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6a5d3955-c3d0-4a31-a9b4-f525905f9325)
   )

@@ -1553,7 +1553,7 @@
     (pin "13" (uuid 4921b497-860e-4d91-a900-5c8e241c4f18))
   )
 
-  (symbol (lib_id "74IEC:74HC08") (at 68.58 104.14 0) (unit 2)
+  (symbol (lib_id "74IEC:74HC08") (at 68.58 104.14 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062defffa)
     (property "Reference" "U34" (id 0) (at 68.58 100.33 0))
@@ -1580,7 +1580,7 @@
     (pin "13" (uuid ba09383b-077f-4a6c-b5a6-b4f1369236f6))
   )
 
-  (symbol (lib_id "74IEC:74HC08") (at 97.79 93.98 0) (unit 1)
+  (symbol (lib_id "74IEC:74HC08") (at 97.79 93.98 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062df1e63)
     (property "Reference" "U34" (id 0) (at 97.79 90.17 0))

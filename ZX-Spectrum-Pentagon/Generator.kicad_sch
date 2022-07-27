@@ -2188,10 +2188,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid adbcd1e4-0e0c-4322-a350-4f4e5d419c79)
   )
-  (bus_entry (at -106.68 182.88) (size 2.54 2.54)
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ae212a28-ec35-46d8-bd37-d343067cb140)
-  )
   (bus_entry (at 257.81 78.74) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid b5084584-8ff3-45af-8e97-14928b9bc160)
@@ -4369,7 +4365,7 @@
     (pin "9" (uuid be34c3e3-5809-4ec5-9714-b4f3d9953c4f))
   )
 
-  (symbol (lib_id "74IEC:74HC04") (at 35.56 63.5 0) (unit 6)
+  (symbol (lib_id "74IEC:74HC04") (at 35.56 63.5 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062adf546)
     (property "Reference" "U1" (id 0) (at 35.56 59.69 0))
@@ -4396,7 +4392,7 @@
     (pin "13" (uuid 785da008-8668-41fb-9256-4e1025e42947))
   )
 
-  (symbol (lib_id "74IEC:74HC04") (at 82.55 91.44 0) (unit 5)
+  (symbol (lib_id "74IEC:74HC04") (at 82.55 91.44 0) (unit 6)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b1656a)
     (property "Reference" "U1" (id 0) (at 82.55 87.63 0))
@@ -4423,7 +4419,7 @@
     (pin "13" (uuid 6327d705-02e0-4ca9-adda-a9e7c5084fd1))
   )
 
-  (symbol (lib_id "74IEC:74HC04") (at 81.28 67.31 0) (unit 4)
+  (symbol (lib_id "74IEC:74HC04") (at 81.28 67.31 0) (unit 5)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b8e952)
     (property "Reference" "U1" (id 0) (at 81.28 63.5 0))
@@ -4560,7 +4556,7 @@
     (pin "9" (uuid 01f656ea-e7c3-40ef-aab2-44b098f7ca79))
   )
 
-  (symbol (lib_id "74IEC:74HC08") (at 69.85 184.15 0) (unit 3)
+  (symbol (lib_id "74IEC:74HC08") (at 69.85 184.15 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062cb6240)
     (property "Reference" "U12" (id 0) (at 69.85 180.34 0))
@@ -4710,7 +4706,7 @@
     (pin "2" (uuid 9b6a354d-4216-4601-a4de-861d15b1ccd1))
   )
 
-  (symbol (lib_id "74IEC:74HC08") (at 67.31 146.05 0) (unit 4)
+  (symbol (lib_id "74IEC:74HC08") (at 67.31 146.05 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062edf5e7)
     (property "Reference" "U12" (id 0) (at 67.31 142.24 0))

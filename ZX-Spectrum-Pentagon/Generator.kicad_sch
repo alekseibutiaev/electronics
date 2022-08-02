@@ -4167,7 +4167,7 @@
     (pin "1" (uuid 9d086c7d-0512-4452-9308-293ebcc1716d))
   )
 
-  (symbol (lib_id "74IEC:74HC14") (at 60.96 27.94 0) (unit 2)
+  (symbol (lib_id "74IEC:74HC14") (at 60.96 27.94 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000629bf100)
     (property "Reference" "U2" (id 0) (at 60.96 24.13 0))
@@ -4194,7 +4194,7 @@
     (pin "13" (uuid 11dc7835-6d4e-4560-870b-809989c6b7b8))
   )
 
-  (symbol (lib_id "74IEC:74HC14") (at 73.66 27.94 0) (unit 3)
+  (symbol (lib_id "74IEC:74HC14") (at 73.66 27.94 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000629c03dd)
     (property "Reference" "U2" (id 0) (at 73.66 24.13 0))
@@ -4311,7 +4311,7 @@
     (pin "1" (uuid f2ce72ce-e219-4e36-a67c-d823b8effbed))
   )
 
-  (symbol (lib_id "74IEC:74HC04") (at 172.72 30.48 0) (unit 3)
+  (symbol (lib_id "74IEC:74HC04") (at 172.72 30.48 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062a0fcb3)
     (property "Reference" "U1" (id 0) (at 172.72 26.67 0))
@@ -4365,7 +4365,7 @@
     (pin "9" (uuid be34c3e3-5809-4ec5-9714-b4f3d9953c4f))
   )
 
-  (symbol (lib_id "74IEC:74HC04") (at 35.56 63.5 0) (unit 4)
+  (symbol (lib_id "74IEC:74HC04") (at 35.56 63.5 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062adf546)
     (property "Reference" "U1" (id 0) (at 35.56 59.69 0))
@@ -4583,7 +4583,7 @@
     (pin "13" (uuid e8ba290a-454c-4ab7-8787-11f4300b55f0))
   )
 
-  (symbol (lib_id "74IEC:74HC00") (at 82.55 102.87 0) (unit 3)
+  (symbol (lib_id "74IEC:74HC00") (at 82.55 102.87 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062cc2d73)
     (property "Reference" "U8" (id 0) (at 82.55 99.06 0))
@@ -4787,7 +4787,7 @@
     (pin "9" (uuid 6b10a05f-143f-4279-a70b-b34c833d120c))
   )
 
-  (symbol (lib_id "74IEC:74HC86") (at 110.49 104.14 0) (unit 1)
+  (symbol (lib_id "74IEC:74HC86") (at 110.49 104.14 0) (unit 2)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000631db83a)
     (property "Reference" "U9" (id 0) (at 110.49 100.33 0))
@@ -4814,7 +4814,7 @@
     (pin "13" (uuid cde1c1ce-e9ae-4623-a53f-c78d511c4fc0))
   )
 
-  (symbol (lib_id "74IEC:74HC86") (at 110.49 114.3 0) (unit 2)
+  (symbol (lib_id "74IEC:74HC86") (at 110.49 114.3 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000631e3aca)
     (property "Reference" "U9" (id 0) (at 110.49 110.49 0))
@@ -4868,7 +4868,7 @@
     (pin "13" (uuid 1075ee2e-15c7-4751-9cb8-75670d64edce))
   )
 
-  (symbol (lib_id "74IEC:74HC14") (at 232.41 93.98 0) (unit 6)
+  (symbol (lib_id "74IEC:74HC14") (at 232.41 93.98 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006347b91a)
     (property "Reference" "U2" (id 0) (at 232.41 90.17 0))

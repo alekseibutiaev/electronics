@@ -17,8 +17,8 @@ PIN 5 = PA6; /**/
 PIN 6 = DI512K; /**/
 /**************** OUTPUT PINS *********************/
 PIN 17 = MUX; /**/
-PIN 18 = GPA6; /**/
-PIN 19 = GPA7; /**/
+PIN 18 = GPA7; /**/
+PIN 19 = GPA6; /**/
 
 PinNode [12..15] = [Q0..3];
 

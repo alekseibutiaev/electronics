@@ -4492,7 +4492,7 @@
     (pin "13" (uuid 81cfac4b-268f-45c2-b729-f68265b10021))
   )
 
-  (symbol (lib_id "74IEC:74HC00") (at 71.12 186.69 0) (unit 1)
+  (symbol (lib_id "74IEC:74HC00") (at 71.12 186.69 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid 68299595-443a-4464-a875-abf8e3cbeb90)
     (property "Reference" "U8" (id 0) (at 71.12 182.88 0))

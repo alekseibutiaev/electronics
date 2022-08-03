@@ -12,4 +12,6 @@ Project Backups
 *.erc*
 *-backups
 report.txt
+*.zip
+*gerber
 

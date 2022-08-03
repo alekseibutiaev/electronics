@@ -3,7 +3,6 @@
   (fp_line (start -38.10 4.59) (end -35.56 4.59) (layer Edge.Cuts) (width 0.2))
   (fp_line (start -35.56 4.59) (end -35.56 -3.81) (layer Edge.Cuts) (width 0.2))
   (fp_line (start -35.56 -3.81) (end -25.13 -3.81) (layer Edge.Cuts) (width 0.2))
-  (fp_line (start -35.56 -3.81) (end -25.13 -3.81) (layer Edge.Cuts) (width 0.2))
   (fp_line (start -25.13 -3.81) (end -25.13 4.59) (layer Edge.Cuts) (width 0.2))
   (fp_line (start -25.13 4.59) (end -23.13 4.59) (layer Edge.Cuts) (width 0.2))
   (fp_line (start -23.13 4.59) (end -23.13 -3.81) (layer Edge.Cuts) (width 0.2))

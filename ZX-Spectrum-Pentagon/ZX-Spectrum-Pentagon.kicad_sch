@@ -7,6 +7,7 @@
   (lib_symbols
   )
 
+
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -94,6 +95,10 @@
   (bus_entry (at 127 91.44) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1ea632a2-2270-46c5-888a-7f26b7bf7e81)
+  )
+  (bus_entry (at 76.2 60.96) (size 2.54 2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 1eb16c9d-14b9-4c1f-b129-f721173db96f)
   )
   (bus_entry (at 127 114.3) (size -2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -946,6 +951,10 @@
   (bus_entry (at 127 104.14) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ed24e4a6-9e3c-4213-af83-9b329b43414b)
+  )
+  (bus_entry (at 73.66 185.42) (size 2.54 -2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid f9bfaf76-4cf5-4c07-ac44-cb5ee53344d6)
   )
   (bus_entry (at 25.4 17.78) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -2196,6 +2205,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a9b140aa-8742-4641-b879-04b873a71492)
   )
+
+  (wire (pts (xy 63.5 185.42) (xy 73.66 185.42))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid aa821eea-1e7f-4e37-a608-e0d1a6808b5c)
+  )
   (bus (pts (xy 127 137.16) (xy 127 139.7))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ab1f43d7-a483-47e5-9f25-976ae3dff647)
@@ -2560,6 +2574,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e093b8a1-14c3-49c3-922a-0b852a670a87)
   )
+  (wire (pts (xy 78.74 63.5) (xy 88.9 63.5))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid e0bd4594-ce0c-485c-85bf-5b80727d18b8)
+  )
   (wire (pts (xy 129.54 109.22) (xy 139.7 109.22))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid e0d95a70-6700-4158-aae8-66cf1459e2ca)
@@ -2865,6 +2883,10 @@
   (label "SA5" (at 73.66 60.96 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 116c5bef-7d4a-456f-bcce-586ddecd4fef)
+  )
+  (label "TAPEINTTL" (at 73.66 185.42 180)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 13086ebd-c666-4c80-be61-2287786d282e)
   )
   (label "CBRDB" (at 73.66 177.8 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -3341,6 +3363,10 @@
   (label "SA2" (at 73.66 53.34 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 968876f6-82e7-4e81-aa4a-d5e5e11ed1a1)
+  )
+  (label "TAPEINTTL" (at 78.74 63.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 971037e8-a0e5-4c30-9a5f-c168e21b1537)
   )
   (label "PA6" (at 78.74 170.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -4065,6 +4091,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6828462d-b1dc-4012-bb30-d4d4096db45a)
     )
+    (pin "TAPEINTTL" input (at 88.9 63.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 69a696b0-a2e2-4f91-9654-bb0b901a6be7)
+    )
   )
 
   (sheet (at 38.1 86.36) (size 25.4 12.7) (fields_autoplaced)
@@ -4204,6 +4234,10 @@
     (pin "CBRDG" output (at 63.5 182.88 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b3fce7a1-b333-47f9-bc1e-a57067c49192)
+    )
+    (pin "TAPEINTTL" output (at 63.5 185.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 33e80cd6-7eec-42f0-8afa-9ce58cf2a228)
     )
   )
 
@@ -4852,9 +4886,6 @@
   (symbol_instances
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006607052e"
       (reference "#FLG01") (unit 1) (value "PWR_FLAG") (footprint "")
-    )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063454342"
-      (reference "#FLG02") (unit 1) (value "PWR_FLAG") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/ec40c0ac-b825-4b6b-84f2-e3532c9781ed"
       (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
@@ -5655,7 +5686,7 @@
       (reference "RVF1") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/0f30c589-1da9-44c3-9669-b2064ce8998b"
-      (reference "SWCPU1") (unit 1) (value "ROMSELECT") (footprint "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile")
+      (reference "SWCPU1") (unit 1) (value "ROMSELECT") (footprint "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006347b936"
       (reference "SWG1") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS")

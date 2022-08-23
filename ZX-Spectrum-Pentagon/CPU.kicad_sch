@@ -1105,7 +1105,7 @@
         (polyline
           (pts
             (xy 2.54 -12.7)
-            (xy 12.7 -12.7)
+            (xy 11.43 -12.7)
           )
           (stroke (width 0) (type default) (color 0 0 0 0))
           (fill (type none))
@@ -3329,7 +3329,6 @@
     )
   )
 
-
   (junction (at 144.78 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 10fdbb84-b46d-441c-ab6c-c1010168e0dd)
   )
@@ -5429,7 +5428,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4ee66751-3862-48ff-b330-b659c8c610ca)
   )
-  (bus (pts (xy 135.89 161.29) (xy 135.89 172.72))
+  (bus (pts (xy 135.89 161.29) (xy 135.89 175.26))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 4f335857-0071-4f87-9469-0b95367307c6)
   )
@@ -6466,10 +6465,6 @@
   (bus (pts (xy 207.01 45.72) (xy 207.01 48.26))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a9fbc975-9a9e-48a2-a313-21a9f1899e67)
-  )
-  (bus (pts (xy 135.89 172.72) (xy 135.89 175.26))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid ab84da46-e8b6-47b2-ba64-b27d41f048c7)
   )
 
   (wire (pts (xy 162.56 133.35) (xy 171.45 133.35))

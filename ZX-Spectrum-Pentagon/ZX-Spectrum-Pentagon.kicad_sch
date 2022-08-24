@@ -7,7 +7,6 @@
   (lib_symbols
   )
 
-
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5971,7 +5970,7 @@
       (reference "U48") (unit 1) (value "74HC257") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636f408d"
-      (reference "U50") (unit 1) (value "AD724") (footprint "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm")
+      (reference "U50") (unit 1) (value "AD724") (footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000065bad180"
       (reference "UPS1") (unit 1) (value "ST662") (footprint "Package_DIP:DIP-8_W7.62mm")

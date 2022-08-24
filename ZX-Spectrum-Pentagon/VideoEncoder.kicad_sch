@@ -2976,7 +2976,7 @@
     (uuid 00000000-0000-0000-0000-0000636f408d)
     (property "Reference" "U50" (id 0) (at 137.16 116.84 0))
     (property "Value" "AD724" (id 1) (at 137.16 142.24 0))
-    (property "Footprint" "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm" (id 2) (at 137.16 111.76 0)
+    (property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" (id 2) (at 137.16 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 137.16 111.76 0)

@@ -5853,7 +5853,7 @@
       (reference "U?") (unit 1) (value "AY-3-8912_DUMMY") (footprint "Package_DIP:DIP-28_W15.24mm")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636f408d"
-      (reference "U?") (unit 1) (value "AD724") (footprint "Package_SO:SOIC-16W_5.3x10.2mm_P1.27mm")
+      (reference "U?") (unit 1) (value "AD724") (footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000063f76e84/00000000-0000-0000-0000-00006372cef6"
       (reference "U?") (unit 1) (value "74HC541") (footprint "Package_DIP:DIP-20_W7.62mm")

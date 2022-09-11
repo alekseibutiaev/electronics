@@ -451,7 +451,7 @@
   (symbol (lib_id "74IEC:74HC14") (at 72.39 125.73 0) (unit 6)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid d051a85f-0ae0-413a-9603-a7e210cddc59)
-    (property "Reference" "U9" (id 0) (at 72.39 118.11 0))
+    (property "Reference" "U2" (id 0) (at 72.39 118.11 0))
     (property "Value" "74HC14" (id 1) (at 72.39 120.65 0))
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 72.39 120.396 0)
       (effects (font (size 1.27 1.27)) hide)

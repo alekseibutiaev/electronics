@@ -5114,11 +5114,14 @@
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062e5caff"
       (reference "#PWR072") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063ad0237"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/bdaf0366-89fe-43cf-81bd-141b54c012d0"
       (reference "#PWR073") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062b90e90"
       (reference "#PWR074") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062bf0f7b/ee469517-f735-4672-adf5-5d461ce2adf9"
+      (reference "#PWR075") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006298b702"
       (reference "CG1") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5477,6 +5480,9 @@
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062b64645"
       (reference "JPS1") (unit 1) (value "Power_Jack") (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002")
     )
+    (path "/00000000-0000-0000-0000-000062bf0f7b/974eee37-9c6d-448d-b520-31fdf87052d6"
+      (reference "JPVE1") (unit 1) (value "FSC/4FSC") (footprint "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm")
+    )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063ee0925"
       (reference "JVE1") (unit 1) (value "SYNC/LUMA") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
@@ -5681,14 +5687,17 @@
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062ec4738"
       (reference "RVE24") (unit 1) (value "75") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063aeb9d7"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/43af0bc2-cd89-496d-b7c7-a78dda52b5f9"
       (reference "RVE25") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636ff656"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063aeb9d7"
       (reference "RVE26") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636fc84d"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636ff656"
       (reference "RVE27") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636fc84d"
+      (reference "RVE28") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062fd43ab/00000000-0000-0000-0000-0000639a492b"
       (reference "RVF1") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -5738,7 +5747,7 @@
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006347b914"
       (reference "U2") (unit 5) (value "74HC14") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-0000664fb8ad/d051a85f-0ae0-413a-9603-a7e210cddc59"
+    (path "/00000000-0000-0000-0000-00006296e6c7/7a32bb26-5477-4fdd-8708-e9d3134f0186"
       (reference "U2") (unit 6) (value "74HC14") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006293a18d"

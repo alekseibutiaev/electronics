@@ -6000,7 +6000,7 @@
       (reference "UPS2") (unit 1) (value "LM2596S-5.0V") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-00006319af68"
-      (reference "XMCPU1") (unit 1) (value "EDGE-28M5") (footprint "ZX-Spectrum-Pentagon:EDGE_28M5-2.54")
+      (reference "XMCPU1") (unit 1) (value "EDGE-28M5") (footprint "ZX-Spectrum-Pentagon:EDGE_28M5-2.54_n")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006297472b"
       (reference "YG1") (unit 1) (value "14MHZ") (footprint "Crystal:Crystal_HC49-U_Vertical")

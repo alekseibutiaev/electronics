@@ -1,6 +1,8 @@
 #!/bin/bash
 
-set -x
+#set -x
+# use edge_gen.sh [PAIR_NUM] [KEY_NUM]
+
 #footprint
 # -X | +X
 # -Y | -Y
@@ -17,15 +19,16 @@ set -x
 
 #3.81 4.59
 
-
 edge_footprint_mail () {
+  a="9.6"
+  b="5.2"
+
   step="2.54"
   half_step=`echo "scale=2 ; ${step} / 2" | bc`
-  bshift=${half_step}
-  ashift=`echo "scale=2; ${half_step} * 3" | bc`
+  ashift=`echo "scale=2; ${a} / 2" | bc`
+  bshift=`echo "scale=2; ${b} / 2" | bc`
   crtydya="4"
   crtydyb="5"
-
 
   count=${1}
   key=${2}
@@ -40,8 +43,12 @@ edge_footprint_mail () {
   xb=`echo "-${step} * ${half} - ${bshift} + ${shift_}" | bc`
   xc=`echo "${step} * ${half} + ${bshift} - ${shift_}" | bc`
   xd=`echo "${step} * ${half} + ${ashift} - ${shift_}" | bc`
-  xxa=`echo "-${step} * ${half} - ${crtydya} + ${shift_}" | bc`
-  xxb=`echo "${step} * ${half} + ${crtydya} - ${shift_}" | bc`
+  echo "xa=${xa} xb=${xb} xc=${xc} xd=${xd} ashift=${ashift} bshift=${bshift} shift_=${shift_}"
+#  xxa=`echo "-${step} * ${half} - ${crtydya} - ${shift_}" | bc`
+#  xxb=`echo "${step} * ${half} + ${crtydya} + ${shift_}" | bc`
+  xxa=`echo "${xa} - ${shift_}" | bc`
+  xxb=`echo "${xd} + ${shift_}" | bc`
+  
   tedit=`printf "%04X%04X\n" ${RANDOM} ${RANDOM}`
   echo "(module EDGE-${count}-${step} (layer F.Cu) (tedit ${tedit})" > ${outfile}
   echo "  (fp_line (start ${xa} -3.81) (end ${xa} 4.59) (layer Edge.Cuts) (width 0.2))" >> ${outfile}

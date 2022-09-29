@@ -9123,7 +9123,7 @@
     (uuid 00000000-0000-0000-0000-00006319af68)
     (property "Reference" "XMCPU1" (id 0) (at 154.94 87.63 0))
     (property "Value" "EDGE-28M5" (id 1) (at 154.94 161.29 0))
-    (property "Footprint" "ZX-Spectrum-Pentagon:EDGE_28M5-2.54_n" (id 2) (at 154.94 85.09 0)
+    (property "Footprint" "ZX-Spectrum-Pentagon:EDGE_28M5-2.54" (id 2) (at 154.94 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 154.94 85.09 0)

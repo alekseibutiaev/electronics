@@ -13,5 +13,6 @@ Project Backups
 *-backups
 *.kicad_prl
 *gerber*
+*.rom
 report.txt
 

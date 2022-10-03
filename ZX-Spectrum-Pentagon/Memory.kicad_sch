@@ -3170,6 +3170,11 @@
     (uuid ff700fed-a1bd-48ec-8944-ec17cd564a53)
   )
 
+  (text "U8C" (at 96.52 193.04 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 15bbc30c-f986-4256-b62f-c02a78fade71)
+  )
+
   (label "SA8" (at 40.64 118.11 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 018b9150-efac-4abd-9e96-98bca53dc0e8)

@@ -11,6 +11,9 @@ Project Backups
 *.wo
 *.erc*
 *-backups
+*.kicad_prl
+*gerber*
+*.rom
 report.txt
 *.zip
 *gerber

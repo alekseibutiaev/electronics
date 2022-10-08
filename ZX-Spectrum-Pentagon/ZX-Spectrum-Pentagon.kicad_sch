@@ -5090,9 +5090,6 @@
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062d3f1e4"
       (reference "#PWR064") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062c0f5f3"
-      (reference "#PWR065") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000631447cc"
       (reference "#PWR066") (unit 1) (value "GND") (footprint "")
     )
@@ -5381,9 +5378,6 @@
     (path "/00000000-0000-0000-0000-000062bf0f7b/ec8e7c5d-7c91-464e-887e-542c965c8ad9"
       (reference "CVE8") (unit 1) (value "220uF/6V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062ed6a25"
-      (reference "CVE9") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062c39059"
       (reference "CVE10") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -5484,10 +5478,10 @@
       (reference "JPS1") (unit 1) (value "Power_Jack") (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063ee0925"
-      (reference "JVE1") (unit 1) (value "SYNC/LUMA") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "JVE1") (unit 1) (value "SYNC/CVIDEO") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062baad99"
-      (reference "JVE2") (unit 1) (value "SVIDEO") (footprint "ZX-Spectrum-Pentagon:CUI_MD-80SGK")
+    (path "/00000000-0000-0000-0000-000062bf0f7b/c5155ffc-6369-4298-9af7-3fe903c7d13d"
+      (reference "JVE2") (unit 1) (value "SVIDEO") (footprint "Mini-DIN:CUI_MD-80SMK")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063743a78"
       (reference "JVE3") (unit 1) (value "PAL/NTSC") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
@@ -5990,7 +5984,7 @@
     (path "/00000000-0000-0000-0000-000063f76e84/00000000-0000-0000-0000-000063fc2f5d"
       (reference "U48") (unit 1) (value "74HC257") (footprint "Package_DIP:DIP-16_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000636f408d"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/936e4ac0-6a60-4d23-80c4-194415a770ae"
       (reference "U49") (unit 1) (value "AD724") (footprint "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000065bad180"

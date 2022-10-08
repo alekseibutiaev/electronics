@@ -942,6 +942,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "MD-80_0_1"
+      (rectangle (start -6.35 5.715) (end 6.35 -6.35)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
       (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
         (stroke (width 0.254) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -968,7 +972,7 @@
       )
       (polyline
         (pts
-          (xy -6.985 -1.27)
+          (xy -6.35 -1.27)
           (xy -3.81 -1.27)
         )
         (stroke (width 0.25) (type default) (color 0 0 0 0))
@@ -976,7 +980,7 @@
       )
       (polyline
         (pts
-          (xy -6.985 2.54)
+          (xy -6.35 2.54)
           (xy -3.175 2.54)
         )
         (stroke (width 0.25) (type default) (color 0 0 0 0))
@@ -996,6 +1000,30 @@
           (xy 1.27 -6.35)
         )
         (stroke (width 0.5) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 3.175)
+          (xy 0 6.35)
+        )
+        (stroke (width 0.25) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 5.08)
+          (xy 0 5.08)
+        )
+        (stroke (width 0.25) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (polyline
+        (pts
+          (xy 0 6.35)
+          (xy 6.35 6.35)
+        )
+        (stroke (width 0) (type default) (color 0 0 0 0))
         (fill (type none))
       )
       (polyline
@@ -1035,16 +1063,7 @@
         (pts
           (xy -1.27 -3.81)
           (xy -1.27 -3.81)
-          (xy -6.985 -3.81)
-        )
-        (stroke (width 0.25) (type default) (color 0 0 0 0))
-        (fill (type none))
-      )
-      (polyline
-        (pts
-          (xy 0 3.175)
-          (xy 0 6.35)
-          (xy 6.35 6.35)
+          (xy -6.35 -3.81)
         )
         (stroke (width 0.25) (type default) (color 0 0 0 0))
         (fill (type none))
@@ -1125,7 +1144,7 @@
         (name "" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -9.525 -3.81 0) (length 2.54)
+      (pin passive line (at -8.89 -3.81 0) (length 2.54)
         (name "" (effects (font (size 1.27 1.27))))
         (number "2" (effects (font (size 1.27 1.27))))
       )
@@ -1137,7 +1156,7 @@
         (name "" (effects (font (size 1.27 1.27))))
         (number "4" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -9.525 -1.27 0) (length 2.54)
+      (pin passive line (at -8.89 -1.27 0) (length 2.54)
         (name "" (effects (font (size 1.27 1.27))))
         (number "5" (effects (font (size 1.27 1.27))))
       )
@@ -1149,7 +1168,7 @@
         (name "" (effects (font (size 1.27 1.27))))
         (number "7" (effects (font (size 1.27 1.27))))
       )
-      (pin passive line (at -9.525 2.54 0) (length 2.54)
+      (pin passive line (at -8.89 2.54 0) (length 2.54)
         (name "" (effects (font (size 1.27 1.27))))
         (number "8" (effects (font (size 1.27 1.27))))
       )

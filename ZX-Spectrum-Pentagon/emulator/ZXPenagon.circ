@@ -330,7 +330,7 @@
     <comp lib="0" loc="(740,350)" name="Tunnel">
       <a name="label" val="C3"/>
     </comp>
-    <comp lib="0" loc="(740,470)" name="Tunnel">
+    <comp lib="0" loc="(740,480)" name="Tunnel">
       <a name="label" val="HSYNC"/>
     </comp>
     <comp lib="0" loc="(740,510)" name="Tunnel">
@@ -902,8 +902,8 @@
     <wire from="(600,500)" to="(630,500)"/>
     <wire from="(620,1190)" to="(620,1200)"/>
     <wire from="(620,1190)" to="(640,1190)"/>
-    <wire from="(630,470)" to="(630,500)"/>
-    <wire from="(630,470)" to="(740,470)"/>
+    <wire from="(630,480)" to="(630,500)"/>
+    <wire from="(630,480)" to="(740,480)"/>
     <wire from="(630,500)" to="(670,500)"/>
     <wire from="(640,540)" to="(660,540)"/>
     <wire from="(660,520)" to="(660,540)"/>

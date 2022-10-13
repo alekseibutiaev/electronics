@@ -37,7 +37,6 @@
       <a name="appearance" val="evolution"/>
     </tool>
     <tool name="T Flip-Flop">
-      <a name="appearance" val="logisim_evolution"/>
       <a name="trigger" val="falling"/>
     </tool>
   </lib>
@@ -877,15 +876,19 @@
     </comp>
     <comp lib="4" loc="(140,130)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <comp lib="4" loc="(140,230)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <comp lib="4" loc="(140,30)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <comp lib="4" loc="(140,330)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <wire from="(100,10)" to="(100,100)"/>
     <wire from="(100,100)" to="(100,200)"/>
@@ -896,13 +899,13 @@
     <wire from="(100,300)" to="(160,300)"/>
     <wire from="(100,400)" to="(160,400)"/>
     <wire from="(110,110)" to="(110,180)"/>
-    <wire from="(110,110)" to="(200,110)"/>
+    <wire from="(110,110)" to="(210,110)"/>
     <wire from="(110,180)" to="(130,180)"/>
     <wire from="(110,210)" to="(110,280)"/>
-    <wire from="(110,210)" to="(200,210)"/>
+    <wire from="(110,210)" to="(210,210)"/>
     <wire from="(110,280)" to="(130,280)"/>
     <wire from="(110,310)" to="(110,380)"/>
-    <wire from="(110,310)" to="(200,310)"/>
+    <wire from="(110,310)" to="(210,310)"/>
     <wire from="(110,380)" to="(130,380)"/>
     <wire from="(120,120)" to="(120,140)"/>
     <wire from="(120,120)" to="(200,120)"/>
@@ -920,21 +923,24 @@
     <wire from="(160,290)" to="(160,300)"/>
     <wire from="(160,390)" to="(160,400)"/>
     <wire from="(160,90)" to="(160,100)"/>
-    <wire from="(190,140)" to="(220,140)"/>
+    <wire from="(190,140)" to="(210,140)"/>
     <wire from="(190,180)" to="(200,180)"/>
-    <wire from="(190,240)" to="(220,240)"/>
+    <wire from="(190,240)" to="(210,240)"/>
     <wire from="(190,280)" to="(200,280)"/>
     <wire from="(190,340)" to="(220,340)"/>
     <wire from="(190,380)" to="(200,380)"/>
-    <wire from="(190,40)" to="(220,40)"/>
+    <wire from="(190,40)" to="(210,40)"/>
     <wire from="(190,80)" to="(200,80)"/>
     <wire from="(200,120)" to="(200,180)"/>
-    <wire from="(200,180)" to="(200,210)"/>
     <wire from="(200,20)" to="(200,80)"/>
     <wire from="(200,220)" to="(200,280)"/>
-    <wire from="(200,280)" to="(200,310)"/>
     <wire from="(200,320)" to="(200,380)"/>
-    <wire from="(200,80)" to="(200,110)"/>
+    <wire from="(210,140)" to="(210,210)"/>
+    <wire from="(210,140)" to="(220,140)"/>
+    <wire from="(210,240)" to="(210,310)"/>
+    <wire from="(210,240)" to="(220,240)"/>
+    <wire from="(210,40)" to="(210,110)"/>
+    <wire from="(210,40)" to="(220,40)"/>
     <wire from="(90,10)" to="(100,10)"/>
     <wire from="(90,80)" to="(130,80)"/>
   </circuit>
@@ -989,15 +995,19 @@
     </comp>
     <comp lib="4" loc="(190,10)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <comp lib="4" loc="(190,110)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <comp lib="4" loc="(190,210)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <comp lib="4" loc="(190,310)" name="D Flip-Flop">
       <a name="appearance" val="logisim_evolution"/>
+      <a name="trigger" val="falling"/>
     </comp>
     <wire from="(130,380)" to="(150,380)"/>
     <wire from="(150,180)" to="(150,280)"/>
@@ -1008,10 +1018,10 @@
     <wire from="(150,80)" to="(150,180)"/>
     <wire from="(150,80)" to="(210,80)"/>
     <wire from="(160,190)" to="(160,260)"/>
-    <wire from="(160,190)" to="(250,190)"/>
+    <wire from="(160,190)" to="(260,190)"/>
     <wire from="(160,260)" to="(180,260)"/>
     <wire from="(160,290)" to="(160,360)"/>
-    <wire from="(160,290)" to="(250,290)"/>
+    <wire from="(160,290)" to="(260,290)"/>
     <wire from="(160,360)" to="(180,360)"/>
     <wire from="(170,0)" to="(170,20)"/>
     <wire from="(170,0)" to="(250,0)"/>
@@ -1029,20 +1039,22 @@
     <wire from="(210,270)" to="(210,280)"/>
     <wire from="(210,370)" to="(210,380)"/>
     <wire from="(210,70)" to="(210,80)"/>
-    <wire from="(240,120)" to="(270,120)"/>
+    <wire from="(240,120)" to="(260,120)"/>
     <wire from="(240,160)" to="(250,160)"/>
     <wire from="(240,20)" to="(270,20)"/>
-    <wire from="(240,220)" to="(270,220)"/>
+    <wire from="(240,220)" to="(260,220)"/>
     <wire from="(240,260)" to="(250,260)"/>
     <wire from="(240,320)" to="(270,320)"/>
     <wire from="(240,360)" to="(250,360)"/>
     <wire from="(240,60)" to="(250,60)"/>
     <wire from="(250,0)" to="(250,60)"/>
     <wire from="(250,100)" to="(250,160)"/>
-    <wire from="(250,160)" to="(250,190)"/>
     <wire from="(250,200)" to="(250,260)"/>
-    <wire from="(250,260)" to="(250,290)"/>
     <wire from="(250,300)" to="(250,360)"/>
+    <wire from="(260,120)" to="(260,190)"/>
+    <wire from="(260,120)" to="(270,120)"/>
+    <wire from="(260,220)" to="(260,290)"/>
+    <wire from="(260,220)" to="(270,220)"/>
     <wire from="(90,160)" to="(180,160)"/>
     <wire from="(90,370)" to="(100,370)"/>
     <wire from="(90,390)" to="(100,390)"/>

@@ -107,34 +107,42 @@
     <comp lib="0" loc="(100,110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C30"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(100,140)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C29"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,410)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="RT"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,440)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MAINCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,470)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(120,580)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="RT"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(120,630)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="LOW"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(140,100)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="RT"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(180,20)" name="Constant">
       <a name="value" val="0x0"/>
@@ -142,34 +150,44 @@
     <comp lib="0" loc="(180,50)" name="Constant"/>
     <comp lib="0" loc="(190,20)" name="Tunnel">
       <a name="label" val="LOW"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(190,50)" name="Tunnel">
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(260,380)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="LOW"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(270,100)" name="Tunnel">
       <a name="label" val="MAINCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(270,130)" name="Tunnel">
       <a name="label" val="AYCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(270,160)" name="Tunnel">
       <a name="label" val="C3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(270,190)" name="Tunnel">
       <a name="label" val="VSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(290,430)" name="Tunnel">
       <a name="label" val="RAS"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(290,460)" name="Tunnel">
       <a name="label" val="NCAS"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(290,630)" name="Tunnel">
       <a name="label" val="C30"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(300,390)" name="Splitter">
       <a name="appear" val="right"/>
@@ -185,6 +203,7 @@
     </comp>
     <comp lib="0" loc="(310,390)" name="Tunnel">
       <a name="label" val="SA12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(320,310)" name="Splitter">
@@ -195,6 +214,7 @@
     </comp>
     <comp lib="0" loc="(320,350)" name="Tunnel">
       <a name="label" val="SA8_11"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(330,270)" name="Splitter">
@@ -205,55 +225,70 @@
     </comp>
     <comp lib="0" loc="(330,310)" name="Tunnel">
       <a name="label" val="SA4_7"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(330,610)" name="Tunnel">
       <a name="label" val="C29"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(340,270)" name="Tunnel">
       <a name="label" val="SA0_3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(370,110)" name="Tunnel">
       <a name="label" val="NC1"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(370,140)" name="Tunnel">
       <a name="label" val="C25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(370,170)" name="Tunnel">
       <a name="label" val="HSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(370,200)" name="Tunnel">
       <a name="label" val="BL"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(370,220)" name="Tunnel">
       <a name="label" val="C6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,120)" name="Tunnel">
       <a name="label" val="NC25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,150)" name="Tunnel">
       <a name="label" val="NC2"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,180)" name="Tunnel">
       <a name="label" val="FSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,210)" name="Tunnel">
       <a name="label" val="C5"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(580,150)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="SA12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(620,120)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="SA8_11"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(660,150)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="SA4_7"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(70,50)" name="Pin">
@@ -262,35 +297,43 @@
     </comp>
     <comp lib="0" loc="(70,50)" name="Tunnel">
       <a name="label" val="RT"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(70,510)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="RAS"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(70,540)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="NCAS"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(70,610)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(700,120)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="SA0_3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
       <a name="width" val="4"/>
     </comp>
     <comp lib="0" loc="(820,100)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="RAS"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(820,130)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="NCAS"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(830,70)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MAINCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="10" loc="(850,70)" name="Digital Oscilloscope">
       <a name="inputs" val="2"/>
@@ -401,131 +444,167 @@
     <comp lib="0" loc="(110,150)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,180)" name="Clock"/>
     <comp lib="0" loc="(110,210)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="GND"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,290)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="NC25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,350)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,570)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="GND"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,680)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,790)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,820)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B51"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,940)" name="Tunnel">
       <a name="label" val="C30"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(110,980)" name="Tunnel">
       <a name="label" val="C29"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,380)" name="Tunnel">
       <a name="label" val="SA0"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,410)" name="Tunnel">
       <a name="label" val="SA1"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,490)" name="Tunnel">
       <a name="label" val="SA2"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,520)" name="Tunnel">
       <a name="label" val="SA3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,550)" name="Tunnel">
       <a name="label" val="SA4"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,580)" name="Tunnel">
       <a name="label" val="B50"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,640)" name="Tunnel">
       <a name="label" val="B7"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,670)" name="Tunnel">
       <a name="label" val="B8"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,700)" name="Tunnel">
       <a name="label" val="SA5"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,730)" name="Tunnel">
       <a name="label" val="SA6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,770)" name="Tunnel">
       <a name="label" val="SA7"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,800)" name="Tunnel">
       <a name="label" val="B12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,830)" name="Tunnel">
       <a name="label" val="B13"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(350,860)" name="Tunnel">
       <a name="label" val="B51"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,490)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA2"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,530)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,560)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B50"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,590)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA4"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,640)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA0"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,670)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B50"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,700)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,760)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,790)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B13"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,820)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,850)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA7"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(450,880)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B51"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(460,40)" name="Constant">
       <a name="value" val="0x0"/>
@@ -534,64 +613,80 @@
     <comp lib="0" loc="(480,1010)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="GND"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(480,1050)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(480,1090)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="GND"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(480,930)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(480,970)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B13"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(490,40)" name="Tunnel">
       <a name="label" val="GND"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(490,70)" name="Tunnel">
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(530,720)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(540,1030)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B8"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(540,1070)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(540,1110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C30"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(540,950)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(540,990)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B7"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(600,1170)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="B13"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(600,1200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C29"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(640,540)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="VSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(70,610)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -599,63 +694,83 @@
     </comp>
     <comp lib="0" loc="(740,1020)" name="Tunnel">
       <a name="label" val="SA11"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,110)" name="Tunnel">
       <a name="label" val="MAINCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,1180)" name="Tunnel">
       <a name="label" val="SA12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,150)" name="Tunnel">
       <a name="label" val="B6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,180)" name="Tunnel">
       <a name="label" val="NC1"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,210)" name="Tunnel">
       <a name="label" val="NC25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,240)" name="Tunnel">
       <a name="label" val="AYCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,290)" name="Tunnel">
       <a name="label" val="C25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,320)" name="Tunnel">
       <a name="label" val="NC2"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,350)" name="Tunnel">
       <a name="label" val="C3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,480)" name="Tunnel">
       <a name="label" val="HSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,510)" name="Tunnel">
       <a name="label" val="FSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,540)" name="Tunnel">
       <a name="label" val="VSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,570)" name="Tunnel">
       <a name="label" val="BL"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,660)" name="Tunnel">
       <a name="label" val="C5"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,820)" name="Tunnel">
       <a name="label" val="VSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,860)" name="Tunnel">
       <a name="label" val="C6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,930)" name="Tunnel">
       <a name="label" val="SA8"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,960)" name="Tunnel">
       <a name="label" val="SA9"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(740,990)" name="Tunnel">
       <a name="label" val="SA10"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(90,940)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -668,106 +783,132 @@
     <comp lib="0" loc="(940,110)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="MAINCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,140)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="NC1"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,170)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="NC25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,200)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="AYCLK"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,230)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C25"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,260)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="NC2"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,290)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,320)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,350)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="FSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,380)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="VSYNC"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,410)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="BL"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,440)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C5"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,470)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="C6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,500)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA0"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,530)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA1"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,560)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA2"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,590)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA3"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,620)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA4"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,650)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA5"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,680)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA6"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,710)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA7"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,740)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA8"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,770)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA9"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,800)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA10"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,830)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA11"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(940,860)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="SA12"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(950,110)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -1271,10 +1412,12 @@
     <comp lib="0" loc="(180,390)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(280,160)" name="Constant"/>
     <comp lib="0" loc="(290,160)" name="Tunnel">
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(380,260)" name="Pin">
       <a name="appearance" val="NewPins"/>
@@ -1355,10 +1498,12 @@
     <comp lib="0" loc="(280,380)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(290,20)" name="Constant"/>
     <comp lib="0" loc="(310,20)" name="Tunnel">
       <a name="label" val="HIGH"/>
+      <a name="labelfont" val="SansSerif bold 8"/>
     </comp>
     <comp lib="0" loc="(760,130)" name="Pin">
       <a name="appearance" val="NewPins"/>

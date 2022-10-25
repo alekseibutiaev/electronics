@@ -1,4 +1,4 @@
-all: fillmemory.rom fe_out_port.rom
+all: fillmemory.rom feporttest.rom color.rom
 
 %.rom: %.asm
 	z80asm $< -o $@

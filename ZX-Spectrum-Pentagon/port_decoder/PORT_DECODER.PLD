@@ -9,27 +9,27 @@ Assembly None ;
 Location Cyprus ;
 Device   g16v8a ;
 
-/* *************** INPUT PINS *********************/
-PIN 1    =    A15; /* Input - CPU A15 */
-PIN 2    =    A5; /* Input - CPU A5 */
-PIN 3    =    A7; /* Input - CPU A7  */
-PIN 4    =    NRD; /* Input - CPU !RD. Active Low */
-PIN 5    =    A14; /* Input - CPU A14 */
-PIN 6    =    A1; /* Input - CPU A1 */
-PIN 7    =    NIORQ; /* Input - CPU !IORQ. Active Low */
-PIN 8    =    A0; /* Input - CPU A0 */
-PIN 9    =    NM1; /* Input - CPU !MI. Active Low */
-PIN 11   =    NWR; /* Input - CPU !WR. Active Low */
-PIN 12   =    NDI_ULA; /* Input - Disable ULA from EDGE connector. Active Low */
-PIN 13   =    DI_32765; /* Input - Disable Memory segment Registor. Active Low */
+/***************** INPUT PINS *********************/
+PIN 1  = A15;      /* Input - CPU A15 */
+PIN 2  = A5;       /* Input - CPU A5 */
+PIN 3  = A7;       /* Input - CPU A7  */
+PIN 4  = NRD;      /* Input - CPU !RD. Active Low */
+PIN 5  = A14;      /* Input - CPU A14 */
+PIN 6  = A1;       /* Input - CPU A1 */
+PIN 7  = NIORQ;    /* Input - CPU !IORQ. Active Low */
+PIN 8  = A0;       /* Input - CPU A0 */
+PIN 9  = NM1;      /* Input - CPU !MI. Active Low */
+PIN 11 = NWR;      /* Input - CPU !WR. Active Low */
+PIN 12 = NDI_ULA;  /* Input - Disable ULA from EDGE connector. Active Low */
+PIN 13 = DI_32765; /* Input - Disable Memory segment Registor. Active Low */
 
-/* *************** OUTPUT PINS *********************/
-PIN 14    =  BDIR; /* Output - Signal BC1 for AY-3-8910 */
-PIN 15    =  BC1; /* Output - Signal BC1 for AY-3-8910 */
-PIN 16    =  NIN254; /* Output - Read From Port 254. Active Low */
-PIN 17    =  NOUT254; /* Output - Write To Port 254. Active Low */
-PIN 18    =  CS_32765; /* Output - Write To Memory Segment Registor */
-PIN 19    =  DIR; /* Output - Data bus buffer direction low from bus to CPU */
+/**************** OUTPUT PINS *********************/
+PIN 14 = BDIR;     /* Output - Signal BDIR for AY-3-8910 */
+PIN 15 = BC1;      /* Output - Signal BC1 for AY-3-8910 */
+PIN 16 = NOUT254;  /* Output - Write To Port 254. Active Low */
+PIN 17 = NIN254;   /* Output - Read From Port 254. Active Low */
+PIN 18 = CS_32765; /* Output - Write To Memory Segment Registor */
+PIN 19 = DIR;      /* Output - Data bus buffer direction low from bus to CPU */
 
 PORT254 = [A0, !A1, !A5, !A7, NIORQ, NDI_ULA]:#;
 
@@ -44,3 +44,4 @@ BC1 = !A1 & A5 & A7 & A14 & A15 & !NIORQ & NM1;
 BDIR = !A1 & A5 & A7 & A15 & !NWR & !NIORQ;
 
 DIR = NRD & NM1;
+

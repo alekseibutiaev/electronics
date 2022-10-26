@@ -7,7 +7,6 @@
   (lib_symbols
   )
 
-
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5160,6 +5159,9 @@
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000067f4db88"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/1071d9aa-4ebe-4fac-ae8c-fbb3e6c89ad7"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-000062a0558e/14ba8719-0099-4cb8-8493-f42ea096e478"
       (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
@@ -5495,6 +5497,24 @@
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-00006363c1d1"
       (reference "DVE?") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/273f62a5-5f43-4176-b995-034015866fdb"
+      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/4a1acc6d-8cb1-42a3-9856-e2bd26981fc2"
+      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/60714a55-f0d5-4eee-bc66-f2a033c0f257"
+      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/a63b15d2-646f-4f8a-b953-be26d35e885f"
+      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/ad307f72-ab8e-4829-ab18-a23e59a0da51"
+      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/afde571f-0ca9-41e5-a5f7-23ece455767e"
+      (reference "H?") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000067c473e7"
       (reference "JCPU?") (unit 1) (value "Conn_02x28") (footprint "ZX-Spectrum-Pentagon:PinSocket_2x28_P2.54mm_Vertical")

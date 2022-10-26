@@ -7,7 +7,6 @@
   (lib_symbols
   )
 
-
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -2983,6 +2982,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 29b7baa7-4160-4241-b2d2-887aa23af7ef)
   )
+  (label "+12V" (at 129.54 180.34 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2ae572ff-46b6-404e-b95a-b0719f46bc88)
+  )
   (label "A14" (at 27.94 127 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2bfc6f1c-7d97-4868-918c-0ad15235173c)
@@ -3155,6 +3158,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 610cf09a-63ef-437f-ad2a-4f6d846b7ae6)
   )
+  (label "GND" (at 129.54 187.96 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 615477b2-9f92-4db1-8cdd-1fc079d3ba97)
+  )
   (label "D7" (at 175.26 35.56 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 615c5f41-47f2-4060-b6ca-4ff0fda7c754)
@@ -3311,6 +3318,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 897d1b18-1a95-4b89-88a7-0493c720a2bf)
   )
+  (label "+9V" (at 129.54 182.88 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8a538e65-f3f5-481a-8182-53edbfdfc4a9)
+  )
   (label "A15" (at 78.74 109.22 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8d7faae8-181d-4e19-95e8-c15382de89d6)
@@ -3358,6 +3369,10 @@
   (label "CBRDG" (at 78.74 167.64 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 94ec71a0-0768-4343-a616-e29779e6e56d)
+  )
+  (label "VCC" (at 129.54 185.42 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 965b4285-cf3a-4e05-a0a2-51ba40de94ef)
   )
   (label "SA2" (at 73.66 53.34 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -5705,7 +5720,7 @@
       (reference "RVF1") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/0f30c589-1da9-44c3-9669-b2064ce8998b"
-      (reference "SWCPU1") (unit 1) (value "ROMSELECT") (footprint "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile")
+      (reference "SWCPU1") (unit 1) (value "ROMSELECT") (footprint "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006347b936"
       (reference "SWG1") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS")
@@ -5800,10 +5815,10 @@
     (path "/00000000-0000-0000-0000-000062a83a0a/00000000-0000-0000-0000-000062de5b71"
       (reference "U8") (unit 4) (value "74HC00") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-0000631db83a"
+    (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-0000631e3aca"
       (reference "U9") (unit 1) (value "74HC86") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-0000631e3aca"
+    (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-0000631db83a"
       (reference "U9") (unit 2) (value "74HC86") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-000062a83a0a/00000000-0000-0000-0000-000062df8e97"

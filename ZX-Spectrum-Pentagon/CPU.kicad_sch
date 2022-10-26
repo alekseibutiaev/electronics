@@ -3723,7 +3723,6 @@
     )
   )
 
-
   (junction (at 144.78 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 10fdbb84-b46d-441c-ab6c-c1010168e0dd)
   )
@@ -9849,7 +9848,7 @@
     (uuid 0f30c589-1da9-44c3-9669-b2064ce8998b)
     (property "Reference" "SWCPU1" (id 0) (at 154.94 167.64 0))
     (property "Value" "ROMSELECT" (id 1) (at 154.94 182.88 0))
-    (property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx04_Slide_6.7x11.72mm_W7.62mm_P2.54mm_LowProfile" (id 2) (at 154.94 175.26 0)
+    (property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W7.62mm_P2.54mm_LowProfile" (id 2) (at 154.94 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 154.94 175.26 0)

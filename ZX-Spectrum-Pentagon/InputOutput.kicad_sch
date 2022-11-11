@@ -2519,7 +2519,6 @@
     )
   )
 
-
   (junction (at 120.65 35.56) (diameter 0) (color 0 0 0 0)
     (uuid 0193fe51-e6ea-42c3-9bac-5a69dcd2a0dd)
   )
@@ -6531,7 +6530,7 @@
     (property "Value" "10uF/16V" (id 1) (at 116.84 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" (id 2) (at 117.8052 119.38 0)
+    (property "Footprint" "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" (id 2) (at 117.8052 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 116.84 115.57 0)
@@ -7182,7 +7181,7 @@
     (property "Value" "LM311" (id 1) (at 130.81 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_DIP:DIP-8_W7.62mm" (id 2) (at 129.54 104.14 0)
+    (property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm" (id 2) (at 129.54 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/lm311.pdf" (id 3) (at 129.54 104.14 0)

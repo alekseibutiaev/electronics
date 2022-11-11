@@ -21,7 +21,7 @@
   (fp_rect (start -2.4 -2.7) (end 2.5 2.7) (layer "Dwgs.User") (width 0.12) (fill none) (tstamp e2e61e79-1583-4ca9-8ecc-34c8b249e22d))
   (fp_arc (start 1.977159 1.168035) (mid 0.05 2.295853) (end -1.922841 1.25) (layer "Dwgs.User") (width 0.12) (tstamp 0de0391a-fa4a-4c6c-977f-6eedbe8b3f48))
   (fp_arc (start -1.922841 -1.131965) (mid 0.004317 -2.259782) (end 1.977159 -1.21393) (layer "Dwgs.User") (width 0.12) (tstamp 0e8f98e5-06c9-4c55-93c5-e6b0a52c7dee))
-  (fp_rect (start -2.6 -2.9) (end 2.7 2.9) (layer "Margin") (width 0.12) (fill none) (tstamp 7ecca58d-adf4-455c-9b4d-df2c08a60d5c))
+  (fp_rect (start -2.6 -2.9) (end 2.7 2.9) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 7ecca58d-adf4-455c-9b4d-df2c08a60d5c))
   (pad "1" smd roundrect (at 0 -1.65) (size 4.5 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp d1d00894-e78d-47aa-a3b1-1973032c8aba))
   (pad "2" smd roundrect (at 0.1 1.65) (size 4.5 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp cb67850b-ee2e-4a4f-a2c2-a2c4ad0aa311))
   (group "" (id 9cbe2384-c549-4b75-a680-f04ab79d2c8f)

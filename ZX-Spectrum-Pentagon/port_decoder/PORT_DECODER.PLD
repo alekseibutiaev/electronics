@@ -31,7 +31,7 @@ PIN 17 = NIN254;   /* Output - Read From Port 254. Active Low */
 PIN 18 = CS_32765; /* Output - Write To Memory Segment Registor */
 PIN 19 = DIR;      /* Output - Data bus buffer direction low from bus to CPU */
 
-PORT254 = [A0, !A1, !A5, !A7, NIORQ, NDI_ULA]:#;
+PORT254 = [A0, !A1, !A5, !A7, NIORQ, !NDI_ULA]:#;
 
 NIN254 = PORT254 # NRD;
 

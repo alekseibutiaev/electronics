@@ -5047,9 +5047,6 @@
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000063c54eb1"
       (reference "#PWR050") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-0000638a204e"
-      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000062b149b9"
       (reference "#PWR052") (unit 1) (value "VCC") (footprint "")
     )
@@ -5124,6 +5121,12 @@
     )
     (path "/00000000-0000-0000-0000-0000664fb8ad/1071d9aa-4ebe-4fac-ae8c-fbb3e6c89ad7"
       (reference "#PWR076") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006296ed1f/9e0711af-abda-4a9b-9284-6f7fefbb1965"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-00006296ed1f/bf65b100-6489-4d3e-9d34-0b2bb4ec9ae6"
+      (reference "#PWR0102") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006298b702"
       (reference "CG1") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5538,6 +5541,9 @@
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-0000638a1d66"
       (reference "RCPU2") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-00006296ed1f/e5e20429-b9f7-4dff-a28b-e662511ebe1f"
+      (reference "RCPU3") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/9a167f61-cf87-490a-8d2f-0ce8b25eed8a"
       (reference "RG1") (unit 1) (value "1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")

@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "ZX_keyboard-altium-import")(type "KiCad")(uri "${KIPRJMOD}/ZX_keyboard-altium-import.kicad_sym")(options "")(descr ""))
-)

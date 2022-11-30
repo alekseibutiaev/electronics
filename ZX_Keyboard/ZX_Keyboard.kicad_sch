@@ -1472,10 +1472,10 @@
       (reference "CKR10") (unit 1) (value "4.7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/da5481b7-b77b-45ac-afe3-7e43a7fe3a0a"
-      (reference "D1") (unit 1) (value "1N4001") (footprint "")
+      (reference "D1") (unit 1) (value "1N4001") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/2a8f7bf4-1d22-4ac3-88c0-b5bdaa398734"
-      (reference "D2") (unit 1) (value "1N4001") (footprint "")
+      (reference "D2") (unit 1) (value "1N4001") (footprint "Diode_SMD:D_SOD-523")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/2d94e975-3923-4242-a0e1-c05400c09afa"
       (reference "DKR1") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")

@@ -1712,6 +1712,11 @@
     (uuid fe392aaa-565a-451b-8460-0a86b2b02d43)
   )
 
+  (label "USB_POWER" (at 153.035 88.9 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6269a6ac-7ee1-4bc7-a824-49a4d7db3cf6)
+  )
+
   (global_label "KeyD1" (shape output) (at 161.29 173.99 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 017712bb-e407-4cec-a18c-844bb5756be3)

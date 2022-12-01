@@ -743,7 +743,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 12e35519-c6dc-4e98-aa0e-4443b461d937)
   )
-  (label "USB_POWER_SWITCH_ON" (at 142.24 46.99 0)
+  (label "USB_POWER_SWITCH_ON" (at 142.24 52.07 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 1dc7a18b-9e84-4e28-af2d-097489d55d01)
   )
@@ -819,7 +819,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7cf466bc-d6dd-4b48-b8f9-5960e2d6dc15)
   )
-  (label "USB_OTG_FS_DM" (at 124.46 83.82 180)
+  (label "USB_OTG_FS_DM-" (at 124.46 83.82 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 81e846fa-8d54-4b5a-abb6-d705baf1c0b1)
   )
@@ -839,7 +839,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9bd112c7-dbb8-47f8-82a8-cdf37b27a06a)
   )
-  (label "USB_OTG_FS_DP" (at 124.46 86.36 180)
+  (label "USB_OTG_FS_DP+" (at 124.46 86.36 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9e2f23ab-c268-4984-a8e6-0174a863d555)
   )
@@ -851,7 +851,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 9fb09433-d03e-4330-89af-5b02ba9ec422)
   )
-  (label "USB_OTG_FS_DP" (at 142.24 49.53 0)
+  (label "USB_OTG_FS_DP+" (at 142.24 49.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a93b1404-400c-4a26-b3b0-675fa920cb1e)
   )
@@ -931,7 +931,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid fba0b9c1-fc52-4488-8129-6f7d85bf0f6a)
   )
-  (label "USB_OTG_FS_DM" (at 142.24 52.07 0)
+  (label "USB_OTG_FS_DM-" (at 142.24 46.99 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid fd665841-3972-4174-8044-ca33c9c652b7)
   )
@@ -960,7 +960,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid cef6e9fe-2b3f-4f7a-be8e-4b332eec7083)
     )
-    (pin "USB_OTG_FS_DM" bidirectional (at 165.1 46.99 180)
+    (pin "USB_OTG_FS_DM-" bidirectional (at 165.1 46.99 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 0a6a4434-0db7-4774-a118-42a35d5a6fde)
     )
@@ -968,7 +968,7 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 6e2bfd87-e64c-4b4b-9776-c8dc61b2324b)
     )
-    (pin "USB_OTG_FS_DP" bidirectional (at 165.1 49.53 180)
+    (pin "USB_OTG_FS_DP+" bidirectional (at 165.1 49.53 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid ff41f408-61bb-4830-aafd-e7b13ae73e3f)
     )
@@ -1056,11 +1056,11 @@
     (property "Sheet file" "MCU.kicad_sch" (id 1) (at 63.5 102.3584 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
-    (pin "USB_OTG_FS_DM" bidirectional (at 101.6 83.82 0)
+    (pin "USB_OTG_FS_DM-" bidirectional (at 101.6 83.82 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 5fc5f448-baf6-4f2f-9732-9164ca259f89)
     )
-    (pin "USB_OTG_FS_DP" bidirectional (at 101.6 86.36 0)
+    (pin "USB_OTG_FS_DP+" bidirectional (at 101.6 86.36 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid f9c934e3-604b-4e0a-a101-09798a6a5f25)
     )
@@ -1301,9 +1301,6 @@
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/e8066418-06be-45be-95ab-79bfa04b1fb8"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
-    (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/8b860fcd-6e79-4672-b699-a2ed56d9b9b9"
-      (reference "#PWR027") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/c9476e2e-a617-4b83-a8b8-1871683f2367"
       (reference "#PWR028") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -1397,6 +1394,9 @@
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/fdb79e00-151f-4ad7-8f66-f717a6a3d6e1"
       (reference "#PWR058") (unit 1) (value "GND") (footprint "")
     )
+    (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/c53f50d7-977f-4ef6-9099-96069349a589"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/c49bdc74-94bf-43de-a61d-61a7e1e2ea91"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -1416,7 +1416,7 @@
       (reference "C6") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/f8145e3c-2722-4bf1-a83c-0b2def510731"
-      (reference "C7") (unit 1) (value "4.7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "C7") (unit 1) (value "4.7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/fbb736f8-88cd-4d56-86d7-0c749731d054"
       (reference "C8") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1428,7 +1428,7 @@
       (reference "C10") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/6f95a507-7f5e-45c0-a763-569d04b3eae8"
-      (reference "C11") (unit 1) (value "10uFx6.3v") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder")
+      (reference "C11") (unit 1) (value "10uFx6.3v") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/ae564557-5e17-42c0-ab72-d805ee9414ea"
       (reference "C12") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1437,10 +1437,13 @@
       (reference "C13") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/a34185a0-7e87-4f2b-82bb-d2f81cc36c9d"
-      (reference "C14") (unit 1) (value "10uFx6.3v") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder")
+      (reference "C14") (unit 1) (value "10uFx6.3v") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/474b7e68-4ae1-429c-beba-54649b63d127"
-      (reference "CC1") (unit 1) (value "4,7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A")
+      (reference "CC1") (unit 1) (value "4,7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
+    )
+    (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/fb749e23-959c-4aa4-9b25-0ab083d2c79d"
+      (reference "CC2") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/bbd3abca-8f25-4a6b-85f3-ad685c9f3c6e"
       (reference "CKR1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1680,28 +1683,28 @@
       (reference "JC1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/7a5372a1-a4f7-423c-98d9-0d0a78e6348c"
-      (reference "JC2") (unit 1) (value "ZX_Date") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
+      (reference "JC2") (unit 1) (value "ZX_Date") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/1b9c215f-9043-409a-addd-c03cec912ce9"
-      (reference "JC3") (unit 1) (value "General_Keyboard 8x8") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x09_P2.54mm_Vertical")
+      (reference "JC3") (unit 1) (value "General_Keyboard 8x8") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x09_P2.54mm_Vertical")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/7a486019-86be-4680-9531-edb1fbd0a0de"
-      (reference "JC4") (unit 1) (value "PROFI") (footprint "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical")
+      (reference "JC4") (unit 1) (value "PROFI") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x10_P2.54mm_Vertical")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/3b1a3f66-f3d3-4b9c-8abd-d1e5ffc37c2a"
-      (reference "JC5") (unit 1) (value "ZX_Address") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical")
+      (reference "JC5") (unit 1) (value "ZX_Address") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/7f0585fa-1690-4934-94d9-9a8de72a119b"
       (reference "L1") (unit 1) (value "100uH") (footprint "CD inductor:CD43")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/161f6fbb-63ff-4de4-8e64-3949aa1f118f"
-      (reference "LEDC1") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+      (reference "LEDC1") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/95a21f84-bb39-455c-b939-67fbbd8d2519"
-      (reference "LEDC2") (unit 1) (value "RED") (footprint "LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
+      (reference "LEDC2") (unit 1) (value "RED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/a1283d6d-20ea-489e-8017-0c1772688069"
-      (reference "QC1") (unit 1) (value "S9013") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "QC1") (unit 1) (value "S9013") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/b8881b79-b799-483d-945f-57b33f150478"
       (reference "R1") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -1716,7 +1719,7 @@
       (reference "R4") (unit 1) (value "100kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/d6d0ed28-77a4-4b30-b245-a163debb7193"
-      (reference "RC1") (unit 1) (value "1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RC1") (unit 1) (value "1.5kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/23c33fc2-08ec-4c21-a0bc-12f8c0a1538c"
       (reference "RC2") (unit 1) (value "47kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")

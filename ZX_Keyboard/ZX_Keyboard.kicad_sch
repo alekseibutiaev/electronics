@@ -14,7 +14,6 @@
   (lib_symbols
   )
 
-
   (junction (at 139.7 152.4) (diameter 0) (color 0 0 0 0)
     (uuid 3edb7f16-5add-454b-a298-1b385cb9aad7)
   )
@@ -1301,6 +1300,9 @@
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/e8066418-06be-45be-95ab-79bfa04b1fb8"
       (reference "#PWR026") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/dd92a302-780c-4b95-90fb-2c125cfe8c0b"
+      (reference "#PWR027") (unit 1) (value "+3.3V") (footprint "")
+    )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/c9476e2e-a617-4b83-a8b8-1871683f2367"
       (reference "#PWR028") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -1394,8 +1396,11 @@
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/fdb79e00-151f-4ad7-8f66-f717a6a3d6e1"
       (reference "#PWR058") (unit 1) (value "GND") (footprint "")
     )
+    (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/c64b530e-14e0-497b-b5f4-70ef0657a6c6"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/c53f50d7-977f-4ef6-9099-96069349a589"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0102") (unit 1) (value "VCC") (footprint "")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/c49bdc74-94bf-43de-a61d-61a7e1e2ea91"
       (reference "C1") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -1679,6 +1684,9 @@
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/ec7cefad-fee6-4733-bd17-e40f9b174cca"
       (reference "J2") (unit 1) (value "DEBUG") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical")
     )
+    (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/888b053f-7dce-4159-b5b5-fa22e0aff584"
+      (reference "J3") (unit 1) (value "BOOT2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/1dd8818d-2996-4559-8c67-8f018b8e7709"
       (reference "JC1") (unit 1) (value "USB_A") (footprint "Connector_USB:USB_A_Molex_67643_Horizontal")
     )
@@ -1717,6 +1725,9 @@
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/5d20bffa-0ac1-430a-b6be-d7326f55f086"
       (reference "R4") (unit 1) (value "100kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/dc5ab0be-cb84-4939-83f3-95ffd833d47f"
+      (reference "R5") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/d6d0ed28-77a4-4b30-b245-a163debb7193"
       (reference "RC1") (unit 1) (value "1.5kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")

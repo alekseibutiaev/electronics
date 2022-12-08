@@ -14,6 +14,7 @@
   (lib_symbols
   )
 
+
   (junction (at 139.7 152.4) (diameter 0) (color 0 0 0 0)
     (uuid 3edb7f16-5add-454b-a298-1b385cb9aad7)
   )
@@ -1475,10 +1476,10 @@
       (reference "CKR8") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/8423b8c5-4a4c-45b5-965e-08b51de5c0fa"
-      (reference "CKR9") (unit 1) (value "4.7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CKR9") (unit 1) (value "4.7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/6972b0f3-9dc8-49db-a4a9-e840959ede07"
-      (reference "CKR10") (unit 1) (value "4.7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CKR10") (unit 1) (value "4.7uFx6.3V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/da5481b7-b77b-45ac-afe3-7e43a7fe3a0a"
       (reference "D1") (unit 1) (value "1N4001") (footprint "Diode_SMD:D_SOD-523")

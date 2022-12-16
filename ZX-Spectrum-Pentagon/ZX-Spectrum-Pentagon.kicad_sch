@@ -7,6 +7,7 @@
   (lib_symbols
   )
 
+
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5515,8 +5516,8 @@
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-0000629d93ba"
       (reference "LPS1") (unit 1) (value "33uH") (footprint "Inductor_SMD:L_12x12mm_H6mm")
     )
-    (path "/00000000-0000-0000-0000-000062a0558e/e4ed7394-e638-4cc9-bf81-e1064a4444c2"
-      (reference "LPS2") (unit 1) (value "220uH") (footprint "CDInductor:CD43")
+    (path "/00000000-0000-0000-0000-000062a0558e/03a6ce7c-3b63-4e35-b6f1-986d15907415"
+      (reference "LPS2") (unit 1) (value "180uH") (footprint "CDInductor:CD43")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062e1bfef"
       (reference "LVE1") (unit 1) (value "100uH") (footprint "Inductor_SMD:L_7.3x7.3_H4.5")
@@ -6028,7 +6029,7 @@
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000065b7c6a9"
       (reference "UPS1") (unit 1) (value "LM2596S-5.0V") (footprint "Package_TO_SOT_SMD:TO-263-5_TabPin3")
     )
-    (path "/00000000-0000-0000-0000-000062a0558e/2375389a-c1f2-4215-a4da-54605ab78374"
+    (path "/00000000-0000-0000-0000-000062a0558e/9b62dd2b-84d1-48ef-90e7-9e97abb7c63c"
       (reference "UPS2") (unit 1) (value "MC34063A") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-00006319af68"

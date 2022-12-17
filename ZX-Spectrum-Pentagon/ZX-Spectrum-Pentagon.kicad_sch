@@ -5147,7 +5147,7 @@
       (reference "CG6") (unit 1) (value "510pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000066070510"
-      (reference "CIO1") (unit 1) (value "47uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CIO1") (unit 1) (value "47uF/6V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006607050a"
       (reference "CIO2") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5330,7 +5330,7 @@
       (reference "CPF50") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/c52e0cc9-d24b-426a-a09c-d3ad2303c519"
-      (reference "CPS1") (unit 1) (value "47uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CPS1") (unit 1) (value "47uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/a3ae8227-98e3-4760-889a-2249fabd3748"
       (reference "CPS2") (unit 1) (value "330uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D_Pad2.25x2.55mm_HandSolder")
@@ -5345,7 +5345,7 @@
       (reference "CPS5") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/02c66c99-ea35-495d-8865-1f59e2f714b1"
-      (reference "CPS6") (unit 1) (value "4.7uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CPS6") (unit 1) (value "4.7uF/6V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/3bd8de8e-61c5-4568-a9c4-06f5d9ef11fa"
       (reference "CPS7") (unit 1) (value "330nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5390,13 +5390,13 @@
       (reference "DG2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c8063c"
-      (reference "DIO1") (unit 1) (value "BZX35450-C3V0X") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO1") (unit 1) (value "BZT52C3V0") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062cde6eb"
       (reference "DIO2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c8a906"
-      (reference "DIO3") (unit 1) (value "BZX35450-C3V0X") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO3") (unit 1) (value "BZT52C3V0") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-0000631ea54a"
       (reference "DIO4") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
@@ -5432,7 +5432,7 @@
       (reference "DPI3") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/87e85391-b343-4daa-9da1-6ec905c5b3db"
-      (reference "DPS1") (unit 1) (value "SS34") (footprint "Diode_SMD:D_SMA")
+      (reference "DPS1") (unit 1) (value "1N5819") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062baf22d"
       (reference "DPS2") (unit 1) (value "DF005S") (footprint "Diode_SMD:Diode_Bridge_Vishay_DFS")

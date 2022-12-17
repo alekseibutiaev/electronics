@@ -7,7 +7,6 @@
   (lib_symbols
   )
 
-
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5136,7 +5135,7 @@
       (reference "CG2") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/42a92bad-bcc3-42e8-aab6-bc0433590b88"
-      (reference "CG3") (unit 1) (value "47uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CG3") (unit 1) (value "47uF/6V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-000064102353"
       (reference "CG4") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5159,29 +5158,23 @@
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bc7122"
       (reference "CIO4") (unit 1) (value "3.3nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bc2e68"
+    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062baf7b6"
       (reference "CIO5") (unit 1) (value "150nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bc72a2"
-      (reference "CIO6") (unit 1) (value "150nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062baf7b6"
-      (reference "CIO7") (unit 1) (value "150nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bd425c"
-      (reference "CIO8") (unit 1) (value "10uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CIO6") (unit 1) (value "10uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bc03c2"
-      (reference "CIO9") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "CIO7") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bba258"
-      (reference "CIO10") (unit 1) (value "10uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
+      (reference "CIO8") (unit 1) (value "10uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bc2fba"
-      (reference "CIO11") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "CIO9") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062bce404"
-      (reference "CIO12") (unit 1) (value "10uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder")
+      (reference "CIO10") (unit 1) (value "10uF/16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000630c2d0d/00000000-0000-0000-0000-00006317fab4"
       (reference "CM1") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5517,7 +5510,7 @@
       (reference "LPS1") (unit 1) (value "33uH") (footprint "Inductor_SMD:L_12x12mm_H6mm")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/03a6ce7c-3b63-4e35-b6f1-986d15907415"
-      (reference "LPS2") (unit 1) (value "180uH") (footprint "CDInductor:CD43")
+      (reference "LPS2") (unit 1) (value "220uH") (footprint "CDInductor:CD43")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062e1bfef"
       (reference "LVE1") (unit 1) (value "100uH") (footprint "Inductor_SMD:L_7.3x7.3_H4.5")
@@ -5570,15 +5563,6 @@
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-0000641b3860"
       (reference "RG8") (unit 1) (value "1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9faa5"
-      (reference "RIO1") (unit 1) (value "47kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9e8fb"
-      (reference "RIO2") (unit 1) (value "10kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9e907"
-      (reference "RIO3") (unit 1) (value "47kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9aee3"
       (reference "RIO4") (unit 1) (value "47kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
@@ -5588,35 +5572,41 @@
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9fad7"
       (reference "RIO6") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
+    (path "/00000000-0000-0000-0000-000062a08194/e9b89dad-6d07-4e78-aa99-26babd359aab"
+      (reference "RIO7") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/00000000-0000-0000-0000-000062a08194/0eacb13e-68ae-4a25-9295-453e30bfbccf"
+      (reference "RIO8") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9fab9"
-      (reference "RIO7") (unit 1) (value "100kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO9") (unit 1) (value "100kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9aa95"
-      (reference "RIO8") (unit 1) (value "1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO10") (unit 1) (value "1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9b7b3"
-      (reference "RIO9") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO11") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9fa0f"
-      (reference "RIO10") (unit 1) (value "3.0kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO12") (unit 1) (value "1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9faaf"
-      (reference "RIO11") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO13") (unit 1) (value "2kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9fac3"
-      (reference "RIO12") (unit 1) (value "160") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO14") (unit 1) (value "160") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9e901"
-      (reference "RIO13") (unit 1) (value "4.7kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO15") (unit 1) (value "2kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9facd"
-      (reference "RIO14") (unit 1) (value "3.0kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO16") (unit 1) (value "1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9fae1"
-      (reference "RIO15") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO17") (unit 1) (value "5.1kOm") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062b9e90d"
-      (reference "RIO16") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "RIO18") (unit 1) (value "5.1kOM") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/00000000-0000-0000-0000-0000664fb8ad/00000000-0000-0000-0000-000066542fb1"
       (reference "RPI1") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -5743,9 +5733,6 @@
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006347b936"
       (reference "SWG1") (unit 1) (value "RESET") (footprint "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS")
-    )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c4c79b"
-      (reference "SWIO1") (unit 1) (value "ABC/ACB") (footprint "ZX-Spectrum-Pentagon:PS-22F03")
     )
     (path "/00000000-0000-0000-0000-000062fd43ab/00000000-0000-0000-0000-0000638d500f"
       (reference "SWVF1") (unit 1) (value "128K/512K") (footprint "ZX-Spectrum-Pentagon:PS-22F03")

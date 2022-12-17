@@ -5495,13 +5495,13 @@
       (reference "JPS1") (unit 1) (value "Power_Jack") (footprint "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063ee0925"
-      (reference "JVE1") (unit 1) (value "SYNC/LUMA") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "JVE1") (unit 1) (value "SYNC/LUMA") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/c5155ffc-6369-4298-9af7-3fe903c7d13d"
       (reference "JVE2") (unit 1) (value "SVIDEO") (footprint "Mini-DIN:CUI_MD-80SMK")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063743a78"
-      (reference "JVE3") (unit 1) (value "PAL/NTSC") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+      (reference "JVE3") (unit 1) (value "PAL/NTSC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000066070516"
       (reference "LIO1") (unit 1) (value "100uH") (footprint "Inductor_SMD:L_7.3x7.3_H4.5")

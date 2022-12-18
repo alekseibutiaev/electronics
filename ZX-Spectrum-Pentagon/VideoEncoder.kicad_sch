@@ -2139,7 +2139,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 60b3ed42-714d-43b9-8c2d-9633ff7c40ff)
   )
-  (text "+----+-----------+------------+\n|RVE25 | not installed     | installed          |\n+----+-----------+------------+\n|YVE1  | 3.579545MHz   | 14.318180MHz     |\n+----+-----------+------------+\n|YVE2  | 4.433619MHz   | 17.734480MHz     | \n+----+-----------+------------+\n"
+  (text "+----+----+---------+------------+\n|RVE25 | SYS  | not installed  | installed          |\n+----+----+---------+------------+\n|YVE1  | NTSC | 3.579545MHz | 14.318180MHz    |\n+----+----+---------+------------+\n|YVE2  | PAL   | 4.433619MHz | 17.734480MHz    | \n+----+----+---------+------------+\n"
     (at 217.17 143.51 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e3e62865-9b6d-4a94-8147-e782396f7c1b)
@@ -2859,7 +2859,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-0000635a1eb1)
     (property "Reference" "YVE1" (id 0) (at 85.09 160.02 90))
-    (property "Value" "3.579545MHz OR 14.318180MHz" (id 1) (at 72.39 167.64 90))
+    (property "Value" "NTSC" (id 1) (at 85.09 167.64 90))
     (property "Footprint" "Crystal:Crystal_HC49-U_Vertical" (id 2) (at 88.9 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2874,7 +2874,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000063626ebb)
     (property "Reference" "YVE2" (id 0) (at 118.11 160.02 90))
-    (property "Value" "4.433618MHz or 17.734480MHz" (id 1) (at 130.81 167.64 90))
+    (property "Value" "PAL" (id 1) (at 118.11 167.64 90))
     (property "Footprint" "Crystal:Crystal_HC49-U_Vertical" (id 2) (at 114.3 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )

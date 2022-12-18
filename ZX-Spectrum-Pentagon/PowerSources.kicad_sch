@@ -3363,7 +3363,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b64645)
     (property "Reference" "JPS1" (id 0) (at 34.29 43.18 0))
-    (property "Value" "Power_Jack" (id 1) (at 33.02 53.34 0))
+    (property "Value" "POWER" (id 1) (at 33.02 53.34 0))
     (property "Footprint" "Connector_BarrelJack:BarrelJack_Wuerth_6941xx301002" (id 2) (at 33.02 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -9730,7 +9730,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000067c473e7)
     (property "Reference" "JCPU1" (id 0) (at 233.68 19.8882 0))
-    (property "Value" "Conn_02x28" (id 1) (at 233.68 22.1996 0))
+    (property "Value" "TOP LEVEL" (id 1) (at 233.68 22.1996 0))
     (property "Footprint" "ZX-Spectrum-Pentagon:PinSocket_2x28_P2.54mm_Vertical" (id 2) (at 232.41 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -7,6 +7,7 @@
   (lib_symbols
   )
 
+
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -95,7 +96,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 1ea632a2-2270-46c5-888a-7f26b7bf7e81)
   )
-  (bus_entry (at 127 121.92) (size 2.54 2.54)
+  (bus_entry (at 127 124.46) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 216bbc8b-703d-4997-8dcb-2a7520066f2a)
   )
@@ -543,6 +544,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 738d303d-bcee-45a1-95b9-e6a0feea9f3e)
   )
+  (bus_entry (at 127 121.92) (size 2.54 2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 790742ca-5410-42f1-a759-6a3f59eb5d04)
+  )
   (bus_entry (at 76.2 55.88) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 848ab38a-1711-4360-b41a-3c91146079df)
@@ -980,11 +985,6 @@
     (uuid fe4aa4cc-9218-4371-8ef5-9caa20200740)
   )
 
-  (bus (pts (xy 127 121.92) (xy 127 124.46))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 0071d291-e0c8-464c-ac09-c42ffaabc771)
-  )
-
   (wire (pts (xy 78.74 172.72) (xy 88.9 172.72))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 031eb1d7-d1d9-4f4b-983d-0672a0b9b149)
@@ -1139,7 +1139,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 191aa460-3edc-450d-9632-4c7bc2f42794)
   )
-  (wire (pts (xy 129.54 124.46) (xy 139.7 124.46))
+  (wire (pts (xy 129.54 127) (xy 139.7 127))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 194129b3-4475-4f27-af54-5e8a4b9e2f0b)
   )
@@ -2446,6 +2446,10 @@
     (uuid cd43dfbc-d596-4c58-89ec-71ad2c977ca6)
   )
 
+  (wire (pts (xy 129.54 124.46) (xy 139.7 124.46))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid cd6a49ee-d5cc-4c3b-bafb-094aa68552f2)
+  )
   (wire (pts (xy 63.5 66.04) (xy 73.66 66.04))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid ce964d33-3415-492a-bac6-6c7c543e807c)
@@ -2527,6 +2531,11 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d7f017a5-4cda-4047-8fd7-a9ec895ae0fd)
   )
+  (bus (pts (xy 127 121.92) (xy 127 124.46))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid d8972fe7-5eb3-421d-9c9d-b218da83b9ef)
+  )
+
   (wire (pts (xy 114.3 119.38) (xy 124.46 119.38))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid d8b63dab-cf8b-469e-b7d2-4f5a35c1930e)
@@ -3190,7 +3199,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 68cde420-04d2-4d26-9cc2-6787de034fe0)
   )
-  (label "+12V" (at 129.54 124.46 0)
+  (label "+12V" (at 129.54 127 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 68d2b019-8f6f-45c6-8630-22874dce686b)
   )
@@ -3285,6 +3294,10 @@
   (label "~{OUT254}" (at 27.94 177.8 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7ef4d595-ffd6-42b4-b718-8d4f5ab8d29d)
+  )
+  (label "~{C1}" (at 129.54 124.46 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 80b3f2fa-5eef-4b57-9af1-70073be8a176)
   )
   (label "TTLY" (at 124.46 147.32 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
@@ -4357,9 +4370,13 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 32116940-9374-41d2-96f1-713654238d9d)
     )
-    (pin "+12V" passive (at 139.7 124.46 180)
+    (pin "+12V" passive (at 139.7 127 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 37a5179a-593b-4ad1-9849-6a1721113ac1)
+    )
+    (pin "~{C1}" input (at 139.7 124.46 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2e18325a-348a-4734-bd11-1dbd1402c909)
     )
   )
 
@@ -5047,6 +5064,9 @@
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000063c54eb1"
       (reference "#PWR050") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062d3f1e4"
+      (reference "#PWR051") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000062b149b9"
       (reference "#PWR052") (unit 1) (value "VCC") (footprint "")
     )
@@ -5083,44 +5103,47 @@
     (path "/00000000-0000-0000-0000-000063f76e84/00000000-0000-0000-0000-000062b05f95"
       (reference "#PWR063") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062d3f1e4"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000631447cc"
       (reference "#PWR064") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-0000631447cc"
-      (reference "#PWR065") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062f153bb"
-      (reference "#PWR066") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR065") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062dd06ef"
-      (reference "#PWR067") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR066") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063172bca"
-      (reference "#PWR068") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR067") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062bf0f7b/fea66c87-254e-4e30-84f9-4f0aff430226"
+      (reference "#PWR068") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063557348"
       (reference "#PWR069") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062e0c176"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/f28d7ba1-587c-4b68-9e8b-f48d60c6ad02"
       (reference "#PWR070") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062e5caff"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062e0c176"
       (reference "#PWR071") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/bdaf0366-89fe-43cf-81bd-141b54c012d0"
-      (reference "#PWR072") (unit 1) (value "VCC") (footprint "")
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062e5caff"
+      (reference "#PWR072") (unit 1) (value "GND") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/4726819a-94bb-4510-af1e-79ae995553ee"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/bdaf0366-89fe-43cf-81bd-141b54c012d0"
       (reference "#PWR073") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/ee469517-f735-4672-adf5-5d461ce2adf9"
-      (reference "#PWR074") (unit 1) (value "GND") (footprint "")
+    (path "/00000000-0000-0000-0000-000062bf0f7b/4726819a-94bb-4510-af1e-79ae995553ee"
+      (reference "#PWR074") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062b90e90"
+    (path "/00000000-0000-0000-0000-000062bf0f7b/ee469517-f735-4672-adf5-5d461ce2adf9"
       (reference "#PWR075") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-0000664fb8ad/1071d9aa-4ebe-4fac-ae8c-fbb3e6c89ad7"
       (reference "#PWR076") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000062b90e90"
+      (reference "#PWR077") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/9e0711af-abda-4a9b-9284-6f7fefbb1965"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
@@ -5497,8 +5520,11 @@
     (path "/00000000-0000-0000-0000-000062bf0f7b/c5155ffc-6369-4298-9af7-3fe903c7d13d"
       (reference "JVE2") (unit 1) (value "SVIDEO") (footprint "Mini-DIN:CUI_MD-80SMK")
     )
+    (path "/00000000-0000-0000-0000-000062bf0f7b/43aa246c-5398-4d4c-b442-8699f68ac75a"
+      (reference "JVE3") (unit 1) (value "HDMI ADAPTER") (footprint "Connector_IDC:IDC-Header_2x05_P2.54mm_Horizontal")
+    )
     (path "/00000000-0000-0000-0000-000062bf0f7b/00000000-0000-0000-0000-000063743a78"
-      (reference "JVE3") (unit 1) (value "PAL/NTSC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+      (reference "JVE4") (unit 1) (value "PAL/NTSC") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000066070516"
       (reference "LIO1") (unit 1) (value "100uH") (footprint "Inductor_SMD:L_7.3x7.3_H4.5")

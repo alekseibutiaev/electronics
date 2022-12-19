@@ -5793,8 +5793,11 @@
     (path "/00000000-0000-0000-0000-00006296e6c7/7a32bb26-5477-4fdd-8708-e9d3134f0186"
       (reference "U2") (unit 6) (value "74HC14") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
-    (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006293a18d"
-      (reference "U3") (unit 1) (value "74HC93") (footprint "Package_DIP:DIP-14_W7.62mm")
+    (path "/00000000-0000-0000-0000-00006296e6c7/b481c460-9b1b-4e33-9f8a-643bc5c1c7d8"
+      (reference "U3") (unit 1) (value "74HC393") (footprint "Package_DIP:DIP-14_W7.62mm")
+    )
+    (path "/00000000-0000-0000-0000-00006296e6c7/95079997-67ac-4b59-a2b2-9578487fc75f"
+      (reference "U3") (unit 2) (value "74HC393") (footprint "Package_DIP:DIP-14_W7.62mm")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-000062add88c"
       (reference "U4") (unit 1) (value "74HC11") (footprint "Package_DIP:DIP-14_W7.62mm")

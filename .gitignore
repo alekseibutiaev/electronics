@@ -15,4 +15,5 @@ Project Backups
 *gerber*
 *.rom
 report.txt
+.vcd
 

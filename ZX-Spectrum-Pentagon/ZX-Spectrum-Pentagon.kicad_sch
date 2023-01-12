@@ -5150,6 +5150,12 @@
     (path "/00000000-0000-0000-0000-00006296ed1f/bf65b100-6489-4d3e-9d34-0b2bb4ec9ae6"
       (reference "#PWR0102") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-000062a08194/0e9cb254-d5a6-43df-b938-d4e89e7c4f1b"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-000062a08194/c31e7ab1-f89e-4888-8329-6b12abe8b2da"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006298b702"
       (reference "CG1") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -5504,8 +5510,8 @@
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006307af71"
       (reference "JIO5") (unit 1) (value "0XFE IN") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c0e915"
-      (reference "JIOKB1") (unit 1) (value "KDATA") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000062a08194/ac0214e0-cfb9-4b53-9214-9139dd989c7d"
+      (reference "JIOKB1") (unit 1) (value "KDATA") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c0fa26"
       (reference "JIOKB2") (unit 1) (value "KADDR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")

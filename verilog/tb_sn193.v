@@ -1,13 +1,5 @@
 `include "sn74lib.v"
 
-/*
-  output reg [3:0] out;
-  output reg co, bo;
-  input [3:0] d;
-  input up, down, load, clr;
-  out, co, bo, d, up, down, nload, clr
-*/
-
 module tb;
   wire [3:0] out;
   wire co, bo;

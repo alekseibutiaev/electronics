@@ -6,9 +6,7 @@ module SN74XX157(out, a, b, sel, str);
   input sel, str;
 
   always @(a or b or sel or str)
-  begin
     out <= str ? 4'b0000 : sel ? b : a;
-  end
 
 endmodule
 
@@ -19,9 +17,7 @@ module SN74XX158(out, a, b, sel, str);
   input sel, str;
 
   always @(a or b or sel or str)
-  begin
     out <= ~(str ? 4'b0000 : sel ? b : a);
-  end
 
 endmodule
 
@@ -32,9 +28,7 @@ module SN74XX257(out, a, b, sel, oe);
   input sel, oe;
 
   always @(a or b or sel or oe)
-  begin
     out <= oe ? 4'bzzzz : sel ? b : a;
-  end
 
 endmodule
 
@@ -45,9 +39,7 @@ module SN74XX258(out, a, b, sel, oe);
   input sel, oe;
 
   always @(a or b or sel or oe)
-  begin
     out <= oe ? 4'bzzzz : ~(sel ? b : a);
-  end
 
 endmodule
 
@@ -57,7 +49,6 @@ module SN74XX153(out, a, b, c, d, sel, str);
   input str;
 
   always @(a, b, c, d, sel, str)
-  begin
     if (str)
       out <= 2'b00;
     else
@@ -67,7 +58,6 @@ module SN74XX153(out, a, b, c, d, sel, str);
         2'b10 : out <= c;
         2'b11 : out <= d;
       endcase
-  end
 
 endmodule
 
@@ -77,7 +67,6 @@ module SN74XX253(out, a, b, c, d, sel, oe);
   input oe;
 
   always @(a, b, c, d, sel, oe)
-  begin
     if (oe)
       out <= 2'bzz;
     else
@@ -87,7 +76,6 @@ module SN74XX253(out, a, b, c, d, sel, oe);
         2'b10 : out <= c;
         2'b11 : out <= d;
       endcase
-  end
 
 endmodule
 
@@ -98,7 +86,6 @@ module SN74XX151(out, _out, a, sel, str);
   input str;
 
   always @(a, sel, str)
-  begin
     if(str) begin
       out <= 0;
       _out <= 1;
@@ -107,7 +94,6 @@ module SN74XX151(out, _out, a, sel, str);
       out <= a[sel];
       _out <= ~a[sel];
     end
-  end
 
 endmodule
 
@@ -118,7 +104,6 @@ module SN74XX251(out, _out, a, sel, oe);
   input oe;
 
   always @(a, sel, oe)
-  begin
     if(oe) begin
       out <= 1'bz;
       _out <= 1'bz;
@@ -127,11 +112,10 @@ module SN74XX251(out, _out, a, sel, oe);
       out <= a[sel];
       _out <= ~a[sel];
     end
-  end
 
 endmodule
 
-module SN74XX193 (out, co, bo, d, up, down, nload, clr);
+module SN74XX193(out, co, bo, d, up, down, nload, clr);
   output reg [3:0] out;
   output reg co, bo;
   input [3:0] d;
@@ -164,4 +148,43 @@ module SN74XX193 (out, co, bo, d, up, down, nload, clr);
     bo <= ~(~down & out == 4'b0000);
 
 endmodule
+
+module SN74XX93(outa, outb, clka, clkb, r0, r1);
+  output reg outa;
+  output reg [2:0] outb;
+  input clka, clkb, r0, r1;
+
+  initial begin
+    {outa, outb} <= 4'b0000;
+  end
+
+  always @(negedge clka)
+    outa = outa + 1'b1;
+
+  always @(negedge clkb)
+    outb = outb + 1'b1;
+
+  always @(posedge r0 or posedge r1)
+    if(r0 & r1) 
+      {outa, outb} <= 4'b0000;
+
+endmodule
+
+module SN74XX393(out, clk, clr);
+  output reg [3:0] out;
+  input clk, clr;
+
+  initial begin
+    out <= 4'b0000;
+  end
+
+  always @(negedge clk)
+    out = out + 1'b1;
+
+  always @(posedge clr)
+    out <= 4'b0000;
+
+endmodule
+
+
 

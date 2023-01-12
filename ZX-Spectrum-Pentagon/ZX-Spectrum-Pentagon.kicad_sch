@@ -7,6 +7,7 @@
   (lib_symbols
   )
 
+
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -5151,10 +5152,10 @@
       (reference "#PWR0102") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062a08194/0e9cb254-d5a6-43df-b938-d4e89e7c4f1b"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-000062a08194/c31e7ab1-f89e-4888-8329-6b12abe8b2da"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+      (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006298b702"
       (reference "CG1") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -5418,13 +5419,13 @@
       (reference "DG2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c8063c"
-      (reference "DIO1") (unit 1) (value "BZT52C3V0") (footprint "Diode_SMD:D_MiniMELF")
+      (reference "DIO1") (unit 1) (value "3V0") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062cde6eb"
       (reference "DIO2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c8a906"
-      (reference "DIO3") (unit 1) (value "BZT52C3V0") (footprint "Diode_SMD:D_MiniMELF")
+      (reference "DIO3") (unit 1) (value "3V0") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-0000631ea54a"
       (reference "DIO4") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")

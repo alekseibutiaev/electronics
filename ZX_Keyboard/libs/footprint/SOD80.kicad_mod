@@ -1,0 +1,53 @@
+
+(footprint SOD80 (layer F.Cu) (tedit 6384ECB5)
+  (descr "<b>SMALL OUTLINE DIODE</b>")
+  (fp_text reference REF** (at 0.635 -1.905 0) (layer F.SilkS)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (fp_text value SOD80 (at 0.635 1.905 0) (layer F.Fab)
+    (effects (font (size 1.0 1.0) (thickness 0.15)))
+  )
+  (pad C smd rect (at -1.7 0.0) (size 1.4 1.8) (layers F.Cu F.Mask F.Paste))
+  (pad A smd rect (at 1.7 0.0) (size 1.4 1.8) (layers F.Cu F.Mask F.Paste))
+  (fp_line (start -2.973 -1.483) (end 2.973 -1.483) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start 2.973 1.483) (end -2.973 1.483) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start -2.973 1.483) (end -2.973 -1.483) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start 2.973 -1.483) (end 2.973 1.483) (layer F.CrtYd) (width 0.0508))
+  (fp_line (start 1.3208 -0.7874) (end -1.3208 -0.7874) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 1.3208 0.7874) (end -1.3208 0.7874) (layer F.SilkS) (width 0.1524))
+  (fp_line (start 0.5 -0.6) (end -0.5 0.0) (layer F.SilkS) (width 0.2032))
+  (fp_line (start -0.5 0.0) (end 0.5 0.6) (layer F.SilkS) (width 0.2032))
+  (fp_line (start 0.5 0.6) (end 0.5 -0.6) (layer F.SilkS) (width 0.2032))
+  (fp_poly
+    (pts
+      (xy -1.8542 -0.8636)
+      (xy -1.2954 -0.8636)
+      (xy -1.2954 0.8636)
+      (xy -1.8542 0.8636)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy 1.2954 -0.8636)
+      (xy 1.8542 -0.8636)
+      (xy 1.8542 0.8636)
+      (xy 1.2954 0.8636)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.9906 -0.7874)
+      (xy -0.381 -0.7874)
+      (xy -0.381 0.7874)
+      (xy -0.9906 0.7874)
+    ) (layer F.SilkS) (width 0.01)
+  )
+  (fp_poly
+    (pts
+      (xy -0.4001 -0.5999)
+      (xy 0.4001 -0.5999)
+      (xy 0.4001 0.5999)
+      (xy -0.4001 0.5999)
+    ) (layer Dwgs.User) (width 0.01)
+  )
+)

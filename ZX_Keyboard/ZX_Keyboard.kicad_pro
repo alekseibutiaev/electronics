@@ -434,7 +434,6 @@
         "name": "POWER",
         "nets": [
           "GND",
-          "VCC",
           "VIN+5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",

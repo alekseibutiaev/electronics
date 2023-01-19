@@ -1479,199 +1479,202 @@
       (reference "D2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/2d94e975-3923-4242-a0e1-c05400c09afa"
-      (reference "DKR1") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR1") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/2ea96c55-d447-4492-9a2c-2c361b1f5ee5"
-      (reference "DKR2") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR2") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/ec6dcdc7-9d36-470b-ab5a-c4182986bb8c"
-      (reference "DKR3") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR3") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/4ff20138-0991-4663-8851-83b3ae95e9f2"
-      (reference "DKR4") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR4") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/321ca6c6-213e-47b2-a3c5-af4643144940"
-      (reference "DKR5") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR5") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/a26ac5d4-5bf0-4f65-a413-e0f7bd40f49b"
-      (reference "DKR6") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR6") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/c38388a6-d933-4507-9850-15bf0286b6a5"
-      (reference "DKR7") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR7") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/ab7c17b4-844f-4520-8b18-2b89cd80ab80"
-      (reference "DKR8") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR8") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/4a8a878e-3fea-4482-bbb4-147a361cd584"
-      (reference "DKR9") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR9") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/6819d652-c9d0-4f9b-a30c-50a8a4a46be4"
-      (reference "DKR10") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR10") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/39d7bd9e-118b-4d27-88b3-1d31b7b8eed3"
-      (reference "DKR11") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR11") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/655a45db-06c2-4baf-854b-e9915a2e61e6"
-      (reference "DKR12") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR12") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/1bbd94ea-9ebf-47a9-a1d8-b578f3c983da"
-      (reference "DKR13") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR13") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/b042c4cc-63a1-49f2-bb15-634c1a295f53"
-      (reference "DKR14") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR14") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/80a6d342-86a2-4317-be55-bbbc4d27fb43"
-      (reference "DKR15") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR15") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/5751c368-8d83-4ddb-b0fd-375e04821616"
-      (reference "DKR16") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR16") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/1502c769-4e65-4fe7-99ed-d88771e6d7c7"
-      (reference "DKR17") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR17") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/96e79ba6-93d2-4072-b36a-140a9b947384"
-      (reference "DKR18") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR18") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/1f23683b-d0d9-4b8d-8dc9-f910c6ce37ea"
-      (reference "DKR19") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR19") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/48678364-c4c6-419b-ab67-ae1b72277a4b"
-      (reference "DKR20") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR20") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/326af404-6b1a-44af-bbb9-f07bc008b8dd"
-      (reference "DKR21") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR21") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/578f2751-c201-4657-b605-cc65a61bdf71"
-      (reference "DKR22") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR22") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/e847dc17-db72-416f-aa77-69ab6bebf56a"
-      (reference "DKR23") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR23") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/c8f112cd-e095-486d-9efe-835b3aaf4b7e"
-      (reference "DKR24") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR24") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/fddaf529-a8c7-4e47-8d64-0f9102c72f80"
-      (reference "DKR25") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR25") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/14c7cfd0-1b88-45c2-acfb-0551ae1b9e1e"
-      (reference "DKR26") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR26") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/b71181ec-02b7-4c48-b4b1-6614558585c7"
-      (reference "DKR27") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR27") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/1698fd05-49f6-4631-afd5-17e97b9fcb6a"
-      (reference "DKR28") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR28") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/6519a333-ea3b-4e68-abf5-1c7c5c2a7b69"
-      (reference "DKR29") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR29") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/d5500fbd-69d3-4f5d-8835-1b152e4f236d"
-      (reference "DKR30") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR30") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/51b99f98-d8b9-49c8-aa42-a3856ffc0fbf"
-      (reference "DKR31") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR31") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/3957eeb3-5a41-4511-8126-8b7bf1fd190c"
-      (reference "DKR32") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR32") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/c0926bc8-4bb2-49ae-8cc4-eb2a0125ddf7"
-      (reference "DKR33") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR33") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/93edbd52-91bb-4af5-b3fd-a4b74ec151ff"
-      (reference "DKR34") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR34") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/a249fd2e-c066-4561-b2b5-7b45e4abbfbf"
-      (reference "DKR35") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR35") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/1c75d55b-65a4-4351-b843-2ab37080d109"
-      (reference "DKR36") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR36") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/432389e5-5f8f-493c-acc1-99ef45fa5042"
-      (reference "DKR37") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR37") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/e2e3a693-da23-4a1c-a72e-e51ddda5b722"
-      (reference "DKR38") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR38") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/293d0d87-8ebf-4b56-8e16-f35c6a423dc2"
-      (reference "DKR39") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR39") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/d46afba0-151a-4e2c-a489-4b02cf016f53"
-      (reference "DKR40") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR40") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/e2e2ba60-8e4c-4847-9ee6-248818a97310"
-      (reference "DKR41") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR41") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/ec217d31-657a-47d9-bfc5-a9d87d0e7f7f"
-      (reference "DKR42") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR42") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/1dc6ac85-37e1-4980-8a90-34495dd9a545"
-      (reference "DKR43") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR43") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/3ac49009-c798-4d1b-ab93-2ed57e22b27b"
-      (reference "DKR44") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR44") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/b4d307e6-c95e-4b05-8877-d0533a321413"
-      (reference "DKR45") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR45") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/4d443b3b-26d7-4099-97ae-89d2236b2a00"
-      (reference "DKR46") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR46") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/9e574d62-9d96-4624-ad71-fd70fd4b11ff"
-      (reference "DKR47") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR47") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/4f7b723e-b2ba-46b6-b918-b0a22aa315e0"
-      (reference "DKR48") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR48") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/ef1277a6-9fcf-4e10-9887-9f675a795062"
-      (reference "DKR49") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR49") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/ccf32279-ef8f-403c-b793-654fc104bf07"
-      (reference "DKR50") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR50") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/a420b304-74a6-4514-92e6-507049bf7258"
-      (reference "DKR51") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR51") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/d2fca4a0-7d8b-4d9c-8518-cca5619d7675"
-      (reference "DKR52") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR52") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/41fbcd35-4bd9-4b21-9e4e-2a63e97bfa0c"
-      (reference "DKR53") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR53") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/3f79ea4a-12af-4c29-8a5a-387e02eca7d4"
-      (reference "DKR54") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR54") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/f703a595-fdc7-4518-aa95-f84848677fbe"
-      (reference "DKR55") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR55") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/6d5c31c7-6493-4143-adaa-ab57481d73ce"
-      (reference "DKR56") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR56") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/e8670624-58eb-4c44-a9e2-586861b676b9"
-      (reference "DKR57") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR57") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/d719c421-d878-45fc-b7a9-9491586c5326"
-      (reference "DKR58") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR58") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/c01a7ad9-dd38-492f-aa50-13c6974fc75e"
-      (reference "DKR59") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR59") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/f14446f4-6fed-4ea1-a299-8fea000fe20d"
-      (reference "DKR60") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR60") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/4670a953-b510-4899-941b-40bd7434f996"
-      (reference "DKR61") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR61") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/42f00ac5-4af7-4b23-8878-97bee12408fb"
-      (reference "DKR62") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR62") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/59b5fbd2-60d9-4cc4-a8ca-f3e5f25c18dd"
-      (reference "DKR63") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR63") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/5040f468-c9cd-43de-873f-d745b7240a1a"
-      (reference "DKR64") (unit 1) (value "8x1N4148") (footprint "Diode_SMD:D_SOD-523")
+      (reference "DKR64") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/55690a6b-1d97-4e97-ad4d-badc837fe6bf"
       (reference "DPS1") (unit 1) (value "1N5817") (footprint "Diode_SMD:D_MiniMELF")
+    )
+    (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/938f8903-61eb-4dba-bec0-fecb9021521f"
+      (reference "J1") (unit 1) (value "SWD") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/faf0f1c2-c026-47f2-9967-e991da81627e"
       (reference "J2") (unit 1) (value "DBG_UART") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -1699,9 +1702,6 @@
     )
     (path "/f4721f99-99e3-4f4f-8cdd-eff46f022b1c/b5fe1f8c-61bd-460b-b10e-e3f2508b16de"
       (reference "JPS1") (unit 1) (value "POWER") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
-    )
-    (path "/8a9d6e3f-1480-406f-9c69-4949a746efd0/938f8903-61eb-4dba-bec0-fecb9021521f"
-      (reference "JSWD1") (unit 1) (value "SWD") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical")
     )
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/161f6fbb-63ff-4de4-8e64-3949aa1f118f"
       (reference "LEDC1") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")

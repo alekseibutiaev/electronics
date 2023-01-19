@@ -2276,7 +2276,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x06") (at 39.37 156.21 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 938f8903-61eb-4dba-bec0-fecb9021521f)
-    (property "Reference" "JSWD1" (id 0) (at 39.37 148.59 0))
+    (property "Reference" "J1" (id 0) (at 39.37 148.59 0))
     (property "Value" "SWD" (id 1) (at 39.37 166.37 0))
     (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" (id 2) (at 39.37 156.21 0)
       (effects (font (size 1.27 1.27)) hide)

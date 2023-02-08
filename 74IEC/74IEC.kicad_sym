@@ -26523,7 +26523,7 @@
         (name "GND" (effects (font (size 1.27 1.27))))
         (number "13" (effects (font (size 1.27 1.27))))
       )
-      (pin unspecified line (at -6.35 15.24 0) (length 0) hide
+      (pin no_connect line (at -6.35 15.24 0) (length 0) hide
         (name "" (effects (font (size 1.27 1.27))))
         (number "23" (effects (font (size 1.27 1.27))))
       )

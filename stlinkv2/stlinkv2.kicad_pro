@@ -402,6 +402,7 @@
         "nets": [
           "+3V3",
           "EXTERN_5V",
+          "GND",
           "USB5V"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",

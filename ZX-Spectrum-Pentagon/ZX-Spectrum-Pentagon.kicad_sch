@@ -5157,6 +5157,9 @@
     (path "/00000000-0000-0000-0000-000062a08194/c31e7ab1-f89e-4888-8329-6b12abe8b2da"
       (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-00006296ed1f/df02ca17-a9b0-4830-be61-678774753c8a"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006298b702"
       (reference "CG1") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -5493,11 +5496,11 @@
     (path "/00000000-0000-0000-0000-0000664fb8ad/273f62a5-5f43-4176-b995-034015866fdb"
       (reference "H6") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
-    (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000067c473e7"
-      (reference "JCPU1") (unit 1) (value "TOP LEVEL") (footprint "ZX-Spectrum-Pentagon:PinSocket_2x28_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-00006296ed1f/a9c5a121-0e53-40af-ab8a-5e9abccbcb9b"
+      (reference "JCPU1") (unit 1) (value "TOP LEVEL") (footprint "ZX-Spectrum-Pentagon:PinSocket_2x30_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-0000648882f1"
-      (reference "JIO1") (unit 1) (value "0XFE OUT") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000062a08194/f2afa35a-d4da-4056-a557-fa8997aefee5"
+      (reference "JIO1") (unit 1) (value "0XFE OUT") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000063f0ab09"
       (reference "JIO2") (unit 1) (value "Tape") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal")
@@ -5508,13 +5511,13 @@
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000064a800b7"
       (reference "JIO4") (unit 1) (value "Sound") (footprint "Connector_Audio:Jack_3.5mm_CUI_SJ1-3535NG_Horizontal")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006307af71"
-      (reference "JIO5") (unit 1) (value "0XFE IN") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
+    (path "/00000000-0000-0000-0000-000062a08194/c93e0ee3-d1f9-404f-9250-432536a623d9"
+      (reference "JIO5") (unit 1) (value "OxFE IN") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/ac0214e0-cfb9-4b53-9214-9139dd989c7d"
-      (reference "JIOKB1") (unit 1) (value "KDATA") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x07_P2.54mm_Vertical")
+      (reference "JIOKB1") (unit 1) (value "KDATA") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c0fa26"
+    (path "/00000000-0000-0000-0000-000062a08194/de775720-f7f2-4e8e-8eb2-c9141e64fe25"
       (reference "JIOKB2") (unit 1) (value "KADDR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a0558e/00000000-0000-0000-0000-000062b64645"

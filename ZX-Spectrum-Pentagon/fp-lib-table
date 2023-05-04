@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name ZX-Spectrum-Pentagon)(type KiCad)(uri ${KIPRJMOD}/libs/footprint)(options "")(descr "custom footprint for zx project"))
+  (lib (name "ZX-Spectrum-Pentagon")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint")(options "")(descr "custom footprint for zx project"))
+  (lib (name "Mini-DIN")(type "KiCad")(uri "${KIPRJMOD}/../mdconnectors/footprint")(options "")(descr ""))
+  (lib (name "CDInductor")(type "KiCad")(uri "${KIPRJMOD}/../CDInductor/me-tech")(options "")(descr ""))
 )

@@ -1,0 +1,338 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <meta content="text/html; charset=windows-1252" http-equiv="content-type">
+    <title>Game Console RGB SCART Cable Diagrams</title>
+  </head>
+  <body>
+    <p align="center"><big><big>Game Console RGB SCART Cable Diagrams</big></big></p>
+    <p align="left">For anyone unfamiliar with what RGB video is see this <a href="http://atarilabs.com/meat/2000/1201_videoprimer.shtml">Video
+        Primer</a>.<br>
+      SCART pinouts and signal info can be found <a href="http://utopia.knoware.nl/users/eprebel/SoundAndVision/Engineering/SCART.html">here</a>.</p>
+    <p align="left">SCART (aka Peritel or Euroconnector) cables for home video
+      game consoles
+      aren't standard, they are different for each console. The manufacturers
+      have taken full
+      advantage of this and, in what I assume is an effort to save a few cents,
+      often place
+      necessary components (esp. coupling capacitors) of the RGB output circuit
+      inside the SCART
+      cable. Since only a small fraction of people who own a console use/require
+      a SCART cable
+      it slightly reduces the overall cost.</p>
+    <p align="left">This page contains circuit diagrams to aid anybody wanting
+      build/repair/adapt these cables, as well as pinouts and a short
+      description of the RGB
+      video output (75 ohm driver) circuit. Enjoy...</p>
+    <p align="left"><big><big>Notes</big></big></p>
+    <p align="left">TVs with SCART inputs are only common in Europe and
+      Australia (mainly
+      because we share a similar TV standard (thus TV designs) with most of
+      Europe and the TV
+      manufactures just leave the connectors in place). If you are from a
+      somewhere where TVs
+      with SCART inputs are rare then don't despair, some of the upper market
+      TVs offer RGB
+      input in the form of 4 phono sockets, one for each colour and one for
+      composite sync. If
+      such a TV can't be found for a reasonable price, then look around for an
+      old RGB computer
+      monitor that is compatible with the TV horizontal scan frequency, such as
+      the commodore
+      1084 monitor. Alternatively, if a suitable monitor can't be located and
+      you're good with
+      electronics, then consider building a <a href="../vga2arc/vga2arc.htm#acvid">SCART
+        to
+        arcade monitor</a> adapter.</p>
+    <p align="left">The SCART spec states that to switch to RGB mode the CVBS
+      Status pin must
+      be fed 12V and the RGB Status (aka Fast Blanking) pin be fed 1-3V. Some
+      games consoles
+      only output 5V which may or may not be adequate. If the TV doesn't switch
+      and there is no
+      way to manually force a 'video mode' (such as a button on the remote
+      control) then an
+      external 12V supply may be required. In cases where the TV is a widescreen
+      model or has a
+      widescreen mode feature, applying only 5v to the RGB Status pin may force
+      the TV into 16:9
+      widescreen mode.</p>
+    <p align="left">In the diagrams I have drawn all the SCART ground pins
+      connected together.
+      This isn't required but it's a good idea to connect to at least two ground
+      pins (usually
+      17 and 18). If you're using mini-coax to connect the RGB video
+      (recommended if the cable
+      is going to be long) then ground pins 5, 9 and 13 provide handy places to
+      solder the
+      shield. The reverse applies to the console end of the cable. I've only
+      drawn one ground
+      connection but it may be a good idea make use of other ground connections
+      (if there are
+      any).</p>
+    <p align="left">Cables which run video and audio signals together without a
+      seperating
+      shield around the audio wires may cause an annoying 50 or 60hz buzzing
+      sound in the audio
+      which vaires in volume with the picture content. This is caused by the
+      capacitive coupling
+      of the two wires running next to each other. The longer the cable is the
+      more capacitance
+      between the wire. The best way to avoid this is to run a seperate cables
+      for audio and
+      video join them together again at the SCART end. </p>
+    <p align="left"><big><big>The Diagrams</big></big></p>
+    <p><a href="#megamstr">Sega Master System/Mega Drive (Genesis)</a><br>
+      <a href="#mega2">Sega Megadrive 2 (Genesis 2)</a><br>
+      <a href="#saturn">Sega Saturn</a><br>
+      <a href="#dcast">Sega Dreamcast</a><br>
+      <a href="#snes">Super Nintendo</a><br>
+      <a href="#gamecube">Nintendo Gamecube<br>
+      </a><a href="#wii">Nintendo Wii</a><br>
+      <a href="#psx">Sony Playstation/Playstation 2</a><br>
+      <a href="#neogeo">SNK Neo Geo</a><br>
+      <a href="#jaguar">Atari Jaguar</a><br>
+      <a href="#xbox">Microsoft Xbox</a></p>
+    <p><b><big><a name="megamstr">Sega Master System/Mega Drive</a></big></b></p>
+    <p><img src="megamstr.png" alt="megamstr.png (3648 bytes)" height="285" width="470"><br>
+      A/V output comes from an 8 pin female "U" DIN connector. Pinouts are: 1
+      audio, 2
+      ground, 3 composite video, 4 +5V DC, 5 green video, 6 red video, 7
+      composite sync, 8 blue
+      video. RGB output circuit: Sony CXA1145 video encoder IC - outputs come
+      straight from the
+      chip.<br>
+      <br>
+    </p>
+    <p><b><a name="mega2"><big>Sega Mega Drive 2</big></a></b></p>
+    <p><img src="mega2.png" height="287" width="524"> <br>
+      A/V comes from a female 9 pin mini DIN connector. Signals are the same as
+      the original
+      Megadrive with the addition of stereo audio. Pinouts are: 1 blue video, 2
+      +5V DC, 3 green
+      video, 4 composite video, 5 composite sync, 6 audio mono, 7 red video, 8
+      audio left, 9
+      audio right, and the metal shield is ground. RGB output circuit:
+      CXA1145/CXA1645/KA2195/MB3514 video encoder IC - outputs come straight
+      from the chip.</p>
+    <p><br>
+      <b><a name="saturn"><big>Sega Saturn</big></a></b></p>
+    <p><img src="saturn.png" height="252" width="501"> <br>
+      Connector is a 10 pin mini-DIN type. While it's a standard connector, it's
+      extremely rare
+      so don't expect to be able to buy one from the local electronics shop (or
+      anywhere for
+      that matter). The Saturn puts out luma/chroma (s-video) as well as the
+      usual RGB/CVBS.
+      Pinouts: 1 composite sync, 2 audio right, 3 audio left, 4 +5V DC, 5 red
+      video, 6 green
+      video, 7 blue video, 8 composite video, 9 luminance, 10 chrominance. RGB
+      output circuit:
+      signal comes out a CXA1645 through a 75 ohm resistor and a coupling cap. </p>
+    <p><br>
+      <b><a name="dcast"><big>Sega Dreamcast</big></a></b></p>
+    <p><img src="dcast.png" height="300" width="533"> <br>
+      Utilises a proprietary connector for A/V out. Supports CVBS, RGB (TV), RGB
+      (VGA, req.
+      adapter) and luma/chroma. Pin 7 must be connected to ground to enable RGB.
+      Pinouts: 1
+      ground, 2 audio right, 3 audio left, 4 +12V DC, 5 +5V DC, 6 RGB (VGA)
+      select, 7 RGB (TV)
+      select, 8 vertical sync (for VGA), 9 horizontal sync (for VGA), 10
+      composite sync, 11
+      chrominance, 12 luminance, 13 composite video, 14 blue video, 15 green
+      video, 16 red
+      video. RGB output circuit: proprietary DAC.</p>
+    <p><br>
+      <b><a name="snes"><big>Super Nintendo</big></a></b><br>
+      For some unknown reason the RGB output circuits differs between the NTSC
+      and PAL consoles.
+      As a result the cables are different too (though I somehow doubt Nintendo
+      had any
+      intention of releasing a SCART lead for the NTSC SNES).<br>
+      <img src="snespal.png" height="281" width="527"> <br>
+      Proprietary A/V connector. Pinouts: 1 red video, 2 green video, 3 +12V DC,
+      4 blue video, 5
+      ground, 6 ground, 7 luminance, 8 chrominance, 9 composite video, 10 +5V
+      DC, 11 audio left,
+      12 audio right. RGB output circuit: <a href="o_snesp.png">here</a> </p>
+    <p><img src="snesntsc.png" height="286" width="512"> <br>
+      Pinout is the same as above with the exception of pin 3 which is composite
+      sync instead of
+      +12V. RGB output circuit: <a href="o_snesn.png">here</a> </p>
+    <p><br>
+      <b><a name="gamecube"><big>Nintendo Gamecube</big></a></b><br>
+      Nintendo are up to their old tricks again. The PAL console outputs RGB but
+      not s-video and
+      the NTSC model outputs s-video but not RGB. Therefore this cable will only
+      work on a PAL
+      Gamecube. However, it is possible to get RGB from an NTSC Gamecube by
+      modifying the
+      official component video cable. Here are some guides to the procedure:<br>
+      <a href="http://www.geocities.co.jp/Technopolis-Mars/9984/ngcrgb_e.htm">How
+        to make NGC's
+        RGB(VGA) Cable</a> [<font color="#ff0000">link fixed</font>]<br>
+      <a href="http://gamesx.com/wiki/doku.php?id=av:gamecube_rgb">RARusk's
+        Nintendo GameCube
+        Component Video Cable RGB Modification</a> [<font color="#ff0000">link
+        fixed</font>]<br>
+      <a href="http://www.mmmonkey.co.uk/console/nintendo/ntsc_nintendo_64_rgb.htm">MMMonkey's
+NTSC
+        Game Cube RGB Cable</a><br>
+      <br>
+      <img src="gamecube.png" alt="gamecube.png (3073 bytes)" height="305" width="525"><br>
+      Proprietary A/V connector. Pinouts: 1 red video (PAL only), 2 green video
+      (PAL only), 3
+      +12V DC, 4 blue video (PAL only), 5 ground, 6 ground, 7 luminance (NTSC
+      only), 8
+      chrominance (NTSC only), 9 composite video, 10 +5V DC, 11 audio left, 12
+      audio right. RGB
+      output circuit: proprietary DAC.<br>
+      <br>
+    </p>
+    <p><b><big><a name="wii">Nintendo Wii</a></big></b><br>
+      Like the Gamecube, RGB video is only available from the PAL Wii.<br>
+      <img src="wii.png" title="" alt="Nintendo Wii to SCART cable" height="286"
+        width="561"><br>
+      Proprietary A/V connector (different to the proprietary A/V socket used on
+      previous
+      nintendos). Pinouts: 1 left audio, 2 right audio, 3 composite video, 4 +5v
+      DC, 5 ground, 6
+      ground, 7 red video (luminance/NTSC), 8 mode select, 9 green video
+      (chrominance/NTSC), 10
+      mode select, 11 blue video, 12 ground, 13 +12v DC. Pins 14-16 are for
+      something called a
+      Japanese D-Terminal Cable. Mode select pins are normaly left unconnected.
+      When they are
+      connected together, component video (YUV/YPbPr) will output from pins 7, 9
+      and 11 in place
+      for RGB/S-video. The DC voltage on pin 13 will drop to 5v for widescreen
+      games (will it?).<br>
+      <br>
+    </p>
+    <b><big><a name="psx">
+        </a></big></b>
+    <p><b><big><a name="psx">Sony Playstation/Playstation 2</a> </big></b></p>
+    <p><img src="psx.png" height="278" width="488"> <br>
+      Propriety connector. Pin outputs: 1 ground, 2 audio left, 3 ground, 4
+      audio right, 5
+      luminance, 6 composite sync, 7 chrominance, 8 ground, 9 blue video, 10 +5V
+      DC, 11 red
+      video, 12 green video.<br>
+      RGB output circuit: signal comes from a CXA1645 and a through a 75 ohm
+      resistor. </p>
+    <p><br>
+      <b><a name="neogeo"><big>SNK Neo Geo<br>
+            <br>
+          </big></a></b><img src="neogeo.png" height="262" width="486"><br>
+      Female 8 pin "C" DIN connector. Pinouts: 1 audio mono, 2 ground, 3
+      composite
+      video, 4 +5V DC, 5 green video, 6 red video, 7 composite sync, 8 blue
+      video. RGB output
+      circuit: signal comes out a CXA1145/MB3514, through a 75 ohm resistor and
+      a coupling cap.<br>
+      <br>
+    </p>
+    <p><b><a name="jaguar"><big>Atari Jaguar<br>
+            <br>
+          </big></a></b><img src="jaguar.png" alt="jaguar.png (2354 bytes)" height="306"
+        width="386"></p>
+    <p>Propriety connector. Pinouts: 1A audio left, 2A audio ground, 3A n/c, 4A
+      video ground,
+      5A blue video, 6A horizontal sync, 7A green video, 8A chrominance, 9A n/c,
+      10A INC (???),
+      11A unregulated DC voltage from power input, 12A n/c, 1B audio right, 2B
+      audio ground, 3B
+      video ground, 4B red video, 5B vertical sync, 6B n/c, 7B video ground, 8B
+      luminance, 9B
+      ground, 10B video ground, 11B composite video, 12B n/c.<br>
+      <br>
+    </p>
+    <p><b><a name="xbox"><big>Microsoft Xbox<br>
+            <br>
+          </big></a></b><img src="xbox.png" alt="xbox.png (3157 bytes)" height="273"
+        width="538"></p>
+    <p>Propriety connector. Pinouts: 1 audio right, 2 audio ground, 3 SP-DIF
+      digital audio, 4
+      vertical sync?, 5/6/7/8 ground, 9 video output A (blue), 10 video ground,
+      11 video output
+      B (green), 12 video ground, 13 +5v, 14 audio left, 15 audio ground, 16
+      horizontal sync?,
+      17/18/19 video mode select (ground all three for RGB), 20 +12v (RGB
+      Status), 21 video
+      ground, 22 video output C (red), 23 video ground, 24 video output D
+      (composite video).
+      Different audio/video configurations are selectable by maniplating the
+      three video mode
+      select pins (17, 18 and 19). See the <a href="http://www.gamesx.com/avpinouts/xbox.htm">Gamesx
+Xbox
+        pinouts page</a> for more info on this. The DC voltage on pin 20 will
+      drop to +5v for
+      widescreen mode.<br>
+    </p>
+    <p align="left">and finaly, the <big><big>Resources</big></big></p>
+    <p align="left"><a href="http://www.gamesx.com">Game Station X</a> - Game
+      console pinouts
+      &amp; modifications<br>
+      <a href="http://nkmm.org/yagura/rgb/">Home video games with RGB monitors</a>
+      -
+      interesting.... [japanese]<br>
+      <a href="http://users.erols.com/tiltonj/games/tech/">Deathskull
+        Laboratories</a> - game
+      console info<br>
+      <a href="http://tripoint.org/kevtris/">BlueTech</a> - game console
+      modifications and other
+      creations<br>
+      <a href="http://www.mmmonkey.co.uk/console/index.htm">mmmonkey's console
+        modifications</a>
+      - modifications/fixes with lots of photos</p>
+    <p align="left">Data sheets in PDF format for:<br>
+      <a href="cxa1145-jap.pdf">CXA1145</a> - [japanese]<br>
+      <a href="es71145.pdf">ES71145</a> - CXA1145 compatible<br>
+      <a href="cxa1645.pdf">CXA1645</a><br>
+      <a href="MB3514.pdf">MB3514</a> - CXA1145 compatible (with Y/C driver
+      output)<br>
+      <a href="Ka2195d.pdf">KA2195D</a> - CXA1645 compatible (with no Y/C
+      output), may be
+      mistaken as SKA2195D</p>
+    <p><u>Changelog<br>
+      </u><strong>26/6/15 - </strong>Corrected diagrams for Sega Saturn and
+      Sony Playstation. Both has left and right audio swapped around.<br>
+      <strong>16/8/09</strong> - Corrected text descriptions for Sega Master
+      System and Sega
+      Saturn. Also added a note about audio/video separation.<br>
+      <b>31/12/06</b> - Added a diagram for the Wii and corrected the Sega
+      Saturn diagram (left
+      and right audio were swapped around). Also made a few minor changes to the
+      page.<br>
+      <strong>8/8/05</strong> - Added diagrams for Atari Jaguar and Microsoft
+      Xbox. <a href="jagport.gif">Jaguar info taken from here</a>.<u><br>
+      </u><strong>1/7/05</strong> - Added diagram for the Nintendo Gamecube.
+      Added some
+      datasheets. Fixed an error in the NTSC and PAL SNES diagrams (had pins
+      3&amp;4 swapped on
+      the diagram). I also modified the PAL SNES diagram a bit (the 12V output
+      didn't supply
+      enough current to feed SCART pin 16). Thanks to David Bielen for the
+      Gamecube related
+      info.<br>
+      <strong>18/5/05</strong> - Fixed errors in megadrive/master system cable
+      (had it drawn
+      back-arsewards), neo geo (din 8 connector drawn incorrectly), and pal snes
+      (missing
+      resistor from video to ground). Info thanks to this <a href="http://www.rikkyo.ne.jp/esd/yoshikun/cable_making/">Japanese
+        website</a>.<br>
+      <strong>4/5/05</strong> - Page created</p>
+    <p><a href="../index.htm"><img src="../back.jpg" alt="&lt;- BACK TO INDEX" border="0"
+          height="19" width="124"></a></p>
+    <!-- Site Meter -->
+    <script type="text/javascript" src="http://s15.sitemeter.com/js/counter.js?site=s1556789">
+</script><noscript>
+<a href="http://s15.sitemeter.com/stats.asp?site=s1556789" target="_top">
+
+</a><p><a href="http://s15.sitemeter.com/stats.asp?site=s1556789" target="_top"><img
+src="http://s15.sitemeter.com/meter.asp?site=s1556789" alt="Site Meter" border="0"></a>  <!-- Copyright (c)2006 Site Meter --></p>
+
+
+</noscript></body>
+</html>

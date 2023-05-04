@@ -3,6 +3,7 @@
   (lib (name "Zilog")(type "KiCad")(uri "${KIPRJMOD}/../Zilog/Zilog.kicad_sym")(options "")(descr "Zilog Z80 library"))
   (lib (name "GenericROM")(type "KiCad")(uri "${KIPRJMOD}/../generic_rom/GenericROM.kicad_sym")(options "")(descr "generic rom"))
   (lib (name "GenericSRAM")(type "KiCad")(uri "${KIPRJMOD}/../generic_sram/GenericSRAM.kicad_sym")(options "")(descr "generic sram"))
+  (lib (name "Mini-DIN")(type "KiCad")(uri "${KIPRJMOD}/../mdconnectors/symbol/mdconnector.kicad_sym")(options "")(descr "Custom Mini-DIN"))
   (lib (name "edge_lib")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/edge_lib.kicad_sym")(options "")(descr "edge connector 2.54"))
   (lib (name "Gal")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/gal.kicad_sym")(options "")(descr "GAL ic"))
   (lib (name "zx_custom_symbol")(type "KiCad")(uri "${KIPRJMOD}/libs/symbol/zx_custom_symbol.kicad_sym")(options "")(descr "custom symbol for zx pentagon project"))

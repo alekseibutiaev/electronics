@@ -7,6 +7,7 @@
   (lib_symbols
   )
 
+
   (junction (at 76.2 196.85) (diameter 0) (color 0 0 0 0)
     (uuid 17a01962-412d-4012-942f-b1119d1c128f)
   )
@@ -98,6 +99,10 @@
   (bus_entry (at 127 124.46) (size 2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 216bbc8b-703d-4997-8dcb-2a7520066f2a)
+  )
+  (bus_entry (at 25.4 187.96) (size 2.54 2.54)
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 22b6e1db-e72f-47a4-a510-ff8f322e37aa)
   )
   (bus_entry (at 127 114.3) (size -2.54 2.54)
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1073,7 +1078,7 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 11229156-f056-473d-b96f-235460c485c8)
   )
-  (bus (pts (xy 25.4 185.42) (xy 25.4 196.85))
+  (bus (pts (xy 25.4 185.42) (xy 25.4 187.96))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 11ceb171-4848-4e23-b82d-ab8ebf4998e9)
   )
@@ -1293,6 +1298,10 @@
   (wire (pts (xy 165.1 20.32) (xy 175.26 20.32))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 2aec7d8e-f5c8-4429-ade6-841b3a0c8a37)
+  )
+  (wire (pts (xy 27.94 190.5) (xy 38.1 190.5))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 2bd3af9b-fb9a-466e-9951-597dde33e471)
   )
   (bus (pts (xy 127 69.85) (xy 127 71.12))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -1605,6 +1614,10 @@
   (bus (pts (xy 127 114.3) (xy 127 116.84))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5cee6660-1600-412a-a8a5-c3ebe996d705)
+  )
+  (bus (pts (xy 25.4 187.96) (xy 25.4 196.85))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 5ceeeb67-fff0-4e14-9144-653c3af62f7b)
   )
 
   (wire (pts (xy 78.74 152.4) (xy 88.9 152.4))
@@ -3222,6 +3235,10 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6a71434d-4657-484d-ab26-a0d1a903bf70)
   )
+  (label "~{RESET}" (at 27.94 190.5 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6eaeeb07-0fa6-404e-8791-70962ed29d40)
+  )
   (label "C3" (at 78.74 180.34 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 70f7cc60-4cd8-475f-9c30-b9ac53128161)
@@ -4249,6 +4266,10 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid afa1a06e-71e9-4c8c-9e91-79931659c763)
     )
+    (pin "~{RESET}" input (at 38.1 190.5 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c7513f04-63ab-4699-8877-aae497d64769)
+    )
   )
 
   (sheet (at 88.9 104.14) (size 25.4 27.94) (fields_autoplaced)
@@ -5150,9 +5171,6 @@
     (path "/00000000-0000-0000-0000-00006296ed1f/bf65b100-6489-4d3e-9d34-0b2bb4ec9ae6"
       (reference "#PWR0102") (unit 1) (value "VCC") (footprint "")
     )
-    (path "/00000000-0000-0000-0000-000062a08194/0e9cb254-d5a6-43df-b938-d4e89e7c4f1b"
-      (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
-    )
     (path "/00000000-0000-0000-0000-000062a08194/c31e7ab1-f89e-4888-8329-6b12abe8b2da"
       (reference "#PWR0104") (unit 1) (value "VCC") (footprint "")
     )
@@ -5514,7 +5532,7 @@
       (reference "JIO5") (unit 1) (value "OxFE IN") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/ac0214e0-cfb9-4b53-9214-9139dd989c7d"
-      (reference "JIOKB1") (unit 1) (value "KDATA") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical")
+      (reference "JIOKB1") (unit 1) (value "KDATA") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-000062a08194/de775720-f7f2-4e8e-8eb2-c9141e64fe25"
       (reference "JIOKB2") (unit 1) (value "KADDR") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical")

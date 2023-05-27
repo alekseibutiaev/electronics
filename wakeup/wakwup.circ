@@ -68,11 +68,10 @@
     <comp lib="1" loc="(320,290)" name="NAND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(410,480)" name="NAND Gate">
-      <a name="facing" val="west"/>
+    <comp lib="1" loc="(710,330)" name="NAND Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="1" loc="(710,330)" name="NAND Gate">
+    <comp lib="1" loc="(710,410)" name="NAND Gate">
       <a name="size" val="30"/>
     </comp>
     <comp lib="10" loc="(840,290)" name="Digital Oscilloscope">
@@ -82,7 +81,6 @@
     <comp lib="4" loc="(360,210)" name="Counter">
       <a name="appearance" val="evolution"/>
       <a name="max" val="0xf"/>
-      <a name="trigger" val="falling"/>
       <a name="width" val="4"/>
     </comp>
     <wire from="(180,280)" to="(220,280)"/>
@@ -91,26 +89,30 @@
     <wire from="(220,280)" to="(280,280)"/>
     <wire from="(250,300)" to="(250,480)"/>
     <wire from="(250,300)" to="(280,300)"/>
-    <wire from="(250,480)" to="(410,480)"/>
+    <wire from="(250,480)" to="(720,480)"/>
     <wire from="(290,230)" to="(360,230)"/>
     <wire from="(320,290)" to="(340,290)"/>
     <wire from="(340,160)" to="(340,290)"/>
     <wire from="(340,160)" to="(790,160)"/>
     <wire from="(340,290)" to="(360,290)"/>
-    <wire from="(450,470)" to="(630,470)"/>
-    <wire from="(450,490)" to="(650,490)"/>
     <wire from="(550,320)" to="(580,320)"/>
-    <wire from="(600,340)" to="(630,340)"/>
-    <wire from="(600,350)" to="(650,350)"/>
-    <wire from="(600,360)" to="(630,360)"/>
-    <wire from="(630,320)" to="(630,340)"/>
-    <wire from="(630,320)" to="(670,320)"/>
-    <wire from="(630,360)" to="(630,470)"/>
-    <wire from="(650,340)" to="(650,350)"/>
-    <wire from="(650,340)" to="(670,340)"/>
-    <wire from="(650,350)" to="(650,490)"/>
+    <wire from="(600,340)" to="(620,340)"/>
+    <wire from="(600,350)" to="(640,350)"/>
+    <wire from="(600,360)" to="(610,360)"/>
+    <wire from="(610,360)" to="(610,420)"/>
+    <wire from="(610,420)" to="(670,420)"/>
+    <wire from="(620,320)" to="(620,340)"/>
+    <wire from="(620,320)" to="(670,320)"/>
+    <wire from="(640,340)" to="(640,350)"/>
+    <wire from="(640,340)" to="(670,340)"/>
+    <wire from="(650,370)" to="(650,400)"/>
+    <wire from="(650,370)" to="(730,370)"/>
+    <wire from="(650,400)" to="(670,400)"/>
     <wire from="(710,330)" to="(730,330)"/>
+    <wire from="(710,410)" to="(720,410)"/>
+    <wire from="(720,410)" to="(720,480)"/>
     <wire from="(730,330)" to="(730,350)"/>
+    <wire from="(730,350)" to="(730,370)"/>
     <wire from="(730,350)" to="(840,350)"/>
     <wire from="(790,160)" to="(790,320)"/>
     <wire from="(790,320)" to="(840,320)"/>

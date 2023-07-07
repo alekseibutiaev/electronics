@@ -5235,6 +5235,10 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 27b50f8e-85d3-46e8-8f43-7c5f137c31fc)
   )
+  (text "R18...R23 6x22" (at 209.55 100.33 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2eb9fc87-691a-41f7-9192-cc1a3ab29ec4)
+  )
   (text "SWDIO" (at 270.51 72.39 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 818582cf-b627-47de-809e-d158a19b5691)
@@ -6743,7 +6747,7 @@
   (symbol (lib_id "Device:R") (at 215.9 111.76 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 389f6615-047c-49f6-a837-c8b26aa7d977)
-    (property "Reference" "R23" (id 0) (at 215.9 109.22 90)
+    (property "Reference" "R22" (id 0) (at 215.9 109.22 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "22" (id 1) (at 215.9 114.3 90)
@@ -6811,7 +6815,7 @@
   (symbol (lib_id "Device:R") (at 247.65 109.22 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 3d247baa-6a58-4662-8d9f-e6208e9ba39d)
-    (property "Reference" "R22" (id 0) (at 245.11 106.68 90))
+    (property "Reference" "R24" (id 0) (at 245.11 106.68 90))
     (property "Value" "680" (id 1) (at 250.19 106.68 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric" (id 2) (at 247.65 110.998 90)
       (effects (font (size 1.27 1.27)) hide)
@@ -7908,7 +7912,7 @@
   (symbol (lib_id "Device:R") (at 243.84 19.05 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid bd30bb01-b126-4303-badf-db80957841fb)
-    (property "Reference" "Rjr" (id 0) (at 239.395 17.78 90))
+    (property "Reference" "R3" (id 0) (at 239.395 17.78 90))
     (property "Value" "10k" (id 1) (at 243.84 21.59 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -8054,7 +8058,7 @@
   (symbol (lib_id "Device:R") (at 215.9 114.3 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c6f9255a-679a-4cd3-9581-a563724d8db1)
-    (property "Reference" "R24" (id 0) (at 215.9 111.76 90)
+    (property "Reference" "R23" (id 0) (at 215.9 111.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "22" (id 1) (at 215.9 116.84 90)
@@ -8903,6 +8907,9 @@
     (path "/46be3a48-244f-477b-b026-42e895761b87"
       (reference "R2") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
+    (path "/bd30bb01-b126-4303-badf-db80957841fb"
+      (reference "R3") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
     (path "/0a9104f4-f8dc-4344-8319-2f8ed4156e89"
       (reference "R4") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -8957,14 +8964,14 @@
     (path "/421f1f27-7162-4a0b-90df-708e70e58c77"
       (reference "R21") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
-    (path "/3d247baa-6a58-4662-8d9f-e6208e9ba39d"
-      (reference "R22") (unit 1) (value "680") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
     (path "/389f6615-047c-49f6-a837-c8b26aa7d977"
-      (reference "R23") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R22") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/c6f9255a-679a-4cd3-9581-a563724d8db1"
-      (reference "R24") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
+      (reference "R23") (unit 1) (value "22") (footprint "Resistor_SMD:R_0805_2012Metric")
+    )
+    (path "/3d247baa-6a58-4662-8d9f-e6208e9ba39d"
+      (reference "R24") (unit 1) (value "680") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/246dec50-24a4-474a-a5eb-2a687e8b38f1"
       (reference "R25") (unit 1) (value "680") (footprint "Resistor_SMD:R_0805_2012Metric")
@@ -9007,9 +9014,6 @@
     )
     (path "/fb1be746-a110-488a-a9dd-28f16c593a9d"
       (reference "R38") (unit 1) (value "1.5k") (footprint "Resistor_SMD:R_0805_2012Metric")
-    )
-    (path "/bd30bb01-b126-4303-badf-db80957841fb"
-      (reference "Rjr") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
     (path "/7850d2cd-c180-44c6-b494-fd6d667a7a42"
       (reference "SW1") (unit 1) (value "EXRERNAL POWER") (footprint "Button_Switch_SMD:SW_SPDT_PCM12")

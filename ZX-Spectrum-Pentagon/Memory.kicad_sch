@@ -1513,6 +1513,7 @@
   )
 
   (bus_alias "MADDRESS" (members "MA0" "MA1" "MA2" "MA3" "MA4" "MA5" "MA6" "MA7" "MA8" "MA9" "MA10" "MA11" "MA12" "MA13" "MA14" "MA15" "MA16" "MA17" "MA18"))
+
   (junction (at 134.62 49.53) (diameter 0) (color 0 0 0 0)
     (uuid 6a0db904-612f-4e87-b2a2-b4e7ffc4da16)
   )
@@ -4684,7 +4685,7 @@
   (symbol (lib_id "power:GND") (at 30.48 185.42 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062adf420)
-    (property "Reference" "#PWR062" (id 0) (at 24.13 185.42 0)
+    (property "Reference" "#PWR065" (id 0) (at 24.13 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 27.2288 185.293 90)
@@ -4702,7 +4703,7 @@
   (symbol (lib_id "power:VCC") (at 30.48 187.96 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b05f95)
-    (property "Reference" "#PWR063" (id 0) (at 34.29 187.96 0)
+    (property "Reference" "#PWR066" (id 0) (at 34.29 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VCC" (id 1) (at 27.2288 188.341 90)

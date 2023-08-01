@@ -853,6 +853,7 @@
     )
   )
 
+
   (junction (at 81.28 57.15) (diameter 0) (color 0 0 0 0)
     (uuid 03681e75-5a6e-473e-9bc3-5a9490f1aa88)
   )
@@ -1316,7 +1317,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify right))
     (uuid 8ecd63d0-e808-4a99-a808-9ec9cacc0385)
   )
-  (hierarchical_label "C17" (shape output) (at 152.4 78.74 0)
+  (hierarchical_label "ATTR" (shape output) (at 152.4 78.74 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
     (uuid 9da29587-9989-4e8b-a6a8-c8b9d5da6dc2)
   )
@@ -1328,7 +1329,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
     (uuid aa2b22df-4b98-4b2b-8dea-cd000046b5b1)
   )
-  (hierarchical_label "C18" (shape output) (at 152.4 92.71 0)
+  (hierarchical_label "PIXEL" (shape output) (at 152.4 92.71 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
     (uuid c54f71be-dac7-48bb-baba-ab2cef6a6059)
   )

@@ -2115,7 +2115,6 @@
     )
   )
 
-
   (junction (at 157.48 85.09) (diameter 0) (color 0 0 0 0)
     (uuid 02150a99-d946-482c-94e8-25acaad731fa)
   )
@@ -4214,7 +4213,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
     (uuid 04e246c5-e2a2-40d4-b860-3edba44e6f3b)
   )
-  (hierarchical_label "~{PIXEL_CLK}" (shape output) (at 265.43 21.59 0)
+  (hierarchical_label "~{PIXCLK}" (shape output) (at 265.43 21.59 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
     (uuid 120c621b-82bb-48ae-a406-22141cb5b620)
   )

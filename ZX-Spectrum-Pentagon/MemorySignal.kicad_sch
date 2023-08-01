@@ -675,7 +675,6 @@
     )
   )
 
-
   (junction (at 88.9 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 16551d26-d40e-4fb0-ad9d-d37f6486eeb4)
   )
@@ -1067,7 +1066,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify right))
     (uuid 34b4ebea-9916-4dc0-90a5-e674d9b80f29)
   )
-  (hierarchical_label "A14-ROM" (shape output) (at 147.32 160.02 0)
+  (hierarchical_label "~{ZX128K}" (shape output) (at 147.32 160.02 0)
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
     (uuid 3e918d66-40bd-4eff-b6f6-a73a185dda2e)
   )

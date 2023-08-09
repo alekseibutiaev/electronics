@@ -5169,6 +5169,12 @@
     (path "/00000000-0000-0000-0000-000063f76e84/25d859f7-4527-4c61-817d-8a986df4b673"
       (reference "#PWR0109") (unit 1) (value "GND") (footprint "")
     )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/d628438a-32ec-419e-8623-2360c43004ed"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/37dee017-1464-441a-ad8f-1995aa34c005"
+      (reference "#PWR0111") (unit 1) (value "GND") (footprint "")
+    )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006298b702"
       (reference "CG1") (unit 1) (value "20pF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
@@ -5557,16 +5563,16 @@
       (reference "QG1") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/bb7e74ad-ce25-4157-b8e2-3dd1b8e4f8f6"
-      (reference "QVF1") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
+      (reference "QVF1") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/3bf96de6-6e94-479c-bc0b-0fc6b7841a5d"
-      (reference "QVF2") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
+      (reference "QVF2") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/84797bc0-9854-476f-9c8a-d09acb374048"
-      (reference "QVF3") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
+      (reference "QVF3") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-000062bf0f7b/8e6e8473-fab8-40a4-bcff-df22f4a75975"
-      (reference "QVF4") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23_Handsoldering")
+      (reference "QVF4") (unit 1) (value "BC848") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/00000000-0000-0000-0000-00006296ed1f/00000000-0000-0000-0000-000062c7760f"
       (reference "RCPU1") (unit 1) (value "330") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -5768,6 +5774,12 @@
     )
     (path "/00000000-0000-0000-0000-000062fd43ab/00000000-0000-0000-0000-0000638d500f"
       (reference "SWVF1") (unit 1) (value "128K/512K") (footprint "ZX-Spectrum-Pentagon:PS-22F03")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/7633da8a-14c5-41b5-bd58-3d61a9eda731"
+      (reference "TP1") (unit 1) (value "GND") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
+    )
+    (path "/00000000-0000-0000-0000-0000664fb8ad/dad33943-0f1e-463f-9f41-61ab99478553"
+      (reference "TP2") (unit 1) (value "GND") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/00000000-0000-0000-0000-00006296e6c7/00000000-0000-0000-0000-00006297471f"
       (reference "U1") (unit 1) (value "74HC04") (footprint "Package_DIP:DIP-14_W7.62mm")

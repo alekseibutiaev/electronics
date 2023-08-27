@@ -5434,34 +5434,34 @@
       (reference "DIO1") (unit 1) (value "3V0") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062cde6eb"
-      (reference "DIO2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO2") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000062c8a906"
       (reference "DIO3") (unit 1) (value "3V0") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-0000631ea54a"
-      (reference "DIO4") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO4") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000063210f94"
-      (reference "DIO5") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO5") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-000063216296"
-      (reference "DIO6") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO6") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006321629c"
-      (reference "DIO7") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO7") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006321bfbc"
-      (reference "DIO8") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO8") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006321bfc2"
-      (reference "DIO9") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO9") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006321bfc8"
-      (reference "DIO10") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO10") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-000062a08194/00000000-0000-0000-0000-00006321bfce"
-      (reference "DIO11") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-323_HandSoldering")
+      (reference "DIO11") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_MiniMELF")
     )
     (path "/00000000-0000-0000-0000-0000664fb8ad/00000000-0000-0000-0000-00006654603c"
       (reference "DPI1") (unit 1) (value "RED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")

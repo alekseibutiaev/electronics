@@ -1430,7 +1430,7 @@
     (property "Footprint" "Package_DIP:DIP-14_W7.62mm" (id 2) (at 86.36 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn7400.pdf" (id 3) (at 86.36 22.86 0)
+    (property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" (id 3) (at 86.36 22.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "14" (uuid 77636116-21f7-4317-85ad-e5356333f894))

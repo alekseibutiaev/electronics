@@ -424,7 +424,7 @@
     (property "Footprint" "" (id 2) (at 0 -6.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn7400.pdf" (id 3) (at 0 3.81 0)
+    (property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf" (id 3) (at 0 3.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "ki_description" "Quadruple 2-Input Positive-NAND Gates" (id 4) (at 0 0 0)

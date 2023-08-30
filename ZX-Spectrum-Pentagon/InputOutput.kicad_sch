@@ -6113,7 +6113,7 @@
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000062b9e90d)
     (property "Reference" "RIO14" (id 0) (at 212.09 137.16 90))
-    (property "Value" "5.1kOM" (id 1) (at 207.01 137.16 90))
+    (property "Value" "5.1kOm" (id 1) (at 207.01 137.16 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 207.772 137.16 90)
       (effects (font (size 1.27 1.27)) hide)
     )

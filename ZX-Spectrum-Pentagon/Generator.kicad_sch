@@ -4752,7 +4752,7 @@
     (uuid 00000000-0000-0000-0000-00006347b942)
     (property "Reference" "DG1" (id 0) (at 207.01 83.82 90))
     (property "Value" "1N4148" (id 1) (at 205.74 88.9 90))
-    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (id 2) (at 210.82 86.36 0)
+    (property "Footprint" "Diode_SMD:D_MiniMELF" (id 2) (at 210.82 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 210.82 86.36 0)

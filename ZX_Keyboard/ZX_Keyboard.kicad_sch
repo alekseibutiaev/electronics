@@ -1769,7 +1769,7 @@
     (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/2ea4f14f-52c7-4c9f-834e-43d00344d3ef"
       (reference "UC1") (unit 1) (value "STMPS2151MTR") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/c73ddbe6-f580-47dd-acfc-2195a32b3738"
+    (path "/12b760a5-c3eb-4ef4-950b-cc3bc2438e7f/35b66b44-e990-44ba-a911-2312db388c28"
       (reference "UC2") (unit 1) (value "USBLC6-2") (footprint "Package_TO_SOT_SMD:SOT-23-6_Handsoldering")
     )
     (path "/cb160d6d-3041-4371-8461-fd46b0f6f336/89e4b867-1b06-412d-b9f7-4f890adc90be"

@@ -17,4 +17,5 @@ Project Backups
 report.txt
 *.zip
 *gerber
-
+*.vcd
+*.vpp

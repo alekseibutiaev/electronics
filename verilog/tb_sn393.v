@@ -8,9 +8,9 @@ module tb;
   SN74XX393 tmp(.out(out), .clk(clk), .clr(clr));
 
   initial begin
-    $dumpfile("tb_SN74XX393.vcd");
+    $dumpfile("tb_sn393.vcd");
     $dumpvars(0, tb);
-    $monitor ("sn74xx393 [%0t] clk=%01b clr=%01b out=%04b",
+    $monitor ("sn393 [%0t] clk=%01b clr=%01b out=%04b",
       $time, clk, clr, out);
     clr <= 0;
     clk <= 1;

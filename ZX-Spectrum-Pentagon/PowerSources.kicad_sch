@@ -3662,7 +3662,7 @@
     (in_bom yes) (on_board yes)
     (uuid 6b1ede5f-b74f-4b18-b1f3-75ac8cc15cf7)
     (property "Reference" "RPS1" (id 0) (at 199.39 27.94 90))
-    (property "Value" "13kOm" (id 1) (at 199.39 33.02 90))
+    (property "Value" "13 kOm" (id 1) (at 199.39 33.02 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 199.39 32.258 90)
       (effects (font (size 1.27 1.27)) hide)
     )

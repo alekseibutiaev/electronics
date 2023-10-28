@@ -9,7 +9,7 @@
     (property "Footprint" "" (id 2) (at 0 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 0 13.97 0)
+    (property "Datasheet" "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/GAL/GAL16V8DataSheet.ashx?document_id=106" (id 3) (at 0 13.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (symbol "GAL16V8_0_0"

@@ -1069,6 +1069,7 @@
   )
 
   (bus_alias "MADDRESS" (members "MA0" "MA1" "MA2" "MA3" "MA4" "MA5" "MA6" "MA7" "MA8" "MA9" "MA10" "MA11" "MA12" "MA13" "MA14" "MA15" "MA16" "MA17" "MA18"))
+
   (junction (at 63.5 153.67) (diameter 0) (color 0 0 0 0)
     (uuid 8a43fc99-5347-4990-bc16-0612766cd8da)
   )
@@ -4453,7 +4454,7 @@
     (property "Reference" "#PWR0103" (id 0) (at 90.17 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (id 1) (at 93.2688 73.533 90)
+    (property "Value" "GND" (id 1) (at 93.98 73.66 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "" (id 2) (at 96.52 73.66 0)

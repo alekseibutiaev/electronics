@@ -675,6 +675,7 @@
     )
   )
 
+
   (junction (at 88.9 105.41) (diameter 0) (color 0 0 0 0)
     (uuid 16551d26-d40e-4fb0-ad9d-d37f6486eeb4)
   )
@@ -1255,12 +1256,8 @@
   (symbol (lib_id "Device:C") (at 43.18 120.65 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-00006317fab4)
-    (property "Reference" "CM1" (id 0) (at 46.101 119.4816 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1nF" (id 1) (at 46.101 121.793 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
+    (property "Reference" "CM1" (id 0) (at 45.72 118.11 0))
+    (property "Value" "1nF" (id 1) (at 45.72 123.19 0))
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 44.1452 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )

@@ -589,7 +589,7 @@
       (property "Footprint" "" (id 2) (at 0 13.97 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Datasheet" "" (id 3) (at 0 13.97 0)
+      (property "Datasheet" "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/GAL/GAL16V8DataSheet.ashx?document_id=106" (id 3) (at 0 13.97 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "GAL16V8_0_0"
@@ -960,6 +960,7 @@
       )
     )
   )
+
 
   (junction (at 124.46 74.93) (diameter 0) (color 0 0 0 0)
     (uuid 03955992-e784-4313-a01b-e80695e67a25)
@@ -2748,7 +2749,7 @@
     (property "Footprint" "Package_DIP:DIP-20_W7.62mm" (id 2) (at 83.82 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (id 3) (at 83.82 95.25 0)
+    (property "Datasheet" "https://www.latticesemi.com/-/media/LatticeSemi/Documents/DataSheets/GAL/GAL16V8DataSheet.ashx?document_id=106" (id 3) (at 83.82 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "10" (uuid 7f4ebd54-aff6-481f-9e02-b381b5d6523a))

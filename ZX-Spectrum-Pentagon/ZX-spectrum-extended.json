@@ -7,7 +7,8 @@
   },
   [
     {
-      "a": 5
+      "a": 5,
+      "f": 2
     },
     "TRUE\n\n\n\n\n\nVIDEO",
     "INV\n\n\n\n\n\nVIDIO",
@@ -45,13 +46,9 @@
     "UNBRIGHT\n8 (\n\n\nPOINT\n\n&rarr;",
     "BRIGHT\n9 )\n\n\nCAT\n\nGRAPHICS",
     {
-      "t": "#000000\n#000000\n\n\n#7f0000\n\n#7F7F7F"
+      "t": "#000000\n\n\n\n#7f0000\n\n#7F7F7F"
     },
     "BLACK\n0 -\n\n\nFORMAT\n\nDELETE",
-    {
-      "t": "#007F00\n#000000\n\n\n#7f0000\n\n#7F7F7F"
-    },
-    "&nbsp;\n&nbsp;\n\n\n&nbsp;\n\n&nbsp;",
     {
       "t": "#007F00\n#000000\n\n\n#7F0000\n\n#7F7F7F",
       "w": 2
@@ -74,7 +71,6 @@
     "CODE\nI&nbsp;INPUT\n\n\nIN\n\nAT",
     "PEEK\nO&nbsp;POKE\n\n\nOUT\n\n;",
     "TAB\nP&nbsp;PRINT\n\n\n(C)\n\n\"",
-    "&nbsp;\n&nbsp;\n\n\n&nbsp;\n\n&nbsp;",
     {
       "w": 1.5
     },
@@ -95,7 +91,6 @@
     "VAL\nJ&nbsp;LOAD\n\n\nVAL&\n\n-",
     "LEN\nK&nbsp;LIST\n\n\nSCREEN$\n\n+",
     "USR\nl&nbsp;LET\n\n\nATTR\n\n=",
-    "&nbsp;\n&nbsp;\n\n\n&nbsp;\n\n&nbsp;",
     {
       "w": 2.25
     },
@@ -110,7 +105,7 @@
     {
       "t": "#007F00\n#000000\n\n\n#7F0000\n\n#7F7F7F"
     },
-    "&nbsp;\nCAPS&nbsp;LOCK\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\nCAPS LOCK\n\n\n&nbsp;\n\n&nbsp;",
     "LN\nZ&nbsp;:\n\n\nBEEP\n\nCOPY",
     "EXP\nX&nbsp;&pound;\n\n\nINK\n\nCLEAR",
     "LPRINT\nC&nbsp;?\n\n\nPAPER\n\nCOUNT",
@@ -124,15 +119,14 @@
     {
       "t": "#000000"
     },
-    "&nbsp;\n&nbsp;\n\n\n&nbsp;\n\n&nbsp;",
-    "&nbsp;\nCS\n\n\n&nbsp;\n\n&nbsp;"
+    "&nbsp;\nCAPS SHIFT\n\n\n&nbsp;\n\n&nbsp;"
   ],
   [
     {
       "t": "#007F00\n#000000\n\n\n#7F0000\n\n#7F7F7F",
       "w": 1.25
     },
-    "&nbsp;\nSS\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\nSYMBOL SHIFT\n\n\n&nbsp;\n\n&nbsp;",
     {
       "w": 1.25
     },
@@ -145,10 +139,15 @@
       "w": 6.25
     },
     "&nbsp;\n&nbsp;\n\n\n&nbsp;\n\n&nbsp;",
-    "&nbsp;\n&nbsp;\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\nSYMBOL SHIFT\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "f": 4
+    },
     "&nbsp;\n&larr;\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "f": 2
+    },
     "&nbsp;\n&darr;\n\n\n&nbsp;\n\n&nbsp;",
-    "&nbsp;\n&rarr;\n\n\n&nbsp;\n\n&nbsp;",
-    "&nbsp;\nSS\n\n\n&nbsp;\n\n&nbsp;"
+    "&nbsp;\n&rarr;\n\n\n&nbsp;\n\n&nbsp;"
   ]
 ]

@@ -4207,7 +4207,7 @@
     (pin "2" (uuid 0c0ac870-6cf8-4ddf-92ef-9464ef225d9d))
   )
 
-  (symbol (lib_id "74IEC:74HC32") (at 250.19 40.64 0) (unit 3)
+  (symbol (lib_id "74IEC:74HC32") (at 250.19 40.64 0) (unit 4)
     (in_bom yes) (on_board yes)
     (uuid 218985be-ffec-440b-a96d-a24f8531e9d3)
     (property "Reference" "U1" (id 0) (at 250.19 36.83 0))
@@ -7029,7 +7029,7 @@
     (pin "2" (uuid d45e25fc-b8cc-4237-8b35-4ef0bd7e30ec))
   )
 
-  (symbol (lib_id "74IEC:74HC32") (at 300.99 40.64 0) (unit 4)
+  (symbol (lib_id "74IEC:74HC32") (at 300.99 40.64 0) (unit 3)
     (in_bom yes) (on_board yes)
     (uuid e0f11823-9813-47d2-917a-2d296488de25)
     (property "Reference" "U1" (id 0) (at 300.99 36.83 0))
@@ -8100,10 +8100,10 @@
     (path "/d1923be5-14b2-42d7-af7d-5796fdecf7b6"
       (reference "U1") (unit 2) (value "74HC32") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
-    (path "/218985be-ffec-440b-a96d-a24f8531e9d3"
+    (path "/e0f11823-9813-47d2-917a-2d296488de25"
       (reference "U1") (unit 3) (value "74HC32") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
-    (path "/e0f11823-9813-47d2-917a-2d296488de25"
+    (path "/218985be-ffec-440b-a96d-a24f8531e9d3"
       (reference "U1") (unit 4) (value "74HC32") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
     )
     (path "/22cb297d-2bc4-4d26-b953-42adac8ec568"

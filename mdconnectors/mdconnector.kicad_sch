@@ -1,1617 +1,3994 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 9d098be7-d5a5-4021-bf2c-93b141b9dc8c)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "mdconnector:MD-30" (in_bom yes) (on_board yes)
-      (property "Reference" "CN" (id 0) (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MD-30" (id 1) (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at -0.635 8.255 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MD-30_0_1"
-        (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0) (end -1.27 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -1.143 5.08) (mid -4.7511 2.1181) (end -4.445 -2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 -1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -6.35)
-            (xy 1.27 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.35)
-            (xy 5.08 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 6.35 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 6.35 5.715)
-            (xy 6.35 5.715)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -2.54)
-            (xy -3.175 -2.54)
-            (xy -3.175 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.175)
-            (xy 0 3.81)
-            (xy 6.35 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.191 -2.54)
-            (xy 2.921 -2.54)
-            (xy 2.921 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.143 5.08)
-            (xy -1.143 4.318)
-            (xy 0.889 4.318)
-            (xy 0.889 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 0 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 4.191 -2.54) (mid 4.5376 2.1357) (end 0.889 5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "MD-30_1_1"
-        (pin passive line (at 8.89 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 -1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "mdconnector:MD-40" (in_bom yes) (on_board yes)
-      (property "Reference" "CN" (id 0) (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MD-40" (id 1) (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at -0.635 8.255 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MD-40_0_1"
-        (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0) (end -1.27 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -1.143 5.08) (mid -4.7511 2.1181) (end -4.445 -2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 -1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -6.35)
-            (xy 1.27 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.35)
-            (xy 5.08 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 6.34 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 6.985 -1.27)
-            (xy 6.985 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 3.81)
-            (xy -2.54 3.81)
-            (xy -2.54 3.175)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -2.54)
-            (xy -3.175 -2.54)
-            (xy -3.175 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.905 3.175)
-            (xy 1.905 3.81)
-            (xy 6.35 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.191 -2.54)
-            (xy 2.921 -2.54)
-            (xy 2.921 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.143 5.08)
-            (xy -1.143 4.318)
-            (xy 0.889 4.318)
-            (xy 0.889 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.905 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 4.191 -2.54) (mid 4.5376 2.1357) (end 0.889 5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "MD-40_1_1"
-        (pin passive line (at 8.89 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 -1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "mdconnector:MD-50" (in_bom yes) (on_board yes)
-      (property "Reference" "CN" (id 0) (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MD-50" (id 1) (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at -0.635 8.255 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MD-50_0_1"
-        (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0) (end -1.27 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -1.143 5.08) (mid -4.7511 2.1181) (end -4.445 -2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 -1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.81 3.81)
-            (xy -3.81 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -6.35)
-            (xy 1.27 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.35)
-            (xy 5.08 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 6.34 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 3.81)
-            (xy -2.54 3.81)
-            (xy -2.54 3.175)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -2.54)
-            (xy -3.175 -2.54)
-            (xy -3.175 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -3.81)
-            (xy 1.27 -3.81)
-            (xy 6.35 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 3.175)
-            (xy 2.54 3.81)
-            (xy 6.35 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.191 -2.54)
-            (xy 2.921 -2.54)
-            (xy 2.921 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.143 5.08)
-            (xy -1.143 4.318)
-            (xy 0.889 4.318)
-            (xy 0.889 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 4.191 -2.54) (mid 4.5376 2.1357) (end 0.889 5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "MD-50_1_1"
-        (pin passive line (at 8.89 -3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 -1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "mdconnector:MD-60" (in_bom yes) (on_board yes)
-      (property "Reference" "CN" (id 0) (at 0 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MD-60" (id 1) (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at -0.635 8.255 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MD-60_0_1"
-        (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -1.905 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0) (end -1.27 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -1.143 5.08) (mid -4.7511 2.1181) (end -4.445 -2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 -1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -6.35)
-            (xy 1.27 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.35)
-            (xy 5.08 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 6.34 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 3.81)
-            (xy -2.54 3.81)
-            (xy -2.54 3.175)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -2.54)
-            (xy -3.175 -2.54)
-            (xy -3.175 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 -3.81)
-            (xy -1.905 -3.81)
-            (xy -6.35 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -3.81)
-            (xy 1.27 -3.81)
-            (xy 6.35 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 3.175)
-            (xy 2.54 3.81)
-            (xy 6.35 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.191 -2.54)
-            (xy 2.921 -2.54)
-            (xy 2.921 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.143 5.08)
-            (xy -1.143 4.318)
-            (xy 0.889 4.318)
-            (xy 0.889 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 4.191 -2.54) (mid 4.5376 2.1357) (end 0.889 5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "MD-60_1_1"
-        (pin passive line (at 8.89 -3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 -3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 -1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "mdconnector:MD-70" (in_bom yes) (on_board yes)
-      (property "Reference" "CN" (id 0) (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MD-70" (id 1) (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at -0.635 9.525 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MD-70_0_1"
-        (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0) (end -1.27 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -1.143 5.08) (mid -4.7511 2.1181) (end -4.445 -2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 -1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -6.35)
-            (xy 1.27 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.35)
-            (xy 5.08 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 6.34 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.35 3.81)
-            (xy -2.54 3.81)
-            (xy -2.54 3.175)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -2.54)
-            (xy -3.175 -2.54)
-            (xy -3.175 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -3.81)
-            (xy -1.27 -3.81)
-            (xy -6.35 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.175)
-            (xy 0 6.35)
-            (xy 6.35 6.35)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -3.81)
-            (xy 1.27 -3.81)
-            (xy 6.35 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 3.175)
-            (xy 2.54 3.81)
-            (xy 6.35 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.191 -2.54)
-            (xy 2.921 -2.54)
-            (xy 2.921 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.143 5.08)
-            (xy -1.143 4.318)
-            (xy 0.889 4.318)
-            (xy 0.889 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 0 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 4.191 -2.54) (mid 4.5376 2.1357) (end 0.889 5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "MD-70_1_1"
-        (pin passive line (at 8.89 -3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 -3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 -1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 6.35 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -8.89 3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "mdconnector:MD-80" (in_bom yes) (on_board yes)
-      (property "Reference" "CN" (id 0) (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MD-80" (id 1) (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at -0.635 9.525 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MD-80_0_1"
-        (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0) (end -1.27 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -1.143 5.08) (mid -4.7511 2.1181) (end -4.445 -2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.985 -1.27)
-            (xy -3.81 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.985 2.54)
-            (xy -3.175 2.54)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -6.35)
-            (xy 1.27 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.35)
-            (xy 5.08 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 6.34 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 6.985 5.715)
-            (xy 6.985 5.715)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -2.54)
-            (xy -3.175 -2.54)
-            (xy -3.175 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -3.81)
-            (xy -1.27 -3.81)
-            (xy -6.985 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.175)
-            (xy 0 6.35)
-            (xy 6.35 6.35)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -3.81)
-            (xy 1.27 -3.81)
-            (xy 6.35 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -0.635)
-            (xy 1.27 1.27)
-            (xy 6.35 1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 3.175)
-            (xy 2.54 3.81)
-            (xy 6.35 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.191 -2.54)
-            (xy 2.921 -2.54)
-            (xy 2.921 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.143 5.08)
-            (xy -1.143 4.318)
-            (xy 0.889 4.318)
-            (xy 0.889 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 0 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.27 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 4.191 -2.54) (mid 4.5376 2.1357) (end 0.889 5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "MD-80_1_1"
-        (pin passive line (at 8.89 -3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -9.525 -3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -9.525 -1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 6.35 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -9.525 2.54 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "mdconnector:MD-90" (in_bom yes) (on_board yes)
-      (property "Reference" "CN" (id 0) (at 0 7.62 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "MD-90" (id 1) (at 0 -8.89 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at -0.635 10.16 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "MD-90_0_1"
-        (circle (center -3.81 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -3.175 -4.064) (mid -0.127 -5.08) (end 2.921 -4.064)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center -1.27 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 0) (end -1.27 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start -1.143 5.08) (mid -4.7511 2.1181) (end -4.445 -2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.985 -1.27)
-            (xy -4.445 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.715 5.715)
-            (xy -5.715 5.715)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -5.08 -6.35)
-            (xy -2.54 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -6.35)
-            (xy 1.27 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -6.35)
-            (xy 5.08 -6.35)
-          )
-          (stroke (width 0.5) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.81 -1.27)
-            (xy 6.34 -1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -6.985 3.81)
-            (xy -2.54 3.81)
-            (xy -2.54 3.175)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -4.445 -2.54)
-            (xy -3.175 -2.54)
-            (xy -3.175 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -3.81)
-            (xy -1.27 -3.81)
-            (xy -6.985 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -0.635)
-            (xy -1.27 1.27)
-            (xy -6.985 1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 3.175)
-            (xy 0 6.35)
-            (xy 6.35 6.35)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -3.81)
-            (xy 1.27 -3.81)
-            (xy 6.35 -3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -0.635)
-            (xy 1.27 1.27)
-            (xy 6.35 1.27)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 3.175)
-            (xy 2.54 3.81)
-            (xy 6.35 3.81)
-          )
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 4.191 -2.54)
-            (xy 2.921 -2.54)
-            (xy 2.921 -4.064)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.143 5.08)
-            (xy -1.143 4.318)
-            (xy 0.889 4.318)
-            (xy 0.889 5.08)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 0 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.27 -3.175) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 1.27 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 2.54 2.54) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 3.175 -1.27) (radius 0.635)
-          (stroke (width 0.25) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 4.191 -2.54) (mid 4.5376 2.1357) (end 0.889 5.08)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "MD-90_1_1"
-        (pin passive line (at 8.89 -3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -9.525 -3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 -1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 1.27 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -9.525 1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -9.525 -1.27 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 3.81 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 8.89 6.35 180) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -9.525 3.81 0) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at -3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 -8.89 90) (length 2.54)
-          (name "" (effects (font (size 1.27 1.27))))
-          (number "S3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "mdconnector:MD-50") (at 168.91 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 0a45186a-4d19-41e8-ba59-9c616b1eb67a)
-    (property "Reference" "CN3" (id 0) (at 168.91 40.64 0))
-    (property "Value" "MD-50" (id 1) (at 168.91 43.18 0))
-    (property "Footprint" "MD-XXSM:CUI_MD-50SM" (id 2) (at 168.91 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at 168.91 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8ba09ce6-eed3-43ca-9a95-485d39f0b4fc))
-    (pin "2" (uuid acc3f146-f2ee-4b19-8afa-bbc903135907))
-    (pin "3" (uuid 999742f7-9a75-404a-a688-86caa2ae9ab3))
-    (pin "4" (uuid b70b4a69-f888-429b-9735-2ffc103a6b68))
-    (pin "5" (uuid 6c66325a-001c-4a8d-9eed-071ec5c58f32))
-    (pin "S1" (uuid 76ba10ac-c99b-412f-876f-d047fd4d1d42))
-    (pin "S2" (uuid ea31c015-c10e-4791-8a06-0306909b39be))
-    (pin "S3" (uuid c190cbcc-9828-41c5-b3c1-3874cd8b5cb5))
-  )
-
-  (symbol (lib_id "mdconnector:MD-40") (at 140.97 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 3cc7e3e4-5b55-4a09-8e5e-4cfa4465ee7f)
-    (property "Reference" "CN2" (id 0) (at 140.97 40.64 0))
-    (property "Value" "MD-40" (id 1) (at 140.97 43.18 0))
-    (property "Footprint" "MD-XXSM:CUI_MD-40SM" (id 2) (at 140.97 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at 140.97 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 051c100a-5c56-4cc4-9ad7-f899f33e322d))
-    (pin "2" (uuid 24cec08f-5135-411c-bb6c-ec7d47ff19bc))
-    (pin "3" (uuid e7b95be5-b517-4848-837f-8150ef39f3bf))
-    (pin "4" (uuid 767fe9dd-be0c-4329-8268-eaa2ebabf6af))
-    (pin "S1" (uuid f9a25b71-9611-4e97-a296-d3b99898f6ca))
-    (pin "S2" (uuid 6f5567df-7baf-47cd-a89c-68765873291a))
-    (pin "S3" (uuid 16690b1d-fa20-4b39-b195-ea1823cde15c))
-  )
-
-  (symbol (lib_id "mdconnector:MD-30") (at 113.03 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 6a5b8b35-cd7a-4a5f-9466-a7f580af64f4)
-    (property "Reference" "CN1" (id 0) (at 113.03 40.64 0))
-    (property "Value" "MD-30" (id 1) (at 113.03 43.18 0))
-    (property "Footprint" "MD-XXSM:CUI_MD-30SM" (id 2) (at 113.03 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at 113.03 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c4c4e095-dbc5-4c9f-ad1a-702cce53d79d))
-    (pin "2" (uuid 532d98d2-43fe-41e3-a056-d1973c8bea1f))
-    (pin "3" (uuid 008b2544-ace2-481e-98b1-bd48ebf7e1fd))
-    (pin "S1" (uuid 39e8dffd-0d83-4069-85cb-58b7f5dd165f))
-    (pin "S2" (uuid 16273ae5-a41f-4609-adc0-fd830a42c339))
-    (pin "S3" (uuid 0f61c66e-88c4-4748-8cee-085654d0c60f))
-  )
-
-  (symbol (lib_id "mdconnector:MD-90") (at 167.64 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 8154a1c7-b289-4e70-8e4a-846b3baf74ef)
-    (property "Reference" "CN7" (id 0) (at 167.64 71.12 0))
-    (property "Value" "MD-90" (id 1) (at 167.64 73.66 0))
-    (property "Footprint" "MD-XXSM:CUI_MD-90SM" (id 2) (at 167.64 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at 167.64 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7f95934e-7e2e-4d8c-b64e-a4994c0db647))
-    (pin "2" (uuid 629510fe-524c-4ab8-8cb1-301b37c5aaaa))
-    (pin "3" (uuid 06fe201a-7a6b-41e7-8cd5-38ebc7915359))
-    (pin "4" (uuid 559be49b-b57e-47b6-9037-bd339cc192ac))
-    (pin "5" (uuid 9444f823-c433-4cd3-b988-8f7db20c0475))
-    (pin "6" (uuid 5e5f868a-2367-441b-af48-b29f33739f68))
-    (pin "7" (uuid 572b23a4-9152-49bc-bf13-395698ceb305))
-    (pin "8" (uuid 25295ac9-78f5-4154-a79f-017d01734a36))
-    (pin "9" (uuid 85755086-dcaa-4b7b-ab0d-acc3d8918403))
-    (pin "S1" (uuid 1379a0cd-8464-4342-b116-ab6e521dafa0))
-    (pin "S2" (uuid fe682034-0699-4c8d-be4c-9dd728ae2158))
-    (pin "S3" (uuid ef0aa136-5613-4be2-b000-0c22c01b7f64))
-  )
-
-  (symbol (lib_id "mdconnector:MD-70") (at 113.03 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid b8de7d05-4670-47c9-bd98-21786752c184)
-    (property "Reference" "CN5" (id 0) (at 113.03 71.12 0))
-    (property "Value" "MD-70" (id 1) (at 113.03 73.66 0))
-    (property "Footprint" "MD-XXSM:CUI_MD-70SM" (id 2) (at 113.03 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at 113.03 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 6267d650-3eba-4263-b524-30dea24ccb63))
-    (pin "2" (uuid 09eabeff-eab2-495d-989e-f727e40a5a17))
-    (pin "3" (uuid 49f68932-d630-48f6-b80e-9a4523bf4c67))
-    (pin "4" (uuid 938e5d3a-936e-439a-8814-662275d1e7f0))
-    (pin "5" (uuid e0b578cf-ca4f-4915-923e-1826547e46e0))
-    (pin "6" (uuid 8716755d-97ec-4837-b72c-f0931f344392))
-    (pin "7" (uuid 05c3548c-148d-4540-971f-d5ed8f517ab1))
-    (pin "S1" (uuid 8916b603-0f1b-4117-b55c-a51f6d456e47))
-    (pin "S2" (uuid bc40dd09-3100-4394-b766-e3ae61201b1e))
-    (pin "S3" (uuid f47090aa-9259-4460-8e51-f95dc4668981))
-  )
-
-  (symbol (lib_id "mdconnector:MD-80") (at 140.97 85.09 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid e7849295-e96a-4fb4-9b79-de43230a78e1)
-    (property "Reference" "CN6" (id 0) (at 140.6525 71.12 0))
-    (property "Value" "MD-80" (id 1) (at 140.6525 73.66 0))
-    (property "Footprint" "MD-XXSM:CUI_MD-80SM" (id 2) (at 140.97 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at 140.97 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid e639de0c-a1c6-40f5-89e8-d69bde8b857b))
-    (pin "2" (uuid d1c4bf06-9bb4-432c-820b-c18af448e7c5))
-    (pin "3" (uuid da7826f8-4daa-4ec2-86be-bd2fd6072dce))
-    (pin "4" (uuid ccf4b2a1-fb51-4b5e-a973-8d8bef659fa1))
-    (pin "5" (uuid 46d86545-a52d-44c1-9ce9-fc60d76143f7))
-    (pin "6" (uuid fa15f7b3-cf61-4b42-9bcd-7298f579df3e))
-    (pin "7" (uuid 9402b6c8-f969-482c-895c-aa23f3c73eb3))
-    (pin "8" (uuid 6381a232-f3be-4fd4-becb-77e41a81991c))
-    (pin "S1" (uuid a801b5ae-1390-481b-8187-c4abb229cd73))
-    (pin "S2" (uuid 458b0951-2a55-49ee-9c1e-054ca3ce9ed8))
-    (pin "S3" (uuid 9b1bea78-4f46-4320-b6f6-2710f34e4907))
-  )
-
-  (symbol (lib_id "mdconnector:MD-60") (at 196.85 53.34 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid ff7f7fcf-1d3d-4a69-82ac-d2e88a7490ae)
-    (property "Reference" "CN4" (id 0) (at 196.85 40.64 0))
-    (property "Value" "MD-60" (id 1) (at 196.85 43.18 0))
-    (property "Footprint" "MD-XXSM:CUI_MD-60SM" (id 2) (at 196.85 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf" (id 3) (at 196.85 53.34 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f8602404-53ab-4873-bd3f-ed1d37452f93))
-    (pin "2" (uuid 412efc05-c90e-4c68-8234-8880ff291496))
-    (pin "3" (uuid 58019c48-26c4-4b28-8dc2-af04049430e8))
-    (pin "4" (uuid 74e2c561-c2c4-4034-b1c5-0d0f8563273e))
-    (pin "5" (uuid 70b3a5ce-df99-46a0-abb9-2e7e537b8e9d))
-    (pin "6" (uuid 49932706-eede-4bf5-8736-6e22fb2ab747))
-    (pin "S1" (uuid 9301d0b1-ff86-41ad-a511-bba15f6b786e))
-    (pin "S2" (uuid 4e70e102-3433-495b-b981-ee7f0d610f42))
-    (pin "S3" (uuid 26707cf2-d6d9-4bb5-9e16-ba35cd4665b3))
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
-
-  (symbol_instances
-    (path "/6a5b8b35-cd7a-4a5f-9466-a7f580af64f4"
-      (reference "CN1") (unit 1) (value "MD-30") (footprint "MD-XXSM:CUI_MD-30SM")
-    )
-    (path "/3cc7e3e4-5b55-4a09-8e5e-4cfa4465ee7f"
-      (reference "CN2") (unit 1) (value "MD-40") (footprint "MD-XXSM:CUI_MD-40SM")
-    )
-    (path "/0a45186a-4d19-41e8-ba59-9c616b1eb67a"
-      (reference "CN3") (unit 1) (value "MD-50") (footprint "MD-XXSM:CUI_MD-50SM")
-    )
-    (path "/ff7f7fcf-1d3d-4a69-82ac-d2e88a7490ae"
-      (reference "CN4") (unit 1) (value "MD-60") (footprint "MD-XXSM:CUI_MD-60SM")
-    )
-    (path "/b8de7d05-4670-47c9-bd98-21786752c184"
-      (reference "CN5") (unit 1) (value "MD-70") (footprint "MD-XXSM:CUI_MD-70SM")
-    )
-    (path "/e7849295-e96a-4fb4-9b79-de43230a78e1"
-      (reference "CN6") (unit 1) (value "MD-80") (footprint "MD-XXSM:CUI_MD-80SM")
-    )
-    (path "/8154a1c7-b289-4e70-8e4a-846b3baf74ef"
-      (reference "CN7") (unit 1) (value "MD-90") (footprint "MD-XXSM:CUI_MD-90SM")
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9d098be7-d5a5-4021-bf2c-93b141b9dc8c")
+	(paper "A4")
+	(lib_symbols
+		(symbol "mdconnector:MD-30"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD-30"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+				(at -0.635 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD-30_0_1"
+				(arc
+					(start -3.175 -4.064)
+					(mid -0.127 -5.08)
+					(end 2.921 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 5.08)
+					(mid -4.7511 2.1181)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 6.35 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 5.715) (xy 6.35 5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54) (xy -3.175 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.191 -2.54) (xy 2.921 -2.54) (xy 2.921 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 5.08) (xy -1.143 4.318) (xy 0.889 4.318) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.191 -2.54)
+					(mid 4.5376 2.1357)
+					(end 0.889 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MD-30_1_1"
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mdconnector:MD-40"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD-40"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+				(at -0.635 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD-40_0_1"
+				(arc
+					(start -3.175 -4.064)
+					(mid -0.127 -5.08)
+					(end 2.921 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 5.08)
+					(mid -4.7511 2.1181)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 6.34 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 -1.27) (xy 6.985 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy -2.54 3.81) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54) (xy -3.175 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 3.175) (xy 1.905 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.191 -2.54) (xy 2.921 -2.54) (xy 2.921 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 5.08) (xy -1.143 4.318) (xy 0.889 4.318) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.905 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.191 -2.54)
+					(mid 4.5376 2.1357)
+					(end 0.889 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MD-40_1_1"
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mdconnector:MD-50"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD-50"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+				(at -0.635 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD-50_0_1"
+				(arc
+					(start -3.175 -4.064)
+					(mid -0.127 -5.08)
+					(end 2.921 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 5.08)
+					(mid -4.7511 2.1181)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 3.81) (xy -3.81 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 6.34 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy -2.54 3.81) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54) (xy -3.175 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -3.81) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.175) (xy 2.54 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.191 -2.54) (xy 2.921 -2.54) (xy 2.921 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 5.08) (xy -1.143 4.318) (xy 0.889 4.318) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.191 -2.54)
+					(mid 4.5376 2.1357)
+					(end 0.889 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MD-50_1_1"
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mdconnector:MD-60"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD-60"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+				(at -0.635 8.255 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD-60_0_1"
+				(arc
+					(start -3.175 -4.064)
+					(mid -0.127 -5.08)
+					(end 2.921 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.905 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 5.08)
+					(mid -4.7511 2.1181)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 6.34 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy -2.54 3.81) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54) (xy -3.175 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -3.81) (xy -1.905 -3.81) (xy -6.35 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -3.81) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.175) (xy 2.54 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.191 -2.54) (xy 2.921 -2.54) (xy 2.921 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 5.08) (xy -1.143 4.318) (xy 0.889 4.318) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.191 -2.54)
+					(mid 4.5376 2.1357)
+					(end 0.889 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MD-60_1_1"
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mdconnector:MD-70"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD-70"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+				(at -0.635 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD-70_0_1"
+				(arc
+					(start -3.175 -4.064)
+					(mid -0.127 -5.08)
+					(end 2.921 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 5.08)
+					(mid -4.7511 2.1181)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 6.34 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.35 3.81) (xy -2.54 3.81) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54) (xy -3.175 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -3.81) (xy -6.35 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 6.35) (xy 6.35 6.35)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -3.81) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.175) (xy 2.54 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.191 -2.54) (xy 2.921 -2.54) (xy 2.921 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 5.08) (xy -1.143 4.318) (xy 0.889 4.318) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.191 -2.54)
+					(mid 4.5376 2.1357)
+					(end 0.889 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MD-70_1_1"
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -8.89 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mdconnector:MD-80"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD-80"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+				(at -0.635 9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD-80_0_1"
+				(arc
+					(start -3.175 -4.064)
+					(mid -0.127 -5.08)
+					(end 2.921 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 5.08)
+					(mid -4.7511 2.1181)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -1.27) (xy -3.81 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 2.54) (xy -3.175 2.54)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 6.34 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.985 5.715) (xy 6.985 5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54) (xy -3.175 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -3.81) (xy -6.985 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 6.35) (xy 6.35 6.35)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -3.81) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy 1.27 1.27) (xy 6.35 1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.175) (xy 2.54 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.191 -2.54) (xy 2.921 -2.54) (xy 2.921 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 5.08) (xy -1.143 4.318) (xy 0.889 4.318) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.191 -2.54)
+					(mid 4.5376 2.1357)
+					(end 0.889 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MD-80_1_1"
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mdconnector:MD-90"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MD-90"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+				(at -0.635 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MD-90_0_1"
+				(circle
+					(center -3.81 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -3.175 -4.064)
+					(mid -0.127 -5.08)
+					(end 2.921 -4.064)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0)
+					(end -1.27 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.143 5.08)
+					(mid -4.7511 2.1181)
+					(end -4.445 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 -1.27) (xy -4.445 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.715 5.715) (xy -5.715 5.715)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -6.35) (xy -2.54 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -6.35) (xy 5.08 -6.35)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -1.27) (xy 6.34 -1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -6.985 3.81) (xy -2.54 3.81) (xy -2.54 3.175)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.445 -2.54) (xy -3.175 -2.54) (xy -3.175 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -3.81) (xy -6.985 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.635) (xy -1.27 1.27) (xy -6.985 1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.175) (xy 0 6.35) (xy 6.35 6.35)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -3.81) (xy 6.35 -3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -0.635) (xy 1.27 1.27) (xy 6.35 1.27)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 3.175) (xy 2.54 3.81) (xy 6.35 3.81)
+					)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.191 -2.54) (xy 2.921 -2.54) (xy 2.921 -4.064)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 5.08) (xy -1.143 4.318) (xy 0.889 4.318) (xy 0.889 5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -3.175)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 3.175 -1.27)
+					(radius 0.635)
+					(stroke
+						(width 0.25)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 4.191 -2.54)
+					(mid 4.5376 2.1357)
+					(end 0.889 5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MD-90_1_1"
+				(pin passive line
+					(at 8.89 -3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 -3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 3.81 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 8.89 6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -9.525 3.81 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -8.89 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mdconnector:MD-50")
+		(at 168.91 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0a45186a-4d19-41e8-ba59-9c616b1eb67a")
+		(property "Reference" "CN3"
+			(at 168.91 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD-50"
+			(at 168.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MD-XXSM:CUI_MD-50SM"
+			(at 168.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+			(at 168.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ba09ce6-eed3-43ca-9a95-485d39f0b4fc")
+		)
+		(pin "2"
+			(uuid "acc3f146-f2ee-4b19-8afa-bbc903135907")
+		)
+		(pin "3"
+			(uuid "999742f7-9a75-404a-a688-86caa2ae9ab3")
+		)
+		(pin "4"
+			(uuid "b70b4a69-f888-429b-9735-2ffc103a6b68")
+		)
+		(pin "5"
+			(uuid "6c66325a-001c-4a8d-9eed-071ec5c58f32")
+		)
+		(pin "S1"
+			(uuid "76ba10ac-c99b-412f-876f-d047fd4d1d42")
+		)
+		(pin "S2"
+			(uuid "ea31c015-c10e-4791-8a06-0306909b39be")
+		)
+		(pin "S3"
+			(uuid "c190cbcc-9828-41c5-b3c1-3874cd8b5cb5")
+		)
+		(instances
+			(project "mdconnector"
+				(path "/9d098be7-d5a5-4021-bf2c-93b141b9dc8c"
+					(reference "CN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mdconnector:MD-40")
+		(at 140.97 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3cc7e3e4-5b55-4a09-8e5e-4cfa4465ee7f")
+		(property "Reference" "CN2"
+			(at 140.97 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD-40"
+			(at 140.97 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MD-XXSM:CUI_MD-40SM"
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "051c100a-5c56-4cc4-9ad7-f899f33e322d")
+		)
+		(pin "2"
+			(uuid "24cec08f-5135-411c-bb6c-ec7d47ff19bc")
+		)
+		(pin "3"
+			(uuid "e7b95be5-b517-4848-837f-8150ef39f3bf")
+		)
+		(pin "4"
+			(uuid "767fe9dd-be0c-4329-8268-eaa2ebabf6af")
+		)
+		(pin "S1"
+			(uuid "f9a25b71-9611-4e97-a296-d3b99898f6ca")
+		)
+		(pin "S2"
+			(uuid "6f5567df-7baf-47cd-a89c-68765873291a")
+		)
+		(pin "S3"
+			(uuid "16690b1d-fa20-4b39-b195-ea1823cde15c")
+		)
+		(instances
+			(project "mdconnector"
+				(path "/9d098be7-d5a5-4021-bf2c-93b141b9dc8c"
+					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mdconnector:MD-30")
+		(at 113.03 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a5b8b35-cd7a-4a5f-9466-a7f580af64f4")
+		(property "Reference" "CN1"
+			(at 113.03 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD-30"
+			(at 113.03 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MD-XXSM:CUI_MD-30SM"
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4c4e095-dbc5-4c9f-ad1a-702cce53d79d")
+		)
+		(pin "2"
+			(uuid "532d98d2-43fe-41e3-a056-d1973c8bea1f")
+		)
+		(pin "3"
+			(uuid "008b2544-ace2-481e-98b1-bd48ebf7e1fd")
+		)
+		(pin "S1"
+			(uuid "39e8dffd-0d83-4069-85cb-58b7f5dd165f")
+		)
+		(pin "S2"
+			(uuid "16273ae5-a41f-4609-adc0-fd830a42c339")
+		)
+		(pin "S3"
+			(uuid "0f61c66e-88c4-4748-8cee-085654d0c60f")
+		)
+		(instances
+			(project "mdconnector"
+				(path "/9d098be7-d5a5-4021-bf2c-93b141b9dc8c"
+					(reference "CN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mdconnector:MD-90")
+		(at 167.64 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8154a1c7-b289-4e70-8e4a-846b3baf74ef")
+		(property "Reference" "CN7"
+			(at 167.64 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD-90"
+			(at 167.64 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MD-XXSM:CUI_MD-90SM"
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7f95934e-7e2e-4d8c-b64e-a4994c0db647")
+		)
+		(pin "2"
+			(uuid "629510fe-524c-4ab8-8cb1-301b37c5aaaa")
+		)
+		(pin "3"
+			(uuid "06fe201a-7a6b-41e7-8cd5-38ebc7915359")
+		)
+		(pin "4"
+			(uuid "559be49b-b57e-47b6-9037-bd339cc192ac")
+		)
+		(pin "5"
+			(uuid "9444f823-c433-4cd3-b988-8f7db20c0475")
+		)
+		(pin "6"
+			(uuid "5e5f868a-2367-441b-af48-b29f33739f68")
+		)
+		(pin "7"
+			(uuid "572b23a4-9152-49bc-bf13-395698ceb305")
+		)
+		(pin "8"
+			(uuid "25295ac9-78f5-4154-a79f-017d01734a36")
+		)
+		(pin "9"
+			(uuid "85755086-dcaa-4b7b-ab0d-acc3d8918403")
+		)
+		(pin "S1"
+			(uuid "1379a0cd-8464-4342-b116-ab6e521dafa0")
+		)
+		(pin "S2"
+			(uuid "fe682034-0699-4c8d-be4c-9dd728ae2158")
+		)
+		(pin "S3"
+			(uuid "ef0aa136-5613-4be2-b000-0c22c01b7f64")
+		)
+		(instances
+			(project "mdconnector"
+				(path "/9d098be7-d5a5-4021-bf2c-93b141b9dc8c"
+					(reference "CN7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mdconnector:MD-70")
+		(at 113.03 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8de7d05-4670-47c9-bd98-21786752c184")
+		(property "Reference" "CN5"
+			(at 113.03 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD-70"
+			(at 113.03 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MD-XXSM:CUI_MD-70SM"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 113.03 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6267d650-3eba-4263-b524-30dea24ccb63")
+		)
+		(pin "2"
+			(uuid "09eabeff-eab2-495d-989e-f727e40a5a17")
+		)
+		(pin "3"
+			(uuid "49f68932-d630-48f6-b80e-9a4523bf4c67")
+		)
+		(pin "4"
+			(uuid "938e5d3a-936e-439a-8814-662275d1e7f0")
+		)
+		(pin "5"
+			(uuid "e0b578cf-ca4f-4915-923e-1826547e46e0")
+		)
+		(pin "6"
+			(uuid "8716755d-97ec-4837-b72c-f0931f344392")
+		)
+		(pin "7"
+			(uuid "05c3548c-148d-4540-971f-d5ed8f517ab1")
+		)
+		(pin "S1"
+			(uuid "8916b603-0f1b-4117-b55c-a51f6d456e47")
+		)
+		(pin "S2"
+			(uuid "bc40dd09-3100-4394-b766-e3ae61201b1e")
+		)
+		(pin "S3"
+			(uuid "f47090aa-9259-4460-8e51-f95dc4668981")
+		)
+		(instances
+			(project "mdconnector"
+				(path "/9d098be7-d5a5-4021-bf2c-93b141b9dc8c"
+					(reference "CN5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mdconnector:MD-80")
+		(at 140.97 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7849295-e96a-4fb4-9b79-de43230a78e1")
+		(property "Reference" "CN6"
+			(at 140.6525 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD-80"
+			(at 140.6525 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MD-XXSM:CUI_MD-80SM"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e639de0c-a1c6-40f5-89e8-d69bde8b857b")
+		)
+		(pin "2"
+			(uuid "d1c4bf06-9bb4-432c-820b-c18af448e7c5")
+		)
+		(pin "3"
+			(uuid "da7826f8-4daa-4ec2-86be-bd2fd6072dce")
+		)
+		(pin "4"
+			(uuid "ccf4b2a1-fb51-4b5e-a973-8d8bef659fa1")
+		)
+		(pin "5"
+			(uuid "46d86545-a52d-44c1-9ce9-fc60d76143f7")
+		)
+		(pin "6"
+			(uuid "fa15f7b3-cf61-4b42-9bcd-7298f579df3e")
+		)
+		(pin "7"
+			(uuid "9402b6c8-f969-482c-895c-aa23f3c73eb3")
+		)
+		(pin "8"
+			(uuid "6381a232-f3be-4fd4-becb-77e41a81991c")
+		)
+		(pin "S1"
+			(uuid "a801b5ae-1390-481b-8187-c4abb229cd73")
+		)
+		(pin "S2"
+			(uuid "458b0951-2a55-49ee-9c1e-054ca3ce9ed8")
+		)
+		(pin "S3"
+			(uuid "9b1bea78-4f46-4320-b6f6-2710f34e4907")
+		)
+		(instances
+			(project "mdconnector"
+				(path "/9d098be7-d5a5-4021-bf2c-93b141b9dc8c"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mdconnector:MD-60")
+		(at 196.85 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff7f7fcf-1d3d-4a69-82ac-d2e88a7490ae")
+		(property "Reference" "CN4"
+			(at 196.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MD-60"
+			(at 196.85 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MD-XXSM:CUI_MD-60SM"
+			(at 196.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://eu.mouser.com/datasheet/2/670/md_sm_series-1778126.pdf"
+			(at 196.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 196.85 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f8602404-53ab-4873-bd3f-ed1d37452f93")
+		)
+		(pin "2"
+			(uuid "412efc05-c90e-4c68-8234-8880ff291496")
+		)
+		(pin "3"
+			(uuid "58019c48-26c4-4b28-8dc2-af04049430e8")
+		)
+		(pin "4"
+			(uuid "74e2c561-c2c4-4034-b1c5-0d0f8563273e")
+		)
+		(pin "5"
+			(uuid "70b3a5ce-df99-46a0-abb9-2e7e537b8e9d")
+		)
+		(pin "6"
+			(uuid "49932706-eede-4bf5-8736-6e22fb2ab747")
+		)
+		(pin "S1"
+			(uuid "9301d0b1-ff86-41ad-a511-bba15f6b786e")
+		)
+		(pin "S2"
+			(uuid "4e70e102-3433-495b-b981-ee7f0d610f42")
+		)
+		(pin "S3"
+			(uuid "26707cf2-d6d9-4bb5-9e16-ba35cd4665b3")
+		)
+		(instances
+			(project "mdconnector"
+				(path "/9d098be7-d5a5-4021-bf2c-93b141b9dc8c"
+					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

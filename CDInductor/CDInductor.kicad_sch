@@ -1,191 +1,633 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid 2981563f-6360-448d-ae3c-524fb1f398dd)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "pspice:INDUCTOR" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "L" (id 0) (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "INDUCTOR" (id 1) (at 0 -1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "simulation" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Inductor symbol for simulation only" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "INDUCTOR_0_1"
-        (arc (start -2.54 0) (mid -3.81 1.27) (end -5.08 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 0 0) (mid -1.27 1.27) (end -2.54 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 2.54 0) (mid 1.27 1.27) (end 0 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (arc (start 5.08 0) (mid 3.81 1.27) (end 2.54 0)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "INDUCTOR_1_1"
-        (pin input line (at -6.35 0 0) (length 1.27)
-          (name "1" (effects (font (size 0.762 0.762))))
-          (number "1" (effects (font (size 0.762 0.762))))
-        )
-        (pin input line (at 6.35 0 180) (length 1.27)
-          (name "2" (effects (font (size 0.762 0.762))))
-          (number "2" (effects (font (size 0.762 0.762))))
-        )
-      )
-    )
-  )
-
-
-  (symbol (lib_id "pspice:INDUCTOR") (at 63.5 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 0fa1aaaa-b08c-4a95-934b-90d183eb6120)
-    (property "Reference" "L1" (id 0) (at 63.5 50.8 0))
-    (property "Value" "INDUCTOR" (id 1) (at 63.5 53.34 0))
-    (property "Footprint" "me-tech:CD32" (id 2) (at 63.5 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 63.5 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3e69ab0d-ff4d-407c-bf9e-39e90a95f7c0))
-    (pin "2" (uuid 58bb9a7b-1189-4e18-a9ab-bd64ec9ff78b))
-  )
-
-  (symbol (lib_id "pspice:INDUCTOR") (at 63.5 95.25 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 5da3ef80-922d-49c7-9451-e058dc1db7d4)
-    (property "Reference" "L7" (id 0) (at 63.5 92.71 0))
-    (property "Value" "INDUCTOR" (id 1) (at 63.5 96.52 0))
-    (property "Footprint" "me-tech:CD105F" (id 2) (at 63.5 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 63.5 95.25 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 239cfc41-fe72-44bd-8712-ccbae1df0789))
-    (pin "2" (uuid 40278169-5415-4862-b9d1-1af50b549531))
-  )
-
-  (symbol (lib_id "pspice:INDUCTOR") (at 63.5 88.9 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 72a2f2b2-dafc-42c1-8fe4-4a65ffc3d88c)
-    (property "Reference" "L6" (id 0) (at 63.5 86.36 0))
-    (property "Value" "INDUCTOR" (id 1) (at 63.5 90.805 0))
-    (property "Footprint" "me-tech:CD104F" (id 2) (at 63.5 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 63.5 88.9 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 42398afb-fa9f-4d30-8adf-2370607f801a))
-    (pin "2" (uuid f1aa3e8d-9e7f-4265-9583-7a6ca1498839))
-  )
-
-  (symbol (lib_id "pspice:INDUCTOR") (at 63.5 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid 7fd98322-3f5a-4bba-9916-e1c3b0110375)
-    (property "Reference" "L3" (id 0) (at 63.5 67.31 0))
-    (property "Value" "INDUCTOR" (id 1) (at 63.5 71.12 0))
-    (property "Footprint" "me-tech:CD54" (id 2) (at 63.5 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 63.5 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b3a53c31-b58a-4c5a-99ef-767d51bb633d))
-    (pin "2" (uuid 5f7a13dd-2434-47a4-b32e-d9c20ec12c62))
-  )
-
-  (symbol (lib_id "pspice:INDUCTOR") (at 63.5 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid a37f3281-eed6-4d91-a088-58b24af88170)
-    (property "Reference" "L2" (id 0) (at 63.5 60.96 0))
-    (property "Value" "INDUCTOR" (id 1) (at 63.5 65.405 0))
-    (property "Footprint" "me-tech:CD43" (id 2) (at 63.5 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 63.5 63.5 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c69036a1-ed45-4f36-b17d-cf145c6ca348))
-    (pin "2" (uuid 30028747-a332-4d92-b3b6-d666cc6afe08))
-  )
-
-  (symbol (lib_id "pspice:INDUCTOR") (at 63.5 76.2 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid b868f9fa-b7cf-4061-aa3a-86998c4d49b9)
-    (property "Reference" "L4" (id 0) (at 63.5 73.66 0))
-    (property "Value" "INDUCTOR" (id 1) (at 63.5 78.105 0))
-    (property "Footprint" "me-tech:CD53" (id 2) (at 63.5 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 63.5 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 49ef0f4b-c284-4627-93d9-1fc81fe4dd69))
-    (pin "2" (uuid 7736d24f-d026-4b54-a398-25d698d59ed9))
-  )
-
-  (symbol (lib_id "pspice:INDUCTOR") (at 63.5 82.55 0) (unit 1)
-    (in_bom yes) (on_board yes)
-    (uuid e5df4a95-1c69-4b20-a6bb-13e46f64b77d)
-    (property "Reference" "L5" (id 0) (at 63.5 80.01 0))
-    (property "Value" "INDUCTOR" (id 1) (at 63.5 83.82 0))
-    (property "Footprint" "me-tech:CD75" (id 2) (at 63.5 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 63.5 82.55 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eefae080-ab82-4313-acdd-f4311234989b))
-    (pin "2" (uuid e1734cba-d40d-43e0-bed4-00382fa9c757))
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
-
-  (symbol_instances
-    (path "/0fa1aaaa-b08c-4a95-934b-90d183eb6120"
-      (reference "L1") (unit 1) (value "INDUCTOR") (footprint "me-tech:CD32")
-    )
-    (path "/a37f3281-eed6-4d91-a088-58b24af88170"
-      (reference "L2") (unit 1) (value "INDUCTOR") (footprint "me-tech:CD43")
-    )
-    (path "/7fd98322-3f5a-4bba-9916-e1c3b0110375"
-      (reference "L3") (unit 1) (value "INDUCTOR") (footprint "me-tech:CD54")
-    )
-    (path "/b868f9fa-b7cf-4061-aa3a-86998c4d49b9"
-      (reference "L4") (unit 1) (value "INDUCTOR") (footprint "me-tech:CD53")
-    )
-    (path "/e5df4a95-1c69-4b20-a6bb-13e46f64b77d"
-      (reference "L5") (unit 1) (value "INDUCTOR") (footprint "me-tech:CD75")
-    )
-    (path "/72a2f2b2-dafc-42c1-8fe4-4a65ffc3d88c"
-      (reference "L6") (unit 1) (value "INDUCTOR") (footprint "me-tech:CD104F")
-    )
-    (path "/5da3ef80-922d-49c7-9451-e058dc1db7d4"
-      (reference "L7") (unit 1) (value "INDUCTOR") (footprint "me-tech:CD105F")
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2981563f-6360-448d-ae3c-524fb1f398dd")
+	(paper "A4")
+	(lib_symbols
+		(symbol "pspice:INDUCTOR"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "INDUCTOR"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor symbol for simulation only"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INDUCTOR_0_1"
+				(arc
+					(start -2.54 0)
+					(mid -3.81 1.2645)
+					(end -5.08 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid -1.27 1.2645)
+					(end -2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.54 0)
+					(mid 1.27 1.2645)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 5.08 0)
+					(mid 3.81 1.2645)
+					(end 2.54 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INDUCTOR_1_1"
+				(pin input line
+					(at -6.35 0 0)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 6.35 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0.762 0.762)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 63.5 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fa1aaaa-b08c-4a95-934b-90d183eb6120")
+		(property "Reference" "L1"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INDUCTOR"
+			(at 63.5 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "me-tech:CD32"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e69ab0d-ff4d-407c-bf9e-39e90a95f7c0")
+		)
+		(pin "2"
+			(uuid "58bb9a7b-1189-4e18-a9ab-bd64ec9ff78b")
+		)
+		(instances
+			(project "CDInductor"
+				(path "/2981563f-6360-448d-ae3c-524fb1f398dd"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 63.5 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5da3ef80-922d-49c7-9451-e058dc1db7d4")
+		(property "Reference" "L7"
+			(at 63.5 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INDUCTOR"
+			(at 63.5 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "me-tech:CD105F"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "239cfc41-fe72-44bd-8712-ccbae1df0789")
+		)
+		(pin "2"
+			(uuid "40278169-5415-4862-b9d1-1af50b549531")
+		)
+		(instances
+			(project "CDInductor"
+				(path "/2981563f-6360-448d-ae3c-524fb1f398dd"
+					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 63.5 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "72a2f2b2-dafc-42c1-8fe4-4a65ffc3d88c")
+		(property "Reference" "L6"
+			(at 63.5 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INDUCTOR"
+			(at 63.5 90.805 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "me-tech:CD104F"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "42398afb-fa9f-4d30-8adf-2370607f801a")
+		)
+		(pin "2"
+			(uuid "f1aa3e8d-9e7f-4265-9583-7a6ca1498839")
+		)
+		(instances
+			(project "CDInductor"
+				(path "/2981563f-6360-448d-ae3c-524fb1f398dd"
+					(reference "L6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 63.5 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7fd98322-3f5a-4bba-9916-e1c3b0110375")
+		(property "Reference" "L3"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INDUCTOR"
+			(at 63.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "me-tech:CD54"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3a53c31-b58a-4c5a-99ef-767d51bb633d")
+		)
+		(pin "2"
+			(uuid "5f7a13dd-2434-47a4-b32e-d9c20ec12c62")
+		)
+		(instances
+			(project "CDInductor"
+				(path "/2981563f-6360-448d-ae3c-524fb1f398dd"
+					(reference "L3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 63.5 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a37f3281-eed6-4d91-a088-58b24af88170")
+		(property "Reference" "L2"
+			(at 63.5 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INDUCTOR"
+			(at 63.5 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "me-tech:CD43"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c69036a1-ed45-4f36-b17d-cf145c6ca348")
+		)
+		(pin "2"
+			(uuid "30028747-a332-4d92-b3b6-d666cc6afe08")
+		)
+		(instances
+			(project "CDInductor"
+				(path "/2981563f-6360-448d-ae3c-524fb1f398dd"
+					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 63.5 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b868f9fa-b7cf-4061-aa3a-86998c4d49b9")
+		(property "Reference" "L4"
+			(at 63.5 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INDUCTOR"
+			(at 63.5 78.105 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "me-tech:CD53"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "49ef0f4b-c284-4627-93d9-1fc81fe4dd69")
+		)
+		(pin "2"
+			(uuid "7736d24f-d026-4b54-a398-25d698d59ed9")
+		)
+		(instances
+			(project "CDInductor"
+				(path "/2981563f-6360-448d-ae3c-524fb1f398dd"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "pspice:INDUCTOR")
+		(at 63.5 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e5df4a95-1c69-4b20-a6bb-13e46f64b77d")
+		(property "Reference" "L5"
+			(at 63.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INDUCTOR"
+			(at 63.5 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "me-tech:CD75"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eefae080-ab82-4313-acdd-f4311234989b")
+		)
+		(pin "2"
+			(uuid "e1734cba-d40d-43e0-bed4-00382fa9c757")
+		)
+		(instances
+			(project "CDInductor"
+				(path "/2981563f-6360-448d-ae3c-524fb1f398dd"
+					(reference "L5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

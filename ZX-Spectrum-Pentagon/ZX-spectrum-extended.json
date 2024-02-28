@@ -1,0 +1,153 @@
+[
+  {
+    "name": "ZX Spectrum EXTENDED_2",
+    "author": "ALEKSEI",
+    "switchMount": "cherry",
+    "pcb": true
+  },
+  [
+    {
+      "a": 5,
+      "f": 2
+    },
+    "TRUE\n\n\n\n\n\nVIDEO",
+    "INV\n\n\n\n\n\nVIDIO",
+    {
+      "t": "#00007F\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "BLUE\n1 !\n\n\nDEF FN\n\nEDIT",
+    {
+      "t": "#7F0000\n#000000\n\n\n\n\n#7F7F7F"
+    },
+    "RED\n2 @\n\n\nFN\n\nCAPSL",
+    {
+      "t": "#7F007F\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "MAGENT\n3 #\n\n\nLINE\n\nTRUEV",
+    {
+      "t": "#007F00\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "GREEN\n4 $\n\n\nOPEN#\n\nIVVV",
+    {
+      "t": "#007F7F\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "CYAN\n5 %\n\n\nCLOSE#\n\n&larr;",
+    {
+      "t": "#7F7F00\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "YELLO\n6 &\n\n\nMOVE\n\n&darr;",
+    {
+      "t": "#9F9F9F\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "WHITE\n7 '\n\n\nERASE\n\n&uarr;",
+    {
+      "t": "#3F3F3F\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "UNBRIGHT\n8 (\n\n\nPOINT\n\n&rarr;",
+    "BRIGHT\n9 )\n\n\nCAT\n\nGRAPHICS",
+    {
+      "t": "#000000\n\n\n\n#7f0000\n\n#7F7F7F"
+    },
+    "BLACK\n0 -\n\n\nFORMAT\n\nDELETE",
+    {
+      "t": "#007F00\n#000000\n\n\n#7F0000\n\n#7F7F7F",
+      "w": 2
+    },
+    "&nbsp;\nBREACK\n\n\n&nbsp;\n\n&nbsp;"
+  ],
+  [
+    {
+      "w": 1.5
+    },
+    "&nbsp;\nDELETE\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\nGRAPH\n\n\n&nbsp;\n\n&nbsp;",
+    "SIN\nQ&nbsp;PLOT\n\n\nABS\n\n&le;",
+    "COS\nW&nbsp;DRAW\n\n\nACS\n\n&ne;",
+    "TAN\nE&nbsp;REM\n\n\nATN\n\n&ge;",
+    "INT\nR&nbsp;RUN\n\n\nVERIFY\n\n<",
+    "RND\nT&nbsp;RAND\n\n\nMERGE\n\n>",
+    "STR$\nY&nbsp;RETURN\n\n\n[\n\nAND",
+    "CHR$\nU&nbsp;IF\n\n\n[\n\nOR",
+    "CODE\nI&nbsp;INPUT\n\n\nIN\n\nAT",
+    "PEEK\nO&nbsp;POKE\n\n\nOUT\n\n;",
+    "TAB\nP&nbsp;PRINT\n\n\n(C)\n\n\"",
+    {
+      "w": 1.5
+    },
+    "&nbsp;\nENTER\n\n\n&nbsp;\n\n&nbsp;"
+  ],
+  [
+    {
+      "w": 1.75
+    },
+    "&nbsp;\nEXT&nbsp;MODE\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\nEDIT\n\n\n&nbsp;\n\n&nbsp;",
+    "READ\nA&nbsp;STOP\n\n\n~\n\nNEW",
+    "RESTORE\nS&nbsp;NOT\n\n\n|\n\nSAVE",
+    "DATA\nD&nbsp;STEP\n\n\n\\\n\nDIM",
+    "SGN\nF&nbsp;TO\n\n\n{\n\nFOR",
+    "ABS\nG&nbsp;THEN\n\n\n}\n\nGOTO",
+    "SQR\nH&nbsp;GOSUB\n\n\nCIRCLE\n\n&circ;",
+    "VAL\nJ&nbsp;LOAD\n\n\nVAL&\n\n-",
+    "LEN\nK&nbsp;LIST\n\n\nSCREEN$\n\n+",
+    "USR\nl&nbsp;LET\n\n\nATTR\n\n=",
+    {
+      "w": 2.25
+    },
+    "&nbsp;\nENTER\n\n\n&nbsp;\n\n&nbsp;"
+  ],
+  [
+    {
+      "t": "#000000",
+      "w": 2
+    },
+    "&nbsp;\nCAPS&nbsp;SHIFT\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "t": "#007F00\n#000000\n\n\n#7F0000\n\n#7F7F7F"
+    },
+    "&nbsp;\nCAPS LOCK\n\n\n&nbsp;\n\n&nbsp;",
+    "LN\nZ&nbsp;:\n\n\nBEEP\n\nCOPY",
+    "EXP\nX&nbsp;&pound;\n\n\nINK\n\nCLEAR",
+    "LPRINT\nC&nbsp;?\n\n\nPAPER\n\nCOUNT",
+    "LLIST\nV&nbsp;/\n\n\nFLASH\n\nCLS",
+    "BIN\nB&nbsp;*\n\n\nBRIGHT\n\nBORDER",
+    "INKEY\nN_,\n\n\nOVER\n\nNEXT",
+    "PI\nM&nbsp;.\n\n\nINVERS\n\nPAUSE",
+    "&nbsp;\n,\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\n.\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\n&uarr;\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "t": "#000000"
+    },
+    "&nbsp;\nCAPS SHIFT\n\n\n&nbsp;\n\n&nbsp;"
+  ],
+  [
+    {
+      "t": "#007F00\n#000000\n\n\n#7F0000\n\n#7F7F7F",
+      "w": 1.25
+    },
+    "&nbsp;\nSYMBOL SHIFT\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "w": 1.25
+    },
+    "&nbsp;\n;\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "w": 1.25
+    },
+    "&nbsp;\n\"\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "w": 6.25
+    },
+    "&nbsp;\n&nbsp;\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\nSYMBOL SHIFT\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "f": 4
+    },
+    "&nbsp;\n&larr;\n\n\n&nbsp;\n\n&nbsp;",
+    {
+      "f": 2
+    },
+    "&nbsp;\n&darr;\n\n\n&nbsp;\n\n&nbsp;",
+    "&nbsp;\n&rarr;\n\n\n&nbsp;\n\n&nbsp;"
+  ]
+]

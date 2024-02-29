@@ -927,7 +927,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "ZX-Spectrum-Pentagon.net",
-      "plot": "",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

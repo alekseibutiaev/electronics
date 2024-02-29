@@ -12810,6 +12810,7 @@
 		)
 	)
 	(footprint "Package_SO:SO-16_5.3x10.2mm_P1.27mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5b7a7d24-7423-410c-8288-c3be88a2cf6f")
 		(at 95.885 31.75 90)
@@ -32953,6 +32954,7 @@
 		)
 	)
 	(footprint "Package_SO:SO-16_5.3x10.2mm_P1.27mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "becf6ae5-39eb-420f-a76c-cac3ebc54b20")
 		(at 67.945 31.75 90)
@@ -33675,6 +33677,7 @@
 		)
 	)
 	(footprint "Package_SO:SO-16_5.3x10.2mm_P1.27mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c13abf91-8dd8-457a-9c1e-d85e22d38347")
 		(at 53.975 31.75 90)

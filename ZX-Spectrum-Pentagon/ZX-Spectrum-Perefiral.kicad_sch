@@ -1,409 +1,1225 @@
-(kicad_sch (version 20211123) (generator eeschema)
-
-  (uuid b1b48ba2-4f02-4f69-9ca1-50d348cf3e96)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "74IEC:74HC00" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "74HC00" (id 1) (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn7400.pdf" (id 3) (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Quadruple 2-Input Positive-NAND Gates" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "**DIP*14*W7.62mm* *SO*14*" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "74HC00_0_0"
-        (rectangle (start -2.54 -2.54) (end 2.54 2.54)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (text "~{&}" (at -1.27 1.27 0)
-          (effects (font (size 1 1)))
-        )
-      )
-      (symbol "74HC00_0_1"
-        (pin power_in line (at 2.54 2.54 180) (length 0) hide
-          (name "VCC" (effects (font (size 1.27 1.27))))
-          (number "14" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 2.54 -2.54 180) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "74HC00_1_1"
-        (pin input line (at -5.08 1.27 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -1.27 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 5.08 0 180) (length 2.54)
-          (name "~{Y}" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "74HC00_2_1"
-        (pin input line (at -5.08 1.27 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -1.27 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 5.08 0 180) (length 2.54)
-          (name "~{Y}" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "74HC00_3_1"
-        (pin input line (at -5.08 -1.27 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "10" (effects (font (size 1.27 1.27))))
-        )
-        (pin output inverted (at 5.08 0 180) (length 2.54)
-          (name "~{Y}" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 1.27 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "9" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "74HC00_4_1"
-        (pin output inverted (at 5.08 0 180) (length 2.54)
-          (name "~{Y}" (effects (font (size 1.27 1.27))))
-          (number "11" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 1.27 0) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "12" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -1.27 0) (length 2.54)
-          (name "B" (effects (font (size 1.27 1.27))))
-          (number "13" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (id 0) (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C" (id 1) (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "" (id 2) (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "C_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (id 0) (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R" (id 1) (at 0 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at -1.778 0 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (id 6) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "R_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-  )
-
-  (junction (at 85.09 74.93) (diameter 0) (color 0 0 0 0)
-    (uuid 6a83049d-5072-4637-b93a-7b33995b0c6b)
-  )
-  (junction (at 85.09 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid 859e15d3-e247-4de5-ba2d-f09bdcdb171e)
-  )
-  (junction (at 85.09 60.96) (diameter 0) (color 0 0 0 0)
-    (uuid 9ab716ed-7305-40bd-b897-7cdbc8f1a065)
-  )
-  (junction (at 69.85 73.66) (diameter 0) (color 0 0 0 0)
-    (uuid efb6ed84-85e6-49a3-be3e-f4dc2357f36d)
-  )
-
-  (wire (pts (xy 85.09 60.96) (xy 85.09 63.5))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 03610122-59b8-4061-8406-6f9b0b2a9e05)
-  )
-  (wire (pts (xy 85.09 71.12) (xy 85.09 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 10182009-a1bb-4922-8a14-afd2252ceae1)
-  )
-  (wire (pts (xy 69.85 76.2) (xy 72.39 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 1c5a887c-ed49-4114-94f8-103ef73dad59)
-  )
-  (wire (pts (xy 85.09 73.66) (xy 87.63 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 300f8021-402f-490b-b95d-025fb89734ec)
-  )
-  (wire (pts (xy 85.09 74.93) (xy 85.09 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 38d6f6ac-1991-4155-a923-00da18a13fa9)
-  )
-  (wire (pts (xy 85.09 60.96) (xy 100.33 60.96))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 3e52f136-079f-43fd-a785-0d59f065d0bb)
-  )
-  (wire (pts (xy 69.85 71.12) (xy 69.85 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4c5b5028-2e11-495b-a6a3-b93b37bc4285)
-  )
-  (wire (pts (xy 100.33 71.12) (xy 100.33 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 4f30c983-632a-45b6-a2d1-b97792d763f1)
-  )
-  (wire (pts (xy 97.79 74.93) (xy 100.33 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 81154830-8ec7-43dd-9018-8b64603152dc)
-  )
-  (wire (pts (xy 69.85 73.66) (xy 72.39 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 9ceaa1b6-0c01-4c3e-88b0-ad96d9b54b72)
-  )
-  (wire (pts (xy 82.55 74.93) (xy 85.09 74.93))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid a83d3d6d-b9a0-45cd-9025-e1d992addea1)
-  )
-  (wire (pts (xy 100.33 60.96) (xy 100.33 63.5))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid b36a7103-48f4-401e-96dc-7c5a0ffa5f65)
-  )
-  (wire (pts (xy 69.85 63.5) (xy 69.85 60.96))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c5f55abd-b6b6-49e8-be25-0a98ea0c0ec4)
-  )
-  (wire (pts (xy 85.09 76.2) (xy 87.63 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid cb4b7c1e-645a-4129-92d1-4841eb160ebb)
-  )
-  (wire (pts (xy 85.09 74.93) (xy 85.09 73.66))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid cef1b998-fc6a-444e-8e25-c782817fdb1f)
-  )
-  (wire (pts (xy 69.85 73.66) (xy 69.85 76.2))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid e22ea03c-8845-43c1-a949-ee540ab4b9de)
-  )
-  (wire (pts (xy 69.85 60.96) (xy 85.09 60.96))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid fa1b135c-631f-4bc9-83c7-f74956ed3198)
-  )
-
-  (symbol (lib_id "Device:R") (at 69.85 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 4f5f6221-fa54-4214-9fa3-344503f67e7e)
-    (property "Reference" "R1" (id 0) (at 72.39 66.0399 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "R" (id 1) (at 72.39 68.5799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 68.072 67.31 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 69.85 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 9fbbec53-8d89-4d02-8c73-754e07aca131))
-    (pin "2" (uuid ec471995-2398-4bfd-a9ae-cf8b5316dcb9))
-  )
-
-  (symbol (lib_id "Device:R") (at 85.09 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 692285d9-193d-44bd-898a-3e77f152685b)
-    (property "Reference" "R2" (id 0) (at 87.63 66.0399 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "R" (id 1) (at 87.63 68.5799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 83.312 67.31 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 85.09 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7c4c3aac-8a62-44f1-b691-666c603d9138))
-    (pin "2" (uuid e4b0b394-853c-4f02-a6da-9aa0b4524678))
-  )
-
-  (symbol (lib_id "Device:C") (at 100.33 67.31 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid 7388b50d-d5f5-44a4-a8f9-d6d2b302fa45)
-    (property "Reference" "C1" (id 0) (at 104.14 66.0399 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "C" (id 1) (at 104.14 68.5799 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 101.2952 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 100.33 67.31 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5708822c-e27d-4a7a-af55-9d317408106f))
-    (pin "2" (uuid 53a2d59f-a529-4494-9b8f-2fa299ef34c7))
-  )
-
-  (symbol (lib_id "74IEC:74HC00") (at 92.71 74.93 0) (unit 2)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid e2a946e9-011d-4387-9894-fdbea1eed8b7)
-    (property "Reference" "U1" (id 0) (at 92.71 67.31 0))
-    (property "Value" "74HC00" (id 1) (at 92.71 69.85 0))
-    (property "Footprint" "" (id 2) (at 92.71 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn7400.pdf" (id 3) (at 92.71 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "14" (uuid e58f416e-1150-43b0-afba-57ff4c0e2e70))
-    (pin "7" (uuid b4e66bd4-04ca-4a20-bf91-92e556620fd4))
-    (pin "1" (uuid 680d14ef-225e-403d-9163-7883160bedd3))
-    (pin "2" (uuid 03f3c51c-d860-4381-ab49-3f2c027a1bef))
-    (pin "3" (uuid fd64d876-2b6b-4339-9056-864a5470bdda))
-    (pin "4" (uuid afd56f4b-c6e3-43f7-a2c5-3b0f9ace157c))
-    (pin "5" (uuid c717f381-7204-4683-bc67-c225dc8afd90))
-    (pin "6" (uuid 70647f67-78c4-4f9d-9f15-1960d7fd383e))
-    (pin "10" (uuid 35801bf7-1ad2-40af-92e5-124fffe5966f))
-    (pin "8" (uuid f9f2c1e3-2e74-4acc-9b6a-c8a204a8636a))
-    (pin "9" (uuid 836c288c-6fe7-466e-b73a-827aa56a1cc1))
-    (pin "11" (uuid db3e7c2f-c7ad-49d4-8688-7c9e872a9fd2))
-    (pin "12" (uuid 0593d752-4f14-4155-891b-f00e81aa38fd))
-    (pin "13" (uuid 9c7adc03-4140-4b7c-87be-9fcea46833d6))
-  )
-
-  (symbol (lib_id "74IEC:74HC00") (at 77.47 74.93 0) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid f865febd-9c55-4865-a22a-0072804846ed)
-    (property "Reference" "U1" (id 0) (at 77.47 67.31 0))
-    (property "Value" "74HC00" (id 1) (at 77.47 69.85 0))
-    (property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" (id 2) (at 77.47 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn7400.pdf" (id 3) (at 77.47 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "14" (uuid 704187cf-048c-4fbc-a50b-b3eeb69c9691))
-    (pin "7" (uuid 4d463949-0b97-4981-adb4-fbacd31fa577))
-    (pin "1" (uuid 9a3f5fd2-dd4c-4831-91f1-99221be23edf))
-    (pin "2" (uuid 2452e0d2-8c34-4e77-9a5d-c99f3e9f59ee))
-    (pin "3" (uuid 5ed53faf-9505-4894-9c0f-3b66819051dd))
-    (pin "4" (uuid ff5e29ea-5d2c-4591-aa63-9bd3cea63b7b))
-    (pin "5" (uuid ea05dd40-9676-42a4-bd68-e6ead62e39da))
-    (pin "6" (uuid ad8b4c2b-308b-4667-ad56-b35b497b8575))
-    (pin "10" (uuid 48f0fdd3-0983-4830-94d1-246d50e3a93f))
-    (pin "8" (uuid cb767a30-a814-4621-ae38-c85ffd330c50))
-    (pin "9" (uuid 248c06ef-3657-41c8-9acf-db6744a5de83))
-    (pin "11" (uuid e3f670d6-bd11-4ba3-aa3b-cd04ba9eea07))
-    (pin "12" (uuid 64073c49-f7c3-45c1-a325-ff4e57ffc093))
-    (pin "13" (uuid 786be637-9bf2-4e9a-860b-d536e18e05e0))
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
-
-  (symbol_instances
-    (path "/7388b50d-d5f5-44a4-a8f9-d6d2b302fa45"
-      (reference "C1") (unit 1) (value "C") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
-    )
-    (path "/4f5f6221-fa54-4214-9fa3-344503f67e7e"
-      (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/692285d9-193d-44bd-898a-3e77f152685b"
-      (reference "R2") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
-    (path "/f865febd-9c55-4865-a22a-0072804846ed"
-      (reference "U1") (unit 1) (value "74HC00") (footprint "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm")
-    )
-    (path "/e2a946e9-011d-4387-9894-fdbea1eed8b7"
-      (reference "U1") (unit 2) (value "74HC00") (footprint "")
-    )
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b1b48ba2-4f02-4f69-9ca1-50d348cf3e96")
+	(paper "A4")
+	(lib_symbols
+		(symbol "74IEC:74HC00"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HC00"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Quadruple 2-Input Positive-NAND Gates"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "**DIP*14*W7.62mm* *SO*14*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HC00_0_0"
+				(rectangle
+					(start -2.54 -2.54)
+					(end 2.54 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(text "~{&}"
+					(at -1.27 1.27 0)
+					(effects
+						(font
+							(size 1 1)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_0_1"
+				(pin power_in line
+					(at 2.54 2.54 180)
+					(length 0) hide
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 -2.54 180)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_1_1"
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~{Y}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_2_1"
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~{Y}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_3_1"
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output inverted
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~{Y}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "74HC00_4_1"
+				(pin output inverted
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~{Y}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 1.27 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 -1.27 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 85.09 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6a83049d-5072-4637-b93a-7b33995b0c6b")
+	)
+	(junction
+		(at 85.09 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "859e15d3-e247-4de5-ba2d-f09bdcdb171e")
+	)
+	(junction
+		(at 85.09 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ab716ed-7305-40bd-b897-7cdbc8f1a065")
+	)
+	(junction
+		(at 69.85 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efb6ed84-85e6-49a3-be3e-f4dc2357f36d")
+	)
+	(wire
+		(pts
+			(xy 85.09 60.96) (xy 85.09 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03610122-59b8-4061-8406-6f9b0b2a9e05")
+	)
+	(wire
+		(pts
+			(xy 85.09 71.12) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10182009-a1bb-4922-8a14-afd2252ceae1")
+	)
+	(wire
+		(pts
+			(xy 69.85 76.2) (xy 72.39 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5a887c-ed49-4114-94f8-103ef73dad59")
+	)
+	(wire
+		(pts
+			(xy 85.09 73.66) (xy 87.63 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "300f8021-402f-490b-b95d-025fb89734ec")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d6f6ac-1991-4155-a923-00da18a13fa9")
+	)
+	(wire
+		(pts
+			(xy 85.09 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e52f136-079f-43fd-a785-0d59f065d0bb")
+	)
+	(wire
+		(pts
+			(xy 69.85 71.12) (xy 69.85 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c5b5028-2e11-495b-a6a3-b93b37bc4285")
+	)
+	(wire
+		(pts
+			(xy 100.33 71.12) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f30c983-632a-45b6-a2d1-b97792d763f1")
+	)
+	(wire
+		(pts
+			(xy 97.79 74.93) (xy 100.33 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81154830-8ec7-43dd-9018-8b64603152dc")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 72.39 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ceaa1b6-0c01-4c3e-88b0-ad96d9b54b72")
+	)
+	(wire
+		(pts
+			(xy 82.55 74.93) (xy 85.09 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83d3d6d-b9a0-45cd-9025-e1d992addea1")
+	)
+	(wire
+		(pts
+			(xy 100.33 60.96) (xy 100.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b36a7103-48f4-401e-96dc-7c5a0ffa5f65")
+	)
+	(wire
+		(pts
+			(xy 69.85 63.5) (xy 69.85 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5f55abd-b6b6-49e8-be25-0a98ea0c0ec4")
+	)
+	(wire
+		(pts
+			(xy 85.09 76.2) (xy 87.63 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb4b7c1e-645a-4129-92d1-4841eb160ebb")
+	)
+	(wire
+		(pts
+			(xy 85.09 74.93) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef1b998-fc6a-444e-8e25-c782817fdb1f")
+	)
+	(wire
+		(pts
+			(xy 69.85 73.66) (xy 69.85 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22ea03c-8845-43c1-a949-ee540ab4b9de")
+	)
+	(wire
+		(pts
+			(xy 69.85 60.96) (xy 85.09 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa1b135c-631f-4bc9-83c7-f74956ed3198")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f5f6221-fa54-4214-9fa3-344503f67e7e")
+		(property "Reference" "R1"
+			(at 72.39 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 72.39 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 68.072 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9fbbec53-8d89-4d02-8c73-754e07aca131")
+		)
+		(pin "2"
+			(uuid "ec471995-2398-4bfd-a9ae-cf8b5316dcb9")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 85.09 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "692285d9-193d-44bd-898a-3e77f152685b")
+		(property "Reference" "R2"
+			(at 87.63 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 87.63 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 83.312 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 85.09 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c4c3aac-8a62-44f1-b691-666c603d9138")
+		)
+		(pin "2"
+			(uuid "e4b0b394-853c-4f02-a6da-9aa0b4524678")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7388b50d-d5f5-44a4-a8f9-d6d2b302fa45")
+		(property "Reference" "C1"
+			(at 104.14 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C"
+			(at 104.14 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 101.2952 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 100.33 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5708822c-e27d-4a7a-af55-9d317408106f")
+		)
+		(pin "2"
+			(uuid "53a2d59f-a529-4494-9b8f-2fa299ef34c7")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74IEC:74HC00")
+		(at 92.71 74.93 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2a946e9-011d-4387-9894-fdbea1eed8b7")
+		(property "Reference" "U1"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 92.71 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
+			(at 92.71 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple 2-Input Positive-NAND Gates"
+			(at 92.71 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "e58f416e-1150-43b0-afba-57ff4c0e2e70")
+		)
+		(pin "7"
+			(uuid "b4e66bd4-04ca-4a20-bf91-92e556620fd4")
+		)
+		(pin "1"
+			(uuid "680d14ef-225e-403d-9163-7883160bedd3")
+		)
+		(pin "2"
+			(uuid "03f3c51c-d860-4381-ab49-3f2c027a1bef")
+		)
+		(pin "3"
+			(uuid "fd64d876-2b6b-4339-9056-864a5470bdda")
+		)
+		(pin "4"
+			(uuid "afd56f4b-c6e3-43f7-a2c5-3b0f9ace157c")
+		)
+		(pin "5"
+			(uuid "c717f381-7204-4683-bc67-c225dc8afd90")
+		)
+		(pin "6"
+			(uuid "70647f67-78c4-4f9d-9f15-1960d7fd383e")
+		)
+		(pin "10"
+			(uuid "35801bf7-1ad2-40af-92e5-124fffe5966f")
+		)
+		(pin "8"
+			(uuid "f9f2c1e3-2e74-4acc-9b6a-c8a204a8636a")
+		)
+		(pin "9"
+			(uuid "836c288c-6fe7-466e-b73a-827aa56a1cc1")
+		)
+		(pin "11"
+			(uuid "db3e7c2f-c7ad-49d4-8688-7c9e872a9fd2")
+		)
+		(pin "12"
+			(uuid "0593d752-4f14-4155-891b-f00e81aa38fd")
+		)
+		(pin "13"
+			(uuid "9c7adc03-4140-4b7c-87be-9fcea46833d6")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "74IEC:74HC00")
+		(at 77.47 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f865febd-9c55-4865-a22a-0072804846ed")
+		(property "Reference" "U1"
+			(at 77.47 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC00"
+			(at 77.47 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
+			(at 77.47 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
+			(at 77.47 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple 2-Input Positive-NAND Gates"
+			(at 77.47 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "704187cf-048c-4fbc-a50b-b3eeb69c9691")
+		)
+		(pin "7"
+			(uuid "4d463949-0b97-4981-adb4-fbacd31fa577")
+		)
+		(pin "1"
+			(uuid "9a3f5fd2-dd4c-4831-91f1-99221be23edf")
+		)
+		(pin "2"
+			(uuid "2452e0d2-8c34-4e77-9a5d-c99f3e9f59ee")
+		)
+		(pin "3"
+			(uuid "5ed53faf-9505-4894-9c0f-3b66819051dd")
+		)
+		(pin "4"
+			(uuid "ff5e29ea-5d2c-4591-aa63-9bd3cea63b7b")
+		)
+		(pin "5"
+			(uuid "ea05dd40-9676-42a4-bd68-e6ead62e39da")
+		)
+		(pin "6"
+			(uuid "ad8b4c2b-308b-4667-ad56-b35b497b8575")
+		)
+		(pin "10"
+			(uuid "48f0fdd3-0983-4830-94d1-246d50e3a93f")
+		)
+		(pin "8"
+			(uuid "cb767a30-a814-4621-ae38-c85ffd330c50")
+		)
+		(pin "9"
+			(uuid "248c06ef-3657-41c8-9acf-db6744a5de83")
+		)
+		(pin "11"
+			(uuid "e3f670d6-bd11-4ba3-aa3b-cd04ba9eea07")
+		)
+		(pin "12"
+			(uuid "64073c49-f7c3-45c1-a325-ff4e57ffc093")
+		)
+		(pin "13"
+			(uuid "786be637-9bf2-4e9a-860b-d536e18e05e0")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )

@@ -1,0 +1,83 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 271001
+D Generic ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
+$CMP 27128_DIP
+D Generic ROM 128Kbit(16Kx8)
+$ENDCMP
+#
+$CMP 27128_PLCC32
+D Generic ROM 128Kbit(16Kx8)
+$ENDCMP
+#
+$CMP 272001
+D Generic ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
+$CMP 27256_DIP
+D Generic ROM 256Kbit(32Kx8)
+$ENDCMP
+#
+$CMP 27256_PLCC32
+D Generic ROM 256Kbit(32Kx8)
+$ENDCMP
+#
+$CMP 274001
+D Generic ROM 4Mbit(512Kbx8)
+$ENDCMP
+#
+$CMP 27512_DIP
+D Generic ROM 512Kbit(64Kx8)
+$ENDCMP
+#
+$CMP 27512_PLCC32
+D Generic ROM 512Kbit(64Kx8)
+$ENDCMP
+#
+$CMP 2764_DIP
+D Generic ROM 64Kbit(8Kx8)
+$ENDCMP
+#
+$CMP 2764_PLCC32
+D Generic ROM 64Kbit(8Kx8)
+$ENDCMP
+#
+$CMP 29F002
+D Generic Flash ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
+$CMP 29F010
+D Generic Flash ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
+$CMP 29F040
+D Generic Flash ROM 4Mbit(512Kbx8)
+$ENDCMP
+#
+$CMP AM29F002
+D Generic Flash ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
+$CMP AM29F010
+D Generic Flash ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
+$CMP AM29F040
+D Generic Flash ROM 4Mbit(512Kbx8)
+$ENDCMP
+#
+$CMP SST39F010
+D Generic Flash ROM 1Mbit(128Kbx8)
+$ENDCMP
+#
+$CMP SST39F020
+D Generic Flash ROM 2Mbit(256Kbx8)
+$ENDCMP
+#
+$CMP SST39F040
+D Generic Flash ROM 4Mbit(512Kbx8)
+$ENDCMP
+#
+#End Doc Library

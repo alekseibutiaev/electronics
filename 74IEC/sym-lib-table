@@ -1,5 +1,4 @@
 (sym_lib_table
-  (version 7)
   (lib (name "74IEC.kicad5")(type "Legacy")(uri "${KIPRJMOD}/74IEC.kicad5.lib")(options "")(descr "")(disabled))
   (lib (name "74IEC.kicad6")(type "KiCad")(uri "${KIPRJMOD}/74IEC.kicad_sym")(options "")(descr ""))
 )

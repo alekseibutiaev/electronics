@@ -10,9 +10,9 @@ module tb;
   SN74XX153 tmp(.out(out), .a(a), .b(b), .c(c), .d(d), .sel(cnt[1:0]), .str(cnt[2]));
 
   initial begin
-    $dumpfile("tb_SN74XX153.vcd");
+    $dumpfile("tb_153.vcd");
     $dumpvars(0, tb);
-    $monitor ("sn74xx153 [%0t] sel=%02b str=%01b a=%02b b=%02b c=%02b d=%02b out=%02b", $time,
+    $monitor ("sn153 [%0t] sel=%02b str=%01b a=%02b b=%02b c=%02b d=%02b out=%02b", $time,
       cnt[1:0], cnt[2], a, b, c, d, out);
     cnt <= 0;
     a <= 2'h3;

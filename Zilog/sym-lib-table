@@ -1,3 +1,4 @@
 (sym_lib_table
+  (lib (name "Zilog.kicad5")(type "Legacy")(uri "${KIPRJMOD}/Zilog.kicad5.lib")(options "")(descr "")(disabled))
   (lib (name "Zilog.kicad6")(type "KiCad")(uri "${KIPRJMOD}/Zilog.kicad_sym")(options "")(descr ""))
 )

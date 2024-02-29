@@ -10,9 +10,9 @@ module tb;
   SN74XX158 tmp(.out(out), .a(a), .b(b), .sel(cnt[0]), .str(cnt[1]));
 /*(cnt[0] ? 'A' : 'B'),*/
   initial begin
-    $dumpfile("tb_SN74XX158.vcd");
+    $dumpfile("tb_158.vcd");
     $dumpvars(0, tb);
-    $monitor ("sn74xx158 [%0t] sel=%01b str=%01b a=%04b b=%04b out=%04b", $time,
+    $monitor ("sn158 [%0t] sel=%01b str=%01b a=%04b b=%04b out=%04b", $time,
       cnt[0], cnt[1], a, b, out);
     cnt <= 0;
     a <= 4'ha;

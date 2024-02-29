@@ -11,9 +11,9 @@ module tb;
     .nload(nload), .clr(clr));
 
   initial begin
-    $dumpfile("tb_SN74XX193.vcd");
+    $dumpfile("tb_sn193.vcd");
     $dumpvars(0, tb);
-    $monitor ("sn74xx193 [%0t] data=%04b up=%01b down=%01b load=%01b clr=%01b, out=%04b co=%01b bo=%01b",
+    $monitor ("sn193 [%0t] data=%04b up=%01b down=%01b load=%01b clr=%01b, out=%04b co=%01b bo=%01b",
       $time, d, up, down, nload, clr, out, co, bo);
     up <= 1;
     down <= 1;

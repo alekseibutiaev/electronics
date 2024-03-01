@@ -585,7 +585,7 @@
 			(uuid "149bbe1a-dc79-428b-b4ee-1ecc014f8485")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H6")
 					(unit 1)
@@ -652,7 +652,7 @@
 			(uuid "dc614459-1670-47ff-bf00-db5aa36c3912")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H1")
 					(unit 1)
@@ -718,7 +718,7 @@
 			(uuid "61feca20-2b3a-452d-80dc-727139472165")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "#PWR?")
 					(unit 1)
@@ -784,7 +784,7 @@
 			(uuid "ec3493d1-c89a-40b0-83f8-2195238ccfaa")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "#PWR02")
 					(unit 1)
@@ -850,7 +850,7 @@
 			(uuid "bc956246-dbf0-47bf-9190-de4d638bbce2")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "#PWR01")
 					(unit 1)
@@ -917,7 +917,7 @@
 			(uuid "b1a7fab9-f004-471e-80e9-eafadc9038dd")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H3")
 					(unit 1)
@@ -984,7 +984,7 @@
 			(uuid "bece88a9-c385-4f97-a464-e55a1c46a257")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H5")
 					(unit 1)
@@ -1051,7 +1051,7 @@
 			(uuid "6320005b-bbf0-4cc8-a77b-71f1486b9713")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H4")
 					(unit 1)
@@ -1117,7 +1117,7 @@
 			(uuid "2a949466-0233-40d7-9e3b-1d286cd220e9")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "#FLG?")
 					(unit 1)
@@ -1184,7 +1184,7 @@
 			(uuid "8b72d945-049b-4ad1-8de3-ad442c50a6b5")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H2")
 					(unit 1)
@@ -1251,7 +1251,7 @@
 			(uuid "7784b344-f046-4430-aa24-6b644fc2bacb")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H8")
 					(unit 1)
@@ -1318,7 +1318,7 @@
 			(uuid "8a88c798-28bc-4115-8796-01a875d7ac96")
 		)
 		(instances
-			(project "ZX-Spectrum-Keyboard_Switch"
+			(project "ZX-Spectrum-Key-Panel"
 				(path "/07911cf8-e401-42ff-9423-4a940bff9c5f"
 					(reference "H7")
 					(unit 1)

@@ -9211,6 +9211,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 86.36 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ZX-Spectrum-Keyboard"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
@@ -9291,6 +9300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 312.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9b3a5dc6-01dd-4c4d-a9fb-d5a227255c85")
 		)
@@ -9361,6 +9379,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 237.49 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f1127a75-9f99-4ba5-801c-14806a89fec3")
 		)
@@ -9423,6 +9450,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 128.27 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 128.27 261.62 0)
 			(effects
 				(font
@@ -9561,6 +9597,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 148.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "9bb67186-8cb4-400c-bf26-9328232051d6")
 		)
@@ -9675,6 +9720,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 234.95 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de182c96-7880-4e1d-9d5f-1a5f783cd551")
 		)
@@ -9736,6 +9790,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 76.2 228.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 76.2 228.6 0)
 			(effects
 				(font
@@ -9889,6 +9952,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 148.59 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9a055b6-11d4-412b-a082-636edb4372fa")
 		)
@@ -9950,6 +10022,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 251.46 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 251.46 237.49 0)
 			(effects
 				(font
@@ -10034,6 +10115,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 285.75 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10188,6 +10278,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 351.79 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78851507-a9f5-4a70-b038-bc448aa06d3b")
 		)
@@ -10263,6 +10362,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 58.42 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10343,6 +10451,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 148.59 153.67 0)
 			(effects
 				(font
@@ -10502,6 +10619,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 160.02 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a7acd387-f124-4e9a-9384-f4e92a45028c")
 		)
@@ -10535,7 +10661,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "STAB_2.0u"
+		(property "Value" "STAB_6.25u"
 			(at 81.28 241.3 0)
 			(effects
 				(font
@@ -10563,6 +10689,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 86.36 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 86.36 237.49 0)
 			(effects
 				(font
@@ -10626,6 +10761,15 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
+			(at 76.2 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 76.2 237.49 0)
 			(effects
 				(font
@@ -10705,6 +10849,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 83.82 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75a94794-8467-428b-9320-7f6186225804")
 		)
@@ -10780,6 +10933,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 45.72 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -10859,6 +11021,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 33.02 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4f31431-90de-447f-a94d-8156f7d96b4a")
 		)
@@ -10918,6 +11089,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 148.59 40.64 0)
 			(effects
 				(font
@@ -11039,6 +11219,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 83.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6de63eca-73b1-4691-bb59-ef14050c0757")
 		)
@@ -11098,6 +11287,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 250.19 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 250.19 40.64 0)
 			(effects
 				(font
@@ -11228,6 +11426,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 300.99 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f9016156-3e0c-4405-a0de-4891dd5e4318")
 		)
@@ -11289,6 +11496,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
+			(at 33.02 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 33.02 231.14 0)
 			(effects
 				(font
@@ -11374,6 +11590,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 148.59 91.44 0)
 			(effects
 				(font
@@ -11495,6 +11720,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "927cc0e5-fea4-4a05-97d1-59afef5b1a28")
 		)
@@ -11570,6 +11804,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 58.42 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -11715,6 +11958,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 57.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2fa4de71-3651-4d32-8a2f-cde1f9b69950")
 		)
@@ -11785,6 +12037,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 135.89 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd5a659c-e8e7-44c3-8b53-66c301f72279")
 		)
@@ -11847,6 +12108,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 186.69 186.69 0)
 			(effects
 				(font
@@ -11990,6 +12260,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 33.02 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8d92c70-72b0-4eb6-a3b9-a76f5b2c2df3")
 		)
@@ -12067,6 +12346,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 300.99 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 300.99 142.24 0)
 			(effects
 				(font
@@ -12182,6 +12470,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 113.03 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "df4c2632-8dad-4b83-b705-f30c2a1ef432")
 		)
@@ -12254,6 +12551,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 71.12 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -12334,6 +12640,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 300.99 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 300.99 52.07 0)
 			(effects
 				(font
@@ -12550,6 +12865,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 83.82 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "58583b9c-816b-447f-af49-82cc6f5f3bed")
 		)
@@ -12611,6 +12935,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 200.66 237.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 200.66 237.49 0)
 			(effects
 				(font
@@ -12696,6 +13029,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 71.12 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7aacb68e-540b-4303-9211-bc0defe2a927")
 		)
@@ -12774,6 +13116,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 148.59 102.87 0)
 			(effects
 				(font
@@ -12868,6 +13219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 160.02 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "07659141-ecb6-414a-9d1e-3b0e5ac5ca34")
 		)
@@ -12943,6 +13303,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 82.55 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13031,6 +13400,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 312.42 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1438db1-c34c-47c4-897a-4be3a2c87933")
 		)
@@ -13106,6 +13484,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 234.95 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -13194,6 +13581,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 199.39 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afa772c1-4d43-4ffc-b51a-6808272b78e4")
 		)
@@ -13271,6 +13667,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 33.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "deb2e36f-0baf-4fd0-a272-6d2a8b1e4bb6")
 		)
@@ -13330,6 +13735,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 300.99 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 300.99 91.44 0)
 			(effects
 				(font
@@ -13564,6 +13978,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 259.08 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 259.08 245.11 0)
 			(effects
 				(font
@@ -13815,6 +14238,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 71.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "82f18242-9309-4cb3-a1d1-487ede8ec7da")
 		)
@@ -13874,6 +14306,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 234.95 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 234.95 261.62 0)
 			(effects
 				(font
@@ -14060,6 +14501,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 71.12 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8022c52-291b-4e2b-9dde-9d4a4bbdf5f7")
 		)
@@ -14120,6 +14570,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 373.38 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 373.38 224.79 0)
 			(effects
 				(font
@@ -14335,6 +14794,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 71.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4aa61077-3586-4064-9544-87aedf6d8e6c")
 		)
@@ -14398,6 +14866,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 143.51 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 143.51 261.62 0)
 			(effects
 				(font
@@ -14478,6 +14955,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 33.02 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -14614,6 +15100,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 300.99 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "6cf8848e-eb1b-4643-bef0-aa1dafa40f2a")
 		)
@@ -14736,6 +15231,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 261.62 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0fbdc79d-db9c-4367-98d2-336a6c192874")
 		)
@@ -14795,6 +15299,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 199.39 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 199.39 91.44 0)
 			(effects
 				(font
@@ -14916,6 +15429,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6762f61-76bd-4eca-8ec1-b2f46f4f3afb")
 		)
@@ -14994,6 +15516,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 210.82 193.04 0)
 			(effects
 				(font
@@ -15127,6 +15658,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 363.22 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 363.22 224.79 0)
 			(effects
 				(font
@@ -15270,6 +15810,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2750f629-9b40-4105-9850-ab3d75615014")
 		)
@@ -15347,6 +15896,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 71.12 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90828893-b384-4984-a8bf-01b22253593d")
 		)
@@ -15406,6 +15964,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 208.28 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 208.28 245.11 0)
 			(effects
 				(font
@@ -15527,6 +16094,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 234.95 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6342221-eb5f-443d-b9e0-00cb575c0642")
 		)
@@ -15613,6 +16189,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 300.99 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cea6fe3b-5739-4816-9cce-6a54b8b74411")
 		)
@@ -15690,6 +16275,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 33.02 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "88f3317d-11fb-4374-b6da-cfde19cf142c")
 		)
@@ -15753,6 +16347,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 97.79 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 97.79 261.62 0)
 			(effects
 				(font
@@ -15836,6 +16439,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 184.15 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "67208973-f3ab-46b6-b116-f6cc1875eed0")
 		)
@@ -15914,6 +16526,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 210.82 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 210.82 91.44 0)
 			(effects
 				(font
@@ -16112,6 +16733,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 148.59 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 148.59 193.04 0)
 			(effects
 				(font
@@ -16438,6 +17068,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 199.39 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8106b3c4-211e-40fa-a9f2-e34fc8869a7d")
 		)
@@ -16515,6 +17154,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 45.72 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d2bf02e-0941-497c-ae76-1076bf53a7ca")
 		)
@@ -16590,6 +17238,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -16670,6 +17327,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 285.75 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e667348b-f9ec-45a6-bdbc-9108bec26d64")
 		)
@@ -16740,6 +17406,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 237.49 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49e7c15a-f543-4c40-9309-93a642088262")
 		)
@@ -16802,6 +17477,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 135.89 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 135.89 186.69 0)
 			(effects
 				(font
@@ -16896,6 +17580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 344.17 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e61baca-fe46-407d-a210-454ea99db7b6")
 		)
@@ -16972,6 +17665,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 285.75 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17060,6 +17762,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 250.19 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb5dbb8a-1756-444a-822e-1676e6740cd9")
 		)
@@ -17135,6 +17846,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 33.02 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17215,6 +17935,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 133.35 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06bf8a27-a5b9-4ed6-aa59-d8d592f28879")
 		)
@@ -17290,6 +18019,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 58.42 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -17370,6 +18108,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 160.02 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 160.02 40.64 0)
 			(effects
 				(font
@@ -17595,6 +18342,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 344.17 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8298de43-ee8d-4090-9da3-95ffd1c4ea6b")
 		)
@@ -17665,6 +18421,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 288.29 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9de63f66-1938-49c8-8b0d-0ff3fd76265e")
 		)
@@ -17727,6 +18492,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 186.69 85.09 0)
 			(effects
 				(font
@@ -17942,6 +18716,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 83.82 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "939b1ba3-da42-4376-984e-84b65d15d530")
 		)
@@ -18001,6 +18784,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 208.28 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 208.28 261.62 0)
 			(effects
 				(font
@@ -18122,6 +18914,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 45.72 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1ae01785-005f-44d2-bb3b-3fd87494cdeb")
 		)
@@ -18197,6 +18998,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 58.42 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18285,6 +19095,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 351.79 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "469fc239-6d32-4b08-9c26-9d48b25d2bd1")
 		)
@@ -18360,6 +19179,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 45.72 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18440,6 +19268,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 285.75 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "03ba07f3-ae6b-4d79-a08b-ee782ca8b19f")
 		)
@@ -18516,6 +19353,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 133.35 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18604,6 +19450,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 210.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d09b64fc-6621-4aaa-ac61-857a1575123c")
 		)
@@ -18679,6 +19534,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 71.12 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -18823,6 +19687,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 58.42 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f67c66d2-89f3-4f7a-acd0-057fb91103f9")
 		)
@@ -18958,6 +19831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 288.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4398cb09-9eec-475b-97eb-811616f1de14")
 		)
@@ -19033,6 +19915,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 83.82 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19113,6 +20004,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 300.99 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 300.99 153.67 0)
 			(effects
 				(font
@@ -19207,6 +20107,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 312.42 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "863a7c68-d305-4526-a3ce-f78481af4287")
 		)
@@ -19284,6 +20193,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 45.72 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c33818d-ae39-41c0-b229-4f9bc466a8c5")
 		)
@@ -19346,6 +20264,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 237.49 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 237.49 85.09 0)
 			(effects
 				(font
@@ -19505,6 +20432,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 250.19 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a14098eb-c334-4723-a8ba-49da76de56bc")
 		)
@@ -19580,6 +20516,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 33.02 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -19668,6 +20613,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 261.62 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a296cde-0ea9-46c4-a0ce-92fa8319eb44")
 		)
@@ -19746,6 +20700,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 184.15 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7fb7a92d-71ba-4d6e-8233-463810870916")
 		)
@@ -19808,6 +20771,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 151.13 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 151.13 261.62 0)
 			(effects
 				(font
@@ -20012,6 +20984,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 368.3 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7a5e60f6-2bd1-42ac-8766-852416f2dfee")
 		)
@@ -20098,6 +21079,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "49b24ae0-c63c-49b7-8d08-91efaa213649")
 		)
@@ -20157,6 +21147,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 250.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 250.19 142.24 0)
 			(effects
 				(font
@@ -20271,6 +21270,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 186.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "65bfabe9-a586-452c-a222-940b9754b136")
 		)
@@ -20347,6 +21355,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 133.35 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20500,6 +21517,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 160.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9cec7447-9519-48cd-99fe-397075fa2e46")
 		)
@@ -20571,6 +21597,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 105.41 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3106f55-ba68-4e34-a87a-7694bf22bc19")
 		)
@@ -20631,6 +21666,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 90.17 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 90.17 261.62 0)
 			(effects
 				(font
@@ -20714,6 +21758,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 261.62 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 261.62 193.04 0)
 			(effects
 				(font
@@ -20808,6 +21861,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 219.71 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28032eb9-cc98-4ef6-abcb-473949241098")
 		)
@@ -20884,6 +21946,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 184.15 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -20972,6 +22043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 270.51 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89fb8649-4aef-42d9-b897-433289ca9ffd")
 		)
@@ -21047,6 +22127,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 33.02 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21125,6 +22214,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 31.75 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21251,6 +22349,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 199.39 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 199.39 40.64 0)
 			(effects
 				(font
@@ -21428,6 +22535,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 353.06 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3366ada-f470-4ae1-8d31-e8fc2cd416a1")
 		)
@@ -21503,6 +22619,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 33.02 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21583,6 +22708,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 184.15 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "aa4b9ef7-97a2-4d8c-8836-4ddc212f4df2")
 		)
@@ -21658,6 +22792,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -21746,6 +22889,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 250.19 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2ff7240b-7273-458d-a196-76060c2937bc")
 		)
@@ -21805,6 +22957,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 250.19 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 250.19 91.44 0)
 			(effects
 				(font
@@ -21991,6 +23152,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 83.82 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e5216d69-06b7-452f-98da-e612c7b66163")
 		)
@@ -22142,6 +23312,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 312.42 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c2e72b6-ebde-461c-9953-b2a44cd95124")
 		)
@@ -22219,6 +23398,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 45.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50a4553e-7a3b-4211-a0a9-864d99eef5e2")
 		)
@@ -22294,6 +23482,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 58.42 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22374,6 +23571,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 199.39 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 199.39 153.67 0)
 			(effects
 				(font
@@ -22468,6 +23674,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 210.82 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3cd6bdcf-8fbd-4257-972e-2067e305d09f")
 		)
@@ -22538,6 +23753,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 135.89 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1839a423-2ee3-4540-afe4-d1d0a32d7f16")
 		)
@@ -22597,6 +23821,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 300.99 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 300.99 40.64 0)
 			(effects
 				(font
@@ -22716,6 +23949,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 83.82 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -22861,6 +24103,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 250.19 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 250.19 204.47 0)
 			(effects
 				(font
@@ -23069,6 +24320,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 358.14 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "863cc194-429a-437d-b954-f6b4bf1a4ccb")
 		)
@@ -23213,6 +24473,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 133.35 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7eb839f-4487-476d-b2bf-4ab847b86539")
 		)
@@ -23275,6 +24544,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 288.29 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 288.29 135.89 0)
 			(effects
 				(font
@@ -23369,6 +24647,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 344.17 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "41a852a4-3da1-4c27-acc7-a8c28e39cc08")
 		)
@@ -23431,6 +24718,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 288.29 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 288.29 85.09 0)
 			(effects
 				(font
@@ -23525,6 +24821,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 261.62 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eeaf4d71-8d05-42fe-aedd-706e5c908ac5")
 		)
@@ -23595,6 +24900,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 237.49 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2aa38fa2-6279-497e-a5a7-ef30b91f2767")
 		)
@@ -23657,6 +24971,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 186.69 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 186.69 135.89 0)
 			(effects
 				(font
@@ -23751,6 +25074,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 199.39 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b403611-4150-4b6e-a56f-e6084098c17a")
 		)
@@ -23810,6 +25142,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 199.39 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 199.39 193.04 0)
 			(effects
 				(font
@@ -23913,6 +25254,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 250.19 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 250.19 193.04 0)
 			(effects
 				(font
@@ -24101,6 +25451,15 @@
 				(justify left)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 234.95 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ba834334-4039-45fd-8ee2-9457422f0382")
 		)
@@ -24176,6 +25535,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 58.42 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -24320,6 +25688,15 @@
 				)
 			)
 		)
+		(property "Sim.Params" ""
+			(at 58.42 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b1826af5-9501-4ef6-ad0e-2d10c6977a2c")
 		)
@@ -24379,6 +25756,15 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-OR Gates"
+			(at 199.39 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 199.39 142.24 0)
 			(effects
 				(font
@@ -24486,6 +25872,15 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 135.89 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
 			(at 135.89 261.62 0)
 			(effects
 				(font

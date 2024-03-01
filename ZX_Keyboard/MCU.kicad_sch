@@ -6396,7 +6396,7 @@
 		(dnp no)
 		(uuid "4d9e2308-3a7d-417e-ac15-d2f9b80f8aa3")
 		(property "Reference" "U1"
-			(at 139.065 74.93 0)
+			(at 137.16 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

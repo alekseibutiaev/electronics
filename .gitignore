@@ -19,3 +19,4 @@ report.txt
 *gerber
 *.vcd
 *.vpp
+*.lck

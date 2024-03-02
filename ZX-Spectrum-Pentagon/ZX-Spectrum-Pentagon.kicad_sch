@@ -9212,13 +9212,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Generator.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/Generator.kicad_sch"
 			(at 38.1 81.8646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "C30" input
@@ -9560,13 +9561,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CPU.kicad_sch"
+		(property "Sheetfile" "/home/butiaev/project/electronics/ZX-Spectrum-Pentagon/ZX-Spectrum-Pentagon/CPU.kicad_sch"
 			(at 88.9 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "C25" input
@@ -10008,13 +10010,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "PowerSources.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/PowerSources.kicad_sch"
 			(at 38.1 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "+12V" passive
@@ -10086,13 +10089,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "InputOutput.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/InputOutput.kicad_sch"
 			(at 38.1 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "D0" bidirectional
@@ -10384,13 +10388,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MemorySharing.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/MemorySharing.kicad_sch"
 			(at 88.9 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "A14" input
@@ -10592,13 +10597,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "VideoEncoder.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/VideoEncoder.kicad_sch"
 			(at 139.7 130.1246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "TTLB" input
@@ -10720,13 +10726,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "VideoFormating.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/VideoFormating.kicad_sch"
 			(at 88.9 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "MD0" input
@@ -11048,13 +11055,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "MemorySignal.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/MemorySignal.kicad_sch"
 			(at 38.1 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "D0" input
@@ -11336,13 +11344,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Memory.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/Memory.kicad_sch"
 			(at 139.7 99.6446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "A0" input
@@ -11933,13 +11942,14 @@
 				(justify bottom)
 			)
 		)
-		(property "Sheetfile" "PowerIndicator.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/PowerIndicator.kicad_sch"
 			(at 139.7 191.0846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "+12V" passive

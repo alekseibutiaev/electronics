@@ -592,6 +592,18 @@
     [
       "b1b48ba2-4f02-4f69-9ca1-50d348cf3e96",
       "Root"
+    ],
+    [
+      "4819a3ce-943b-4f4b-88b4-2d1b19f98341",
+      "Connectors"
+    ],
+    [
+      "da49a933-27e5-4e77-9c00-b924c803c487",
+      "Power"
+    ],
+    [
+      "651b82cf-f360-4b6a-9d60-d21835c233dd",
+      "FDDC"
     ]
   ],
   "text_variables": {}

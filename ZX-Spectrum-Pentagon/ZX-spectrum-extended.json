@@ -1,6 +1,6 @@
 [
   {
-    "name": "ZX Spectrum EXTENDED_2",
+    "name": "ZX Spectrum EXTENDED",
     "author": "ALEKSEI",
     "switchMount": "cherry",
     "pcb": true
@@ -90,7 +90,7 @@
     "SQR\nH&nbsp;GOSUB\n\n\nCIRCLE\n\n&circ;",
     "VAL\nJ&nbsp;LOAD\n\n\nVAL&\n\n-",
     "LEN\nK&nbsp;LIST\n\n\nSCREEN$\n\n+",
-    "USR\nl&nbsp;LET\n\n\nATTR\n\n=",
+    "USR\nL&nbsp;LET\n\n\nATTR\n\n=",
     {
       "w": 2.25
     },
@@ -111,7 +111,7 @@
     "LPRINT\nC&nbsp;?\n\n\nPAPER\n\nCOUNT",
     "LLIST\nV&nbsp;/\n\n\nFLASH\n\nCLS",
     "BIN\nB&nbsp;*\n\n\nBRIGHT\n\nBORDER",
-    "INKEY\nN_,\n\n\nOVER\n\nNEXT",
+    "INKEY\nN&nbsp;,\n\n\nOVER\n\nNEXT",
     "PI\nM&nbsp;.\n\n\nINVERS\n\nPAUSE",
     "&nbsp;\n,\n\n\n&nbsp;\n\n&nbsp;",
     "&nbsp;\n.\n\n\n&nbsp;\n\n&nbsp;",

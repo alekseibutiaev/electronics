@@ -11395,15 +11395,6 @@
 		(uuid "add23d96-389d-46b6-a0ca-f34c1b2fa6b8")
 	)
 	(bus_entry
-		(at 133.35 76.2)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aea4e769-79f3-4f43-a498-086f92c166f6")
-	)
-	(bus_entry
 		(at 38.1 106.68)
 		(size -2.54 -2.54)
 		(stroke
@@ -11726,6 +11717,15 @@
 			(type default)
 		)
 		(uuid "cb7e8ce6-b095-44c2-8b8d-61547e0a12f7")
+	)
+	(bus_entry
+		(at 99.06 71.12)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc5b3e87-999d-42d8-b6c3-ecda6ab1dc7c")
 	)
 	(bus_entry
 		(at 173.99 128.27)
@@ -13746,16 +13746,6 @@
 		)
 		(uuid "36553cbb-7c6c-4528-8abf-7a16e83a913e")
 	)
-	(wire
-		(pts
-			(xy 109.22 71.12) (xy 106.68 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36961848-8af0-4a58-8157-1ba41451d4d9")
-	)
 	(bus
 		(pts
 			(xy 252.73 60.96) (xy 252.73 63.5)
@@ -14535,6 +14525,16 @@
 			(type default)
 		)
 		(uuid "565fa9e8-9a7e-4ad9-96b2-80f3caa626c4")
+	)
+	(wire
+		(pts
+			(xy 99.06 71.12) (xy 109.22 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56eede2c-a7ad-4e25-8c69-480021098b82")
 	)
 	(wire
 		(pts
@@ -16658,16 +16658,6 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 133.35 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6ca4559-f41e-47ad-8fc6-ba5904265fc3")
-	)
-	(wire
-		(pts
 			(xy 124.46 34.29) (xy 133.35 34.29)
 		)
 		(stroke
@@ -16965,16 +16955,6 @@
 			(type default)
 		)
 		(uuid "b378d6e3-51b3-49a7-a56c-8ea096cee3a4")
-	)
-	(wire
-		(pts
-			(xy 106.68 71.12) (xy 106.68 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b39b05ff-fe1a-4d74-be4b-816806b0d3b2")
 	)
 	(wire
 		(pts
@@ -17688,7 +17668,7 @@
 	)
 	(bus
 		(pts
-			(xy 135.89 78.74) (xy 135.89 85.09)
+			(xy 135.89 72.39) (xy 135.89 85.09)
 		)
 		(stroke
 			(width 0)
@@ -18465,16 +18445,6 @@
 			(type default)
 		)
 		(uuid "f3a1a25e-5976-4ae2-8e29-f7335a7ba539")
-	)
-	(bus
-		(pts
-			(xy 135.89 72.39) (xy 135.89 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f40c19a8-1909-41ad-9e89-33a7a4c9c935")
 	)
 	(wire
 		(pts
@@ -21937,7 +21907,7 @@
 		(uuid "ec41bb56-b069-41c1-bc19-432fc35feccf")
 	)
 	(label "BUSACK"
-		(at 125.73 76.2 0)
+		(at 99.06 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font

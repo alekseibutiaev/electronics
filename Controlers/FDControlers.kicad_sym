@@ -193,58 +193,65 @@
 				)
 			)
 			(text "ADDR"
-				(at -7.62 6.35 0)
+				(at -6.858 6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
 			(text "CTRL"
-				(at -7.874 -1.016 0)
+				(at -6.858 -1.016 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
 			(text "DATA"
-				(at -7.874 29.21 0)
+				(at -7.112 29.21 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
 			(text "DCTRL"
-				(at -7.366 -13.97 0)
+				(at -7.112 -13.97 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
 			(text "DHCS"
-				(at 7.366 28.956 0)
+				(at 5.08 29.21 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
 			(text "DROS"
-				(at 7.366 8.89 0)
+				(at 5.08 8.89 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
 			(text "DWOS"
-				(at 7.366 -1.27 0)
+				(at 5.08 -1.27 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.016 1.016)
+						(bold yes)
 					)
 				)
 			)
@@ -727,7 +734,7 @@
 			(pin bidirectional line
 				(at 12.7 -16.51 180)
 				(length 2.54)
-				(name "~{WF}/~{VFOE}"
+				(name "~{WF/VFOE}"
 					(effects
 						(font
 							(size 1.27 1.27)

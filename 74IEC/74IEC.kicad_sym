@@ -15956,7 +15956,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "ECT"
 					(effects
@@ -15992,7 +15992,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 7.62 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "ECR"
 					(effects
@@ -16118,7 +16118,7 @@
 				)
 			)
 			(pin input clock
-				(at -10.16 10.16 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "CLA"
 					(effects
@@ -16136,7 +16136,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 0 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -16154,7 +16154,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -16172,7 +16172,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -16190,7 +16190,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -16226,7 +16226,7 @@
 				)
 			)
 			(pin input inverted
-				(at -10.16 2.54 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "~{EWR}"
 					(effects
@@ -16816,7 +16816,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 5.08 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
 				(name "ECT"
 					(effects
@@ -16852,7 +16852,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 7.62 0)
+				(at -10.16 -2.54 0)
 				(length 2.54)
 				(name "ECR"
 					(effects
@@ -16978,7 +16978,7 @@
 				)
 			)
 			(pin input clock
-				(at -10.16 10.16 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "CLS"
 					(effects
@@ -16996,7 +16996,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 0 0)
+				(at -10.16 10.16 0)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -17014,7 +17014,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -2.54 0)
+				(at -10.16 7.62 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -17032,7 +17032,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -5.08 0)
+				(at -10.16 5.08 0)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -17050,7 +17050,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 -7.62 0)
+				(at -10.16 2.54 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -17086,7 +17086,7 @@
 				)
 			)
 			(pin input inverted
-				(at -10.16 2.54 0)
+				(at -10.16 -7.62 0)
 				(length 2.54)
 				(name "~{EWR}"
 					(effects
@@ -20158,19 +20158,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.08 -7.62) (xy -1.27 -7.62)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 7.62) (xy -1.27 7.62)
+					(xy -5.08 -5.08) (xy -1.27 -5.08)
 				)
 				(stroke
 					(width 0)
@@ -20289,7 +20277,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -1.27 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -20325,7 +20313,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -3.81 0)
+				(at -7.62 -1.27 0)
 				(length 2.54)
 				(name "D4"
 					(effects
@@ -20343,7 +20331,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -6.35 0)
+				(at -7.62 -3.81 0)
 				(length 2.54)
 				(name "D5"
 					(effects
@@ -20397,7 +20385,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 6.35 0)
+				(at -7.62 8.89 0)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -20415,7 +20403,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 3.81 0)
+				(at -7.62 6.35 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -20451,7 +20439,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 1.27 0)
+				(at -7.62 3.81 0)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -20487,7 +20475,7 @@
 				)
 			)
 			(pin input clock
-				(at -7.62 8.89 0)
+				(at -7.62 -6.35 0)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -20568,19 +20556,7 @@
 		(symbol "74XX175_0_0"
 			(polyline
 				(pts
-					(xy -5.08 -5.08) (xy -1.27 -5.08)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy -5.08 5.08) (xy -1.27 5.08)
+					(xy -5.08 0) (xy -1.27 0)
 				)
 				(stroke
 					(width 0)
@@ -20636,7 +20612,7 @@
 		)
 		(symbol "74XX175_0_1"
 			(pin input inverted
-				(at -7.62 -7.62 0)
+				(at -7.62 -8.89 0)
 				(length 2.54)
 				(name "~{R}"
 					(effects
@@ -20690,7 +20666,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -1.27 0)
+				(at -7.62 3.81 0)
 				(length 2.54)
 				(name "D2"
 					(effects
@@ -20708,7 +20684,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -3.81 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
 				(name "D3"
 					(effects
@@ -20816,7 +20792,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 3.81 0)
+				(at -7.62 8.89 0)
 				(length 2.54)
 				(name "D0"
 					(effects
@@ -20834,7 +20810,7 @@
 				)
 			)
 			(pin input line
-				(at -7.62 1.27 0)
+				(at -7.62 6.35 0)
 				(length 2.54)
 				(name "D1"
 					(effects
@@ -20906,7 +20882,7 @@
 				)
 			)
 			(pin input clock
-				(at -7.62 7.62 0)
+				(at -7.62 -6.35 0)
 				(length 2.54)
 				(name "C"
 					(effects

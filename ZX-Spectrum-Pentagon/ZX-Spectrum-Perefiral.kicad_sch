@@ -295,8 +295,8 @@
 		)
 	)
 	(sheet
-		(at 99.06 105.41)
-		(size 27.94 40.64)
+		(at 99.06 71.12)
+		(size 27.94 74.93)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -307,7 +307,7 @@
 		)
 		(uuid "651b82cf-f360-4b6a-9d60-d21835c233dd")
 		(property "Sheetname" "FDDC"
-			(at 99.06 104.6984 0)
+			(at 99.06 70.4084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -324,6 +324,286 @@
 				(justify left top)
 				(hide yes)
 			)
+		)
+		(pin "D1" bidirectional
+			(at 99.06 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "585d3b98-9e27-49d9-9d5b-497dfaf676d5")
+		)
+		(pin "D2" bidirectional
+			(at 99.06 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ff4ac258-a499-41e4-8048-ecc49610ef7d")
+		)
+		(pin "D3" bidirectional
+			(at 99.06 83.82 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1798361-1111-4489-bed9-32dd4814ff5f")
+		)
+		(pin "D4" bidirectional
+			(at 99.06 86.36 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9849aaa3-bf1f-4673-b370-a24e4a95816a")
+		)
+		(pin "D5" bidirectional
+			(at 99.06 88.9 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8b60d469-809e-419a-931f-4bf516436e21")
+		)
+		(pin "D6" bidirectional
+			(at 99.06 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec32f617-d931-4c9a-b7ea-c631e097a285")
+		)
+		(pin "D0" bidirectional
+			(at 99.06 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "617eb9b3-d93b-4347-aad3-54bdb2804048")
+		)
+		(pin "A11" input
+			(at 99.06 124.46 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d2173b80-9b29-4403-96a1-aee2855e5b59")
+		)
+		(pin "A9" input
+			(at 99.06 119.38 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c80e76b7-eefa-4ce2-afe1-10a07d6b7f1c")
+		)
+		(pin "A8" input
+			(at 99.06 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76729ca6-ee89-4f01-9bda-59283415155d")
+		)
+		(pin "A12" input
+			(at 99.06 127 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed6f2f61-8ca2-4583-9c0a-6e349195bc58")
+		)
+		(pin "A14" input
+			(at 99.06 132.08 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "27ae1bba-918e-4cb5-82e8-61515ab82314")
+		)
+		(pin "A13" input
+			(at 99.06 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "998bf73b-003f-486c-a1d5-bc19ed23bfcf")
+		)
+		(pin "A10" input
+			(at 99.06 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b6944606-378f-4934-8c86-3bd1d6bb1499")
+		)
+		(pin "A5" input
+			(at 99.06 109.22 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fb19636c-282b-49ed-974e-dc4499869bab")
+		)
+		(pin "A7" input
+			(at 99.06 114.3 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dab2de95-826b-4bad-82a5-758f127b0f90")
+		)
+		(pin "A4" input
+			(at 99.06 106.68 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a09730e8-dcb6-4a06-9bce-2c613302e4b0")
+		)
+		(pin "A6" input
+			(at 99.06 111.76 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1ccba992-ba9f-413b-8451-a5db5de6ca8c")
+		)
+		(pin "A0" input
+			(at 99.06 96.52 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed8ac4e7-0c53-4264-a188-0d1e30b3e87a")
+		)
+		(pin "A1" input
+			(at 99.06 99.06 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d4b3773-5f7f-4a64-b683-d2ff16361f80")
+		)
+		(pin "A2" input
+			(at 99.06 101.6 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "78eb9e3f-abe6-472e-bd31-4dd4676b7aa5")
+		)
+		(pin "A3" input
+			(at 99.06 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c62dd6d6-8f75-4367-a46e-9449c4a0c756")
+		)
+		(pin "D7" bidirectional
+			(at 99.06 93.98 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "76b682df-ffe9-4046-94c4-316038d850b8")
+		)
+		(pin "~{M1}" input
+			(at 99.06 137.16 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9b760b7e-5c27-46eb-bb55-3ec51503870f")
+		)
+		(pin "~{MREQ}" input
+			(at 99.06 139.7 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "5e1bb58e-dff7-47ef-9365-24c3bbc0dc31")
+		)
+		(pin "~{WAIT}" input
+			(at 99.06 144.78 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9276e94d-196b-46f5-8167-2680b8e68795")
+		)
+		(pin "A15" input
+			(at 99.06 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "dd615850-e1e4-43c8-979b-8a2a97fcceeb")
+		)
+		(pin "~{IORQ}" input
+			(at 99.06 142.24 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a2e1343d-8223-4a0b-9cea-0775f8e697a8")
 		)
 		(instances
 			(project "ZX-Spectrum-Perefiral"

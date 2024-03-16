@@ -4466,6 +4466,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 261.62) (xy 38.1 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fbd9b65-86e0-4031-8832-3ac79cae8402")
+	)
+	(wire
+		(pts
 			(xy 237.49 143.51) (xy 237.49 153.67)
 		)
 		(stroke
@@ -6436,7 +6446,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 261.62) (xy 38.1 261.62)
+			(xy 62.23 261.62) (xy 55.88 261.62)
 		)
 		(stroke
 			(width 0)
@@ -7045,6 +7055,50 @@
 		)
 		(uuid "9b141f8c-31cd-425f-94c2-3053ac11ee8a")
 	)
+	(label "**"
+		(at 168.91 147.32 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "354ec852-bf6c-49f6-8d27-3d6f4e99426b")
+	)
+	(label "**"
+		(at 269.24 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "45c8d0d6-7d35-4d54-87ea-003f3c1415c6")
+	)
+	(label "**"
+		(at 219.71 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "5bc9fc75-2236-40a4-960e-2a4fbcce1cd7")
+	)
+	(label "**"
+		(at 167.64 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e6eae137-bffa-4b19-94ee-5c0351986bc2")
+	)
 	(global_label "SS0"
 		(shape input)
 		(at 217.17 204.47 0)
@@ -7507,7 +7561,7 @@
 			)
 		)
 	)
-	(global_label "KAR15"
+	(global_label "KAR11"
 		(shape input)
 		(at 166.37 46.99 0)
 		(fields_autoplaced yes)
@@ -7519,7 +7573,7 @@
 		)
 		(uuid "40240b83-f10e-4e7b-bc2d-e931ac84473a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7418 46.9106 0)
+			(at 174.7486 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7903,7 +7957,7 @@
 			)
 		)
 	)
-	(global_label "KAR15"
+	(global_label "KAR11"
 		(shape input)
 		(at 166.37 148.59 0)
 		(fields_autoplaced yes)
@@ -7915,7 +7969,7 @@
 		)
 		(uuid "77a8ddc6-dc23-4a68-bde9-97427fc7fa4e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 174.7418 148.5106 0)
+			(at 174.7486 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8189,7 +8243,7 @@
 			)
 		)
 	)
-	(global_label "KAR15"
+	(global_label "KAR11"
 		(shape input)
 		(at 267.97 97.79 0)
 		(fields_autoplaced yes)
@@ -8201,7 +8255,7 @@
 		)
 		(uuid "8fd04680-59b8-43fa-8e8b-c8bba6be9816")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 276.3418 97.7106 0)
+			(at 276.3486 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8849,7 +8903,7 @@
 			)
 		)
 	)
-	(global_label "KAR15"
+	(global_label "KAR11"
 		(shape input)
 		(at 217.17 46.99 0)
 		(fields_autoplaced yes)
@@ -8861,7 +8915,7 @@
 		)
 		(uuid "e6d87fe3-f434-4ff7-85c3-7d96d35d6caf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 225.5418 46.9106 0)
+			(at 225.5486 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9213,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 86.36 228.6 0)
+		(at 88.9 228.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9167,7 +9221,7 @@
 		(dnp no)
 		(uuid "01e8167f-028d-496a-8315-eadbf74acf2e")
 		(property "Reference" "STAB2"
-			(at 83.82 226.06 0)
+			(at 86.36 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9176,7 +9230,7 @@
 			)
 		)
 		(property "Value" "STAB_2.0u"
-			(at 81.28 232.41 0)
+			(at 83.82 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9185,7 +9239,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 86.36 228.6 0)
+			(at 88.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9194,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 228.6 0)
+			(at 88.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9203,7 +9257,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 86.36 228.6 0)
+			(at 88.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9212,7 +9266,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 86.36 228.6 0)
+			(at 88.9 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10645,7 +10699,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 86.36 237.49 0)
+		(at 88.9 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10653,7 +10707,7 @@
 		(dnp no)
 		(uuid "12cac08a-1860-4331-bb92-2d93390df838")
 		(property "Reference" "STAB4"
-			(at 83.82 234.95 0)
+			(at 86.36 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10662,7 +10716,7 @@
 			)
 		)
 		(property "Value" "STAB_6.25u"
-			(at 81.28 241.3 0)
+			(at 83.82 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10671,7 +10725,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Stabilizer:Stabilizer_Cherry_MX_6.25u"
-			(at 86.36 237.49 0)
+			(at 88.9 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10680,7 +10734,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 237.49 0)
+			(at 88.9 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10689,7 +10743,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 86.36 237.49 0)
+			(at 88.9 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10698,7 +10752,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 86.36 237.49 0)
+			(at 88.9 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10717,7 +10771,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Fiducial")
-		(at 76.2 237.49 0)
+		(at 76.2 241.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10725,7 +10779,7 @@
 		(dnp no)
 		(uuid "13e478ab-2e0e-4d38-a56d-c180f4fadf5e")
 		(property "Reference" "STAB3"
-			(at 73.66 234.95 0)
+			(at 73.66 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10734,7 +10788,7 @@
 			)
 		)
 		(property "Value" "STAB_2.0u"
-			(at 71.12 241.3 0)
+			(at 71.12 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10743,7 +10797,7 @@
 			)
 		)
 		(property "Footprint" "Switch_Stabilizer:Stabilizer_Cherry_MX_2.00u"
-			(at 76.2 237.49 0)
+			(at 76.2 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10752,7 +10806,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 76.2 237.49 0)
+			(at 76.2 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10761,7 +10815,7 @@
 			)
 		)
 		(property "Description" "Fiducial Marker"
-			(at 76.2 237.49 0)
+			(at 76.2 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10770,7 +10824,7 @@
 			)
 		)
 		(property "Sim.Params" ""
-			(at 76.2 237.49 0)
+			(at 76.2 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16626,7 +16680,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 40.64 261.62 270)
+		(at 62.23 261.62 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16634,7 +16688,7 @@
 		(dnp no)
 		(uuid "747c5897-547b-4975-bebf-90d9fa66fa5f")
 		(property "Reference" "#PWR037"
-			(at 36.83 261.62 0)
+			(at 58.42 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16643,7 +16697,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 45.72 261.62 90)
+			(at 67.31 261.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16651,7 +16705,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 40.64 261.62 0)
+			(at 62.23 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16660,7 +16714,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 40.64 261.62 0)
+			(at 62.23 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16669,7 +16723,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 40.64 261.62 0)
+			(at 62.23 261.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20031,6 +20085,100 @@
 			(project "ZX-Spectrum-Keyboard"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
 					(reference "D24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 52.07 261.62 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b0f71491-6b59-450f-ad15-d359591ce908")
+		(property "Reference" "D40"
+			(at 52.07 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SS34"
+			(at 52.07 264.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+			(at 52.07 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 52.07 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 52.07 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 52.07 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 52.07 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 52.07 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e719c1c1-9fa3-486c-81ef-a65bed29db68")
+		)
+		(pin "2"
+			(uuid "15aae336-c70a-44d1-9cd5-9406f9362da0")
+		)
+		(instances
+			(project "ZX-Spectrum-Keyboard"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "D40")
 					(unit 1)
 				)
 			)

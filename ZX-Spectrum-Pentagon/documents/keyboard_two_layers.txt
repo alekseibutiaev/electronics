@@ -2,7 +2,7 @@ KEYBOARD OPERATION
 The Spectrum+ keyboard is in effect two switching membranes in parallel, a 'top' membrane and a 'lower' membrane. The top membrane is similar to that for the Spectrum 48k, except that pressing any one of the following keys also makes contact between row 1 and column 6 on the top membrane in addition to their dedicated row/column positions:
 [EDIT] = [CS][1]; [CAPS LOCK] = [CS][2]; [TRUE VIDEO] = [CS][3]; [INV VIDEO] = [CS][3]; [CURSOR L] = [CS][5]
 [DELETE] = [CS][0]; [GRAPH] = [CS][9]; [CURSOR RIGHT] = [CS][8]; [CURSOR UP] = [CS][7]; [CURSOR DOWN] = [CS][6]
-[EXTEND MODE]= [CS][SP];[BREAK]= [CS][SS];w
+[EXTEND MODE]= [CS][SP];[BREAK]= [CS][SS];
 For example, pressing TRUE VIDEO connects row 1/column 6 on the top membrane as well as row 3/column 1 on the lower membrane. Also pressing any one of the following keys also makes contact between row 2 and column 8 on the top membrane in addition to their dedicated row/column positions.
 ["]=[SS][P]; [;]=[SS][O]; [.]=[SS][M]; [,]=[SS][N];
 For example, pressing the [.] key connects row 2/column 8 on the top membrane as well as row 3/column 8 on the lower membrane.

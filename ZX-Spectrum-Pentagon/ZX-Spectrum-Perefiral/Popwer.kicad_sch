@@ -4,13 +4,18 @@
 	(generator_version "8.0")
 	(uuid "e032cab9-be76-4afa-afe5-8e199360fc8f")
 	(paper "A4")
+	(title_block
+		(title "ZX-Pentagon-Pereferal")
+		(date "2024-03-19")
+		(rev "0.01")
+	)
 	(lib_symbols
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)

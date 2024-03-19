@@ -306,7 +306,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "651b82cf-f360-4b6a-9d60-d21835c233dd")
-		(property "Sheetname" "FDDC"
+		(property "Sheetname" "FDC"
 			(at 99.06 70.4084 0)
 			(effects
 				(font
@@ -315,7 +315,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ZX-Spectrum-Perefiral/FDDC.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Perefiral/FDC.kicad_sch"
 			(at 99.06 146.6346 0)
 			(effects
 				(font

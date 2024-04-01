@@ -671,7 +671,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "049b2648-ebad-4988-85d0-9a945ab22a1f")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR028"
 			(at 25.4 186.69 0)
 			(effects
 				(font
@@ -721,7 +721,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#PWR010")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -871,7 +871,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49690708-4d1c-4284-b432-2685db507a3f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR026"
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -922,7 +922,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#PWR08")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -938,7 +938,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "548a17dd-4ec1-449a-8694-bc72d2776cd5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR027"
 			(at 111.76 166.37 0)
 			(effects
 				(font
@@ -989,7 +989,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#PWR09")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)

@@ -622,12 +622,16 @@
       "Connectors"
     ],
     [
-      "da49a933-27e5-4e77-9c00-b924c803c487",
-      "Power"
-    ],
-    [
       "651b82cf-f360-4b6a-9d60-d21835c233dd",
       "FDC"
+    ],
+    [
+      "529a6d9e-8973-4d95-8dfa-2d462e434af9",
+      "IDE"
+    ],
+    [
+      "da49a933-27e5-4e77-9c00-b924c803c487",
+      "Power"
     ]
   ],
   "text_variables": {}

@@ -7887,6 +7887,12 @@
 		(uuid "612df0c2-d141-43e3-8137-98b3b1e3efb9")
 	)
 	(junction
+		(at 223.52 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "65b0dfc7-17cd-4987-9b4a-d5db47f66383")
+	)
+	(junction
 		(at 113.03 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11928,7 +11934,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 82.55) (xy 172.72 82.55)
+			(xy 165.1 82.55) (xy 172.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -12908,6 +12914,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 109.22) (xy 223.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a07e2f6-8267-4c8d-9391-2ef4e91d9c3f")
+	)
+	(wire
+		(pts
 			(xy 243.84 68.58) (xy 248.92 68.58)
 		)
 		(stroke
@@ -12958,7 +12974,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 93.98) (xy 153.67 93.98)
+			(xy 144.78 93.98) (xy 154.94 93.98)
 		)
 		(stroke
 			(width 0)
@@ -12998,7 +13014,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 83.82) (xy 153.67 83.82)
+			(xy 144.78 83.82) (xy 154.94 83.82)
 		)
 		(stroke
 			(width 0)
@@ -13428,7 +13444,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 81.28) (xy 153.67 81.28)
+			(xy 144.78 81.28) (xy 154.94 81.28)
 		)
 		(stroke
 			(width 0)
@@ -14688,6 +14704,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 119.38) (xy 213.36 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdc6d663-6ed1-421d-b5a0-255d278faf7a")
+	)
+	(wire
+		(pts
 			(xy 113.03 152.4) (xy 113.03 144.78)
 		)
 		(stroke
@@ -14768,7 +14794,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 93.98) (xy 187.96 93.98)
+			(xy 165.1 93.98) (xy 187.96 93.98)
 		)
 		(stroke
 			(width 0)
@@ -14778,7 +14804,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 109.22) (xy 233.68 109.22)
+			(xy 220.98 109.22) (xy 223.52 109.22)
 		)
 		(stroke
 			(width 0)
@@ -15288,6 +15314,16 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 109.22) (xy 233.68 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb94919e-cae8-4df5-a3d0-d98ba1e9b5a3")
+	)
+	(wire
+		(pts
 			(xy 167.64 116.84) (xy 167.64 113.03)
 		)
 		(stroke
@@ -15695,6 +15731,16 @@
 			(type default)
 		)
 		(uuid "fbc05568-d58e-43af-a3b9-7c6110c97519")
+	)
+	(wire
+		(pts
+			(xy 220.98 119.38) (xy 223.52 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbe94c73-49f2-45c1-a53e-c84e7dc595f6")
 	)
 	(wire
 		(pts
@@ -18444,7 +18490,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "021263b9-dc1c-4f42-a1c2-55d362f14429")
-		(property "Reference" "SW?"
+		(property "Reference" "SW1"
 			(at 57.15 173.99 0)
 			(effects
 				(font
@@ -18496,7 +18542,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "SW?")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -18512,7 +18558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "021fc90e-d1f7-4142-b733-87774131327f")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR023"
 			(at 38.1 191.77 0)
 			(effects
 				(font
@@ -18562,7 +18608,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR016")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18577,7 +18623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0c9f77f3-9ea3-4ca9-960b-b7e01faf7ce5")
-		(property "Reference" "U?"
+		(property "Reference" "U14"
 			(at 43.18 155.194 0)
 			(effects
 				(font
@@ -18665,7 +18711,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U14")
 					(unit 3)
 				)
 			)
@@ -18680,7 +18726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1092ed54-0c46-4a05-8213-3586a04d89c5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR017"
 			(at 270.51 100.33 0)
 			(effects
 				(font
@@ -18690,7 +18736,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 278.13 100.33 0)
+			(at 274.32 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18730,7 +18776,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR025")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18745,7 +18791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10acf196-18db-422e-8cfd-ee9a3cf1d36d")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 265.43 113.03 90)
 			(effects
 				(font
@@ -18797,7 +18843,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -18812,7 +18858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1283e4f8-d7aa-446c-a057-07f0eced4997")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 58.42 181.61 90)
 			(effects
 				(font
@@ -18864,7 +18910,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -18879,7 +18925,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13ef1e5c-b11a-4cef-970c-ca3a8ae3357c")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 265.43 90.17 90)
 			(effects
 				(font
@@ -18931,7 +18977,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -18946,7 +18992,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1970b8e9-89f1-4fdb-92b4-eb8d8506065e")
-		(property "Reference" "SW?"
+		(property "Reference" "SW2"
 			(at 57.15 189.23 0)
 			(effects
 				(font
@@ -18998,7 +19044,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "SW?")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -19013,7 +19059,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a6d18ca-5d22-4683-a386-049cf0a49868")
-		(property "Reference" "U?"
+		(property "Reference" "U12"
 			(at 196.85 91.44 0)
 			(effects
 				(font
@@ -19107,7 +19153,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U12")
 					(unit 1)
 				)
 			)
@@ -19116,13 +19162,13 @@
 	(symbol
 		(lib_id "74IEC:74HC00")
 		(at 160.02 116.84 0)
-		(unit 2)
+		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "21054140-3c57-4bc3-bfd9-504700908f88")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -19210,8 +19256,8 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
-					(unit 2)
+					(reference "U8")
+					(unit 4)
 				)
 			)
 		)
@@ -19225,7 +19271,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "211f0912-a4b6-42c2-aa5c-b8bdbde84d8b")
-		(property "Reference" "U?"
+		(property "Reference" "U15"
 			(at 209.804 139.7 0)
 			(effects
 				(font
@@ -19319,7 +19365,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U15")
 					(unit 1)
 				)
 			)
@@ -19334,7 +19380,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "272fc286-d44e-49bb-926e-02b9198923ce")
-		(property "Reference" "U?"
+		(property "Reference" "U11"
 			(at 99.06 181.61 0)
 			(effects
 				(font
@@ -19422,7 +19468,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -19437,7 +19483,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "27c57fbc-2528-4195-9c20-38cd3abc73b0")
-		(property "Reference" "U?"
+		(property "Reference" "U6"
 			(at 198.12 14.986 0)
 			(effects
 				(font
@@ -19603,7 +19649,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -19685,7 +19731,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2af191ae-c20f-40d1-a4ca-6623ede01af2")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 265.43 128.27 90)
 			(effects
 				(font
@@ -19737,7 +19783,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -19752,7 +19798,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2b2b9ffb-0d6a-4d24-8874-b9ea02da93ed")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 100.33 16.51 0)
 			(effects
 				(font
@@ -19840,7 +19886,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -19855,7 +19901,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c7c4c8a-9f32-450f-87a1-729452a0823f")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 238.76 54.61 0)
 			(effects
 				(font
@@ -19943,7 +19989,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U4")
 					(unit 3)
 				)
 			)
@@ -19958,7 +20004,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f74a4d4-3bef-47b4-9ab8-abad8696c0eb")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 76.2 62.484 0)
 			(effects
 				(font
@@ -20010,7 +20056,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20025,7 +20071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fb001a4-24a4-44d4-952d-1fafe63d2fc8")
-		(property "Reference" "U?"
+		(property "Reference" "U7"
 			(at 158.75 53.34 0)
 			(effects
 				(font
@@ -20119,7 +20165,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -20135,7 +20181,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33c2f982-f7c8-45ec-bd9e-44ef8e1b2910")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR014"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -20185,7 +20231,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR021")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -20200,7 +20246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39407c10-5335-4118-9d84-3385fa99df2a")
-		(property "Reference" "U?"
+		(property "Reference" "U16"
 			(at 99.06 149.86 0)
 			(effects
 				(font
@@ -20294,7 +20340,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -20310,7 +20356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "39ec914c-75f8-4c63-bc9a-725668df4439")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR022"
 			(at 48.26 184.15 0)
 			(effects
 				(font
@@ -20360,7 +20406,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR015")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -20375,7 +20421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ac363d8-9176-44aa-a610-3817d028dce8")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR020"
 			(at 130.81 170.18 0)
 			(effects
 				(font
@@ -20426,7 +20472,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR011")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -20441,7 +20487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d2f8e61-fea0-4428-a876-065d65404f9e")
-		(property "Reference" "U?"
+		(property "Reference" "U14"
 			(at 27.94 156.21 0)
 			(effects
 				(font
@@ -20529,7 +20575,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U14")
 					(unit 2)
 				)
 			)
@@ -20544,7 +20590,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3de18266-f3c7-483b-b957-67d50c5fbfc1")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 265.43 156.21 0)
 			(effects
 				(font
@@ -20614,7 +20660,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -20629,7 +20675,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3fc4031a-fcd3-463c-b712-68e2562869ef")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 238.76 85.09 0)
 			(effects
 				(font
@@ -20717,7 +20763,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -20732,7 +20778,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41a921c5-7fcb-4304-a56e-35c46b3531a1")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 76.2 22.86 0)
 			(effects
 				(font
@@ -20784,7 +20830,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -20799,7 +20845,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42a9ec75-b195-4412-a312-27af3bbfca99")
-		(property "Reference" "U?"
+		(property "Reference" "U14"
 			(at 27.94 146.05 0)
 			(effects
 				(font
@@ -20887,7 +20933,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U14")
 					(unit 1)
 				)
 			)
@@ -20902,7 +20948,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4be90f3e-c3de-4639-8b6f-b21c468abc55")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -20996,7 +21042,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U5")
 					(unit 2)
 				)
 			)
@@ -21011,7 +21057,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "55079e9a-de79-4b8c-a0fb-cb19202a4237")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 265.43 120.65 90)
 			(effects
 				(font
@@ -21063,13 +21109,117 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "74IEC:74HC03")
+		(at 215.9 109.22 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "55cacac0-ed4b-4ea4-8109-c4375b6d9c65")
+		(property "Reference" "U10"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HC03"
+			(at 215.392 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
+			(at 215.9 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quadruple 2-input Positive-NAND Gates  With Open-collector Outputs"
+			(at 215.9 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "555efb44-dd96-4052-b0d3-0715dce5a1ac")
+		)
+		(pin "11"
+			(uuid "40761206-2bfb-416a-be03-2bb9adece686")
+		)
+		(pin "9"
+			(uuid "606050da-f533-45ff-bff6-3e26820db7d6")
+		)
+		(pin "4"
+			(uuid "536be804-f919-47a3-abab-1d3f41766ca4")
+		)
+		(pin "13"
+			(uuid "90c58e03-1875-4b6c-b234-504f966ebabe")
+		)
+		(pin "2"
+			(uuid "3998a1d4-9bb7-4ee4-9485-2088c16f5204")
+		)
+		(pin "7"
+			(uuid "39a19db9-2b73-4530-9d84-22841de690d0")
+		)
+		(pin "3"
+			(uuid "872c3669-9da7-452e-b7c9-715967470ec0")
+		)
+		(pin "14"
+			(uuid "3d1eecc8-3304-4dab-8ea4-1bdf8c0c7765")
+		)
+		(pin "1"
+			(uuid "af3e1bca-f8d1-45e7-b7b1-bc9c50909c9d")
+		)
+		(pin "6"
+			(uuid "fdaf93e1-564d-4700-866f-fbb8b453fbee")
+		)
+		(pin "8"
+			(uuid "80fe28fc-6215-4be7-a2b9-bd63c3a23f7d")
+		)
+		(pin "12"
+			(uuid "4189f9b9-58c4-4809-846f-3ea4f5676edd")
+		)
+		(pin "5"
+			(uuid "4fd588b6-a70f-4479-91e2-fcfe2afa81d2")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
+					(reference "U10")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "74IEC:74HC27")
 		(lib_id "74IEC:74HC27")
 		(at 58.42 132.08 0)
 		(unit 2)
@@ -21078,7 +21228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "598f4856-fd79-4338-9c30-1233982f1de0")
-		(property "Reference" "U?"
+		(property "Reference" "U9"
 			(at 58.42 127 0)
 			(effects
 				(font
@@ -21166,7 +21316,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U9")
 					(unit 2)
 				)
 			)
@@ -21174,15 +21324,15 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC00")
-		(at 158.75 82.55 0)
+		(at 160.02 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "59c7ca7c-be1b-4e1d-a710-3ee678b6e3ba")
-		(property "Reference" "U?"
-			(at 158.75 78.74 0)
+		(property "Reference" "U8"
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21190,7 +21340,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 158.75 86.614 0)
+			(at 160.02 86.614 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21198,7 +21348,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 158.75 88.9 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21207,7 +21357,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 158.75 78.74 0)
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21216,7 +21366,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-NAND Gates"
-			(at 158.75 82.55 0)
+			(at 160.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21269,7 +21419,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -21284,7 +21434,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c492416-41fa-4c93-bb83-09e4b60daedc")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -21334,7 +21484,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21349,7 +21499,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "679df8ec-f94a-438e-8b9a-b50fb4d0504e")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 265.43 97.79 90)
 			(effects
 				(font
@@ -21401,7 +21551,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -21416,7 +21566,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6bb5f9f5-7d60-46ae-9b3e-85b793eb7887")
-		(property "Reference" "U?"
+		(property "Reference" "U3"
 			(at 158.75 15.24 0)
 			(effects
 				(font
@@ -21510,7 +21660,75 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 119.38 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bfa1a26-4509-414f-ae9c-0e87cee75026")
+		(property "Reference" "R7"
+			(at 217.17 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1kOM"
+			(at 217.424 122.174 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 217.17 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e40e30de-35ac-4791-a389-9cb562cf101b")
+		)
+		(pin "2"
+			(uuid "1d88a45d-bf9d-4f4d-907e-02b0beb8ab18")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -21525,7 +21743,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dea25e1-c499-4610-8955-152319c27708")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 265.43 105.41 90)
 			(effects
 				(font
@@ -21577,111 +21795,8 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "74IEC:74HC00")
-		(at 215.9 109.22 0)
-		(unit 4)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fded954-00ff-46ab-bf17-88fed91d0968")
-		(property "Reference" "U?"
-			(at 215.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74HC00"
-			(at 215.9 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-16_W7.62mm"
-			(at 215.9 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 215.9 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quadruple 2-Input Positive-NAND Gates"
-			(at 215.9 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "9"
-			(uuid "1459ab3b-3f4b-4d24-b926-60f6eecd291f")
-		)
-		(pin "10"
-			(uuid "b2065748-99ed-4918-8da8-24c25f90d04d")
-		)
-		(pin "6"
-			(uuid "96fe98fe-cdb7-4b85-a5a1-cd4af2a9e77e")
-		)
-		(pin "13"
-			(uuid "70a54e4a-7792-4dae-8101-ff0c3ebab376")
-		)
-		(pin "14"
-			(uuid "2efe28b7-002c-4a2a-a231-4ae5a241abb2")
-		)
-		(pin "2"
-			(uuid "1e233820-4b7c-4634-b57a-42dd09b6fcbe")
-		)
-		(pin "1"
-			(uuid "a35cc0fc-d881-4e74-99e6-3a2cfd2ce283")
-		)
-		(pin "7"
-			(uuid "6dff9080-ea0b-42ab-bd5e-7514d40fe121")
-		)
-		(pin "5"
-			(uuid "680c0e12-135d-4ec7-a32f-406dbbb339bc")
-		)
-		(pin "8"
-			(uuid "cad7ff6d-e192-4f3d-ad7f-ef433737387c")
-		)
-		(pin "3"
-			(uuid "3ee28398-c7c6-4e51-9c6a-f32ac228ee21")
-		)
-		(pin "4"
-			(uuid "1fed785c-4914-4c0c-80ef-ea8ae839dc6c")
-		)
-		(pin "12"
-			(uuid "53a4e3b2-0183-491c-ac5b-0ea01cd8609b")
-		)
-		(pin "11"
-			(uuid "6db74759-0f4b-4c30-bad3-cc85cfdc26b8")
-		)
-		(instances
-			(project "ZX-Spectrum-Perefiral"
-				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
-					(unit 4)
 				)
 			)
 		)
@@ -21696,7 +21811,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71c9fd18-551d-4335-b96f-70739d8a1d73")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 90.17 41.91 0)
 			(effects
 				(font
@@ -21746,7 +21861,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -21761,7 +21876,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "78989fa8-fd2a-45ac-91ab-c7f7ae8e98d6")
-		(property "Reference" "U?"
+		(property "Reference" "U10"
 			(at 238.76 95.25 0)
 			(effects
 				(font
@@ -21849,7 +21964,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U10")
 					(unit 2)
 				)
 			)
@@ -21864,7 +21979,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8081ed3b-0266-41ba-a781-338145acdcf9")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 92.71 24.13 0)
 			(effects
 				(font
@@ -21916,7 +22031,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -21931,7 +22046,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81032897-ba4c-4bc0-9954-9c105bd02272")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 86.36 72.39 0)
 			(effects
 				(font
@@ -22019,7 +22134,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U2")
 					(unit 2)
 				)
 			)
@@ -22035,7 +22150,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8303b129-ff20-43a3-909a-c20b24b450e5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR011"
 			(at 113.03 24.13 0)
 			(effects
 				(font
@@ -22085,7 +22200,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR022")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -22100,7 +22215,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "929321b9-efc8-400d-8f6c-2542ff31abeb")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 120.396 148.59 0)
 			(effects
 				(font
@@ -22188,7 +22303,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -22203,7 +22318,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "982cd87d-2ab4-41cf-abd6-23cc81170252")
-		(property "Reference" "U?"
+		(property "Reference" "U14"
 			(at 58.42 142.494 0)
 			(effects
 				(font
@@ -22291,23 +22406,88 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U14")
 					(unit 4)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 210.82 119.38 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "98ea715d-6a05-49fd-b64f-9101c79769d3")
+		(property "Reference" "#PWR018"
+			(at 214.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 210.82 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 210.82 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf2325a0-e1cd-4327-a189-6aa474ac4097")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74IEC:74HC04")
-		(at 158.75 93.98 0)
+		(at 160.02 93.98 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "9b113f28-9f73-4770-b90e-0687d8eea1db")
-		(property "Reference" "U?"
-			(at 158.75 89.662 0)
+		(property "Reference" "U1"
+			(at 160.02 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22315,7 +22495,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 158.75 98.044 0)
+			(at 160.02 98.044 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22323,7 +22503,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 158.75 88.646 0)
+			(at 160.02 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22332,7 +22512,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 158.75 88.646 0)
+			(at 160.02 88.646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22341,7 +22521,7 @@
 			)
 		)
 		(property "Description" "Hex Inverters"
-			(at 158.75 93.98 0)
+			(at 160.02 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22394,7 +22574,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U1")
 					(unit 6)
 				)
 			)
@@ -22409,7 +22589,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9e735d1a-5572-4c96-ab5b-f04962ffe7c1")
-		(property "Reference" "U?"
+		(property "Reference" "U2"
 			(at 123.19 20.32 0)
 			(effects
 				(font
@@ -22497,7 +22677,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -22512,7 +22692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a07d8f57-27ce-42a3-9e46-0d417121b395")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 238.76 44.45 0)
 			(effects
 				(font
@@ -22600,7 +22780,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U4")
 					(unit 2)
 				)
 			)
@@ -22615,7 +22795,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4bff7e3-bb0f-4ae0-9556-b2795b0dfd58")
-		(property "Reference" "U?"
+		(property "Reference" "U11"
 			(at 121.666 92.71 0)
 			(effects
 				(font
@@ -22703,7 +22883,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -22718,7 +22898,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a82f4d61-e91b-4e77-9cbb-aa234b5ef370")
-		(property "Reference" "U?"
+		(property "Reference" "U5"
 			(at 267.97 72.39 0)
 			(effects
 				(font
@@ -22812,7 +22992,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -22827,7 +23007,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "acac68bc-a3b1-4325-9cdc-caeffd18a4f0")
-		(property "Reference" "U?"
+		(property "Reference" "U13"
 			(at 73.66 107.95 0)
 			(effects
 				(font
@@ -22906,7 +23086,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U13")
 					(unit 1)
 				)
 			)
@@ -22921,7 +23101,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b48be97d-f60b-4f60-877e-9097efd1a620")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 174.752 107.696 0)
 			(effects
 				(font
@@ -23009,7 +23189,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U8")
 					(unit 3)
 				)
 			)
@@ -23024,7 +23204,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b4c4d78e-1367-4b25-b970-7b5d4551cd64")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 120.65 174.244 0)
 			(effects
 				(font
@@ -23112,7 +23292,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U1")
 					(unit 5)
 				)
 			)
@@ -23127,7 +23307,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b6a43dc0-66be-44f1-883e-96df1fc88def")
-		(property "Reference" "Y?"
+		(property "Reference" "Y1"
 			(at 67.31 22.86 90)
 			(effects
 				(font
@@ -23179,7 +23359,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "Y?")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -23194,7 +23374,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b8e2a0da-b5fd-40bc-b618-974f82cd8bcc")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 238.76 74.93 0)
 			(effects
 				(font
@@ -23282,7 +23462,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U4")
 					(unit 5)
 				)
 			)
@@ -23297,7 +23477,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bff6ee30-5264-481c-9b53-3fef4a0e6767")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 238.76 34.29 0)
 			(effects
 				(font
@@ -23385,7 +23565,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -23400,7 +23580,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c075558d-89b6-411d-90e4-f459583303cd")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 238.76 64.77 0)
 			(effects
 				(font
@@ -23488,7 +23668,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U4")
 					(unit 4)
 				)
 			)
@@ -23503,7 +23683,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c2a99c8a-cc03-4cda-b945-e9bb8c0a5d8f")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 265.43 135.89 90)
 			(effects
 				(font
@@ -23555,7 +23735,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -23570,7 +23750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cb645235-a51d-479f-b493-e7da75e0b1d1")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 86.36 30.48 90)
 			(effects
 				(font
@@ -23622,7 +23802,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -23631,13 +23811,13 @@
 	(symbol
 		(lib_id "74IEC:74HC00")
 		(at 160.02 106.68 0)
-		(unit 1)
+		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "cba449d4-140e-4967-b31b-cec84fdb74cf")
-		(property "Reference" "U?"
+		(property "Reference" "U8"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -23725,13 +23905,14 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
-					(unit 1)
+					(reference "U8")
+					(unit 2)
 				)
 			)
 		)
 	)
 	(symbol
+		(lib_name "74IEC:74HC27")
 		(lib_id "74IEC:74HC27")
 		(at 104.14 87.63 0)
 		(unit 1)
@@ -23740,7 +23921,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cdd9c998-1240-4a71-928b-7fcb4ee88c76")
-		(property "Reference" "U?"
+		(property "Reference" "U9"
 			(at 104.14 82.55 0)
 			(effects
 				(font
@@ -23828,7 +24009,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U9")
 					(unit 1)
 				)
 			)
@@ -23844,7 +24025,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d15c57cf-2133-4b5f-9194-5712fbb525c9")
-		(property "Reference" "D?"
+		(property "Reference" "D1"
 			(at 274.828 149.86 90)
 			(effects
 				(font
@@ -23914,7 +24095,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "D?")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -23930,7 +24111,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d4c9e3fc-a027-44c4-bfc6-b3eab866d730")
-		(property "Reference" "U?"
+		(property "Reference" "U9"
 			(at 189.23 142.24 0)
 			(effects
 				(font
@@ -24018,7 +24199,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U9")
 					(unit 3)
 				)
 			)
@@ -24033,7 +24214,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d883d894-4ac7-40ac-b1e4-d8656ae2492b")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 58.42 166.37 90)
 			(effects
 				(font
@@ -24085,7 +24266,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -24100,7 +24281,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d9ee95ea-fbba-417f-8f8c-a42c5ea732ad")
-		(property "Reference" "U?"
+		(property "Reference" "U17"
 			(at 138.43 155.194 0)
 			(effects
 				(font
@@ -24194,7 +24375,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U17")
 					(unit 1)
 				)
 			)
@@ -24209,7 +24390,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df54bfd0-ab5e-4cab-8372-0e9f262024c8")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 265.43 143.51 90)
 			(effects
 				(font
@@ -24261,7 +24442,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -24276,7 +24457,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfb68348-3c5f-48ae-bb22-6ec739121709")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 185.42 95.25 0)
 			(effects
 				(font
@@ -24326,7 +24507,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -24341,7 +24522,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e030b1ce-0b2a-4c64-b614-8733b804cdf0")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 58.166 96.52 0)
 			(effects
 				(font
@@ -24429,7 +24610,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U1")
 					(unit 3)
 				)
 			)
@@ -24444,7 +24625,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3f28835-1850-4ea0-88b1-eeb8317cf489")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 87.63 177.8 0)
 			(effects
 				(font
@@ -24494,7 +24675,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR012")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -24509,7 +24690,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0072922-31ae-48bf-8e24-7a250d3a5612")
-		(property "Reference" "U?"
+		(property "Reference" "U1"
 			(at 55.88 16.51 0)
 			(effects
 				(font
@@ -24597,7 +24778,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -24612,7 +24793,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d68f3d-8082-4aa9-b87a-41ddaeec749f")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 203.2 160.02 0)
 			(effects
 				(font
@@ -24662,7 +24843,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -24677,7 +24858,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9c01a2c-8328-4945-a17c-2ef7a87ead38")
-		(property "Reference" "U?"
+		(property "Reference" "U4"
 			(at 238.76 105.664 0)
 			(effects
 				(font
@@ -24765,7 +24946,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U?")
+					(reference "U4")
 					(unit 6)
 				)
 			)

@@ -2283,6 +2283,12 @@
 		(uuid "e3c05bb0-44a8-4708-b4b7-42b55e9719cb")
 	)
 	(junction
+		(at 88.9 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4489511-9d61-499e-a570-c36da55a5422")
+	)
+	(junction
 		(at 90.17 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2773,6 +2779,16 @@
 			(type default)
 		)
 		(uuid "10790f01-7fb4-4784-acf6-1437815a393b")
+	)
+	(wire
+		(pts
+			(xy 88.9 140.97) (xy 88.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10d59ee9-5484-41b8-9c93-649e00d00a9d")
 	)
 	(wire
 		(pts
@@ -3333,6 +3349,16 @@
 			(type default)
 		)
 		(uuid "2c55fff6-523a-4a51-b88c-9bc097e9eab0")
+	)
+	(wire
+		(pts
+			(xy 91.44 140.97) (xy 88.9 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cdc7095-a315-4f3a-bd22-5cdf4b90621b")
 	)
 	(wire
 		(pts
@@ -3903,6 +3929,16 @@
 			(type default)
 		)
 		(uuid "51e472f2-47ec-4f84-bc80-bbe29bde6530")
+	)
+	(wire
+		(pts
+			(xy 80.01 148.59) (xy 80.01 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "523fd080-e61f-4ef4-b07c-166019a9a9aa")
 	)
 	(wire
 		(pts
@@ -5086,6 +5122,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 140.97) (xy 113.03 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91f06a9b-35c8-404b-afa7-e047361bc594")
+	)
+	(wire
+		(pts
 			(xy 81.28 63.5) (xy 102.87 63.5)
 		)
 		(stroke
@@ -5766,6 +5812,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 146.05) (xy 113.03 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b447881f-2b86-4db6-8570-4a3d9b4a96a0")
+	)
+	(wire
+		(pts
 			(xy 34.29 143.51) (xy 38.1 143.51)
 		)
 		(stroke
@@ -6056,6 +6112,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 146.05) (xy 88.9 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c44ed2b7-d077-4e8f-abc1-b94e74c62eb7")
+	)
+	(wire
+		(pts
 			(xy 214.63 40.64) (xy 217.17 40.64)
 		)
 		(stroke
@@ -6326,16 +6392,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 148.59) (xy 80.01 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9691d86-feae-4575-bf13-38b59c99c853")
-	)
-	(wire
-		(pts
 			(xy 135.89 194.31) (xy 143.51 194.31)
 		)
 		(stroke
@@ -6556,16 +6612,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 152.4) (xy 88.9 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5b263d1-4271-4954-a14c-31a9f4505aeb")
-	)
-	(wire
-		(pts
 			(xy 135.89 266.7) (xy 139.7 266.7)
 		)
 		(stroke
@@ -6783,6 +6829,16 @@
 			(type default)
 		)
 		(uuid "f02db7c3-e338-42a2-b668-e46257a953c7")
+	)
+	(wire
+		(pts
+			(xy 91.44 146.05) (xy 88.9 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f08dbebe-cdd9-4398-936a-ed14a7e49c9f")
 	)
 	(wire
 		(pts
@@ -7517,6 +7573,28 @@
 			)
 		)
 	)
+	(global_label "SS0"
+		(shape input)
+		(at 113.03 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f7772fa-d420-41a5-a740-4e5a262568ee")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.9828 140.8906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "KAR11"
 		(shape input)
 		(at 166.37 46.99 0)
@@ -7799,28 +7877,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "KA14"
-		(shape output)
-		(at 88.9 152.4 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "65ef2703-0c80-4dd7-aa15-8348d4eb406f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.0018 152.3206 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -8595,28 +8651,6 @@
 			)
 		)
 	)
-	(global_label "KD0"
-		(shape output)
-		(at 88.9 143.51 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c1c32a22-c55d-4d8a-9548-553346f2fe19")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.9737 143.4306 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "CS0"
 		(shape input)
 		(at 267.97 153.67 0)
@@ -8784,6 +8818,28 @@
 		(uuid "dc44bc58-ac91-41cb-8744-744652b9e192")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.7418 231.0606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS0"
+		(shape input)
+		(at 113.03 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df77464f-a20f-4ecb-80a8-11f73a221c49")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 119.0432 145.9706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13307,7 +13363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Name" "\"EN\""
+		(property "Name" "\"E CUR\""
 			(at 83.82 149.86 0)
 			(effects
 				(font
@@ -19130,6 +19186,101 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:D")
+		(at 95.25 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a263ac9b-eca1-4f33-bc7e-879735878984")
+		(property "Reference" "D41"
+			(at 95.25 137.922 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 95.25 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 95.25 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b133f75d-b4bb-436e-9519-5b7e17919bc8")
+		)
+		(pin "2"
+			(uuid "b30aaa21-2bf4-43e4-8c85-f4d8ad94bbc8")
+		)
+		(instances
+			(project "ZX-Spectrum-Keyboard"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "D41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push_45deg")
 		(at 45.72 31.75 0)
 		(mirror y)
@@ -19716,6 +19867,71 @@
 			(project "ZX-Spectrum-Keyboard"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
 					(reference "SW23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 80.01 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ae55c973-f6a6-4e39-bf42-fef6c4d8455e")
+		(property "Reference" "#PWR042"
+			(at 80.01 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 80.01 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c6a712f-9440-424b-83ac-3f8a97b992be")
+		)
+		(instances
+			(project "ZX-Spectrum-Keyboard"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -24944,6 +25160,101 @@
 			(project "ZX-Spectrum-Keyboard"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 95.25 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f588d0ab-6ea1-49e3-97e5-a8f7e07ec55f")
+		(property "Reference" "D42"
+			(at 95.25 143.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 95.25 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_MiniMELF"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" ""
+			(at 95.25 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47cfaebe-324f-453c-8552-cabb3123539d")
+		)
+		(pin "2"
+			(uuid "70a24110-c399-4f31-b126-14b624a2003a")
+		)
+		(instances
+			(project "ZX-Spectrum-Keyboard"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96"
+					(reference "D42")
 					(unit 1)
 				)
 			)

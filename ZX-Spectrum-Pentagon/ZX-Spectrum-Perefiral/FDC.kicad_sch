@@ -7593,12 +7593,6 @@
 		(uuid "612df0c2-d141-43e3-8137-98b3b1e3efb9")
 	)
 	(junction
-		(at 223.52 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "65b0dfc7-17cd-4987-9b4a-d5db47f66383")
-	)
-	(junction
 		(at 113.03 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7964,7 +7958,7 @@
 		(uuid "0e6ca81b-aba2-4beb-bd4f-46442db0fee8")
 	)
 	(bus_entry
-		(at 80.01 157.48)
+		(at 83.82 157.48)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8117,7 +8111,7 @@
 		(uuid "2e467332-9c4d-4ebf-960a-166e3c3c4653")
 	)
 	(bus_entry
-		(at 80.01 154.94)
+		(at 83.82 154.94)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -8261,7 +8255,7 @@
 		(uuid "45498b53-241d-43da-8a6b-f1ce9ac4fe50")
 	)
 	(bus_entry
-		(at 80.01 149.86)
+		(at 83.82 149.86)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -9341,6 +9335,15 @@
 		(uuid "e983e17c-45eb-4b74-95c9-b78456a0485d")
 	)
 	(bus_entry
+		(at 223.52 25.4)
+		(size -2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea465324-81e7-4ea2-905c-4ae6683ad536")
+	)
+	(bus_entry
 		(at 74.93 187.96)
 		(size 2.54 2.54)
 		(stroke
@@ -9530,7 +9533,7 @@
 		(uuid "fc966107-5e46-481c-8cd9-ef008c2187a4")
 	)
 	(bus_entry
-		(at 80.01 152.4)
+		(at 83.82 152.4)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -9577,6 +9580,16 @@
 			(type default)
 		)
 		(uuid "00c478b1-0db9-4156-b87c-efab79287b27")
+	)
+	(wire
+		(pts
+			(xy 86.36 154.94) (xy 88.9 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01c50443-a2b8-4cf0-9ca0-08ff7bc06ca8")
 	)
 	(bus
 		(pts
@@ -9880,7 +9893,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 147.32) (xy 151.13 147.32)
+			(xy 83.82 147.32) (xy 151.13 147.32)
 		)
 		(stroke
 			(width 0)
@@ -10048,16 +10061,6 @@
 		)
 		(uuid "160ade13-af31-4b1f-a69d-b5ed91072e2d")
 	)
-	(wire
-		(pts
-			(xy 82.55 154.94) (xy 88.9 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16340048-004d-4247-a099-7f8ef11c1fab")
-	)
 	(bus
 		(pts
 			(xy 142.24 86.36) (xy 142.24 96.52)
@@ -10200,7 +10203,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 90.17) (xy 233.68 90.17)
+			(xy 229.87 90.17) (xy 232.41 90.17)
 		)
 		(stroke
 			(width 0)
@@ -10227,6 +10230,16 @@
 			(type default)
 		)
 		(uuid "1df4dc11-206f-435c-a283-5e8bed126fae")
+	)
+	(wire
+		(pts
+			(xy 86.36 157.48) (xy 88.9 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e778da3-6099-459f-b3e2-fd02f76d8916")
 	)
 	(wire
 		(pts
@@ -10650,7 +10663,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 109.22) (xy 248.92 109.22)
+			(xy 242.57 109.22) (xy 248.92 109.22)
 		)
 		(stroke
 			(width 0)
@@ -10700,7 +10713,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 48.26) (xy 248.92 48.26)
+			(xy 242.57 48.26) (xy 248.92 48.26)
 		)
 		(stroke
 			(width 0)
@@ -10830,7 +10843,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 48.26) (xy 233.68 48.26)
+			(xy 223.52 48.26) (xy 232.41 48.26)
 		)
 		(stroke
 			(width 0)
@@ -11400,7 +11413,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 38.1) (xy 233.68 38.1)
+			(xy 223.52 38.1) (xy 232.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -12110,7 +12123,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 154.94) (xy 80.01 152.4)
+			(xy 83.82 154.94) (xy 83.82 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12620,17 +12633,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 109.22) (xy 223.52 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a07e2f6-8267-4c8d-9391-2ef4e91d9c3f")
-	)
-	(wire
-		(pts
-			(xy 243.84 68.58) (xy 248.92 68.58)
+			(xy 242.57 68.58) (xy 248.92 68.58)
 		)
 		(stroke
 			(width 0)
@@ -12690,7 +12693,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 152.4) (xy 80.01 149.86)
+			(xy 83.82 152.4) (xy 83.82 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12790,7 +12793,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 78.74) (xy 233.68 78.74)
+			(xy 223.52 78.74) (xy 232.41 78.74)
 		)
 		(stroke
 			(width 0)
@@ -12938,16 +12941,6 @@
 		)
 		(uuid "8ee24cf8-a70a-44a7-99ac-5c9cf111cfd5")
 	)
-	(wire
-		(pts
-			(xy 82.55 157.48) (xy 88.9 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f6e44f0-d3e5-433e-bd0e-48511a4f07e4")
-	)
 	(bus
 		(pts
 			(xy 220.98 66.04) (xy 220.98 68.58)
@@ -13050,7 +13043,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 99.06) (xy 248.92 99.06)
+			(xy 242.57 99.06) (xy 248.92 99.06)
 		)
 		(stroke
 			(width 0)
@@ -13080,7 +13073,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 152.4) (xy 88.9 152.4)
+			(xy 86.36 152.4) (xy 88.9 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13140,7 +13133,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 58.42) (xy 233.68 58.42)
+			(xy 223.52 58.42) (xy 232.41 58.42)
 		)
 		(stroke
 			(width 0)
@@ -13150,13 +13143,23 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 149.86) (xy 80.01 147.32)
+			(xy 83.82 149.86) (xy 83.82 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "98ba1847-0c00-4c11-9524-656053b76e1a")
+	)
+	(wire
+		(pts
+			(xy 86.36 160.02) (xy 88.9 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98cd73f2-2665-4173-bb84-6d5b50e0efa6")
 	)
 	(bus
 		(pts
@@ -13380,7 +13383,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 78.74) (xy 248.92 78.74)
+			(xy 242.57 78.74) (xy 248.92 78.74)
 		)
 		(stroke
 			(width 0)
@@ -13410,7 +13413,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 87.63) (xy 233.68 87.63)
+			(xy 223.52 87.63) (xy 232.41 87.63)
 		)
 		(stroke
 			(width 0)
@@ -13440,7 +13443,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 68.58) (xy 233.68 68.58)
+			(xy 223.52 68.58) (xy 232.41 68.58)
 		)
 		(stroke
 			(width 0)
@@ -13600,7 +13603,7 @@
 	)
 	(bus
 		(pts
-			(xy 80.01 157.48) (xy 80.01 154.94)
+			(xy 83.82 157.48) (xy 83.82 154.94)
 		)
 		(stroke
 			(width 0)
@@ -13680,7 +13683,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 88.9) (xy 248.92 88.9)
+			(xy 242.57 88.9) (xy 248.92 88.9)
 		)
 		(stroke
 			(width 0)
@@ -13740,7 +13743,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 97.79) (xy 229.87 97.79)
+			(xy 232.41 97.79) (xy 229.87 97.79)
 		)
 		(stroke
 			(width 0)
@@ -14010,7 +14013,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 100.33) (xy 233.68 100.33)
+			(xy 223.52 100.33) (xy 232.41 100.33)
 		)
 		(stroke
 			(width 0)
@@ -14370,7 +14373,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 119.38) (xy 213.36 119.38)
+			(xy 240.03 25.4) (xy 237.49 25.4)
 		)
 		(stroke
 			(width 0)
@@ -14470,7 +14473,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 109.22) (xy 223.52 109.22)
+			(xy 220.98 109.22) (xy 232.41 109.22)
 		)
 		(stroke
 			(width 0)
@@ -14790,7 +14793,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 58.42) (xy 248.92 58.42)
+			(xy 242.57 58.42) (xy 248.92 58.42)
 		)
 		(stroke
 			(width 0)
@@ -14900,7 +14903,7 @@
 	)
 	(wire
 		(pts
-			(xy 243.84 38.1) (xy 248.92 38.1)
+			(xy 242.57 38.1) (xy 248.92 38.1)
 		)
 		(stroke
 			(width 0)
@@ -14977,16 +14980,6 @@
 			(type default)
 		)
 		(uuid "eb7d8374-084f-4a17-8791-f63805ad744a")
-	)
-	(wire
-		(pts
-			(xy 223.52 109.22) (xy 233.68 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb94919e-cae8-4df5-a3d0-d98ba1e9b5a3")
 	)
 	(wire
 		(pts
@@ -15240,16 +15233,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 160.02) (xy 88.9 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4d27c59-da79-4049-aa7c-297812279839")
-	)
-	(wire
-		(pts
 			(xy 269.24 100.33) (xy 271.78 100.33)
 		)
 		(stroke
@@ -15400,7 +15383,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 119.38) (xy 223.52 119.38)
+			(xy 229.87 25.4) (xy 223.52 25.4)
 		)
 		(stroke
 			(width 0)
@@ -15989,6 +15972,17 @@
 		)
 		(uuid "40c8fb8f-dfc5-4f71-ae97-6ee47198cac1")
 	)
+	(label "~{CSWG}"
+		(at 223.52 25.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "416bf1ba-374c-47e8-8a28-f920fc859bc6")
+	)
 	(label "~{WFDE}"
 		(at 156.21 149.86 0)
 		(fields_autoplaced yes)
@@ -16034,7 +16028,7 @@
 		(uuid "4a673a70-2d0c-400b-9d67-95fdc9acb2b7")
 	)
 	(label "A"
-		(at 85.09 152.4 0)
+		(at 86.36 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16430,7 +16424,7 @@
 		(uuid "7dbe9fc8-d60a-4435-a036-10e803651f6a")
 	)
 	(label "B"
-		(at 85.09 154.94 0)
+		(at 86.36 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16694,7 +16688,7 @@
 		(uuid "9daba7df-6a72-46b7-a6ac-fad327d07a3a")
 	)
 	(label "C"
-		(at 85.09 157.48 0)
+		(at 86.36 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16738,7 +16732,7 @@
 		(uuid "a7ac2422-52c8-45e4-b2bf-6e9bda4704d2")
 	)
 	(label "D"
-		(at 85.09 160.02 0)
+		(at 86.36 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -18212,7 +18206,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 40.64 191.77 0)
+			(at 44.45 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18370,7 +18364,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1092ed54-0c46-4a05-8213-3586a04d89c5")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR018"
 			(at 270.51 100.33 0)
 			(effects
 				(font
@@ -18420,7 +18414,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR017")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -18435,7 +18429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10acf196-18db-422e-8cfd-ee9a3cf1d36d")
-		(property "Reference" "R6"
+		(property "Reference" "R7"
 			(at 265.43 113.03 90)
 			(effects
 				(font
@@ -18487,7 +18481,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R6")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18569,7 +18563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "13ef1e5c-b11a-4cef-970c-ca3a8ae3357c")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 265.43 90.17 90)
 			(effects
 				(font
@@ -18621,7 +18615,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -18812,7 +18806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "21054140-3c57-4bc3-bfd9-504700908f88")
-		(property "Reference" "U8"
+		(property "Reference" "U11"
 			(at 160.02 113.03 0)
 			(effects
 				(font
@@ -18900,7 +18894,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U8")
+					(reference "U11")
 					(unit 4)
 				)
 			)
@@ -19024,7 +19018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "272fc286-d44e-49bb-926e-02b9198923ce")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 99.06 181.61 0)
 			(effects
 				(font
@@ -19112,7 +19106,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U11")
+					(reference "U10")
 					(unit 2)
 				)
 			)
@@ -19309,7 +19303,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a6f8ecb-dff1-44c2-9d9e-3db72a4e6857")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR014"
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -19359,7 +19353,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR013")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -19538,7 +19532,7 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC05")
-		(at 238.76 58.42 0)
+		(at 237.49 58.42 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19546,7 +19540,7 @@
 		(dnp no)
 		(uuid "2c7c4c8a-9f32-450f-87a1-729452a0823f")
 		(property "Reference" "U4"
-			(at 238.76 54.61 0)
+			(at 237.49 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19554,7 +19548,7 @@
 			)
 		)
 		(property "Value" "74HC05"
-			(at 238.76 62.484 0)
+			(at 237.49 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19562,7 +19556,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 53.086 0)
+			(at 237.49 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19571,7 +19565,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 53.086 0)
+			(at 237.49 53.086 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19580,7 +19574,7 @@
 			)
 		)
 		(property "Description" "Hex Inverters With Open-Drain Outputs"
-			(at 238.76 58.42 0)
+			(at 237.49 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19648,7 +19642,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2f74a4d4-3bef-47b4-9ab8-abad8696c0eb")
-		(property "Reference" "R2"
+		(property "Reference" "R3"
 			(at 76.2 62.484 0)
 			(effects
 				(font
@@ -19700,7 +19694,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R2")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -19825,7 +19819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33c2f982-f7c8-45ec-bd9e-44ef8e1b2910")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR015"
 			(at 73.66 63.5 0)
 			(effects
 				(font
@@ -19875,7 +19869,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR014")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20010,7 +20004,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 40.64 184.15 0)
+			(at 44.45 181.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20312,15 +20306,15 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC03")
-		(at 238.76 88.9 0)
+		(at 237.49 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "3fc4031a-fcd3-463c-b712-68e2562869ef")
-		(property "Reference" "U10"
-			(at 238.76 85.09 0)
+		(property "Reference" "U8"
+			(at 237.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20328,7 +20322,7 @@
 			)
 		)
 		(property "Value" "74HC03"
-			(at 238.76 92.964 0)
+			(at 237.49 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20336,7 +20330,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 95.25 0)
+			(at 237.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20345,7 +20339,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 85.09 0)
+			(at 237.49 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20354,7 +20348,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-input Positive-NAND Gates  With Open-collector Outputs"
-			(at 238.76 88.9 0)
+			(at 237.49 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20407,7 +20401,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U10")
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -20422,7 +20416,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "41a921c5-7fcb-4304-a56e-35c46b3531a1")
-		(property "Reference" "R1"
+		(property "Reference" "R2"
 			(at 76.2 22.86 0)
 			(effects
 				(font
@@ -20474,7 +20468,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R1")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -20761,15 +20755,15 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC03")
-		(at 215.9 109.22 0)
+		(at 160.02 82.55 0)
 		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "55cacac0-ed4b-4ea4-8109-c4375b6d9c65")
-		(property "Reference" "U10"
-			(at 215.9 105.41 0)
+		(property "Reference" "U8"
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20777,7 +20771,7 @@
 			)
 		)
 		(property "Value" "74HC03"
-			(at 215.392 113.03 0)
+			(at 159.512 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20785,7 +20779,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 215.9 115.57 0)
+			(at 160.02 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20794,7 +20788,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 215.9 105.41 0)
+			(at 160.02 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20803,7 +20797,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-input Positive-NAND Gates  With Open-collector Outputs"
-			(at 215.9 109.22 0)
+			(at 160.02 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20856,7 +20850,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U10")
+					(reference "U8")
 					(unit 3)
 				)
 			)
@@ -20967,15 +20961,15 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC00")
-		(at 160.02 82.55 0)
+		(at 215.9 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "59c7ca7c-be1b-4e1d-a710-3ee678b6e3ba")
-		(property "Reference" "U8"
-			(at 160.02 78.74 0)
+		(property "Reference" "U11"
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20983,7 +20977,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 160.02 86.614 0)
+			(at 215.9 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20991,7 +20985,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 160.02 88.9 0)
+			(at 215.9 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21000,7 +20994,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 160.02 78.74 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21009,7 +21003,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-Input Positive-NAND Gates"
-			(at 160.02 82.55 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21062,7 +21056,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U8")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -21077,7 +21071,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5c492416-41fa-4c93-bb83-09e4b60daedc")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR016"
 			(at 186.69 73.66 0)
 			(effects
 				(font
@@ -21127,7 +21121,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR015")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21142,7 +21136,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "679df8ec-f94a-438e-8b9a-b50fb4d0504e")
-		(property "Reference" "R4"
+		(property "Reference" "R5"
 			(at 265.43 97.79 90)
 			(effects
 				(font
@@ -21194,7 +21188,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R4")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -21311,16 +21305,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 217.17 119.38 90)
-		(mirror x)
+		(at 233.68 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6bfa1a26-4509-414f-ae9c-0e87cee75026")
-		(property "Reference" "R7"
-			(at 217.17 116.84 90)
+		(property "Reference" "R1"
+			(at 233.68 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21328,7 +21321,7 @@
 			)
 		)
 		(property "Value" "1kOM"
-			(at 217.424 122.174 90)
+			(at 233.426 28.194 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21336,7 +21329,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 217.17 117.602 90)
+			(at 233.68 23.622 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21345,7 +21338,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 217.17 119.38 0)
+			(at 233.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21354,7 +21347,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 217.17 119.38 0)
+			(at 233.68 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21371,7 +21364,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -21386,7 +21379,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6dea25e1-c499-4610-8955-152319c27708")
-		(property "Reference" "R5"
+		(property "Reference" "R6"
 			(at 265.43 105.41 90)
 			(effects
 				(font
@@ -21438,7 +21431,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "R5")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -21454,7 +21447,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "71c9fd18-551d-4335-b96f-70739d8a1d73")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR013"
 			(at 90.17 41.91 0)
 			(effects
 				(font
@@ -21504,7 +21497,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR012")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -21512,15 +21505,15 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC03")
-		(at 238.76 99.06 0)
+		(at 237.49 99.06 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "78989fa8-fd2a-45ac-91ab-c7f7ae8e98d6")
-		(property "Reference" "U10"
-			(at 238.76 95.25 0)
+		(property "Reference" "U8"
+			(at 237.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21528,7 +21521,7 @@
 			)
 		)
 		(property "Value" "74HC03"
-			(at 238.252 102.87 0)
+			(at 236.982 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21536,7 +21529,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 105.41 0)
+			(at 237.49 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21545,7 +21538,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 95.25 0)
+			(at 237.49 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21554,7 +21547,7 @@
 			)
 		)
 		(property "Description" "Quadruple 2-input Positive-NAND Gates  With Open-collector Outputs"
-			(at 238.76 99.06 0)
+			(at 237.49 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21607,7 +21600,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U10")
+					(reference "U8")
 					(unit 2)
 				)
 			)
@@ -22057,15 +22050,16 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 210.82 119.38 90)
+		(at 240.03 25.4 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "98ea715d-6a05-49fd-b64f-9101c79769d3")
-		(property "Reference" "#PWR018"
-			(at 214.63 119.38 0)
+		(property "Reference" "#PWR012"
+			(at 236.22 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22074,7 +22068,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 210.82 116.84 90)
+			(at 240.03 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22082,7 +22076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 119.38 0)
+			(at 240.03 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22091,7 +22085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 119.38 0)
+			(at 240.03 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22100,7 +22094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 210.82 119.38 0)
+			(at 240.03 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22114,7 +22108,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR018")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -22328,7 +22322,7 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC05")
-		(at 238.76 48.26 0)
+		(at 237.49 48.26 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22336,7 +22330,7 @@
 		(dnp no)
 		(uuid "a07d8f57-27ce-42a3-9e46-0d417121b395")
 		(property "Reference" "U4"
-			(at 238.76 44.45 0)
+			(at 237.49 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22344,7 +22338,7 @@
 			)
 		)
 		(property "Value" "74HC05"
-			(at 238.76 52.07 0)
+			(at 237.49 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22352,7 +22346,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 42.926 0)
+			(at 237.49 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22361,7 +22355,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 42.926 0)
+			(at 237.49 42.926 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22370,7 +22364,7 @@
 			)
 		)
 		(property "Description" "Hex Inverters With Open-Drain Outputs"
-			(at 238.76 48.26 0)
+			(at 237.49 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22503,7 +22497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4bff7e3-bb0f-4ae0-9556-b2795b0dfd58")
-		(property "Reference" "U11"
+		(property "Reference" "U10"
 			(at 121.666 92.71 0)
 			(effects
 				(font
@@ -22591,7 +22585,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U11")
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -22818,7 +22812,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b48be97d-f60b-4f60-877e-9097efd1a620")
-		(property "Reference" "U8"
+		(property "Reference" "U11"
 			(at 174.752 107.696 0)
 			(effects
 				(font
@@ -22906,7 +22900,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U8")
+					(reference "U11")
 					(unit 3)
 				)
 			)
@@ -23084,7 +23078,7 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC05")
-		(at 238.76 78.74 0)
+		(at 237.49 78.74 0)
 		(unit 5)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23092,7 +23086,7 @@
 		(dnp no)
 		(uuid "b8e2a0da-b5fd-40bc-b618-974f82cd8bcc")
 		(property "Reference" "U4"
-			(at 238.76 74.93 0)
+			(at 237.49 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23100,7 +23094,7 @@
 			)
 		)
 		(property "Value" "74HC05"
-			(at 238.76 82.804 0)
+			(at 237.49 82.804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23108,7 +23102,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 73.406 0)
+			(at 237.49 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23117,7 +23111,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 73.406 0)
+			(at 237.49 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23126,7 +23120,7 @@
 			)
 		)
 		(property "Description" "Hex Inverters With Open-Drain Outputs"
-			(at 238.76 78.74 0)
+			(at 237.49 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23187,7 +23181,7 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC05")
-		(at 238.76 38.1 0)
+		(at 237.49 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23195,7 +23189,7 @@
 		(dnp no)
 		(uuid "bff6ee30-5264-481c-9b53-3fef4a0e6767")
 		(property "Reference" "U4"
-			(at 238.76 34.29 0)
+			(at 237.49 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23203,7 +23197,7 @@
 			)
 		)
 		(property "Value" "74HC05"
-			(at 238.76 41.91 0)
+			(at 237.49 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23211,7 +23205,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 32.766 0)
+			(at 237.49 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23220,7 +23214,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 32.766 0)
+			(at 237.49 32.766 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23229,7 +23223,7 @@
 			)
 		)
 		(property "Description" "Hex Inverters With Open-Drain Outputs"
-			(at 238.76 38.1 0)
+			(at 237.49 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23290,7 +23284,7 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC05")
-		(at 238.76 68.58 0)
+		(at 237.49 68.58 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23298,7 +23292,7 @@
 		(dnp no)
 		(uuid "c075558d-89b6-411d-90e4-f459583303cd")
 		(property "Reference" "U4"
-			(at 238.76 64.77 0)
+			(at 237.49 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23306,7 +23300,7 @@
 			)
 		)
 		(property "Value" "74HC05"
-			(at 238.76 72.39 0)
+			(at 237.49 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23314,7 +23308,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 63.246 0)
+			(at 237.49 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23323,7 +23317,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 63.246 0)
+			(at 237.49 63.246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23332,7 +23326,7 @@
 			)
 		)
 		(property "Description" "Hex Inverters With Open-Drain Outputs"
-			(at 238.76 68.58 0)
+			(at 237.49 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23534,7 +23528,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cba449d4-140e-4967-b31b-cec84fdb74cf")
-		(property "Reference" "U8"
+		(property "Reference" "U11"
 			(at 160.02 102.87 0)
 			(effects
 				(font
@@ -23622,7 +23616,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "U8")
+					(reference "U11")
 					(unit 2)
 				)
 			)
@@ -24172,7 +24166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dfb68348-3c5f-48ae-bb22-6ec739121709")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR017"
 			(at 185.42 95.25 0)
 			(effects
 				(font
@@ -24222,7 +24216,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/651b82cf-f360-4b6a-9d60-d21835c233dd"
-					(reference "#PWR016")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -24566,7 +24560,7 @@
 	)
 	(symbol
 		(lib_id "74IEC:74HC05")
-		(at 238.76 109.22 0)
+		(at 237.49 109.22 0)
 		(unit 6)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24574,7 +24568,7 @@
 		(dnp no)
 		(uuid "f9c01a2c-8328-4945-a17c-2ef7a87ead38")
 		(property "Reference" "U4"
-			(at 238.76 105.664 0)
+			(at 237.49 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24582,7 +24576,7 @@
 			)
 		)
 		(property "Value" "74HC05"
-			(at 238.76 113.284 0)
+			(at 237.49 113.284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24590,7 +24584,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 238.76 103.886 0)
+			(at 237.49 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24599,7 +24593,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf"
-			(at 238.76 103.886 0)
+			(at 237.49 103.886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24608,7 +24602,7 @@
 			)
 		)
 		(property "Description" "Hex Inverters With Open-Drain Outputs"
-			(at 238.76 109.22 0)
+			(at 237.49 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3,6 +3,7 @@
   (lib (name "ZX-Spectrum-Pentagon")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint")(options "")(descr "custom footprint for zx project"))
   (lib (name "Mini-DIN")(type "KiCad")(uri "${KIPRJMOD}/../mdconnectors/footprint")(options "")(descr ""))
   (lib (name "CDInductor")(type "KiCad")(uri "${KIPRJMOD}/../CDInductor/me-tech")(options "")(descr ""))
+  (lib (name "edge")(type "KiCad")(uri "${KIPRJMOD}/../edge")(options "")(descr ""))
   (lib (name "Switch_Stabilizer")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/Mounting_Keyboard_Stabilizer")(options "")(descr ""))
   (lib (name "Switch_Kailh_Cherry_MX_Universal")(type "KiCad")(uri "${KIPRJMOD}/libs/footprint/Switch_Keyboard_Kailh_Cherry_MX_Universal")(options "")(descr ""))
 )

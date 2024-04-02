@@ -54,6 +54,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "NAND,2NAND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "**DIP*14*W7.62mm* *SO*14*"
 				(at 0 0 0)
 				(effects
@@ -396,6 +405,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "NOR,2NOR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "**DIP*14*W7.62mm* *SO*14*"
 				(at 0 0 0)
 				(effects
@@ -730,6 +748,15 @@
 				)
 			)
 			(property "Description" "Hex Inverters"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NOT"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1084,6 +1111,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "AND,2AND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "*DIP*14*W7.62mm* *SO*14*"
 				(at 0 0 0)
 				(effects
@@ -1426,6 +1462,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "AND,3AND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "*DIP*14*7.62mm *SO*14*"
 				(at 0 0 0)
 				(effects
@@ -1758,6 +1803,15 @@
 				)
 			)
 			(property "Description" "Quadruple 2-Input Positive-OR Gates"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OR,2OR"
 				(at 0 0 0)
 				(effects
 					(font

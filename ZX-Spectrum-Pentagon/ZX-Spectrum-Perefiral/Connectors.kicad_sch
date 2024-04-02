@@ -33,7 +33,7 @@
 					)
 				)
 			)
-			(property "Footprint" "edge:EDGE_3M_0-2.54"
+			(property "Footprint" ""
 				(at 0 39.37 0)
 				(effects
 					(font
@@ -6921,6 +6921,10 @@
 		(uuid "837d8961-459d-47c7-879f-477be74e3d47")
 	)
 	(no_connect
+		(at 48.26 176.53)
+		(uuid "86ffa120-70a5-4c97-8ed6-756c9a910141")
+	)
+	(no_connect
 		(at 101.6 163.83)
 		(uuid "93344fe4-fb8d-43ed-81cc-875fb787b913")
 	)
@@ -7527,6 +7531,15 @@
 			(type default)
 		)
 		(uuid "523c2678-ea62-4001-a61b-091990683f4a")
+	)
+	(bus_entry
+		(at 86.36 171.45)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527fa746-81ab-48fe-ac29-2cde94e4e817")
 	)
 	(bus_entry
 		(at 91.44 176.53)
@@ -8346,15 +8359,6 @@
 			(type default)
 		)
 		(uuid "caf7c202-2134-4193-905e-f0db5d209700")
-	)
-	(bus_entry
-		(at 86.36 171.45)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cbd6a3ba-56f3-48d7-8f67-d3888d5ce977")
 	)
 	(bus_entry
 		(at 101.6 66.04)
@@ -10029,16 +10033,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 171.45) (xy 86.36 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e3293d-5b9b-4516-89d2-6d40c51f07f1")
-	)
-	(wire
-		(pts
 			(xy 49.53 30.48) (xy 58.42 30.48)
 		)
 		(stroke
@@ -11466,6 +11460,16 @@
 			(type default)
 		)
 		(uuid "9ada6c50-738c-49a8-983d-d40d69ec4951")
+	)
+	(wire
+		(pts
+			(xy 77.47 171.45) (xy 86.36 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b29bdbf-b44e-4956-86db-99e31aaebc1a")
 	)
 	(wire
 		(pts
@@ -13255,7 +13259,7 @@
 		)
 		(uuid "1020bf93-4b71-4e8c-b382-1a939ecf8339")
 	)
-	(label "~{TR0*}"
+	(label "~{TR00*}"
 		(at 40.64 166.37 0)
 		(fields_autoplaced yes)
 		(effects
@@ -14003,7 +14007,7 @@
 		)
 		(uuid "691be572-610c-436d-bde2-a4ef3efecf39")
 	)
-	(label "~{TR0*}"
+	(label "~{TR00*}"
 		(at 35.56 163.83 180)
 		(fields_autoplaced yes)
 		(effects
@@ -15822,7 +15826,7 @@
 		)
 		(uuid "a200944a-7031-4845-930d-6e21216bbc7a")
 	)
-	(hierarchical_label "~{TR0*}"
+	(hierarchical_label "~{TR00*}"
 		(shape output)
 		(at 22.86 163.83 180)
 		(fields_autoplaced yes)
@@ -16608,7 +16612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" "edge:EDGE_28M5-2.54"
 			(at 41.91 20.32 0)
 			(effects
 				(font

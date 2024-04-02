@@ -405,6 +405,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "NOT,NOTST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "*DIP*14*W7.62mm *SO*14*"
 				(at 0 0 0)
 				(effects
@@ -1813,6 +1822,15 @@
 				)
 			)
 			(property "Description" "Quadruple 2-Input Positive-OR Gates"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "OR,2OR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4333,7 +4351,7 @@
 					)
 				)
 			)
-			(property "Footprint" "edge:EDGE_3M_0-2.54"
+			(property "Footprint" ""
 				(at 0 39.37 0)
 				(effects
 					(font

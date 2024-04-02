@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -3787,7 +3787,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -7431,7 +7431,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -11075,7 +11075,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -14719,7 +14719,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -18363,7 +18363,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -22007,7 +22007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -25651,7 +25651,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -29295,7 +29295,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -32939,7 +32939,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -36583,7 +36583,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -40227,7 +40227,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -43871,7 +43871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -47515,7 +47515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -51159,7 +51159,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -54803,7 +54803,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -58447,7 +58447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -62091,7 +62091,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -65735,7 +65735,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -69379,7 +69379,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -73023,7 +73023,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -76667,7 +76667,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -80311,7 +80311,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -83955,7 +83955,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -87599,7 +87599,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -91243,7 +91243,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -94887,7 +94887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -98531,7 +98531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -102175,7 +102175,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -105819,7 +105819,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -108237,7 +108237,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -110585,7 +110585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -112933,7 +112933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -115281,7 +115281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -117629,7 +117629,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -119977,7 +119977,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -122325,7 +122325,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -124673,7 +124673,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -127021,7 +127021,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -129369,7 +129369,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -131717,7 +131717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -134065,7 +134065,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -136413,7 +136413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -138761,7 +138761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -141109,7 +141109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -143457,7 +143457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -145805,7 +145805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -148153,7 +148153,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -150501,7 +150501,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -152849,7 +152849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -155197,7 +155197,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -157545,7 +157545,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -159893,7 +159893,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -162241,7 +162241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -164589,7 +164589,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -166937,7 +166937,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -169285,7 +169285,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font
@@ -171633,7 +171633,7 @@
 				)
 			)
 		)
-		(property "Footprint" "edge:EDGE_3M_0-2.54"
+		(property "Footprint" ""
 			(at 0 39.37 0)
 			(effects
 				(font

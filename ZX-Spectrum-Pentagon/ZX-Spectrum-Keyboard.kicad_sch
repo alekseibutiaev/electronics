@@ -54,6 +54,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "OR,2OR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "*DIP*14*W7.62mm* *SO*14*"
 				(at 0 0 0)
 				(effects
@@ -1038,8 +1047,8 @@
 			)
 		)
 		(symbol "Mechanical:Fiducial"
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "FID"
 				(at 0 5.08 0)
@@ -1120,8 +1129,8 @@
 			(pin_numbers hide)
 			(pin_names
 				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
 			(property "Reference" "H"
 				(at 0 6.35 0)

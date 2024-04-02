@@ -54,6 +54,15 @@
 					(hide yes)
 				)
 			)
+			(property "ki_keywords" "NAND,2NAND"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "**DIP*14*W7.62mm* *SO*14*"
 				(at 0 0 0)
 				(effects

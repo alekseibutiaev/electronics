@@ -487,6 +487,26 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 167.64) (xy 111.76 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52e995da-f8ba-4eb3-afeb-ed552cfac2f1")
+	)
+	(wire
+		(pts
+			(xy 228.6 104.14) (xy 232.41 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55b8847c-9bdf-43d9-9822-356093b94f5b")
+	)
+	(wire
+		(pts
 			(xy 38.1 175.26) (xy 38.1 177.8)
 		)
 		(stroke
@@ -524,16 +544,6 @@
 			(type default)
 		)
 		(uuid "a4072459-4700-4ccc-b8ff-49904a093542")
-	)
-	(wire
-		(pts
-			(xy 111.76 167.64) (xy 111.76 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7cfbe44-b937-4d64-9f80-6aba77beff2e")
 	)
 	(wire
 		(pts
@@ -587,6 +597,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 101.6) (xy 228.6 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3207905-05af-4ed7-bbda-3af9cf088cf8")
+	)
+	(wire
+		(pts
 			(xy 31.75 175.26) (xy 31.75 177.8)
 		)
 		(stroke
@@ -594,6 +614,18 @@
 			(type default)
 		)
 		(uuid "fc3734cf-fc19-44a4-a4fc-a186221144f9")
+	)
+	(hierarchical_label "+12"
+		(shape passive)
+		(at 232.41 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ee213b99-0760-4fe9-8fb9-e364cdaa489d")
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
@@ -605,7 +637,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0266eb57-48d4-4a23-b656-a91b6f4d81a8")
-		(property "Reference" "#FLG01"
+		(property "Reference" "#FLG02"
 			(at 99.06 165.735 0)
 			(effects
 				(font
@@ -655,7 +687,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#FLG01")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -671,7 +703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "049b2648-ebad-4988-85d0-9a945ab22a1f")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 25.4 186.69 0)
 			(effects
 				(font
@@ -721,7 +753,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -789,6 +821,72 @@
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 228.6 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2fbd8105-04a9-44c9-baf3-ae41d9cfec16")
+		(property "Reference" "#FLG01"
+			(at 228.6 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 228.6 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 228.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "187eceee-815b-4a61-ae39-f5bbcc9f7a0e")
+		)
+		(instances
+			(project "ZX-Spectrum-Perefiral"
+				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -871,7 +969,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49690708-4d1c-4284-b432-2685db507a3f")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR027"
 			(at 99.06 176.53 0)
 			(effects
 				(font
@@ -922,7 +1020,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#PWR026")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -930,7 +1028,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 111.76 170.18 0)
+		(at 111.76 171.45 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -938,8 +1036,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "548a17dd-4ec1-449a-8694-bc72d2776cd5")
-		(property "Reference" "#PWR027"
-			(at 111.76 166.37 0)
+		(property "Reference" "#PWR028"
+			(at 111.76 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -948,16 +1046,15 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 111.76 172.72 90)
+			(at 111.76 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 170.18 0)
+			(at 111.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -966,7 +1063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 170.18 0)
+			(at 111.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -975,7 +1072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 111.76 170.18 0)
+			(at 111.76 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +1086,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#PWR027")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -1005,7 +1102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "698f7e77-e6db-46a8-ba00-de63463db2e0")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 111.76 165.735 0)
 			(effects
 				(font
@@ -1055,7 +1152,7 @@
 		(instances
 			(project "ZX-Spectrum-Perefiral"
 				(path "/b1b48ba2-4f02-4f69-9ca1-50d348cf3e96/da49a933-27e5-4e77-9c00-b924c803c487"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)

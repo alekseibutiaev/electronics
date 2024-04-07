@@ -6012,7 +6012,7 @@
 		)
 		(uuid "e7c4d2d8-b8d0-47dc-9505-80a000392dbc")
 	)
-	(hierarchical_label "+9V"
+	(hierarchical_label "POWER"
 		(shape passive)
 		(at 266.7 25.4 0)
 		(fields_autoplaced yes)
@@ -9828,7 +9828,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+9V"
+		(property "Value" "POWER"
 			(at 79.121 40.0558 0)
 			(effects
 				(font
@@ -9893,7 +9893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+9V"
+		(property "Value" "POWER"
 			(at 63.5 33.02 0)
 			(effects
 				(font

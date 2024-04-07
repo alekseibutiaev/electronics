@@ -7937,7 +7937,7 @@
 		)
 		(uuid "897d1b18-1a95-4b89-88a7-0493c720a2bf")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 129.54 182.88 0)
 		(fields_autoplaced yes)
 		(effects
@@ -8509,7 +8509,7 @@
 		)
 		(uuid "c407de90-8b8a-4a5a-9741-3b6ff389699e")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 73.66 91.44 180)
 		(fields_autoplaced yes)
 		(effects
@@ -9015,7 +9015,7 @@
 		)
 		(uuid "eb4881ec-9235-42d2-bc80-a512598c9f6b")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 78.74 78.74 0)
 		(fields_autoplaced yes)
 		(effects
@@ -9951,7 +9951,7 @@
 			)
 			(uuid "894fb2f5-512a-4e7d-8d26-d421e9158c80")
 		)
-		(pin "+9V" passive
+		(pin "POWER" passive
 			(at 88.9 78.74 180)
 			(effects
 				(font
@@ -10030,7 +10030,7 @@
 			)
 			(uuid "9c264b17-4a45-40b9-b247-78ee476ac25d")
 		)
-		(pin "+9V" passive
+		(pin "POWER" passive
 			(at 63.5 91.44 0)
 			(effects
 				(font
@@ -11962,7 +11962,7 @@
 			)
 			(uuid "5e9c79dd-ef21-4ee0-a09f-366d3f98b549")
 		)
-		(pin "+9V" passive
+		(pin "POWER" passive
 			(at 139.7 182.88 180)
 			(effects
 				(font

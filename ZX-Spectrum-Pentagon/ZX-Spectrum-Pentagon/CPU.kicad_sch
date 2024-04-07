@@ -19130,7 +19130,7 @@
 		)
 		(uuid "18cd7c66-1b14-453f-808c-79be9d8c397c")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 35.56 133.35 180)
 		(fields_autoplaced yes)
 		(effects
@@ -19471,7 +19471,7 @@
 		)
 		(uuid "2f2e19a1-b509-46a6-8a3d-f0b53ba1411b")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 217.17 33.02 0)
 		(fields_autoplaced yes)
 		(effects
@@ -20395,7 +20395,7 @@
 		)
 		(uuid "72e4d098-e456-4805-a048-dddb786aa634")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 217.17 99.06 0)
 		(fields_autoplaced yes)
 		(effects
@@ -20681,7 +20681,7 @@
 		)
 		(uuid "8d4197e5-c68c-42ac-b37d-c2d2b2f5d982")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 217.17 96.52 0)
 		(fields_autoplaced yes)
 		(effects
@@ -21165,7 +21165,7 @@
 		)
 		(uuid "b55b9087-86cb-4231-a200-51e17b78f40f")
 	)
-	(label "+9V"
+	(label "POWER"
 		(at 138.43 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -22564,7 +22564,7 @@
 		)
 		(uuid "c41167d0-8cc2-4bc4-903f-2d2f764e6c5c")
 	)
-	(hierarchical_label "+9V"
+	(hierarchical_label "POWER"
 		(shape passive)
 		(at 24.13 133.35 180)
 		(fields_autoplaced yes)

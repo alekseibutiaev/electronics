@@ -1086,7 +1086,7 @@
 		)
 		(uuid "f8abe4e5-adb4-4d3a-bbc5-e1413279967c")
 	)
-	(hierarchical_label "+9V"
+	(hierarchical_label "POWER"
 		(shape passive)
 		(at 25.4 38.1 180)
 		(fields_autoplaced yes)

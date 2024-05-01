@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Value" "ODD"
-			(at 0.212 3.308 90)
+			(at -5.08 3.308 180)
 			(layer "F.Fab")
 			(uuid "d29ae34d-b8b3-406e-a256-d746cad2fac5")
 			(effects
@@ -662,7 +662,7 @@
 			)
 		)
 		(property "Value" "EVEN"
-			(at 0.212 3.308 -90)
+			(at -5.08 3.308 0)
 			(layer "F.Fab")
 			(uuid "f5937cbf-4149-4fc3-8b11-b7150550518e")
 			(effects
@@ -2612,6 +2612,28 @@
 		(layer "Edge.Cuts")
 		(uuid "fe1447cd-5b94-41f8-b50b-6be0abf54112")
 	)
+	(gr_text "W1"
+		(at 78.105 39.37 0)
+		(layer "F.SilkS")
+		(uuid "640939b4-a7b8-43bf-962d-cd36e56051cb")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
+	(gr_text "W2"
+		(at 74.295 39.37 0)
+		(layer "F.SilkS")
+		(uuid "e29d12e8-ff75-43ea-a32c-608b344c45ae")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.1)
+			)
+		)
+	)
 	(dimension
 		(type aligned)
 		(layer "Dwgs.User")
@@ -4192,6 +4214,15 @@
 		(uuid "1e50c80b-fc87-4dad-b07f-e6f74012b5b2")
 	)
 	(via
+		(at 75.565 36.83)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 31)
+		(uuid "20fa3bac-5855-4324-9b67-120872b98a9b")
+	)
+	(via
 		(at 73.025 36.83)
 		(size 0.6)
 		(drill 0.3)
@@ -4552,6 +4583,15 @@
 		(uuid "a8f101b4-7501-4864-b85a-afe41512e11f")
 	)
 	(via
+		(at 76.835 36.83)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 31)
+		(uuid "ab4a1a7e-a13b-4997-8f33-6c570d903429")
+	)
+	(via
 		(at 83.185 52.07)
 		(size 0.6)
 		(drill 0.3)
@@ -4640,15 +4680,6 @@
 		(free yes)
 		(net 31)
 		(uuid "cfe23ea1-51d4-4505-b7b3-ace05a9a778a")
-	)
-	(via
-		(at 76.835 36.83)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 31)
-		(uuid "d1a13092-2d7c-4c64-b58b-4193df02676f")
 	)
 	(via
 		(at 73.66 40.005)
@@ -4820,15 +4851,6 @@
 		(free yes)
 		(net 31)
 		(uuid "f548c1d9-ff6f-4271-b350-905b67d49ffd")
-	)
-	(via
-		(at 75.565 36.83)
-		(size 0.6)
-		(drill 0.3)
-		(layers "F.Cu" "B.Cu")
-		(free yes)
-		(net 31)
-		(uuid "fa53ac02-a3fa-4135-9d7b-e14d9f65ac5c")
 	)
 	(via
 		(at 69.215 36.83)

@@ -9164,6 +9164,17 @@
 			(pintype "passive")
 			(uuid "afffe12c-ab76-4291-b88a-e525c8f9e49d")
 		)
+		(model "${KICAD8_3DMODEL_DIR}/Connector_BarrelJack.3dshapes/BarrelJack_Horizontal.step"
+			(offset
+				(xyz 5 0 0)
+			)
+			(scale
+				(xyz 0.9 0.6 0.6001)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0805_2012Metric"
 		(locked yes)
@@ -20048,7 +20059,7 @@
 			)
 		)
 		(property "Footprint" "Connector_USB:USB_Mini-B_Wuerth_65100516121_Horizontal"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20606ee6-5ba8-47a2-ab0b-93484370ae67")
@@ -20059,7 +20070,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "986647e2-9b90-4767-905b-fa3c248e8ed1")
@@ -20070,7 +20081,7 @@
 			)
 		)
 		(property "Description" "USB Mini Type B connector"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f1784930-4ada-404f-ba21-981f373cd169")
@@ -20403,7 +20414,7 @@
 			(uuid "8ddffb01-03f3-4c5c-8716-2ad206a3bec3")
 		)
 		(fp_text user "${VALUE}"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "Dwgs.User")
 			(uuid "e774a5fe-48fc-4828-8b5e-f2653ed590cc")
 			(effects
@@ -20520,7 +20531,7 @@
 			(pintype "passive")
 			(uuid "e2c8c69f-633f-42b9-b4fc-eae32e745e02")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Wuerth_65100516121_Horizontal.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Connector_USB.3dshapes/USB_Mini-B_Lumberg_2486_01_Horizontal.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -23562,7 +23573,7 @@
 			(pintype "power_out")
 			(uuid "af0869f5-28cc-4b61-8347-6afac85cd012")
 		)
-		(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_MEE1SxxxxSC_THT.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Converter_DCDC.3dshapes/Converter_DCDC_Murata_CRE1xxxxxx3C_THT.step"
 			(offset
 				(xyz 0 0 0)
 			)

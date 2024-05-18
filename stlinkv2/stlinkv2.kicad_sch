@@ -13956,6 +13956,17 @@
 		)
 		(uuid "28c2d478-fe66-45c8-a6f8-6abda2392f33")
 	)
+	(label "SWIM_RST_"
+		(at 254 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "353ada8a-0787-40e9-99d5-93a171bc0016")
+	)
 	(label "USB_POWER"
 		(at 38.1 140.97 0)
 		(fields_autoplaced yes)
@@ -13966,6 +13977,17 @@
 			(justify left bottom)
 		)
 		(uuid "71ee892b-2d3c-4d5b-86bd-8744d8170c14")
+	)
+	(label "SWMA_"
+		(at 256.54 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e10afcb0-6187-4ece-a33a-e0cd27d26138")
 	)
 	(label "D-"
 		(at 29.21 161.29 0)
@@ -16190,7 +16212,7 @@
 		)
 		(uuid "d5b9f703-6bb7-421f-aa3e-b5e09c11d85c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.3598 124.3806 0)
+			(at 224.103 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)

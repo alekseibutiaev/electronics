@@ -9561,7 +9561,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "/home/butiaev/project/electronics/ZX-Spectrum-Pentagon/ZX-Spectrum-Pentagon/CPU.kicad_sch"
+		(property "Sheetfile" "ZX-Spectrum-Pentagon/CPU.kicad_sch"
 			(at 88.9 97.1046 0)
 			(effects
 				(font

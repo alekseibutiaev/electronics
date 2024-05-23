@@ -4185,6 +4185,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 121.92) (xy 143.51 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a73eabc-282e-4a8f-82a7-cf15f9f16dd4")
+	)
+	(wire
+		(pts
 			(xy 25.4 31.75) (xy 35.56 31.75)
 		)
 		(stroke
@@ -4215,7 +4225,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 119.38) (xy 123.19 124.46)
+			(xy 123.19 119.38) (xy 123.19 121.92)
 		)
 		(stroke
 			(width 0)
@@ -4815,7 +4825,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 121.92) (xy 125.73 134.62)
+			(xy 125.73 124.46) (xy 125.73 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5825,16 +5835,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 124.46) (xy 143.51 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d68c3f0d-4649-42f2-8ca5-af1e7ce0faa6")
-	)
-	(wire
-		(pts
 			(xy 241.3 104.14) (xy 243.84 104.14)
 		)
 		(stroke
@@ -5855,7 +5855,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 121.92) (xy 143.51 121.92)
+			(xy 125.73 124.46) (xy 143.51 124.46)
 		)
 		(stroke
 			(width 0)
@@ -6253,7 +6253,7 @@
 		)
 		(uuid "ffaf1cbc-65ad-495e-95fe-1c8268d6f269")
 	)
-	(label "TTLR"
+	(label "TTLG"
 		(at 40.64 82.55 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6341,6 +6341,28 @@
 		)
 		(uuid "2e797370-4900-4709-b39d-660c6daa2902")
 	)
+	(label "ENGREEN"
+		(at 137.16 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "348a92b8-5a5b-488d-9802-3364e3e286b9")
+	)
+	(label "ENBLUE"
+		(at 137.16 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "376c75b6-dfa2-4e94-957a-ebdb883d9525")
+	)
 	(label "HSYNC"
 		(at 40.64 147.32 0)
 		(fields_autoplaced yes)
@@ -6363,7 +6385,7 @@
 		)
 		(uuid "3dbf041d-48de-42c7-a5aa-ed55297e35a1")
 	)
-	(label "TTLG"
+	(label "TTLR"
 		(at 40.64 95.25 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6419,7 +6441,7 @@
 		(uuid "6008e749-fba7-4de0-8da3-af11093b765a")
 	)
 	(label "GREEN"
-		(at 130.81 101.6 180)
+		(at 130.81 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6505,6 +6527,17 @@
 			(justify right bottom)
 		)
 		(uuid "7466c44d-4bfa-4d22-aa6c-58ea08ac62f2")
+	)
+	(label "ENRED"
+		(at 137.16 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "81ec8c1f-e0da-4a03-8b1b-b12ca11d61ad")
 	)
 	(label "+12V"
 		(at 35.56 29.21 180)
@@ -6628,7 +6661,7 @@
 		(uuid "d1438ff0-4b8e-42e5-9b10-c8c1c35bf51f")
 	)
 	(label "RED"
-		(at 130.81 88.9 180)
+		(at 130.81 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

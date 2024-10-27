@@ -3545,7 +3545,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 127) (xy 218.44 127)
+			(xy 203.2 127) (xy 220.98 127)
 		)
 		(stroke
 			(width 0)
@@ -4125,7 +4125,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 139.7) (xy 218.44 139.7)
+			(xy 215.9 139.7) (xy 220.98 139.7)
 		)
 		(stroke
 			(width 0)
@@ -4555,26 +4555,6 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 139.7) (xy 228.6 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed72f16a-9952-479f-b879-ed05f0293ebc")
-	)
-	(wire
-		(pts
-			(xy 226.06 127) (xy 228.6 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eec6ddd6-4ccd-4a78-bf86-f04e5c6e0c8a")
-	)
-	(wire
-		(pts
 			(xy 44.45 163.83) (xy 46.99 163.83)
 		)
 		(stroke
@@ -4875,7 +4855,7 @@
 	)
 	(global_label "OSC_IN"
 		(shape input)
-		(at 228.6 127 0)
+		(at 220.98 127 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4885,7 +4865,7 @@
 		)
 		(uuid "2563d4b3-c5b8-44a3-b8de-4d8e459b2fd1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 237.726 126.9206 0)
+			(at 230.106 126.9206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4919,7 +4899,7 @@
 	)
 	(global_label "OSC_OUT"
 		(shape input)
-		(at 228.6 139.7 0)
+		(at 220.98 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4929,7 +4909,7 @@
 		)
 		(uuid "2adf3c90-c658-49b4-9541-89c0abc16c71")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 239.4193 139.6206 0)
+			(at 231.7993 139.6206 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7189,73 +7169,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 222.25 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b31fc11-dfe0-4be1-80a2-8d97d9847f96")
-		(property "Reference" "R3"
-			(at 222.25 124.46 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Om"
-			(at 222.25 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 222.25 128.778 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "79ce7fb1-ec81-4062-9fc5-b069578a8084")
-		)
-		(pin "2"
-			(uuid "cb2f66a7-c440-40f2-a823-bfaf8a73b797")
-		)
-		(instances
-			(project "ZX_Keyboard"
-				(path "/f89ca003-fbba-4e13-be9e-35859400364e/8a9d6e3f-1480-406f-9c69-4949a746efd0"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 139.7 38.1 0)
 		(unit 1)
@@ -8542,73 +8455,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 222.25 139.7 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d8d3f4bf-b555-4039-91f3-660d1b4589cc")
-		(property "Reference" "R5"
-			(at 222.25 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0Om"
-			(at 222.25 142.24 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 222.25 141.478 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 222.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 222.25 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36b48b2a-4d89-412b-bf4e-2eed2b774f74")
-		)
-		(pin "2"
-			(uuid "97695840-acdb-4e7a-8dd3-afff65dff0d5")
-		)
-		(instances
-			(project "ZX_Keyboard"
-				(path "/f89ca003-fbba-4e13-be9e-35859400364e/8a9d6e3f-1480-406f-9c69-4949a746efd0"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 46.99 179.07 270)
 		(unit 1)
@@ -8767,7 +8613,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "dc5ab0be-cb84-4939-83f3-95ffd833d47f")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 52.07 128.27 0)
 			(effects
 				(font
@@ -8821,7 +8667,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/8a9d6e3f-1480-406f-9c69-4949a746efd0"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)

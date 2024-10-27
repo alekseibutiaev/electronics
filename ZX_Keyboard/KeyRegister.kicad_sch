@@ -11183,7 +11183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00646ff4-045c-4797-bdee-bb83718f5a4c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR045"
 			(at 234.95 35.56 0)
 			(effects
 				(font
@@ -11233,7 +11233,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR044")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -11249,7 +11249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b81efea-0c42-43b5-8eb9-598e1aa84b56")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR056"
 			(at 273.05 68.58 0)
 			(effects
 				(font
@@ -11299,7 +11299,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR055")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -11315,7 +11315,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c703506-871d-4dde-8478-bdb61619ef80")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR054"
 			(at 247.65 68.58 0)
 			(effects
 				(font
@@ -11365,7 +11365,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR053")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -12201,7 +12201,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26872850-4778-4708-bfdc-783fc1e8a550")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR050"
 			(at 247.65 50.8 0)
 			(effects
 				(font
@@ -12251,7 +12251,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR049")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -12955,7 +12955,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ddf6cd1-213d-404e-94f6-feff5cb6e274")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR061"
 			(at 16.51 86.36 0)
 			(effects
 				(font
@@ -13005,7 +13005,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR060")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -13365,7 +13365,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4419f4b4-226a-46e0-b5f9-d0b0ec25a858")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR065"
 			(at 260.35 119.38 0)
 			(effects
 				(font
@@ -13415,7 +13415,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR064")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -13517,7 +13517,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "473c6920-5c1e-4aea-8aa1-84aa331d98f2")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR053"
 			(at 234.95 68.58 0)
 			(effects
 				(font
@@ -13567,7 +13567,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR052")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -13755,7 +13755,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4baddd20-8548-4f8c-95a8-567c1fc010a1")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR059"
 			(at 260.35 83.82 0)
 			(effects
 				(font
@@ -13805,7 +13805,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -14509,7 +14509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59c6f4b8-cf6c-4ba3-9c00-c5a6deaa6682")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR057"
 			(at 234.95 83.82 0)
 			(effects
 				(font
@@ -14559,7 +14559,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR056")
+					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -14684,7 +14684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63b832e5-f87e-47ce-b96b-beffac9b4a34")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR049"
 			(at 234.95 50.8 0)
 			(effects
 				(font
@@ -14734,7 +14734,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR048")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -14922,7 +14922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65b39a53-0316-47ae-931b-f77577e1f774")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR060"
 			(at 273.05 83.82 0)
 			(effects
 				(font
@@ -14972,7 +14972,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR059")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -14988,7 +14988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6751da79-6b2b-42b1-9a37-252f830b97cb")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR055"
 			(at 260.35 68.58 0)
 			(effects
 				(font
@@ -15038,7 +15038,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR054")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -15452,7 +15452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "813c97c8-39a8-4d7f-9b6f-da227c754e16")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR047"
 			(at 260.35 35.56 0)
 			(effects
 				(font
@@ -15502,7 +15502,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR046")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -15697,7 +15697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a51195b-362f-4197-bf69-c90295f14c65")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR052"
 			(at 273.05 50.8 0)
 			(effects
 				(font
@@ -15747,7 +15747,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR051")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -16949,7 +16949,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b163b8e0-12d0-4c4f-939f-42eb86e63530")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR062"
 			(at 234.95 104.14 0)
 			(effects
 				(font
@@ -16999,7 +16999,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR061")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -17655,7 +17655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c442a5b1-55dd-4294-8132-a970b61abbf6")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR048"
 			(at 273.05 35.56 0)
 			(effects
 				(font
@@ -17705,7 +17705,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR047")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -17916,7 +17916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb405fb6-0cbb-4dd1-8b7c-b52ef74bd760")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR051"
 			(at 260.35 50.8 0)
 			(effects
 				(font
@@ -17966,7 +17966,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -18154,7 +18154,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d376e857-55bc-4100-a88c-426a52a81273")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR063"
 			(at 260.35 104.14 0)
 			(effects
 				(font
@@ -18204,7 +18204,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR062")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -18478,7 +18478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daadc96a-c0cc-435f-90c1-113f0a1047f4")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR058"
 			(at 247.65 83.82 0)
 			(effects
 				(font
@@ -18528,7 +18528,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR057")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -19255,7 +19255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0beb6af-d3ee-47d6-a96c-e0d11d79b6e7")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR046"
 			(at 247.65 35.56 0)
 			(effects
 				(font
@@ -19305,7 +19305,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR045")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -19493,7 +19493,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fdb79e00-151f-4ad7-8f66-f717a6a3d6e1")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR064"
 			(at 234.95 119.38 0)
 			(effects
 				(font
@@ -19543,7 +19543,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/cb160d6d-3041-4371-8461-fd46b0f6f336"
-					(reference "#PWR063")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)

@@ -2781,7 +2781,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b07c226f-9f90-4a3c-99bc-f74554f09e82")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR032"
 			(at 95.25 154.94 0)
 			(effects
 				(font
@@ -2831,7 +2831,7 @@
 		(instances
 			(project "ZX_Keyboard"
 				(path "/f89ca003-fbba-4e13-be9e-35859400364e/f4721f99-99e3-4f4f-8cdd-eff46f022b1c"
-					(reference "#PWR0101")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)

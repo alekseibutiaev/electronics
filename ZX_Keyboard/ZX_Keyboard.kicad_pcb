@@ -48311,6 +48311,19 @@
 		(layer "Edge.Cuts")
 		(uuid "f635d74b-a2c5-4bbf-8a85-b8c5a776ec6d")
 	)
+	(gr_text "USB ZX keyboard\nVersion V1.00\nalexsyrezerv@mail.ru\n"
+		(at 72.136 49.276 0)
+		(layer "B.SilkS")
+		(uuid "de95270d-b9f0-4d9d-bbcf-a24201399058")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(gr_text "SWO"
 		(at 49.53 75.565 0)
 		(layer "F.SilkS")

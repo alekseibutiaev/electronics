@@ -6738,7 +6738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" " ~"
+		(property "Datasheet" "~"
 			(at 256.54 91.44 0)
 			(effects
 				(font
@@ -7151,7 +7151,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4,7uFx6.3V"
+		(property "Value" "4,7uFx6,3V"
 			(at 191.135 70.2309 0)
 			(effects
 				(font

@@ -15149,7 +15149,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uFx6.3V"
+		(property "Value" "4,7uFx6,3V"
 			(at 238.76 107.0609 0)
 			(effects
 				(font
@@ -15527,7 +15527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uFx6.3V"
+		(property "Value" "4,7uFx6,3V"
 			(at 264.16 107.0609 0)
 			(effects
 				(font

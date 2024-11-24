@@ -8826,7 +8826,6 @@
 		)
 	)
 	(footprint "CD inductor:CD43"
-		(locked yes)
 		(layer "F.Cu")
 		(uuid "3f0aa226-b9ef-4d02-9f09-cce623644d37")
 		(at 123.19 60.96 90)
@@ -8844,15 +8843,14 @@
 			)
 		)
 		(property "Value" "100uH"
-			(at 0 3.65 90)
+			(at 0 0 90)
 			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
+			(layer "Dwgs.User")
 			(uuid "72d93295-d1f2-4da0-b841-07bfd08890d7")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.8 0.8)
+					(thickness 0.125)
 				)
 			)
 		)
@@ -8976,6 +8974,7 @@
 			(uuid "ec6d0595-0d9e-4189-9df3-3a8adff92c10")
 		)
 		(fp_text user "${VALUE}"
+			(locked yes)
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "Dwgs.User")
@@ -16551,6 +16550,7 @@
 		)
 	)
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6e7cc500-a51b-47a8-859c-4bf2939ffad7")
 		(at 44.45 57.15 -90)
@@ -19436,6 +19436,7 @@
 		)
 	)
 	(footprint "Diode_SMD:D_MiniMELF"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7db7f050-2411-4649-8263-ac5d737441e2")
 		(at 64.77 39.37 -90)
@@ -21057,6 +21058,7 @@
 		)
 	)
 	(footprint "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "83453eed-a349-43a2-9d74-dd086c39b232")
 		(at 59.055 39.37 90)
@@ -21303,6 +21305,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "84cea90c-a978-4368-a46d-a5bf1b00fae5")
 		(at 43.815 53.34 180)
@@ -25378,6 +25381,7 @@
 		)
 	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a0f68107-fb38-474b-be68-f63eb8e0cbd9")
 		(at 44.45 63.5 -90)
@@ -26580,6 +26584,7 @@
 		)
 	)
 	(footprint "MountingHole:MountingHole_2.2mm_M2_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "a33d1aab-7739-4466-855c-cd840d9f0b8d")
 		(at 28.575 28.5)

@@ -4713,24 +4713,24 @@
 		)
 		(uuid "ffcf6849-49b1-4d62-9f56-1e4120e37b68")
 	)
-	(global_label "GND1"
-		(shape input)
-		(at 21.59 107.95 180)
+	(global_label "LPROTECT"
+		(shape output)
+		(at 240.03 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "416024e4-dd81-4a3a-b380-017ba5f9fc1d")
+		(uuid "214c2993-d8a1-44b2-8605-2fffd912f969")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 13.5248 107.95 0)
+			(at 252.268 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4744,7 +4744,7 @@
 			)
 			(justify right)
 		)
-		(uuid "52cdb76f-3248-4f1a-b176-aaa519790f10")
+		(uuid "3d114e0a-8156-4240-8ee4-50894312b028")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 14.1295 92.71 0)
 			(effects
@@ -4752,72 +4752,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "ROUT"
-		(shape output)
-		(at 241.3 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8b6f3454-b343-46f3-aa45-712b4cda93e1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.1838 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "LPROTECT"
-		(shape output)
-		(at 240.03 50.8 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "adb33675-7779-4e3c-96c7-01064a6b1427")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 252.268 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-40V"
-		(shape input)
-		(at 240.03 162.56 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb75223b-6747-4fe8-b99a-7875b8cf1138")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 248.0952 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -4832,7 +4766,7 @@
 			)
 			(justify left)
 		)
-		(uuid "fa08a29a-12ca-4768-bc2c-870117d103fa")
+		(uuid "8b757cfb-d51f-403e-ac48-aa7b48f70694")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 249.3652 16.51 0)
 			(effects
@@ -4844,6 +4778,141 @@
 			)
 		)
 	)
+	(global_label "ROUT"
+		(shape output)
+		(at 241.3 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b5d2b614-8765-488a-8c39-d438b8f4b5cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 249.1838 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND1"
+		(shape input)
+		(at 21.59 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d73570c5-dc99-4cc0-910a-860efb4e1043")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.5248 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "-40V"
+		(shape input)
+		(at 240.03 162.56 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "db9f9a1b-30aa-422d-ac3a-53638b0b16db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.0952 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05046dd3-c6d7-43dc-9baa-dca579b0e40e")
+		(property "Reference" "R302"
+			(at 76.708 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 77.47 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.422 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e60df0a-13bb-427b-8416-423eab88d6dd")
+		)
+		(pin "1"
+			(uuid "6f1dc9ea-1274-4d24-b04e-b948930092e2")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R302")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 182.88 146.05 0)
@@ -4852,8 +4921,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "02dff443-021a-40c4-b59f-804dea364670")
-		(property "Reference" "R236"
+		(uuid "0698b9a8-bd82-4be1-a1ce-1aad05d2b482")
+		(property "Reference" "R336"
 			(at 183.388 142.24 0)
 			(effects
 				(font
@@ -4906,323 +4975,25 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R236")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R336")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:L")
-		(at 182.88 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "02eebdb7-8340-41f6-8507-648745fe31c6")
-		(property "Reference" "L201"
-			(at 183.388 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,5UH"
-			(at 184.404 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 182.88 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee2d31b6-5be5-4860-9217-cd64bc0f0c35")
-		)
-		(pin "2"
-			(uuid "0f8ac47b-17ee-4814-b3d6-3bcd92f6db99")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "L201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 59.69 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "04202585-7693-41d6-a6e1-4672486217de")
-		(property "Reference" "C201"
-			(at 59.944 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100UF"
-			(at 60.452 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.6552 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 59.69 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d9779d5-05d2-431a-ba4c-cd90002a0811")
-		)
-		(pin "2"
-			(uuid "d9a23313-324a-4042-a58e-9f8fa77cfef5")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 69.85 156.21 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "058ada5e-790c-421b-be68-e6b44c847c43")
-		(property "Reference" "R238"
-			(at 70.612 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "270"
-			(at 71.12 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.628 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e623a96d-87e5-4963-868f-99b93e733053")
-		)
-		(pin "1"
-			(uuid "c0932484-507d-40fe-bf43-f2af0cf815a8")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R238")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PNP_EBC")
-		(at 127 116.84 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0875d0fa-b3cd-4240-b37c-7b233bdd07a9")
-		(property "Reference" "Q208"
-			(at 130.048 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC557B"
-			(at 133.35 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 121.92 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PNP transistor, emitter/base/collector"
-			(at 127 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "68a20c14-630c-41f2-8907-3d420ac096ea")
-		)
-		(pin "2"
-			(uuid "3061d801-761a-4b08-9ebb-a9b54d2d6a1b")
-		)
-		(pin "3"
-			(uuid "892203b4-0d49-40e8-b631-caa739b83323")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_ECB")
-		(at 148.59 52.07 0)
+		(lib_id "power:GND")
+		(at 182.88 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0f0553c2-f596-46b1-bdbf-32a2775e1677")
-		(property "Reference" "Q202"
-			(at 153.67 50.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF857"
-			(at 153.67 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 153.67 49.53 0)
+		(uuid "06a02f7e-ab34-45fd-9567-788b35879e12")
+		(property "Reference" "#PWR0308"
+			(at 182.88 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5230,8 +5001,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 148.59 52.07 0)
+		(property "Value" "GND"
+			(at 182.88 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5239,8 +5018,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 148.59 52.07 0)
+		(property "Datasheet" ""
+			(at 182.88 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5248,96 +5027,22 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "57250281-ae72-4049-ac3a-0924d9d64a3e")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 182.88 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "f7487f0b-5536-49f2-b3d2-696f9108ca6f")
-		)
-		(pin "2"
-			(uuid "fb00f769-30ac-4393-9728-8de40ab17654")
+			(uuid "75c53616-19c8-42c5-bf09-375e05bc9702")
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "Q_NPN_EBC_1")
-		(lib_id "Device:Q_NPN_EBC")
-		(at 214.63 69.85 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16933d0b-20dd-4e20-a7e4-5788a8e79347")
-		(property "Reference" "Q205"
-			(at 218.948 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF422"
-			(at 218.186 74.676 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 219.71 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 214.63 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/base/collector"
-			(at 214.63 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c836dbcf-2206-456f-8b30-6c81839eb8d3")
-		)
-		(pin "3"
-			(uuid "e147393b-ab34-434c-a832-6c698c28795a")
-		)
-		(pin "2"
-			(uuid "b64b469b-8c0c-483a-9d41-538f7bb85ac8")
-		)
-		(instances
-			(project ""
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q205")
-					(unit 1)
-				)
 				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
-					(reference "Q305")
+					(reference "#PWR0308")
 					(unit 1)
 				)
 			)
@@ -5352,8 +5057,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "173bb7b4-3992-4fef-ad0f-b1dbbe48101f")
-		(property "Reference" "Q212"
+		(uuid "06be3689-46a6-4d76-ae4d-c791c2fb9468")
+		(property "Reference" "Q312"
 			(at 134.112 140.716 0)
 			(effects
 				(font
@@ -5409,40 +5114,42 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q212")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q312")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 16.51 90)
+		(lib_id "Device:C_Polarized")
+		(at 199.39 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1972d92c-ab26-46db-8322-d20ed0b95129")
-		(property "Reference" "R201"
-			(at 137.16 13.97 90)
+		(uuid "09e55b95-55f5-4ed3-ba8e-e6f7ea3aa72d")
+		(property "Reference" "C307"
+			(at 200.152 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "150"
-			(at 137.414 19.304 90)
+		(property "Value" "10UF"
+			(at 200.152 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 18.288 90)
+			(at 200.3552 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5451,7 +5158,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 137.16 16.51 0)
+			(at 199.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 199.39 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8ffd7811-d05a-4609-815a-26e26e2bf58d")
+		)
+		(pin "2"
+			(uuid "15c6caeb-451c-47db-8ae2-d5924671ced5")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0d1a08bb-4a19-4017-82cf-e0bf9ba53833")
+		(property "Reference" "R327"
+			(at 137.922 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 137.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.842 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5460,7 +5234,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 137.16 16.51 0)
+			(at 134.62 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,15 +5243,82 @@
 			)
 		)
 		(pin "2"
-			(uuid "56ec0790-5095-407d-93f7-f0be14b132b3")
+			(uuid "57678a03-ebe7-4d89-b83c-1fc6c40ff842")
 		)
 		(pin "1"
-			(uuid "5f31ab52-01e7-4de3-a91c-b23a69809efb")
+			(uuid "4ca91a2d-7491-4be3-bf0f-8183a5c68edd")
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R201")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R327")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 45.72 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0fd19697-d68e-477b-be41-45d96c7a7114")
+		(property "Reference" "R323"
+			(at 48.26 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 48.26 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.942 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 45.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "451990e0-fafe-4744-a357-c949171f0c0b")
+		)
+		(pin "1"
+			(uuid "45b608d0-747e-4793-8775-a537c249f902")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R323")
 					(unit 1)
 				)
 			)
@@ -5491,8 +5332,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1c679033-8a58-47b5-b03c-6aecccfb772c")
-		(property "Reference" "D207"
+		(uuid "12b88cb8-761e-4522-8ef3-1550f1c58706")
+		(property "Reference" "D307"
 			(at 115.57 143.51 90)
 			(effects
 				(font
@@ -5545,8 +5386,217 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "D207")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "D307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 69.85 118.11 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1453cdba-01a1-4fc0-a935-140208906bab")
+		(property "Reference" "R330"
+			(at 70.612 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1K"
+			(at 71.882 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 71.628 118.11 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 69.85 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9dbda264-6c9d-43f0-8b42-8d273b33b225")
+		)
+		(pin "1"
+			(uuid "e558f948-d14a-484d-ba34-bafc9728cf69")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R330")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 60.96 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "17d94e3c-7c83-4ced-b2eb-539051073bd4")
+		(property "Reference" "R321"
+			(at 60.96 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 60.96 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 60.96 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "cd9786a4-9f9a-4dc8-90bb-d6fb9247da00")
+		)
+		(pin "1"
+			(uuid "482696e0-29d4-429f-933f-a77ef1af8ca0")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R321")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_EBC")
+		(at 127 69.85 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19ad14db-ef4b-4b3b-a96c-7df905aced31")
+		(property "Reference" "Q304"
+			(at 130.048 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547B"
+			(at 132.588 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 121.92 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 127 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3f4e55ec-6918-4629-a2b1-b560c1b34490")
+		)
+		(pin "3"
+			(uuid "1fcae09c-217d-4712-b4a1-000ece1fa348")
+		)
+		(pin "1"
+			(uuid "0bbe2009-4f46-4444-8ab8-506db59fd396")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q304")
 					(unit 1)
 				)
 			)
@@ -5561,8 +5611,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "1dead2fc-e106-489e-8564-c3271b90322e")
-		(property "Reference" "Q210"
+		(uuid "1a3b9267-e429-42a5-a8fd-af8e7d3b606f")
+		(property "Reference" "Q310"
 			(at 75.438 132.08 0)
 			(effects
 				(font
@@ -5618,1871 +5668,8 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_Darlington_EBC")
-		(at 168.91 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e5bb290-41be-484e-b5e6-66fe8eeb368c")
-		(property "Reference" "Q203"
-			(at 173.99 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BDV65B"
-			(at 173.99 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
-			(at 173.99 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN Darlington transistor, emitter/base/collector"
-			(at 168.91 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fa2506f3-95f8-49cb-ac7f-48dfa0b627da")
-		)
-		(pin "3"
-			(uuid "cc21c8db-8b85-4589-9f69-5a102ef5357b")
-		)
-		(pin "1"
-			(uuid "a57f8539-f6e9-4878-888e-3e7dc51890d7")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 199.39 87.63 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1eec246b-e324-4d1e-8430-b29d8b56cd6a")
-		(property "Reference" "C207"
-			(at 200.152 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10UF"
-			(at 200.152 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 200.3552 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 199.39 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8ffd7811-d05a-4609-815a-26e26e2bf58d")
-		)
-		(pin "2"
-			(uuid "15c6caeb-451c-47db-8ae2-d5924671ced5")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2270120e-5baf-4eb0-a47a-49cd0307dd66")
-		(property "Reference" "R218"
-			(at 171.958 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.22"
-			(at 174.498 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.672 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ec657eab-d661-44a1-866c-87930c15659b")
-		)
-		(pin "1"
-			(uuid "fa7a9a0d-1165-414e-81d8-deaf16796e92")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R218")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_EBC")
-		(at 88.9 92.71 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "23e1a0a0-7017-46d4-a51f-a9c09030cefa")
-		(property "Reference" "Q207"
-			(at 91.694 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547B"
-			(at 94.742 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 83.82 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/base/collector"
-			(at 88.9 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "20ad59e9-6c55-45b6-b852-2764c6f4958e")
-		)
-		(pin "3"
-			(uuid "edc8a7ee-ea39-466d-aef1-2764efddeafc")
-		)
-		(pin "1"
-			(uuid "69e53ebe-a8a3-469f-b6c2-c4b2887a18b9")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 53.34 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2dfa4f31-ad0a-4753-abc9-1e8013932f14")
-		(property "Reference" "#PWR0206"
-			(at 53.34 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 53.34 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 53.34 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f150ea3-dd6c-427a-87ab-63c176c6ab07")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 182.88 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f7e9983-85f9-4a4c-b27c-d6de1bc40178")
-		(property "Reference" "#PWR0208"
-			(at 182.88 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 182.88 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 182.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "75c53616-19c8-42c5-bf09-375e05bc9702")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 101.6 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ac4669f-904b-4717-911a-b8260128c9b0")
-		(property "Reference" "#PWR0204"
-			(at 101.6 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 101.6 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 101.6 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bea373c3-7fa5-4257-bf3b-fc6e1f3d6d41")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 68.58 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d4673fb-a9fb-4083-9404-b03963349f54")
-		(property "Reference" "C202"
-			(at 68.834 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33nF"
-			(at 69.088 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 69.5452 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 68.58 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 68.58 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d12a60c1-e941-4ae4-b25d-9c6835a1529d")
-		)
-		(pin "1"
-			(uuid "f24469f5-b1b0-495d-bfbe-1cd60908a6b7")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 171.45 105.41 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e25f151-ffde-475d-b798-5d1662a7b22c")
-		(property "Reference" "R226"
-			(at 172.212 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.22"
-			(at 174.498 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 169.672 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "83194e7e-868a-4ad8-9855-ed6fc4dd2059")
-		)
-		(pin "1"
-			(uuid "56cc0cca-78a9-43be-91ae-3c6d89f73c52")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R226")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_EBC")
-		(at 82.55 149.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "412085ab-249d-443c-a427-89e08057e279")
-		(property "Reference" "Q213"
-			(at 85.598 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547B"
-			(at 85.344 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 87.63 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/base/collector"
-			(at 82.55 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "59a19672-e172-40d4-820f-56727c3fc481")
-		)
-		(pin "3"
-			(uuid "8ad0669a-2608-4d7c-b432-8bedea40978a")
-		)
-		(pin "1"
-			(uuid "90628dc6-923d-4331-a29d-b97145edcf30")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "43ddb069-a3f6-4fd2-a343-88906e2382b3")
-		(property "Reference" "R227"
-			(at 137.922 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 137.16 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 132.842 110.49 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "57678a03-ebe7-4d89-b83c-1fc6c40ff842")
-		)
-		(pin "1"
-			(uuid "4ca91a2d-7491-4be3-bf0f-8183a5c68edd")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R227")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "468f787d-b9ed-42fb-a251-1afb3e97b80b")
-		(property "Reference" "R237"
-			(at 153.67 151.1299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180"
-			(at 153.67 153.6699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.352 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "515390b5-a931-4da1-9fa3-6eeb731a1c67")
-		)
-		(pin "1"
-			(uuid "5251a19c-755b-47bf-bc62-44010e604905")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R237")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 190.5 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "481b6d0f-627f-4267-b372-91cf242e842e")
-		(property "Reference" "R205"
-			(at 191.008 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220K"
-			(at 191.008 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.722 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "edbb1254-1e41-44e9-9b21-ae9c7e1bb89a")
-		)
-		(pin "1"
-			(uuid "b1b5c7dd-a71d-4bed-9d97-c5941fc48ca2")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 106.68 64.77 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "489138b1-b323-4074-8d2c-eeb87f1128c5")
-		(property "Reference" "#PWR0202"
-			(at 106.68 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 106.68 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 106.68 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a66e958b-1ba5-493a-93ee-e0e028d4b7a6")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 144.78 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "49749401-ab10-413d-a258-e4189f9c0060")
-		(property "Reference" "R234"
-			(at 106.934 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "3,3K"
-			(at 107.188 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.458 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8bfb7c41-df97-49d1-a891-b9da9f371b7b")
-		)
-		(pin "1"
-			(uuid "9e394430-3953-4710-88ab-2dfcd29c1c11")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R234")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 140.97 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b3cf546-f5b6-4392-b29f-56b54cc00896")
-		(property "Reference" "R231"
-			(at 140.97 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 140.97 131.064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 130.048 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f1e3d598-d22f-4f3e-96d6-cb4684f506b7")
-		)
-		(pin "1"
-			(uuid "e1cd68c5-41b6-488d-a7ff-67f40975b5c0")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R231")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 134.62 77.47 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4b5b52f6-3ae0-41ba-b560-3e1c3fdf749d")
-		(property "Reference" "R214"
-			(at 138.43 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 137.668 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 136.398 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "47b798e3-8b91-4206-a73b-a8076621b07f")
-		)
-		(pin "1"
-			(uuid "36ab2943-9d0b-41c6-a321-c64f49a4d91a")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 106.68 58.42 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4eaad7a9-530d-4a14-928c-73758500b3b9")
-		(property "Reference" "R210"
-			(at 109.728 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2,2K"
-			(at 109.728 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 108.458 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 106.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 106.68 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6c930270-8c11-4be6-8132-be48bb4b4061")
-		)
-		(pin "1"
-			(uuid "e7b95997-ac1e-4713-bcfc-6dea64b18cc7")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 60.96 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50ea61ac-7423-415f-b312-0c49f90b6494")
-		(property "Reference" "R221"
-			(at 60.96 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 60.96 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 60.96 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cd9786a4-9f9a-4dc8-90bb-d6fb9247da00")
-		)
-		(pin "1"
-			(uuid "482696e0-29d4-429f-933f-a77ef1af8ca0")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 59.69 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "518d9fdf-d1b9-43d4-a4d5-0614943d8342")
-		(property "Reference" "R211"
-			(at 145.034 56.896 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "680"
-			(at 145.034 62.992 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 61.468 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "673b8a0e-ad57-48eb-a977-7b1c668d0dd7")
-		)
-		(pin "1"
-			(uuid "055c4d8a-112d-422c-a744-f514a68d58f8")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R211")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 93.98 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "519b3f56-3b78-45ca-9da2-48b1c5af597f")
-		(property "Reference" "C213"
-			(at 94.488 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "4.7nF"
-			(at 94.488 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 94.9452 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 93.98 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 93.98 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "203d9889-ca0c-4e40-8e08-f63aceecce01")
-		)
-		(pin "1"
-			(uuid "2b8f516a-c3f7-4ec6-8bb3-74f4806dccd6")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 124.46 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "52ca0ff2-1ff3-44ef-9fdc-a850a42ef580")
-		(property "Reference" "D202"
-			(at 127 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 127 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 124.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 124.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 124.46 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a7c2f2cc-b245-41ba-95b3-1f062c0944b8")
-		)
-		(pin "1"
-			(uuid "881e7595-5fa6-444b-a55a-90352c6d87f7")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "D202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 208.28 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "583bfab0-518e-4786-9502-fabf1e81c4b0")
-		(property "Reference" "C204"
-			(at 209.042 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0,47UF"
-			(at 208.788 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 209.2452 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 208.28 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "616b4b37-8f9b-4101-8631-77ab9fa87f55")
-		)
-		(pin "2"
-			(uuid "b008c3b2-e43e-479b-8a7d-d816aeec7998")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 39.37 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d1bc412-137c-41ab-80f5-7de17c6c9edf")
-		(property "Reference" "C208"
-			(at 38.481 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2,2UF"
-			(at 38.481 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 91.7448 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 39.37 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ea07bc0-e584-4e4b-ad1f-62f2390aa659")
-		)
-		(pin "2"
-			(uuid "9c796168-e9ed-4117-88ee-9fcd81cc0682")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 127 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "666a952c-66fa-46e1-9be5-a0ab2aafbe7c")
-		(property "Reference" "R239"
-			(at 130.81 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "68"
-			(at 129.794 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.222 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 127 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1ccaf9be-cca4-4954-9419-ecf06ff090f5")
-		)
-		(pin "1"
-			(uuid "fde14b74-7645-420d-8465-91b9274bb9c6")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R239")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 124.46 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "696f5965-718e-473d-b177-b380ae19e640")
-		(property "Reference" "R204"
-			(at 124.968 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "68"
-			(at 125.73 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 122.682 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 124.46 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 124.46 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bfdd4dc3-07cb-4e82-b8d5-ba3d61c4cfe3")
-		)
-		(pin "1"
-			(uuid "89c1ac39-10b4-47a4-9451-fdc6c9608f7f")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 116.84 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69d665ea-ca51-452d-bfeb-6ee5e4fd6beb")
-		(property "Reference" "R229"
-			(at 144.78 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270"
-			(at 144.78 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 118.618 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6ac567a-ee47-4c56-bb3a-eee0fddefd4c")
-		)
-		(pin "1"
-			(uuid "de6445a6-e1b0-4ca4-a3eb-e4fc6f7d9425")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R229")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q310")
 					(unit 1)
 				)
 			)
@@ -7497,8 +5684,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6a3d3fbc-607a-4e51-8781-697c4156ffff")
-		(property "Reference" "D203"
+		(uuid "20cdf793-1c16-48a7-9bf3-24e3ebafffe6")
+		(property "Reference" "D303"
 			(at 127 57.1499 90)
 			(effects
 				(font
@@ -7569,510 +5756,8 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "D203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 86.36 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e982242-cde3-4aa6-904a-827aa6649fbc")
-		(property "Reference" "R203"
-			(at 86.868 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 88.138 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 84.582 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 86.36 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 86.36 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc1fc7dc-f029-4ac3-a892-2f4104a7ec87")
-		)
-		(pin "1"
-			(uuid "8bf29863-71c9-4855-aa74-988d242b92cb")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND1")
-		(at 45.72 120.65 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "713a59ee-f50c-4cec-a797-9de868c43584")
-		(property "Reference" "#PWR0205"
-			(at 45.72 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND1"
-			(at 45.72 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
-			(at 45.72 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b45e1e93-48d9-4a1b-bd8d-2e2c8cbdb0e5")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 217.17 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a213ffb-0213-45bc-bca1-0f4227897feb")
-		(property "Reference" "R209"
-			(at 217.932 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10K"
-			(at 218.44 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.392 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 217.17 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "24da5d0e-2502-4132-b633-7bbf20b0305e")
-		)
-		(pin "1"
-			(uuid "86eb5a82-63ed-41a3-ab0a-496014139ed3")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 69.85 118.11 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7b6ba598-c690-4920-9b49-01d32da2c0cc")
-		(property "Reference" "R230"
-			(at 70.612 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "1K"
-			(at 71.882 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.628 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 69.85 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 69.85 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9dbda264-6c9d-43f0-8b42-8d273b33b225")
-		)
-		(pin "1"
-			(uuid "e558f948-d14a-484d-ba34-bafc9728cf69")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R230")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_EBC")
-		(at 73.66 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7d823b25-38a1-4793-b709-63a5375c6f9e")
-		(property "Reference" "Q206"
-			(at 69.596 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547B"
-			(at 66.04 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 78.74 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 73.66 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/base/collector"
-			(at 73.66 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "322029b0-3b4a-480c-a760-64d5291cd3ea")
-		)
-		(pin "3"
-			(uuid "273dc65f-1c2a-403f-853a-73b4380475f2")
-		)
-		(pin "1"
-			(uuid "cdf22c0c-3e1d-47e1-9474-fd47aa18914f")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 130.81 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "84d8a719-ca51-42ab-b61a-9c101fa0afec")
-		(property "Reference" "D206"
-			(at 130.81 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1N4148"
-			(at 130.81 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 130.81 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "17cf735e-230e-48eb-a1f9-2e44248f9ba4")
-		)
-		(pin "1"
-			(uuid "9c95ab9a-6025-484a-9f55-b6d99eeac2f0")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "D206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_ECB")
-		(at 148.59 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8b9c7a83-a552-4954-85aa-367018c19c39")
-		(property "Reference" "Q211"
-			(at 151.638 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF857"
-			(at 151.892 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 153.67 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/collector/base"
-			(at 148.59 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f6a8e0a5-8fb5-43c3-8ad8-34a1a99d3696")
-		)
-		(pin "1"
-			(uuid "ae46c93a-0338-4d3d-86ac-07017b4a5db7")
-		)
-		(pin "2"
-			(uuid "399ceb6e-bc35-4e53-8893-8fcb42b749e6")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q211")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "D303")
 					(unit 1)
 				)
 			)
@@ -8087,8 +5772,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "8f6b0534-3476-4c5e-a35d-c48478106394")
-		(property "Reference" "#PWR0203"
+		(uuid "24079f20-5386-4947-a223-23831e76ae29")
+		(property "Reference" "#PWR0303"
 			(at 143.51 102.87 0)
 			(effects
 				(font
@@ -8137,24 +5822,24 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0203")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 134.62 87.63 90)
+		(lib_id "Device:R")
+		(at 106.68 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "943a2c3e-8348-400c-a76a-a9702a5516d8")
-		(property "Reference" "D204"
-			(at 135.89 84.836 90)
+		(uuid "288892d5-84ec-4686-b7d1-98932f2f45be")
+		(property "Reference" "R334"
+			(at 106.934 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8162,218 +5847,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 138.684 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0479fe52-9861-4334-aca9-b0cb5ab064b8")
-		)
-		(pin "1"
-			(uuid "6c04edb4-4c27-49de-b53b-43ea2d1fb3c0")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "D204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 59.69 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "96023938-ab58-47eb-a2f6-7b426bfb26b6")
-		(property "Reference" "#PWR0201"
-			(at 59.69 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 59.69 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 59.69 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b9f8c7e5-4827-4c33-a6fe-f7b2bd3ed13c")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 120.65 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "973482a5-c9ee-4090-afff-1c89c0a76403")
-		(property "Reference" "R233"
-			(at 120.65 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15K"
-			(at 120.65 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.65 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 120.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 120.65 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6acdfe5b-775e-41c9-886a-cf2b5a8067fb")
-		)
-		(pin "1"
-			(uuid "fefde00f-fb93-48cc-9e5f-b53ada455213")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R233")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 134.62 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ac3e5f5-d5b9-4846-a728-dbec0bed0583")
-		(property "Reference" "D205"
-			(at 140.97 96.52 90)
+		(property "Value" "3,3K"
+			(at 107.188 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,16 +5856,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1N4148"
-			(at 138.43 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
 		(property "Footprint" ""
-			(at 134.62 100.33 0)
+			(at 108.458 144.78 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8399,94 +5866,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 134.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 134.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 134.62 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a929709c-60b2-477d-b52c-21e37fd13126")
-		)
-		(pin "1"
-			(uuid "596c0e7e-3858-4dc5-9d57-c61749eb2985")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "D205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9b1815c7-a8f2-4b85-a050-54f9a86e6d60")
-		(property "Reference" "R202"
-			(at 76.708 19.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560"
-			(at 77.47 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.422 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 22.86 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8495,7 +5875,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 76.2 22.86 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8504,976 +5884,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1e60df0a-13bb-427b-8416-423eab88d6dd")
+			(uuid "8bfb7c41-df97-49d1-a891-b9da9f371b7b")
 		)
 		(pin "1"
-			(uuid "6f1dc9ea-1274-4d24-b04e-b948930092e2")
+			(uuid "9e394430-3953-4710-88ab-2dfcd29c1c11")
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R202")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 177.8 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a0fb2b7c-7c37-4a1e-9da9-d0eefae21207")
-		(property "Reference" "R213"
-			(at 178.054 67.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "33K"
-			(at 177.8 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 177.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 177.8 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "231a9479-5c94-44ec-bb7b-14372a6ab594")
-		)
-		(pin "1"
-			(uuid "9f2f1132-abce-4548-9bbd-9805868fe8b7")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R213")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 101.6 99.06 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2b945f6-3ff4-4808-8486-bfe4d69fc8c4")
-		(property "Reference" "R224"
-			(at 104.902 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "390"
-			(at 104.14 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 103.378 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 101.6 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f9df6a41-2c67-4987-98e9-32fefeef4902")
-		)
-		(pin "1"
-			(uuid "26e3a98f-ec53-43d7-9a89-40d0a85dd4bd")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R224")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 100.33 137.16 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a2f5a0e9-98d9-4338-8dad-c8179736b6da")
-		(property "Reference" "R232"
-			(at 100.33 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "15K"
-			(at 100.33 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 100.33 135.382 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 100.33 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 100.33 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d6666f50-cdac-4c99-a9a7-6bb48f076a46")
-		)
-		(pin "1"
-			(uuid "8b2ed7c0-19a0-4d26-85ab-3f694c4e8de8")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R232")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 190.5 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9f8278c-98a8-45f5-94ca-4de571bb428c")
-		(property "Reference" "R215"
-			(at 191.008 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470"
-			(at 191.77 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 188.722 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "787bfd70-e9a3-4a2b-904a-51feae7c9e37")
-		)
-		(pin "1"
-			(uuid "a78782f0-982d-4c27-af57-e17d86f4b34e")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R215")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 208.28 25.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab23e83b-d6a9-4dd1-a7f3-955448f44171")
-		(property "Reference" "R206"
-			(at 209.042 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1K"
-			(at 209.042 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 206.502 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 208.28 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "369640c6-c4b4-44e3-9b89-df2b0dd6d70c")
-		)
-		(pin "1"
-			(uuid "2d14c683-fcba-45b9-9fea-58869a3f98ac")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NPN_EBC")
-		(at 127 69.85 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ab7f323d-22f0-4fc1-b38d-29919742a87a")
-		(property "Reference" "Q204"
-			(at 130.048 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547B"
-			(at 132.588 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 121.92 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "NPN transistor, emitter/base/collector"
-			(at 127 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3f4e55ec-6918-4629-a2b1-b560c1b34490")
-		)
-		(pin "3"
-			(uuid "1fcae09c-217d-4712-b4a1-000ece1fa348")
-		)
-		(pin "1"
-			(uuid "0bbe2009-4f46-4444-8ab8-506db59fd396")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 29.21 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b09967af-33f5-4745-bcde-fb3bdfbfbe46")
-		(property "Reference" "R220"
-			(at 29.21 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 29.21 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 29.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 29.21 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f8f17c0f-e0a6-455c-a883-d594adfd37ea")
-		)
-		(pin "1"
-			(uuid "b7b05bd1-7f7e-41d9-96bc-3c0114d4c17c")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R220")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_PNP_BCE")
-		(at 121.92 34.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b67e789d-8bea-4127-914e-a0c4faba7bb1")
-		(property "Reference" "Q201"
-			(at 127 33.0199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BF423"
-			(at 127 35.5599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
-			(at 127 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "PNP transistor, base/collector/emitter"
-			(at 121.92 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "8346e8b5-4b45-41c4-9b47-6d9f141b9c0b")
-		)
-		(pin "1"
-			(uuid "8769164b-a600-4d81-bd60-7ad66e6ede0f")
-		)
-		(pin "2"
-			(uuid "486ab12f-1a8b-418e-9879-a742a4ea78bc")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 182.88 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b70c70bb-67b4-4ae3-9dbc-e1a627c6e2bc")
-		(property "Reference" "C212"
-			(at 183.388 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220n"
-			(at 183.388 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.8452 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7bb8d57e-f8e7-41a1-8b2d-ee9b7eb17e02")
-		)
-		(pin "1"
-			(uuid "e7b69d5e-66d7-40e6-9fa1-c483d02fc9cb")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C212")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized")
-		(at 101.6 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b7ab816a-99fe-4b21-b6fd-310be51c7583")
-		(property "Reference" "C210"
-			(at 105.41 107.0609 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100UF"
-			(at 105.41 109.6009 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.5652 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 101.6 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor"
-			(at 101.6 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5da2b64b-f5dc-45a8-af7e-cfd91f8cee93")
-		)
-		(pin "2"
-			(uuid "89934189-6100-465f-a71c-07e2d5153bfb")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C210")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 83.82 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b9660940-5488-44f7-a9c3-620a80324997")
-		(property "Reference" "C206"
-			(at 118.11 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22pF"
-			(at 118.11 87.376 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 82.8548 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6e33452f-f918-4315-952a-e018cd563d92")
-		)
-		(pin "1"
-			(uuid "18c42833-d59d-4130-acd2-6ac7a8f6cd78")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 45.72 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bd96eaec-975f-4b0c-b1d4-fa3182ef2632")
-		(property "Reference" "R223"
-			(at 48.26 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 48.26 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.942 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 45.72 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "451990e0-fafe-4744-a357-c949171f0c0b")
-		)
-		(pin "1"
-			(uuid "45b608d0-747e-4793-8775-a537c249f902")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 151.13 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c403e9ad-25bc-4bfc-a1c2-49b6897f2fd1")
-		(property "Reference" "R217"
-			(at 151.638 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "390"
-			(at 151.892 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.352 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 151.13 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9cf29461-b0ef-4b77-99aa-d487c9ce40af")
-		)
-		(pin "1"
-			(uuid "0fb55ee8-e2e1-449d-a786-e18a5d78df8a")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 144.78 69.85 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4d88ef5-3063-4b62-9f92-49d6e103d621")
-		(property "Reference" "R212"
-			(at 145.034 67.056 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "270"
-			(at 144.78 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 71.628 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 144.78 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a25a6136-e6d8-490b-8f32-91ff4e39a168")
-		)
-		(pin "1"
-			(uuid "d3ed6472-42de-431b-b6de-c837b64e9558")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R212")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R334")
 					(unit 1)
 				)
 			)
@@ -9487,8 +5906,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "cb59780a-5005-440a-a92b-02f4d248c585")
-		(property "Reference" "D201"
+		(uuid "2abef0a9-c134-4aa1-94e2-a3daf78ecd2d")
+		(property "Reference" "D301"
 			(at 208.788 35.56 90)
 			(effects
 				(font
@@ -9559,8 +5978,1463 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "D201")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "D301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 137.16 16.51 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2b5e904a-d2cc-47de-a3b1-a6ed64308ebc")
+		(property "Reference" "R301"
+			(at 137.16 13.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150"
+			(at 137.414 19.304 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 137.16 18.288 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 137.16 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 137.16 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "56ec0790-5095-407d-93f7-f0be14b132b3")
+		)
+		(pin "1"
+			(uuid "5f31ab52-01e7-4de3-a91c-b23a69809efb")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 77.47 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2c321f58-3c5a-4534-8ca4-ac16301d1431")
+		(property "Reference" "R314"
+			(at 138.43 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 137.668 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.398 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "47b798e3-8b91-4206-a73b-a8076621b07f")
+		)
+		(pin "1"
+			(uuid "36ab2943-9d0b-41c6-a321-c64f49a4d91a")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R314")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "352ab8c8-fca7-4a03-bcfb-916975c108a0")
+		(property "Reference" "C312"
+			(at 183.388 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220n"
+			(at 183.388 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.8452 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bb8d57e-f8e7-41a1-8b2d-ee9b7eb17e02")
+		)
+		(pin "1"
+			(uuid "e7b69d5e-66d7-40e6-9fa1-c483d02fc9cb")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "39d65f68-0b19-4864-95a6-ebdc4899032b")
+		(property "Reference" "R309"
+			(at 217.932 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 218.44 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.392 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "24da5d0e-2502-4132-b633-7bbf20b0305e")
+		)
+		(pin "1"
+			(uuid "86eb5a82-63ed-41a3-ab0a-496014139ed3")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_EBC")
+		(at 88.9 92.71 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "46d3bd74-eddc-4a3b-ba63-a26369bcb3dd")
+		(property "Reference" "Q307"
+			(at 91.694 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547B"
+			(at 94.742 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 83.82 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 88.9 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20ad59e9-6c55-45b6-b852-2764c6f4958e")
+		)
+		(pin "3"
+			(uuid "edc8a7ee-ea39-466d-aef1-2764efddeafc")
+		)
+		(pin "1"
+			(uuid "69e53ebe-a8a3-469f-b6c2-c4b2887a18b9")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 59.69 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49f46e89-eb2d-43b8-b8b1-ebf6738806da")
+		(property "Reference" "C301"
+			(at 59.944 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100UF"
+			(at 60.452 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.6552 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d9779d5-05d2-431a-ba4c-cd90002a0811")
+		)
+		(pin "2"
+			(uuid "d9a23313-324a-4042-a58e-9f8fa77cfef5")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4a45d148-5853-4e0a-97a6-23d1563a7ff8")
+		(property "Reference" "R326"
+			(at 172.212 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.22"
+			(at 174.498 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.672 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "83194e7e-868a-4ad8-9855-ed6fc4dd2059")
+		)
+		(pin "1"
+			(uuid "56cc0cca-78a9-43be-91ae-3c6d89f73c52")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R326")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_Darlington_EBC")
+		(at 168.91 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a4fe209-8b41-4eac-a258-78fd91304a7c")
+		(property "Reference" "Q303"
+			(at 173.99 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BDV65B"
+			(at 173.99 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-247-3_Vertical"
+			(at 173.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN Darlington transistor, emitter/base/collector"
+			(at 168.91 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fa2506f3-95f8-49cb-ac7f-48dfa0b627da")
+		)
+		(pin "3"
+			(uuid "cc21c8db-8b85-4589-9f69-5a102ef5357b")
+		)
+		(pin "1"
+			(uuid "a57f8539-f6e9-4878-888e-3e7dc51890d7")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 53.34 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b5d9112-50f7-4d62-b334-4c06627409f7")
+		(property "Reference" "R328"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 55.626 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.562 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 53.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "87466dd2-6ec3-46ed-a217-1ad35155479c")
+		)
+		(pin "1"
+			(uuid "91d45ab1-ffe7-4caa-9613-f73ce752d534")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R328")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PNP_EBC")
+		(at 127 116.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4bcebd20-a116-49b9-8a26-2536d6bd3cf9")
+		(property "Reference" "Q308"
+			(at 130.048 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC557B"
+			(at 133.35 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 121.92 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, emitter/base/collector"
+			(at 127 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "68a20c14-630c-41f2-8907-3d420ac096ea")
+		)
+		(pin "2"
+			(uuid "3061d801-761a-4b08-9ebb-a9b54d2d6a1b")
+		)
+		(pin "3"
+			(uuid "892203b4-0d49-40e8-b631-caa739b83323")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 143.51 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e5a9e74-4e74-421f-b21a-63d60bee3f0f")
+		(property "Reference" "R316"
+			(at 144.272 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2,2K"
+			(at 144.526 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 141.732 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "05d1ddb5-7eaa-4698-aad3-dacdb0641746")
+		)
+		(pin "1"
+			(uuid "df67c457-25d1-498b-bb20-865eeda81b6e")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R316")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_EBC")
+		(at 73.66 92.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4e825ef3-2e94-40db-9c38-8bffb89a6c9c")
+		(property "Reference" "Q306"
+			(at 69.596 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547B"
+			(at 66.04 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 78.74 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 73.66 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "322029b0-3b4a-480c-a760-64d5291cd3ea")
+		)
+		(pin "3"
+			(uuid "273dc65f-1c2a-403f-853a-73b4380475f2")
+		)
+		(pin "1"
+			(uuid "cdf22c0c-3e1d-47e1-9474-fd47aa18914f")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4eaf5695-e805-4536-8272-22f49a82b46e")
+		(property "Reference" "R335"
+			(at 144.78 142.24 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 144.78 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 143.002 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "082384ca-508b-4836-955c-8c1f977582d7")
+		)
+		(pin "1"
+			(uuid "d40265eb-d30c-49c0-a7fc-252c6490efad")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R335")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 113.03 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5bb69560-6c69-450f-8f32-4b628ad42846")
+		(property "Reference" "R322"
+			(at 113.03 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 113.03 95.504 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 113.03 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f46add89-f316-4bab-aefa-04877eeedc26")
+		)
+		(pin "1"
+			(uuid "1b85943c-d743-4f4a-8c16-10ea37eb9ab6")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R322")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 101.6 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5dba617f-b63f-4d1a-b594-7515eebabcc0")
+		(property "Reference" "C310"
+			(at 105.41 107.0609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100UF"
+			(at 105.41 109.6009 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.5652 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 101.6 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5da2b64b-f5dc-45a8-af7e-cfd91f8cee93")
+		)
+		(pin "2"
+			(uuid "89934189-6100-465f-a71c-07e2d5153bfb")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C310")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 171.45 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e1aa4ff-4d89-4b4d-960e-f5a86747d352")
+		(property "Reference" "R318"
+			(at 171.958 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.22"
+			(at 174.498 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.672 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 171.45 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ec657eab-d661-44a1-866c-87930c15659b")
+		)
+		(pin "1"
+			(uuid "fa7a9a0d-1165-414e-81d8-deaf16796e92")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R318")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 161.29 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ebe8440-034f-429b-bac1-75fd93bcba9f")
+		(property "Reference" "C305"
+			(at 161.798 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22nF"
+			(at 162.052 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.2552 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 161.29 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "661de007-bebd-4f91-8ded-c525b1c12724")
+		)
+		(pin "1"
+			(uuid "a0e6e8c6-886a-4934-ad15-6712dba44fed")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d30853c-6ed0-48f3-8b58-f4bda5cdf5c9")
+		(property "Reference" "R305"
+			(at 191.008 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220K"
+			(at 191.008 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.722 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "edbb1254-1e41-44e9-9b21-ae9c7e1bb89a")
+		)
+		(pin "1"
+			(uuid "b1b5c7dd-a71d-4bed-9d97-c5941fc48ca2")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 76.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "731111e7-2c30-4d3d-bd2b-edc3b5a25934")
+		(property "Reference" "R307"
+			(at 76.962 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "27"
+			(at 77.978 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.422 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 76.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "98575354-3ea4-493d-bb22-52a71bdd8c88")
+		)
+		(pin "1"
+			(uuid "616c37e3-c79e-43ce-866a-c77779712c4c")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PNP_BCE")
+		(at 121.92 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "735cfcd2-74f3-4e9a-a79e-6bbeb6821c42")
+		(property "Reference" "Q301"
+			(at 127 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF423"
+			(at 127 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 127 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "PNP transistor, base/collector/emitter"
+			(at 121.92 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "8346e8b5-4b45-41c4-9b47-6d9f141b9c0b")
+		)
+		(pin "1"
+			(uuid "8769164b-a600-4d81-bd60-7ad66e6ede0f")
+		)
+		(pin "2"
+			(uuid "486ab12f-1a8b-418e-9879-a742a4ea78bc")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 106.68 58.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74442b92-e005-4a79-85ba-32b544b30b47")
+		(property "Reference" "R310"
+			(at 109.728 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2,2K"
+			(at 109.728 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 108.458 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 106.68 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6c930270-8c11-4be6-8132-be48bb4b4061")
+		)
+		(pin "1"
+			(uuid "e7b95997-ac1e-4713-bcfc-6dea64b18cc7")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R310")
 					(unit 1)
 				)
 			)
@@ -9574,8 +7448,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ce91d6cd-a2b5-408a-8fe0-47617a6928e4")
-		(property "Reference" "R219"
+		(uuid "78a90236-698f-403e-989b-1e75b0e8a20f")
+		(property "Reference" "R319"
 			(at 107.95 81.28 90)
 			(effects
 				(font
@@ -9626,8 +7500,8 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R219")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R319")
 					(unit 1)
 				)
 			)
@@ -9635,33 +7509,33 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 57.15 0)
+		(at 69.85 156.21 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d0c25eca-f3b6-4839-937d-2d52878ae24a")
-		(property "Reference" "R208"
-			(at 191.008 53.34 0)
+		(uuid "7a2822cc-6206-45ed-b711-9099a459c572")
+		(property "Reference" "R338"
+			(at 70.612 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "2,2M"
-			(at 191.262 60.96 0)
+		(property "Value" "270"
+			(at 71.12 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 188.722 57.15 90)
+			(at 71.628 156.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +7544,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 190.5 57.15 0)
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +7553,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 190.5 57.15 0)
+			(at 69.85 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,15 +7562,1071 @@
 			)
 		)
 		(pin "2"
-			(uuid "28a6ec44-ec85-473b-811c-25304bfad45d")
+			(uuid "e623a96d-87e5-4963-868f-99b93e733053")
 		)
 		(pin "1"
-			(uuid "5eafc755-bdf7-4cb4-8524-286b25a09c41")
+			(uuid "c0932484-507d-40fe-bf43-f2af0cf815a8")
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R208")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R338")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7c9db937-941a-42d5-9ba6-48a3944c4801")
+		(property "Reference" "R317"
+			(at 151.638 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390"
+			(at 151.892 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.352 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9cf29461-b0ef-4b77-99aa-d487c9ce40af")
+		)
+		(pin "1"
+			(uuid "0fb55ee8-e2e1-449d-a786-e18a5d78df8a")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R317")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 151.13 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b4ccac-f26b-497d-9ea7-c95d2ce2feed")
+		(property "Reference" "R337"
+			(at 153.67 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180"
+			(at 153.67 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.352 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 151.13 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "515390b5-a931-4da1-9fa3-6eeb731a1c67")
+		)
+		(pin "1"
+			(uuid "5251a19c-755b-47bf-bc62-44010e604905")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R337")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 52.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87184494-21bf-4ea1-8f0c-b4a1420eded5")
+		(property "Reference" "C303"
+			(at 118.11 48.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47pF"
+			(at 118.11 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 51.1048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d8b588bb-da28-420e-8e79-c77b8d63f6ac")
+		)
+		(pin "1"
+			(uuid "2e15132b-8684-451a-a1ac-65977f8f3ca1")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 45.72 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87f4053a-20d8-465c-8868-4325211ba2b6")
+		(property "Reference" "#PWR0306"
+			(at 45.72 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 45.72 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b45e1e93-48d9-4a1b-bd8d-2e2c8cbdb0e5")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "#PWR0306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_ECB")
+		(at 148.59 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8844443d-ad75-476c-be18-284aac31aa63")
+		(property "Reference" "Q302"
+			(at 153.67 50.7999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF857"
+			(at 153.67 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 153.67 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/collector/base"
+			(at 148.59 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "57250281-ae72-4049-ac3a-0924d9d64a3e")
+		)
+		(pin "1"
+			(uuid "f7487f0b-5536-49f2-b3d2-696f9108ca6f")
+		)
+		(pin "2"
+			(uuid "fb00f769-30ac-4393-9728-8de40ab17654")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 124.46 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "885a7340-0709-4771-8f8f-3da7d8ae426d")
+		(property "Reference" "R304"
+			(at 124.968 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "68"
+			(at 125.73 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.682 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 124.46 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bfdd4dc3-07cb-4e82-b8d5-ba3d61c4cfe3")
+		)
+		(pin "1"
+			(uuid "89c1ac39-10b4-47a4-9451-fdc6c9608f7f")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 106.68 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8af94a6a-4365-4bd3-b592-5c5e17b660c0")
+		(property "Reference" "#PWR0302"
+			(at 106.68 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 106.68 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 106.68 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a66e958b-1ba5-493a-93ee-e0e028d4b7a6")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 101.6 99.06 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90430cca-a1bd-40ae-8d9e-ec2671efbf59")
+		(property "Reference" "R324"
+			(at 104.902 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "390"
+			(at 104.14 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 103.378 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 101.6 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f9df6a41-2c67-4987-98e9-32fefeef4902")
+		)
+		(pin "1"
+			(uuid "26e3a98f-ec53-43d7-9a89-40d0a85dd4bd")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R324")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 100.33 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "907a9306-a5c1-42f3-9f27-ff7ce214a16b")
+		(property "Reference" "R332"
+			(at 100.33 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15K"
+			(at 100.33 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d6666f50-cdac-4c99-a9a7-6bb48f076a46")
+		)
+		(pin "1"
+			(uuid "8b2ed7c0-19a0-4d26-85ab-3f694c4e8de8")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R332")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 118.11 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "913cc94a-f101-42ec-8833-8dce35796be1")
+		(property "Reference" "C306"
+			(at 118.11 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "22pF"
+			(at 118.11 87.376 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 82.8548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 118.11 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6e33452f-f918-4315-952a-e018cd563d92")
+		)
+		(pin "1"
+			(uuid "18c42833-d59d-4130-acd2-6ac7a8f6cd78")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 130.81 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "91c0008e-46de-45be-b4e1-9787ebef3704")
+		(property "Reference" "D306"
+			(at 130.81 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 130.81 131.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 130.81 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17cf735e-230e-48eb-a1f9-2e44248f9ba4")
+		)
+		(pin "1"
+			(uuid "9c95ab9a-6025-484a-9f55-b6d99eeac2f0")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "D306")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 208.28 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9472b7f6-c0d7-4544-82c9-99c7d4f5d691")
+		(property "Reference" "C304"
+			(at 209.042 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,47UF"
+			(at 208.788 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 209.2452 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 208.28 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "616b4b37-8f9b-4101-8631-77ab9fa87f55")
+		)
+		(pin "2"
+			(uuid "b008c3b2-e43e-479b-8a7d-d816aeec7998")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 134.62 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "97e52a4e-1593-40aa-9425-cd74cbac0df0")
+		(property "Reference" "D305"
+			(at 140.97 96.52 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 138.43 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a929709c-60b2-477d-b52c-21e37fd13126")
+		)
+		(pin "1"
+			(uuid "596c0e7e-3858-4dc5-9d57-c61749eb2985")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "D305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 86.36 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9c275ea7-11aa-4b3a-aa0a-8e3556015455")
+		(property "Reference" "R303"
+			(at 86.868 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "560"
+			(at 88.138 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.582 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 86.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 86.36 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fc1fc7dc-f029-4ac3-a892-2f4104a7ec87")
+		)
+		(pin "1"
+			(uuid "8bf29863-71c9-4855-aa74-988d242b92cb")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R303")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND1")
+		(at 101.6 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1cfe582-4d0b-4318-b6a8-78c72bcb3adb")
+		(property "Reference" "#PWR0304"
+			(at 101.6 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND1"
+			(at 101.6 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND1\" , ground"
+			(at 101.6 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bea373c3-7fa5-4257-bf3b-fc6e1f3d6d41")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -9710,8 +8640,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d2e3d97d-e598-4bfa-8409-b52d5143db7f")
-		(property "Reference" "C214"
+		(uuid "a77aa7ac-e6a1-48e1-8883-b3fac0823cde")
+		(property "Reference" "C314"
 			(at 137.668 152.4 0)
 			(effects
 				(font
@@ -9764,73 +8694,8 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C214")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.68 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d7b340d0-105d-45c8-9ddc-d41aac81cd06")
-		(property "Reference" "#PWR0207"
-			(at 106.68 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 155.194 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a70d7c2-153f-4ec0-9741-925cab14d845")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "#PWR0207")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C314")
 					(unit 1)
 				)
 			)
@@ -9838,15 +8703,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 53.34 114.3 0)
+		(at 140.97 128.27 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "d7e144fb-e2e5-411e-80cf-7f83c8fb776b")
-		(property "Reference" "R228"
-			(at 55.88 110.49 0)
+		(uuid "a80c90ca-3a07-4cf0-8d31-7749f147ce71")
+		(property "Reference" "R331"
+			(at 140.97 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9854,7 +8719,7 @@
 			)
 		)
 		(property "Value" "100"
-			(at 55.626 118.11 0)
+			(at 140.97 131.064 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9862,7 +8727,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 51.562 114.3 90)
+			(at 140.97 130.048 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9871,7 +8736,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 114.3 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9880,7 +8745,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 53.34 114.3 0)
+			(at 140.97 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9889,15 +8754,1634 @@
 			)
 		)
 		(pin "2"
-			(uuid "87466dd2-6ec3-46ed-a217-1ad35155479c")
+			(uuid "f1e3d598-d22f-4f3e-96d6-cb4684f506b7")
 		)
 		(pin "1"
-			(uuid "91d45ab1-ffe7-4caa-9613-f73ce752d534")
+			(uuid "e1cd68c5-41b6-488d-a7ff-67f40975b5c0")
 		)
 		(instances
 			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R331")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 147.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a9ec4ccc-9e7c-45c0-867f-c80afc39548e")
+		(property "Reference" "C313"
+			(at 94.488 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7nF"
+			(at 94.488 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.9452 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "203d9889-ca0c-4e40-8e08-f63aceecce01")
+		)
+		(pin "1"
+			(uuid "2b8f516a-c3f7-4ec6-8bb3-74f4806dccd6")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_ECB")
+		(at 148.59 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abea91fd-b156-4dfc-bfe9-d4ae0da3d320")
+		(property "Reference" "Q311"
+			(at 151.638 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF857"
+			(at 151.892 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+			(at 153.67 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 148.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/collector/base"
+			(at 148.59 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f6a8e0a5-8fb5-43c3-8ad8-34a1a99d3696")
+		)
+		(pin "1"
+			(uuid "ae46c93a-0338-4d3d-86ac-07017b4a5db7")
+		)
+		(pin "2"
+			(uuid "399ceb6e-bc35-4e53-8893-8fcb42b749e6")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b57107cd-ba00-4eae-96cc-5a63b112f205")
+		(property "Reference" "R308"
+			(at 191.008 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2,2M"
+			(at 191.262 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.722 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "28a6ec44-ec85-473b-811c-25304bfad45d")
+		)
+		(pin "1"
+			(uuid "5eafc755-bdf7-4cb4-8524-286b25a09c41")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 134.62 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6b091ff-1049-4fb8-bbd7-59dfa1ad2249")
+		(property "Reference" "D304"
+			(at 135.89 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 138.684 91.44 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 134.62 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0479fe52-9861-4334-aca9-b0cb5ab064b8")
+		)
+		(pin "1"
+			(uuid "6c04edb4-4c27-49de-b53b-43ea2d1fb3c0")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "D304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 182.88 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd1827f2-5775-4207-9983-d1fc243e0b20")
+		(property "Reference" "L301"
+			(at 183.388 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0,5UH"
+			(at 184.404 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 182.88 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ee2d31b6-5be5-4860-9217-cd64bc0f0c35")
+		)
+		(pin "2"
+			(uuid "0f8ac47b-17ee-4814-b3d6-3bcd92f6db99")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "L301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 29.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf0c486e-9184-4c34-b599-3c75dc6f4840")
+		(property "Reference" "#PWR0301"
+			(at 59.69 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 59.69 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b9f8c7e5-4827-4c33-a6fe-f7b2bd3ed13c")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 137.16 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bfeef8dc-ae4b-4741-95c5-081952fe3ed9")
+		(property "Reference" "R333"
+			(at 120.65 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "15K"
+			(at 120.65 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 135.382 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6acdfe5b-775e-41c9-886a-cf2b5a8067fb")
+		)
+		(pin "1"
+			(uuid "fefde00f-fb93-48cc-9e5f-b53ada455213")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R333")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 69.85 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2c1b48b-485d-4301-9684-65188e0a79df")
+		(property "Reference" "R312"
+			(at 145.034 67.056 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 144.78 72.644 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 71.628 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a25a6136-e6d8-490b-8f32-91ff4e39a168")
+		)
+		(pin "1"
+			(uuid "d3ed6472-42de-431b-b6de-c837b64e9558")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R312")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 127 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c42d5a56-0b03-4bed-8832-3e2629f6ab68")
+		(property "Reference" "R339"
+			(at 130.81 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "68"
+			(at 129.794 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.222 156.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 127 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1ccaf9be-cca4-4954-9419-ecf06ff090f5")
+		)
+		(pin "1"
+			(uuid "fde14b74-7645-420d-8465-91b9274bb9c6")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R339")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c796ecf9-ef3b-41d5-b99c-ad58a2953dc7")
+		(property "Reference" "R311"
+			(at 145.034 56.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "680"
+			(at 145.034 62.992 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 61.468 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "673b8a0e-ad57-48eb-a977-7b1c668d0dd7")
+		)
+		(pin "1"
+			(uuid "055c4d8a-112d-422c-a744-f514a68d58f8")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7f44939-2325-43dd-8d1a-4598f1b35c76")
+		(property "Reference" "R315"
+			(at 191.008 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470"
+			(at 191.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 188.722 80.01 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "787bfd70-e9a3-4a2b-904a-51feae7c9e37")
+		)
+		(pin "1"
+			(uuid "a78782f0-982d-4c27-af57-e17d86f4b34e")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R315")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 53.34 99.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8bb9115-72e0-4a13-9e82-82bd962840ad")
+		(property "Reference" "C309"
+			(at 53.34 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "180pF"
+			(at 54.102 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.3052 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 53.34 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a1418b40-efcc-4c76-bb13-f0cbb04a406d")
+		)
+		(pin "1"
+			(uuid "0ff692ce-13bf-4bff-9a5f-97a6bb075f50")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C309")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Q_NPN_EBC_1")
+		(lib_id "Device:Q_NPN_EBC")
+		(at 214.63 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d036510b-2154-44ae-be80-c23c8eeb3a93")
+		(property "Reference" "Q205"
+			(at 218.948 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BF422"
+			(at 218.186 74.676 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 219.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 214.63 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c836dbcf-2206-456f-8b30-6c81839eb8d3")
+		)
+		(pin "3"
+			(uuid "e147393b-ab34-434c-a832-6c698c28795a")
+		)
+		(pin "2"
+			(uuid "b64b469b-8c0c-483a-9d41-538f7bb85ac8")
+		)
+		(instances
+			(project ""
 				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R228")
+					(reference "Q205")
+					(unit 1)
+				)
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 29.21 92.71 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0b4d0c6-811e-4902-a8e9-449124d7e950")
+		(property "Reference" "R320"
+			(at 29.21 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 29.21 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 90.932 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 29.21 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f8f17c0f-e0a6-455c-a883-d594adfd37ea")
+		)
+		(pin "1"
+			(uuid "b7b05bd1-7f7e-41d9-96bc-3c0114d4c17c")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R320")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1cd92f1-2b76-43ee-a201-26f8f41a5379")
+		(property "Reference" "C302"
+			(at 68.834 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "33nF"
+			(at 69.088 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.5452 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 68.58 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d12a60c1-e941-4ae4-b25d-9c6835a1529d")
+		)
+		(pin "1"
+			(uuid "f24469f5-b1b0-495d-bfbe-1cd60908a6b7")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NPN_EBC")
+		(at 82.55 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da70acc1-f0d5-4d44-b370-147d79397d2a")
+		(property "Reference" "Q313"
+			(at 85.598 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC547B"
+			(at 85.344 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline_Wide"
+			(at 87.63 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "NPN transistor, emitter/base/collector"
+			(at 82.55 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59a19672-e172-40d4-820f-56727c3fc481")
+		)
+		(pin "3"
+			(uuid "8ad0669a-2608-4d7c-b432-8bedea40978a")
+		)
+		(pin "1"
+			(uuid "90628dc6-923d-4331-a29d-b97145edcf30")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q313")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de6e35b7-e7a7-48ba-bbb9-f62cde3038cc")
+		(property "Reference" "#PWR0305"
+			(at 53.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5f150ea3-dd6c-427a-87ab-63c176c6ab07")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "#PWR0305")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Trim")
+		(at 151.13 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e063903f-d78d-447d-8cbe-353bd2d11a80")
+		(property "Reference" "R325"
+			(at 154.94 104.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R_Trim"
+			(at 154.94 106.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 149.352 105.41 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Trimmable resistor (preset resistor)"
+			(at 151.13 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "698e1bfe-4e4a-4f4f-8d3f-66eb5c0369f6")
+		)
+		(pin "1"
+			(uuid "40c035d9-ae6c-406f-bd2b-5ef7f06a881f")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R325")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 182.88 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1c6382c-862d-4bf8-a4d5-d8abf3c64e36")
+		(property "Reference" "C311"
+			(at 183.388 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220nF"
+			(at 183.642 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 183.8452 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 182.88 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fad1f018-3222-4130-978e-0ff571dd4733")
+		)
+		(pin "1"
+			(uuid "6b37895d-5aed-4225-a7a8-d561aa82af4b")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 39.37 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ea54d636-b65f-4ac3-a7fd-0a0a255d355e")
+		(property "Reference" "C308"
+			(at 38.481 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2,2UF"
+			(at 38.481 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 91.7448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 39.37 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ea07bc0-e584-4e4b-ad1f-62f2390aa659")
+		)
+		(pin "2"
+			(uuid "9c796168-e9ed-4117-88ee-9fcd81cc0682")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "C308")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 124.46 45.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eaa589ed-a523-4d88-b437-937703237965")
+		(property "Reference" "D302"
+			(at 127 44.4499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 127 46.9899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7c2f2cc-b245-41ba-95b3-1f062c0944b8")
+		)
+		(pin "1"
+			(uuid "881e7595-5fa6-444b-a55a-90352c6d87f7")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "D302")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 144.78 116.84 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb28282b-2d13-4a14-8587-f8dd1ef447bf")
+		(property "Reference" "R329"
+			(at 144.78 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "270"
+			(at 144.78 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 118.618 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 144.78 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6ac567a-ee47-4c56-bb3a-eee0fddefd4c")
+		)
+		(pin "1"
+			(uuid "de6445a6-e1b0-4ca4-a3eb-e4fc6f7d9425")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R329")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 25.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "efa65f9d-62a9-4cd5-b763-206dc8368cfb")
+		(property "Reference" "R306"
+			(at 209.042 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K"
+			(at 209.042 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 206.502 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "369640c6-c4b4-44e3-9b89-df2b0dd6d70c")
+		)
+		(pin "1"
+			(uuid "2d14c683-fcba-45b9-9fea-58869a3f98ac")
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R306")
 					(unit 1)
 				)
 			)
@@ -9912,8 +10396,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e164fadc-8d47-4ec3-9914-0c3348756f65")
-		(property "Reference" "Q209"
+		(uuid "f2ab0b79-a436-4233-aecb-5435ae199b81")
+		(property "Reference" "Q309"
 			(at 171.958 123.19 0)
 			(effects
 				(font
@@ -9969,8 +10453,8 @@
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "Q209")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "Q309")
 					(unit 1)
 				)
 			)
@@ -9978,23 +10462,23 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 144.78 144.78 270)
+		(at 177.8 69.85 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e5b467c7-eada-4f35-8b58-97fb56c5a1d9")
-		(property "Reference" "R235"
-			(at 144.78 142.24 90)
+		(uuid "f6d4e131-1671-4070-95e5-5b5494a25117")
+		(property "Reference" "R313"
+			(at 178.054 67.056 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "47"
-			(at 144.78 147.32 90)
+		(property "Value" "33K"
+			(at 177.8 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10002,7 +10486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 143.002 90)
+			(at 177.8 71.628 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10011,7 +10495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 144.78 0)
+			(at 177.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10020,7 +10504,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 144.78 144.78 0)
+			(at 177.8 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10029,50 +10513,31 @@
 			)
 		)
 		(pin "2"
-			(uuid "082384ca-508b-4836-955c-8c1f977582d7")
+			(uuid "231a9479-5c94-44ec-bb7b-14372a6ab594")
 		)
 		(pin "1"
-			(uuid "d40265eb-d30c-49c0-a7fc-252c6490efad")
+			(uuid "9f2f1132-abce-4548-9bbd-9805868fe8b7")
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R235")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "R313")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Trim")
-		(at 151.13 105.41 0)
+		(lib_id "power:GND")
+		(at 106.68 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e5f81764-0202-4c83-899b-0eb7a0ade066")
-		(property "Reference" "R225"
-			(at 154.94 104.1399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R_Trim"
-			(at 154.94 106.6799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.352 105.41 90)
+		(uuid "f9ad298e-a588-4d8a-8b8a-b2d4acba46ef")
+		(property "Reference" "#PWR0307"
+			(at 106.68 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10080,58 +10545,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 151.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Trimmable resistor (preset resistor)"
-			(at 151.13 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "698e1bfe-4e4a-4f4f-8d3f-66eb5c0369f6")
-		)
-		(pin "1"
-			(uuid "40c035d9-ae6c-406f-bd2b-5ef7f06a881f")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R225")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 118.11 52.07 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ea6d36a4-6936-4a3d-864f-9a2b7b76b0af")
-		(property "Reference" "C203"
-			(at 118.11 48.26 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47pF"
-			(at 118.11 55.88 90)
+		(property "Value" "GND"
+			(at 106.68 155.194 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10139,7 +10554,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 51.1048 0)
+			(at 106.68 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,8 +10562,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 118.11 52.07 0)
+		(property "Datasheet" ""
+			(at 106.68 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10156,437 +10571,22 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 118.11 52.07 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "d8b588bb-da28-420e-8e79-c77b8d63f6ac")
 		)
 		(pin "1"
-			(uuid "2e15132b-8684-451a-a1ac-65977f8f3ca1")
+			(uuid "2a70d7c2-153f-4ec0-9741-925cab14d845")
 		)
 		(instances
 			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 76.2 35.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ebe50f8a-966d-4656-8153-b6e652557b90")
-		(property "Reference" "R207"
-			(at 76.962 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27"
-			(at 77.978 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.422 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 76.2 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "98575354-3ea4-493d-bb22-52a71bdd8c88")
-		)
-		(pin "1"
-			(uuid "616c37e3-c79e-43ce-866a-c77779712c4c")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R207")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 53.34 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed9a0575-5173-414f-8ba9-2f619f023f72")
-		(property "Reference" "C209"
-			(at 53.34 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "180pF"
-			(at 54.102 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.3052 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 53.34 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a1418b40-efcc-4c76-bb13-f0cbb04a406d")
-		)
-		(pin "1"
-			(uuid "0ff692ce-13bf-4bff-9a5f-97a6bb075f50")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 113.03 92.71 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eea655a5-0fdf-4d17-bf17-53b237a12d7f")
-		(property "Reference" "R222"
-			(at 113.03 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10K"
-			(at 113.03 95.504 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 113.03 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f46add89-f316-4bab-aefa-04877eeedc26")
-		)
-		(pin "1"
-			(uuid "1b85943c-d743-4f4a-8c16-10ea37eb9ab6")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 161.29 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f0f2b137-c2ce-4eba-8241-ffd17ac8205c")
-		(property "Reference" "C205"
-			(at 161.798 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22nF"
-			(at 162.052 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 162.2552 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 161.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 161.29 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "661de007-bebd-4f91-8ded-c525b1c12724")
-		)
-		(pin "1"
-			(uuid "a0e6e8c6-886a-4934-ad15-6712dba44fed")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 143.51 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f324a057-8695-41c9-a228-cabe65fdc525")
-		(property "Reference" "R216"
-			(at 144.272 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2,2K"
-			(at 144.526 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 141.732 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 143.51 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "05d1ddb5-7eaa-4698-aad3-dacdb0641746")
-		)
-		(pin "1"
-			(uuid "df67c457-25d1-498b-bb20-865eeda81b6e")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "R216")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 182.88 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f6f7eaa8-20a9-4432-8d51-e9f9d9c589dc")
-		(property "Reference" "C211"
-			(at 183.388 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220nF"
-			(at 183.642 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 183.8452 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 182.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 182.88 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fad1f018-3222-4130-978e-0ff571dd4733")
-		)
-		(pin "1"
-			(uuid "6b37895d-5aed-4225-a7a8-d561aa82af4b")
-		)
-		(instances
-			(project "beomaster_5500"
-				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/15c4643c-69a4-49f3-b32b-9d8ae6208449"
-					(reference "C211")
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4/4daaa165-6c8f-474a-9ab2-49747f8f86d1"
+					(reference "#PWR0307")
 					(unit 1)
 				)
 			)

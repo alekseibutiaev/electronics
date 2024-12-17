@@ -6,8 +6,8 @@
 	(paper "A3")
 	(lib_symbols)
 	(sheet
-		(at 69.85 73.66)
-		(size 46.99 34.29)
+		(at 76.2 76.2)
+		(size 50.8 38.1)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -17,8 +17,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "15c4643c-69a4-49f3-b32b-9d8ae6208449")
-		(property "Sheetname" "left"
-			(at 69.85 72.9484 0)
+		(property "Sheetname" "Left Channel"
+			(at 76.2 75.4884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27,7 +27,7 @@
 			)
 		)
 		(property "Sheetfile" "left.kicad_sch"
-			(at 69.85 108.5346 0)
+			(at 76.2 114.8846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39,6 +39,44 @@
 			(project "beomaster_5500"
 				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 139.7)
+		(size 50.8 38.1)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4daaa165-6c8f-474a-9ab2-49747f8f86d1")
+		(property "Sheetname" "Right Channel"
+			(at 76.2 138.9884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "right.kicad_sch"
+			(at 76.2 178.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "beomaster_5500"
+				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4"
+					(page "3")
 				)
 			)
 		)

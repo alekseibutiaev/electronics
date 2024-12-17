@@ -508,7 +508,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -605,7 +605,11 @@
     ],
     [
       "15c4643c-69a4-49f3-b32b-9d8ae6208449",
-      "left"
+      "Left Channel"
+    ],
+    [
+      "4daaa165-6c8f-474a-9ab2-49747f8f86d1",
+      "Right Channel"
     ]
   ],
   "text_variables": {}

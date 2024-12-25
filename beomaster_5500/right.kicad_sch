@@ -5687,7 +5687,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 200.3552 91.44 0)
 			(effects
 				(font
@@ -5902,7 +5902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P5.00mm"
 			(at 138.1252 160.02 0)
 			(effects
 				(font
@@ -6452,7 +6452,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
 			(at 54.3052 26.67 0)
 			(effects
 				(font

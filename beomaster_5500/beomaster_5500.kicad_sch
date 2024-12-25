@@ -35,6 +35,76 @@
 				(justify left top)
 			)
 		)
+		(pin "GND1" input
+			(at 76.2 95.25 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c49d766e-a70f-4abc-a1dc-43936564834e")
+		)
+		(pin "IN" input
+			(at 76.2 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1b27b002-60f0-471d-8402-219f6bedb9c7")
+		)
+		(pin "-40V" input
+			(at 127 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9c4ed222-83ab-40ab-915d-84e7d52eac99")
+		)
+		(pin "PROTECT" output
+			(at 127 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "0639c6d5-7153-4dba-ab1d-dd0868fed64c")
+		)
+		(pin "OUT" output
+			(at 127 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1b80cf31-1e83-4c50-8874-7a8e2e0db0a2")
+		)
+		(pin "+40V" input
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1d502a1b-f546-4a6d-a930-ff4c58c43d1b")
+		)
+		(pin "GND" input
+			(at 76.2 107.95 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a9bfb0a2-7754-4cdf-8c20-27c81d0126f1")
+		)
 		(instances
 			(project "beomaster_5500"
 				(path "/41d79c74-b18b-4cc5-9f9d-c4706a6919a4"
@@ -72,6 +142,76 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "GND1" input
+			(at 76.2 158.75 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b1d1ec2f-e1a2-4d75-b6bb-5b3208e2b1a5")
+		)
+		(pin "IN" input
+			(at 76.2 146.05 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7b098233-c293-4800-8491-9e54617ae988")
+		)
+		(pin "-40V" input
+			(at 127 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9052a3fa-9484-4973-9b5d-3b9b15d0c64b")
+		)
+		(pin "PROTECT" output
+			(at 127 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e8b10382-384f-4dbc-ac22-b332ff2d8906")
+		)
+		(pin "OUT" output
+			(at 127 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7b313126-2d23-495d-b894-8d675bf49b64")
+		)
+		(pin "+40V" input
+			(at 127 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "fbb5befc-8d78-4824-9944-e8097a882d32")
+		)
+		(pin "GND" input
+			(at 76.2 171.45 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "45909c09-de56-4fa1-aaa0-c0861046fd80")
 		)
 		(instances
 			(project "beomaster_5500"

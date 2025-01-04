@@ -67,6 +67,39 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -24.384 -13.335)
+		(end 24.384 13.462)
+		(stroke
+			(width 3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Cu")
+		(uuid "f839545c-0a29-4981-866e-76497c390780")
+	)
+	(fp_rect
+		(start -24.384 -13.335)
+		(end 24.384 13.462)
+		(stroke
+			(width 3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Paste")
+		(uuid "f2cbe404-23b6-4342-a4a1-cf69cc0e9b55")
+	)
+	(fp_rect
+		(start -24.3586 -13.335)
+		(end 24.4094 13.462)
+		(stroke
+			(width 3)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Mask")
+		(uuid "9fa575f8-c55c-42da-bd62-58f4f1fd1e1c")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2.5 0)
 		(unlocked yes)
